@@ -4,22 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chess Master Online — Main Gratis | GameHub</title>
-<meta name="description" content="Main Chess Master Online gratis di browser! Catur online lawan AI cerdas atau pemain nyata dari seluruh dunia! Tanpa download, langsung main sekarang di GameHub.">
-<link rel="canonical" href="https://gamehub.pages.dev/game/chess-master/">
+<meta name="description" content="Main Chess Master Online gratis di browser! Catur online dengan AI yang bisa diatur tingkat kesulitannya. Sempurnakan strategi caturmu dan kalahkan AI dari level pe... Tanpa download, langsung main sekarang di GameHub.">
+<link rel="canonical" href="https://gamehubme.pages.dev/game/chess-master/">
 
 <!-- Open Graph -->
 <meta property="og:type"        content="website">
 <meta property="og:title"       content="Chess Master Online — Main Gratis | GameHub">
-<meta property="og:description" content="Main Chess Master Online gratis di browser! Catur online lawan AI cerdas atau pemain nyata dari seluruh dunia! Tanpa download, langsung main sekarang di GameHub.">
-<meta property="og:url"         content="https://gamehub.pages.dev/game/chess-master/">
-<meta property="og:image"       content="https://placehold.co/400x225/78350f/ffffff?text=Chess+Master">
+<meta property="og:description" content="Main Chess Master Online gratis di browser! Catur online dengan AI yang bisa diatur tingkat kesulitannya. Sempurnakan strategi caturmu dan kalahkan AI dari level pe... Tanpa download, langsung main sekarang di GameHub.">
+<meta property="og:url"         content="https://gamehubme.pages.dev/game/chess-master/">
+<meta property="og:image"       content="https://img.gamedistribution.com/chess-master-online-512x384.jpeg">
 <meta property="og:site_name"   content="GameHub">
 
 <!-- Twitter -->
 <meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:title"       content="Chess Master Online — Main Gratis | GameHub">
-<meta name="twitter:description" content="Main Chess Master Online gratis di browser! Catur online lawan AI cerdas atau pemain nyata dari seluruh dunia! Tanpa download, langsung main sekarang di GameHub.">
-<meta name="twitter:image"       content="https://placehold.co/400x225/78350f/ffffff?text=Chess+Master">
+<meta name="twitter:description" content="Main Chess Master Online gratis di browser! Catur online dengan AI yang bisa diatur tingkat kesulitannya. Sempurnakan strategi caturmu dan kalahkan AI dari level pe... Tanpa download, langsung main sekarang di GameHub.">
+<meta name="twitter:image"       content="https://img.gamedistribution.com/chess-master-online-512x384.jpeg">
 <meta name="twitter:site"        content="@gamehubid">
 
 <!-- Favicon -->
@@ -35,11 +35,11 @@
   "@context": "https://schema.org",
   "@type": "VideoGame",
   "name": "Chess Master Online",
-  "description": "Chess Master Online adalah platform catur terlengkap yang bisa kamu akses langsung dari browser. Tantang AI dengan 10 tingkat kesulitan berbeda, dari pemula hingga grandmaster. Mode online memungkinkan bermain lawan pemain dari seluruh dunia dengan sistem rating ELO. Fitur analisis partai membantu kamu belajar dari kesalahan. Tersedia pelajaran catur, puzzle taktik harian, dan turnamen mingguan berhadiah. Cocok untuk pemula maupun pemain berpengalaman.",
-  "url": "https://gamehub.pages.dev/game/chess-master/",
-  "image": "https://placehold.co/400x225/78350f/ffffff?text=Chess+Master",
+  "description": "Catur online dengan AI yang bisa diatur tingkat kesulitannya. Sempurnakan strategi caturmu dan kalahkan AI dari level pemula hingga grandmaster.",
+  "url": "https://gamehubme.pages.dev/game/chess-master/",
+  "image": "https://img.gamedistribution.com/chess-master-online-512x384.jpeg",
   "genre": "Strategy",
-  "keywords": "catur, chess, strategi, multiplayer, kompetitif",
+  "keywords": "chess, strategy, board, classic",
   "applicationCategory": "Game",
   "operatingSystem": "Any (Browser)",
   "offers": {
@@ -49,13 +49,13 @@
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": 4.9,
-    "ratingCount": 1200,
+    "ratingValue": 4.6,
+    "ratingCount": 100,
     "bestRating": "5"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "ChessHub"
+    "name": "ChessMasterDev"
   }
 }</script>
 <script type="application/ld+json">{
@@ -66,19 +66,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://gamehub.pages.dev/"
+      "item": "https://gamehubme.pages.dev/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Strategy",
-      "item": "https://gamehub.pages.dev/category/strategy/"
+      "item": "https://gamehubme.pages.dev/category/strategy/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Chess Master Online",
-      "item": "https://gamehub.pages.dev/game/chess-master/"
+      "item": "https://gamehubme.pages.dev/game/chess-master/"
     }
   ]
 }</script>
@@ -238,14 +238,18 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
-      <!-- Game iframe -->
+      <!-- Game iframe — GamePix API embed -->
       <div class="iframe-wrap" id="game-wrap">
         <iframe
-          src="https://gamedistribution.com/games/chess-master/"
+          id="game-frame"
+          src="https://play.gamepix.com/chess-master/embed?sid=666G5 "
           title="Chess Master Online — main gratis"
           allowfullscreen
           loading="lazy"
-          sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+          allow="autoplay; fullscreen"
+          frameborder="0"
+          scrolling="no"
+          name="https://gamehubme.pages.dev/game/chess-master/"
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
@@ -254,23 +258,23 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <div class="game-info" style="margin-top:16px">
         <h1>Chess Master Online</h1>
         <div class="rating-row">
-          <span class="stars" aria-label="Rating 4.9 dari 5">★★★★½</span>
-          <span class="rating-val">4.9</span>
-          <span class="rating-count">(1.200 rating) · 68Rb dimainkan</span>
+          <span class="stars" aria-label="Rating 4.6 dari 5">★★★★½</span>
+          <span class="rating-val">4.6</span>
+          <span class="rating-count">68Rb dimainkan</span>
         </div>
         <div class="meta-grid">
           <div class="meta-item"><div class="meta-label">Kategori</div><div class="meta-val">♟️ Strategy</div></div>
-          <div class="meta-item"><div class="meta-label">Developer</div><div class="meta-val">ChessHub</div></div>
+          <div class="meta-item"><div class="meta-label">Developer</div><div class="meta-val">ChessMasterDev</div></div>
           <div class="meta-item"><div class="meta-label">Tahun</div><div class="meta-val">2024</div></div>
           <div class="meta-item"><div class="meta-label">Platform</div><div class="meta-val">Browser / Mobile</div></div>
         </div>
         <div class="tag-list" role="list" aria-label="Tag game">
-          <span class="tag" role="listitem">catur</span><span class="tag" role="listitem">chess</span><span class="tag" role="listitem">strategi</span><span class="tag" role="listitem">multiplayer</span><span class="tag" role="listitem">kompetitif</span>
+          <span class="tag" role="listitem">chess</span><span class="tag" role="listitem">strategy</span><span class="tag" role="listitem">board</span><span class="tag" role="listitem">classic</span>
         </div>
-        <p class="desc-text">Chess Master Online adalah platform catur terlengkap yang bisa kamu akses langsung dari browser. Tantang AI dengan 10 tingkat kesulitan berbeda, dari pemula hingga grandmaster. Mode online memungkinkan bermain lawan pemain dari seluruh dunia dengan sistem rating ELO. Fitur analisis partai membantu kamu belajar dari kesalahan. Tersedia pelajaran catur, puzzle taktik harian, dan turnamen mingguan berhadiah. Cocok untuk pemula maupun pemain berpengalaman.</p>
+        <p class="desc-text">Catur online dengan AI yang bisa diatur tingkat kesulitannya. Sempurnakan strategi caturmu dan kalahkan AI dari level pemula hingga grandmaster.</p>
         <div class="controls-box">
           <strong>🎮 Cara Main</strong>
-          Klik untuk memilih dan memindahkan bidak
+          Klik buah catur untuk memilih, klik destinasi untuk memindahkan
         </div>
 
         <!-- User rating widget -->
@@ -289,32 +293,39 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/zombie-shooter/" class="related-card" title="Zombie Shooter Online">
-          <img src="https://placehold.co/400x225/dc2626/ffffff?text=Zombie+Shooter" alt="Zombie Shooter Online" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Zombie Shooter Online</div>
-            <div class="related-card-meta">⭐ 4.5 · 98Rb</div>
-          </div>
-        </a>
-        <a href="/game/2048/" class="related-card" title="2048 Number Puzzle">
-          <img src="https://placehold.co/400x225/ca8a04/ffffff?text=2048" alt="2048 Number Puzzle" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">2048 Number Puzzle</div>
-            <div class="related-card-meta">⭐ 4.7 · 302Rb</div>
-          </div>
-        </a>
         <a href="/game/snake-game/" class="related-card" title="Snake Game HD">
-          <img src="https://placehold.co/400x225/16a34a/ffffff?text=Snake+HD" alt="Snake Game HD" loading="lazy" width="80" height="45">
+          <img src="/img/snake-game.svg" alt="Snake Game HD" loading="lazy" width="80" height="45">
           <div class="related-card-info">
             <div class="related-card-title">Snake Game HD</div>
-            <div class="related-card-meta">⭐ 4.4 · 156Rb</div>
+            <div class="related-card-meta">⭐ 4.3 · 156Rb</div>
           </div>
         </a>
         <a href="/game/tower-defense/" class="related-card" title="Kingdom Tower Defense">
-          <img src="https://placehold.co/400x225/7c3aed/ffffff?text=Tower+Defense" alt="Kingdom Tower Defense" loading="lazy" width="80" height="45">
+          <img src="/img/tower-defense.svg" alt="Kingdom Tower Defense" loading="lazy" width="80" height="45">
           <div class="related-card-info">
             <div class="related-card-title">Kingdom Tower Defense</div>
-            <div class="related-card-meta">⭐ 4.5 · 43Rb</div>
+            <div class="related-card-meta">⭐ 4.6 · 43Rb</div>
+          </div>
+        </a>
+        <a href="/game/bubble-shooter/" class="related-card" title="Bubble Shooter Classic">
+          <img src="/img/bubble-shooter.svg" alt="Bubble Shooter Classic" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Bubble Shooter Classic</div>
+            <div class="related-card-meta">⭐ 4.6 · 215Rb</div>
+          </div>
+        </a>
+        <a href="/game/tetris/" class="related-card" title="Tetris Classic">
+          <img src="/img/tetris.svg" alt="Tetris Classic" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Tetris Classic</div>
+            <div class="related-card-meta">⭐ 4.6 · 275Rb</div>
+          </div>
+        </a>
+        <a href="/game/minecraft-classic/" class="related-card" title="Minecraft Classic">
+          <img src="/img/minecraft-classic.svg" alt="Minecraft Classic" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Minecraft Classic</div>
+            <div class="related-card-meta">⭐ 4.8 · 520Rb</div>
           </div>
         </a>
       </div>
@@ -347,7 +358,6 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
   <div class="footer-bottom">© 2025 GameHub. Semua game dimainkan gratis di browser.</div>
 </footer>
 <script>
-// Global search redirect
 const si = document.getElementById('search-input');
 if(si){
   si.addEventListener('keydown',e=>{
@@ -360,14 +370,30 @@ if(si){
 </body>
 </html>
 <script>
-// Fullscreen
+// ── GamePix API Event Listener ────────────────────────────────────
+(function(){
+  var eventer = window.addEventListener ? 'addEventListener' : 'attachEvent';
+  var evtName = eventer === 'attachEvent' ? 'onmessage' : 'message';
+  window[eventer](evtName, function(e){
+    if(!e.data || typeof e.data !== 'object') return;
+    switch(e.data.type){
+      case 'update_score':
+        // Opsional: tampilkan skor dari game
+        console.log('[GamePix] Score:', e.data.score);
+        break;
+      case 'update_level':
+        console.log('[GamePix] Level:', e.data.level);
+        break;
+    }
+  }, false);
+})();
+
 function toggleFullscreen(){
   const wrap=document.getElementById('game-wrap');
   if(!document.fullscreenElement){wrap.requestFullscreen();}
   else{document.exitFullscreen();}
 }
 
-// Star rating
 const stars=document.querySelectorAll('#star-rate span');
 const msg=document.getElementById('rate-msg');
 stars.forEach(s=>{
@@ -376,7 +402,7 @@ stars.forEach(s=>{
   s.addEventListener('click',()=>{
     const v=parseInt(s.dataset.v);
     stars.forEach(x=>{x.textContent=parseInt(x.dataset.v)<=v?'★':'☆';x.style.color=parseInt(x.dataset.v)<=v?'var(--yellow)':'';});
-    msg.textContent='Terima kasih atas penilaianmu! ⭐'.repeat(1);
+    msg.textContent='Terima kasih atas penilaianmu!';
   });
   s.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')s.click();});
 });

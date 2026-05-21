@@ -4,22 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fruit Slice Ninja — Main Gratis | GameHub</title>
-<meta name="description" content="Main Fruit Slice Ninja gratis di browser! Iris buah-buahan sebanyak mungkin, jangan sampai bom terlewat! Tanpa download, langsung main sekarang di GameHub.">
-<link rel="canonical" href="https://gamehub.pages.dev/game/fruit-ninja/">
+<meta name="description" content="Main Fruit Slice Ninja gratis di browser! Iris semua buah yang melayang dengan gerakan cepat! Hindari bom yang ikut melayang. Semakin banyak buah yang diiris seka... Tanpa download, langsung main sekarang di GameHub.">
+<link rel="canonical" href="https://gamehubme.pages.dev/game/fruit-ninja/">
 
 <!-- Open Graph -->
 <meta property="og:type"        content="website">
 <meta property="og:title"       content="Fruit Slice Ninja — Main Gratis | GameHub">
-<meta property="og:description" content="Main Fruit Slice Ninja gratis di browser! Iris buah-buahan sebanyak mungkin, jangan sampai bom terlewat! Tanpa download, langsung main sekarang di GameHub.">
-<meta property="og:url"         content="https://gamehub.pages.dev/game/fruit-ninja/">
-<meta property="og:image"       content="https://placehold.co/400x225/ea580c/ffffff?text=Fruit+Ninja">
+<meta property="og:description" content="Main Fruit Slice Ninja gratis di browser! Iris semua buah yang melayang dengan gerakan cepat! Hindari bom yang ikut melayang. Semakin banyak buah yang diiris seka... Tanpa download, langsung main sekarang di GameHub.">
+<meta property="og:url"         content="https://gamehubme.pages.dev/game/fruit-ninja/">
+<meta property="og:image"       content="https://img.gamedistribution.com/fruit-slice-ninja-512x384.jpeg">
 <meta property="og:site_name"   content="GameHub">
 
 <!-- Twitter -->
 <meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:title"       content="Fruit Slice Ninja — Main Gratis | GameHub">
-<meta name="twitter:description" content="Main Fruit Slice Ninja gratis di browser! Iris buah-buahan sebanyak mungkin, jangan sampai bom terlewat! Tanpa download, langsung main sekarang di GameHub.">
-<meta name="twitter:image"       content="https://placehold.co/400x225/ea580c/ffffff?text=Fruit+Ninja">
+<meta name="twitter:description" content="Main Fruit Slice Ninja gratis di browser! Iris semua buah yang melayang dengan gerakan cepat! Hindari bom yang ikut melayang. Semakin banyak buah yang diiris seka... Tanpa download, langsung main sekarang di GameHub.">
+<meta name="twitter:image"       content="https://img.gamedistribution.com/fruit-slice-ninja-512x384.jpeg">
 <meta name="twitter:site"        content="@gamehubid">
 
 <!-- Favicon -->
@@ -35,11 +35,11 @@
   "@context": "https://schema.org",
   "@type": "VideoGame",
   "name": "Fruit Slice Ninja",
-  "description": "Fruit Slice Ninja menghadirkan aksi sersan memotong buah yang penuh adrenalin. Gerakkan jarimu atau mouse dengan cepat untuk membelah buah-buahan yang melayang di udara. Hindari bom yang tersembunyi di antara buah dan raih combo semaksimal mungkin. Mode Arcade, Zen, dan Classic masing-masing menawarkan tantangan berbeda. Power-up khusus seperti blender gila dan es beku membuat permainan semakin dinamis dan tidak terduga.",
-  "url": "https://gamehub.pages.dev/game/fruit-ninja/",
-  "image": "https://placehold.co/400x225/ea580c/ffffff?text=Fruit+Ninja",
+  "description": "Iris semua buah yang melayang dengan gerakan cepat! Hindari bom yang ikut melayang. Semakin banyak buah yang diiris sekaligus, semakin besar skormu.",
+  "url": "https://gamehubme.pages.dev/game/fruit-ninja/",
+  "image": "https://img.gamedistribution.com/fruit-slice-ninja-512x384.jpeg",
   "genre": "Casual",
-  "keywords": "buah, iris, casual, arcade, skor",
+  "keywords": "fruit, ninja, slice, casual",
   "applicationCategory": "Game",
   "operatingSystem": "Any (Browser)",
   "offers": {
@@ -49,13 +49,13 @@
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": 4.6,
-    "ratingCount": 3400,
+    "ratingValue": 4.5,
+    "ratingCount": 100,
     "bestRating": "5"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "HalfBrick"
+    "name": "Halfbrick Studios"
   }
 }</script>
 <script type="application/ld+json">{
@@ -66,19 +66,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://gamehub.pages.dev/"
+      "item": "https://gamehubme.pages.dev/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Casual",
-      "item": "https://gamehub.pages.dev/category/casual/"
+      "item": "https://gamehubme.pages.dev/category/casual/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Fruit Slice Ninja",
-      "item": "https://gamehub.pages.dev/game/fruit-ninja/"
+      "item": "https://gamehubme.pages.dev/game/fruit-ninja/"
     }
   ]
 }</script>
@@ -238,14 +238,18 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
-      <!-- Game iframe -->
+      <!-- Game iframe — GamePix API embed -->
       <div class="iframe-wrap" id="game-wrap">
         <iframe
-          src="https://gamedistribution.com/games/fruit-slice/"
+          id="game-frame"
+          src="https://play.gamepix.com/fruit-ninja/embed?sid=666G5 "
           title="Fruit Slice Ninja — main gratis"
           allowfullscreen
           loading="lazy"
-          sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+          allow="autoplay; fullscreen"
+          frameborder="0"
+          scrolling="no"
+          name="https://gamehubme.pages.dev/game/fruit-ninja/"
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
@@ -254,23 +258,23 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <div class="game-info" style="margin-top:16px">
         <h1>Fruit Slice Ninja</h1>
         <div class="rating-row">
-          <span class="stars" aria-label="Rating 4.6 dari 5">★★★★½</span>
-          <span class="rating-val">4.6</span>
-          <span class="rating-count">(3.400 rating) · 189Rb dimainkan</span>
+          <span class="stars" aria-label="Rating 4.5 dari 5">★★★★½</span>
+          <span class="rating-val">4.5</span>
+          <span class="rating-count">189Rb dimainkan</span>
         </div>
         <div class="meta-grid">
           <div class="meta-item"><div class="meta-label">Kategori</div><div class="meta-val">🎮 Casual</div></div>
-          <div class="meta-item"><div class="meta-label">Developer</div><div class="meta-val">HalfBrick</div></div>
-          <div class="meta-item"><div class="meta-label">Tahun</div><div class="meta-val">2023</div></div>
+          <div class="meta-item"><div class="meta-label">Developer</div><div class="meta-val">Halfbrick Studios</div></div>
+          <div class="meta-item"><div class="meta-label">Tahun</div><div class="meta-val">2020</div></div>
           <div class="meta-item"><div class="meta-label">Platform</div><div class="meta-val">Browser / Mobile</div></div>
         </div>
         <div class="tag-list" role="list" aria-label="Tag game">
-          <span class="tag" role="listitem">buah</span><span class="tag" role="listitem">iris</span><span class="tag" role="listitem">casual</span><span class="tag" role="listitem">arcade</span><span class="tag" role="listitem">skor</span>
+          <span class="tag" role="listitem">fruit</span><span class="tag" role="listitem">ninja</span><span class="tag" role="listitem">slice</span><span class="tag" role="listitem">casual</span>
         </div>
-        <p class="desc-text">Fruit Slice Ninja menghadirkan aksi sersan memotong buah yang penuh adrenalin. Gerakkan jarimu atau mouse dengan cepat untuk membelah buah-buahan yang melayang di udara. Hindari bom yang tersembunyi di antara buah dan raih combo semaksimal mungkin. Mode Arcade, Zen, dan Classic masing-masing menawarkan tantangan berbeda. Power-up khusus seperti blender gila dan es beku membuat permainan semakin dinamis dan tidak terduga.</p>
+        <p class="desc-text">Iris semua buah yang melayang dengan gerakan cepat! Hindari bom yang ikut melayang. Semakin banyak buah yang diiris sekaligus, semakin besar skormu.</p>
         <div class="controls-box">
           <strong>🎮 Cara Main</strong>
-          Mouse swipe atau sentuh layar untuk mengiris
+          Klik dan seret atau swipe untuk mengiris buah
         </div>
 
         <!-- User rating widget -->
@@ -289,25 +293,39 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/bubble-shooter/" class="related-card" title="Bubble Shooter Classic">
-          <img src="https://placehold.co/400x225/0891b2/ffffff?text=Bubble+Shooter" alt="Bubble Shooter Classic" loading="lazy" width="80" height="45">
+        <a href="/game/minecraft-classic/" class="related-card" title="Minecraft Classic">
+          <img src="/img/minecraft-classic.svg" alt="Minecraft Classic" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bubble Shooter Classic</div>
-            <div class="related-card-meta">⭐ 4.8 · 215Rb</div>
+            <div class="related-card-title">Minecraft Classic</div>
+            <div class="related-card-meta">⭐ 4.8 · 520Rb</div>
+          </div>
+        </a>
+        <a href="/game/angry-birds/" class="related-card" title="Angry Birds Online">
+          <img src="/img/angry-birds.svg" alt="Angry Birds Online" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Angry Birds Online</div>
+            <div class="related-card-meta">⭐ 4.7 · 380Rb</div>
           </div>
         </a>
         <a href="/game/snake-game/" class="related-card" title="Snake Game HD">
-          <img src="https://placehold.co/400x225/16a34a/ffffff?text=Snake+HD" alt="Snake Game HD" loading="lazy" width="80" height="45">
+          <img src="/img/snake-game.svg" alt="Snake Game HD" loading="lazy" width="80" height="45">
           <div class="related-card-info">
             <div class="related-card-title">Snake Game HD</div>
-            <div class="related-card-meta">⭐ 4.4 · 156Rb</div>
+            <div class="related-card-meta">⭐ 4.3 · 156Rb</div>
           </div>
         </a>
         <a href="/game/cookie-clicker/" class="related-card" title="Cookie Clicker Idle">
-          <img src="https://placehold.co/400x225/d97706/ffffff?text=Cookie+Clicker" alt="Cookie Clicker Idle" loading="lazy" width="80" height="45">
+          <img src="/img/cookie-clicker.svg" alt="Cookie Clicker Idle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
             <div class="related-card-title">Cookie Clicker Idle</div>
-            <div class="related-card-meta">⭐ 4.6 · 234Rb</div>
+            <div class="related-card-meta">⭐ 4.5 · 234Rb</div>
+          </div>
+        </a>
+        <a href="/game/bubble-shooter/" class="related-card" title="Bubble Shooter Classic">
+          <img src="/img/bubble-shooter.svg" alt="Bubble Shooter Classic" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Bubble Shooter Classic</div>
+            <div class="related-card-meta">⭐ 4.6 · 215Rb</div>
           </div>
         </a>
       </div>
@@ -340,7 +358,6 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
   <div class="footer-bottom">© 2025 GameHub. Semua game dimainkan gratis di browser.</div>
 </footer>
 <script>
-// Global search redirect
 const si = document.getElementById('search-input');
 if(si){
   si.addEventListener('keydown',e=>{
@@ -353,14 +370,30 @@ if(si){
 </body>
 </html>
 <script>
-// Fullscreen
+// ── GamePix API Event Listener ────────────────────────────────────
+(function(){
+  var eventer = window.addEventListener ? 'addEventListener' : 'attachEvent';
+  var evtName = eventer === 'attachEvent' ? 'onmessage' : 'message';
+  window[eventer](evtName, function(e){
+    if(!e.data || typeof e.data !== 'object') return;
+    switch(e.data.type){
+      case 'update_score':
+        // Opsional: tampilkan skor dari game
+        console.log('[GamePix] Score:', e.data.score);
+        break;
+      case 'update_level':
+        console.log('[GamePix] Level:', e.data.level);
+        break;
+    }
+  }, false);
+})();
+
 function toggleFullscreen(){
   const wrap=document.getElementById('game-wrap');
   if(!document.fullscreenElement){wrap.requestFullscreen();}
   else{document.exitFullscreen();}
 }
 
-// Star rating
 const stars=document.querySelectorAll('#star-rate span');
 const msg=document.getElementById('rate-msg');
 stars.forEach(s=>{
@@ -369,7 +402,7 @@ stars.forEach(s=>{
   s.addEventListener('click',()=>{
     const v=parseInt(s.dataset.v);
     stars.forEach(x=>{x.textContent=parseInt(x.dataset.v)<=v?'★':'☆';x.style.color=parseInt(x.dataset.v)<=v?'var(--yellow)':'';});
-    msg.textContent='Terima kasih atas penilaianmu! ⭐'.repeat(1);
+    msg.textContent='Terima kasih atas penilaianmu!';
   });
   s.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')s.click();});
 });

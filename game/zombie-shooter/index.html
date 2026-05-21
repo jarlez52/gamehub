@@ -4,22 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zombie Shooter Online — Main Gratis | GameHub</title>
-<meta name="description" content="Main Zombie Shooter Online gratis di browser! Lawan gelombang zombie tanpa henti, survive selama mungkin! Tanpa download, langsung main sekarang di GameHub.">
-<link rel="canonical" href="https://gamehub.pages.dev/game/zombie-shooter/">
+<meta name="description" content="Main Zombie Shooter Online gratis di browser! Bertahan hidup dari gelombang zombie yang terus datang! Gunakan berbagai senjata dan upgrade untuk menghentikan invasi z... Tanpa download, langsung main sekarang di GameHub.">
+<link rel="canonical" href="https://gamehubme.pages.dev/game/zombie-shooter/">
 
 <!-- Open Graph -->
 <meta property="og:type"        content="website">
 <meta property="og:title"       content="Zombie Shooter Online — Main Gratis | GameHub">
-<meta property="og:description" content="Main Zombie Shooter Online gratis di browser! Lawan gelombang zombie tanpa henti, survive selama mungkin! Tanpa download, langsung main sekarang di GameHub.">
-<meta property="og:url"         content="https://gamehub.pages.dev/game/zombie-shooter/">
-<meta property="og:image"       content="https://placehold.co/400x225/dc2626/ffffff?text=Zombie+Shooter">
+<meta property="og:description" content="Main Zombie Shooter Online gratis di browser! Bertahan hidup dari gelombang zombie yang terus datang! Gunakan berbagai senjata dan upgrade untuk menghentikan invasi z... Tanpa download, langsung main sekarang di GameHub.">
+<meta property="og:url"         content="https://gamehubme.pages.dev/game/zombie-shooter/">
+<meta property="og:image"       content="https://img.gamedistribution.com/zombie-shooter-online-512x384.jpeg">
 <meta property="og:site_name"   content="GameHub">
 
 <!-- Twitter -->
 <meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:title"       content="Zombie Shooter Online — Main Gratis | GameHub">
-<meta name="twitter:description" content="Main Zombie Shooter Online gratis di browser! Lawan gelombang zombie tanpa henti, survive selama mungkin! Tanpa download, langsung main sekarang di GameHub.">
-<meta name="twitter:image"       content="https://placehold.co/400x225/dc2626/ffffff?text=Zombie+Shooter">
+<meta name="twitter:description" content="Main Zombie Shooter Online gratis di browser! Bertahan hidup dari gelombang zombie yang terus datang! Gunakan berbagai senjata dan upgrade untuk menghentikan invasi z... Tanpa download, langsung main sekarang di GameHub.">
+<meta name="twitter:image"       content="https://img.gamedistribution.com/zombie-shooter-online-512x384.jpeg">
 <meta name="twitter:site"        content="@gamehubid">
 
 <!-- Favicon -->
@@ -35,11 +35,11 @@
   "@context": "https://schema.org",
   "@type": "VideoGame",
   "name": "Zombie Shooter Online",
-  "description": "Zombie Shooter Online menghadirkan pertarungan zombie paling seru di browser. Hadapi gelombang zombie yang semakin ganas, pilih senjata terbaikmu, dan bertahan selama mungkin. Mode multiplayer memungkinkan kamu bermain bersama teman secara online. Upgrade senjata, buka map baru, dan jadilah survivor terbaik. Game tembak-tembakan ini menghadirkan aksi non-stop yang bikin ketagihan dengan efek suara dan visual yang memukau.",
-  "url": "https://gamehub.pages.dev/game/zombie-shooter/",
-  "image": "https://placehold.co/400x225/dc2626/ffffff?text=Zombie+Shooter",
+  "description": "Bertahan hidup dari gelombang zombie yang terus datang! Gunakan berbagai senjata dan upgrade untuk menghentikan invasi zombie.",
+  "url": "https://gamehubme.pages.dev/game/zombie-shooter/",
+  "image": "https://img.gamedistribution.com/zombie-shooter-online-512x384.jpeg",
   "genre": "Action",
-  "keywords": "zombie, shooter, tembak, survival, multiplayer",
+  "keywords": "zombie, shooter, action, survival",
   "applicationCategory": "Game",
   "operatingSystem": "Any (Browser)",
   "offers": {
@@ -50,12 +50,12 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": 4.5,
-    "ratingCount": 1890,
+    "ratingCount": 100,
     "bestRating": "5"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "ZombieGames"
+    "name": "ZombieLabs"
   }
 }</script>
 <script type="application/ld+json">{
@@ -66,19 +66,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://gamehub.pages.dev/"
+      "item": "https://gamehubme.pages.dev/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Action",
-      "item": "https://gamehub.pages.dev/category/action/"
+      "item": "https://gamehubme.pages.dev/category/action/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Zombie Shooter Online",
-      "item": "https://gamehub.pages.dev/game/zombie-shooter/"
+      "item": "https://gamehubme.pages.dev/game/zombie-shooter/"
     }
   ]
 }</script>
@@ -238,14 +238,18 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
-      <!-- Game iframe -->
+      <!-- Game iframe — GamePix API embed -->
       <div class="iframe-wrap" id="game-wrap">
         <iframe
-          src="https://gamedistribution.com/games/zombie-shooter/"
+          id="game-frame"
+          src="https://play.gamepix.com/zombie-shooter/embed?sid=666G5 "
           title="Zombie Shooter Online — main gratis"
           allowfullscreen
           loading="lazy"
-          sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+          allow="autoplay; fullscreen"
+          frameborder="0"
+          scrolling="no"
+          name="https://gamehubme.pages.dev/game/zombie-shooter/"
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
@@ -256,21 +260,21 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         <div class="rating-row">
           <span class="stars" aria-label="Rating 4.5 dari 5">★★★★½</span>
           <span class="rating-val">4.5</span>
-          <span class="rating-count">(1.890 rating) · 98Rb dimainkan</span>
+          <span class="rating-count">98Rb dimainkan</span>
         </div>
         <div class="meta-grid">
           <div class="meta-item"><div class="meta-label">Kategori</div><div class="meta-val">🔥 Action</div></div>
-          <div class="meta-item"><div class="meta-label">Developer</div><div class="meta-val">ZombieGames</div></div>
-          <div class="meta-item"><div class="meta-label">Tahun</div><div class="meta-val">2024</div></div>
+          <div class="meta-item"><div class="meta-label">Developer</div><div class="meta-val">ZombieLabs</div></div>
+          <div class="meta-item"><div class="meta-label">Tahun</div><div class="meta-val">2023</div></div>
           <div class="meta-item"><div class="meta-label">Platform</div><div class="meta-val">Browser / Mobile</div></div>
         </div>
         <div class="tag-list" role="list" aria-label="Tag game">
-          <span class="tag" role="listitem">zombie</span><span class="tag" role="listitem">shooter</span><span class="tag" role="listitem">tembak</span><span class="tag" role="listitem">survival</span><span class="tag" role="listitem">multiplayer</span>
+          <span class="tag" role="listitem">zombie</span><span class="tag" role="listitem">shooter</span><span class="tag" role="listitem">action</span><span class="tag" role="listitem">survival</span>
         </div>
-        <p class="desc-text">Zombie Shooter Online menghadirkan pertarungan zombie paling seru di browser. Hadapi gelombang zombie yang semakin ganas, pilih senjata terbaikmu, dan bertahan selama mungkin. Mode multiplayer memungkinkan kamu bermain bersama teman secara online. Upgrade senjata, buka map baru, dan jadilah survivor terbaik. Game tembak-tembakan ini menghadirkan aksi non-stop yang bikin ketagihan dengan efek suara dan visual yang memukau.</p>
+        <p class="desc-text">Bertahan hidup dari gelombang zombie yang terus datang! Gunakan berbagai senjata dan upgrade untuk menghentikan invasi zombie.</p>
         <div class="controls-box">
           <strong>🎮 Cara Main</strong>
-          Mouse untuk aim dan tembak, WASD untuk bergerak
+          WASD untuk bergerak, Mouse untuk bidik dan tembak, R untuk reload
         </div>
 
         <!-- User rating widget -->
@@ -289,32 +293,46 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
+        <a href="/game/geometry-dash/" class="related-card" title="Geometry Dash Lite">
+          <img src="/img/geometry-dash.svg" alt="Geometry Dash Lite" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Geometry Dash Lite</div>
+            <div class="related-card-meta">⭐ 4.8 · 290Rb</div>
+          </div>
+        </a>
+        <a href="/game/slope/" class="related-card" title="Slope Ball">
+          <img src="/img/slope.svg" alt="Slope Ball" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Slope Ball</div>
+            <div class="related-card-meta">⭐ 4.7 · 310Rb</div>
+          </div>
+        </a>
         <a href="/game/stickman-fight/" class="related-card" title="Stickman Warriors">
-          <img src="https://placehold.co/400x225/374151/ffffff?text=Stickman+Warriors" alt="Stickman Warriors" loading="lazy" width="80" height="45">
+          <img src="/img/stickman-fight.svg" alt="Stickman Warriors" loading="lazy" width="80" height="45">
           <div class="related-card-info">
             <div class="related-card-title">Stickman Warriors</div>
             <div class="related-card-meta">⭐ 4.3 · 79Rb</div>
           </div>
         </a>
-        <a href="/game/chess-master/" class="related-card" title="Chess Master Online">
-          <img src="https://placehold.co/400x225/78350f/ffffff?text=Chess+Master" alt="Chess Master Online" loading="lazy" width="80" height="45">
+        <a href="/game/among-us/" class="related-card" title="Among Us Online">
+          <img src="/img/among-us.svg" alt="Among Us Online" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Chess Master Online</div>
-            <div class="related-card-meta">⭐ 4.9 · 68Rb</div>
-          </div>
-        </a>
-        <a href="/game/snake-game/" class="related-card" title="Snake Game HD">
-          <img src="https://placehold.co/400x225/16a34a/ffffff?text=Snake+HD" alt="Snake Game HD" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Snake Game HD</div>
-            <div class="related-card-meta">⭐ 4.4 · 156Rb</div>
+            <div class="related-card-title">Among Us Online</div>
+            <div class="related-card-meta">⭐ 4.7 · 430Rb</div>
           </div>
         </a>
         <a href="/game/parkour-run/" class="related-card" title="Parkour Run 3D">
-          <img src="https://placehold.co/400x225/7c3aed/ffffff?text=Parkour+Run+3D" alt="Parkour Run 3D" loading="lazy" width="80" height="45">
+          <img src="/img/parkour-run.svg" alt="Parkour Run 3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
             <div class="related-card-title">Parkour Run 3D</div>
             <div class="related-card-meta">⭐ 4.7 · 125Rb</div>
+          </div>
+        </a>
+        <a href="/game/subway-surfers/" class="related-card" title="Subway Surfers">
+          <img src="/img/subway-surfers.svg" alt="Subway Surfers" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Subway Surfers</div>
+            <div class="related-card-meta">⭐ 4.8 · 450Rb</div>
           </div>
         </a>
       </div>
@@ -347,7 +365,6 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
   <div class="footer-bottom">© 2025 GameHub. Semua game dimainkan gratis di browser.</div>
 </footer>
 <script>
-// Global search redirect
 const si = document.getElementById('search-input');
 if(si){
   si.addEventListener('keydown',e=>{
@@ -360,14 +377,30 @@ if(si){
 </body>
 </html>
 <script>
-// Fullscreen
+// ── GamePix API Event Listener ────────────────────────────────────
+(function(){
+  var eventer = window.addEventListener ? 'addEventListener' : 'attachEvent';
+  var evtName = eventer === 'attachEvent' ? 'onmessage' : 'message';
+  window[eventer](evtName, function(e){
+    if(!e.data || typeof e.data !== 'object') return;
+    switch(e.data.type){
+      case 'update_score':
+        // Opsional: tampilkan skor dari game
+        console.log('[GamePix] Score:', e.data.score);
+        break;
+      case 'update_level':
+        console.log('[GamePix] Level:', e.data.level);
+        break;
+    }
+  }, false);
+})();
+
 function toggleFullscreen(){
   const wrap=document.getElementById('game-wrap');
   if(!document.fullscreenElement){wrap.requestFullscreen();}
   else{document.exitFullscreen();}
 }
 
-// Star rating
 const stars=document.querySelectorAll('#star-rate span');
 const msg=document.getElementById('rate-msg');
 stars.forEach(s=>{
@@ -376,7 +409,7 @@ stars.forEach(s=>{
   s.addEventListener('click',()=>{
     const v=parseInt(s.dataset.v);
     stars.forEach(x=>{x.textContent=parseInt(x.dataset.v)<=v?'★':'☆';x.style.color=parseInt(x.dataset.v)<=v?'var(--yellow)':'';});
-    msg.textContent='Terima kasih atas penilaianmu! ⭐'.repeat(1);
+    msg.textContent='Terima kasih atas penilaianmu!';
   });
   s.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')s.click();});
 });

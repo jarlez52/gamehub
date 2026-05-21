@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="225" viewBox="0 0 400 225">
+  <rect width="400" height="225" fill="#18181f"/>
+  <rect x="1" y="1" width="398" height="223" fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.4"/>
+  <circle cx="200" cy="100" r="45" fill="#8b5cf6" opacity="0.15"/>
+  <text x="200" y="110" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#8b5cf6">CMO</text>
+  <text x="200" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#a09fb8">Chess Master Online</text>
+</svg>
