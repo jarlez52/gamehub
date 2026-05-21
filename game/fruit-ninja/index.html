@@ -89,7 +89,7 @@
 .breadcrumb-sep{color:var(--text3)}
 .game-layout{display:grid;grid-template-columns:1fr 300px;gap:24px;align-items:start}
 @media(max-width:900px){.game-layout{grid-template-columns:1fr}}
-.iframe-wrap{position:relative;background:#000;border-radius:var(--radius-lg);overflow:hidden;aspect-ratio:16/9;border:1px solid var(--border)}
+.iframe-wrap{position:relative;background:#000;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--border);width:100%}
 .iframe-wrap iframe{width:100%;height:100%;border:none;display:block}
 .fullscreen-btn{margin-top:8px;background:var(--bg2);border:1px solid var(--border);color:var(--text2);padding:8px 16px;border-radius:var(--radius);font-size:13px;cursor:pointer;transition:all .15s}
 .fullscreen-btn:hover{border-color:var(--primary);color:var(--primary)}
@@ -239,10 +239,10 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <!-- LEFT: Game + info -->
     <div>
       <!-- Game iframe — GamePix API embed -->
-      <div class="iframe-wrap" id="game-wrap">
+      <div class="iframe-wrap" id="game-wrap" style="aspect-ratio:480/640;max-width:480px;margin:0 auto;">
         <iframe
           id="game-frame"
-          src="https://play.gamepix.com/fruit-ninja/embed?sid=666G5 "
+          src="https://play.gamepix.com/fruit-ninja/embed?sid=YOUR_GAMEPIX_SID"
           title="Fruit Slice Ninja — main gratis"
           allowfullscreen
           loading="lazy"
@@ -300,13 +300,6 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
             <div class="related-card-meta">⭐ 4.8 · 520Rb</div>
           </div>
         </a>
-        <a href="/game/angry-birds/" class="related-card" title="Angry Birds Online">
-          <img src="/img/angry-birds.svg" alt="Angry Birds Online" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Angry Birds Online</div>
-            <div class="related-card-meta">⭐ 4.7 · 380Rb</div>
-          </div>
-        </a>
         <a href="/game/snake-game/" class="related-card" title="Snake Game HD">
           <img src="/img/snake-game.svg" alt="Snake Game HD" loading="lazy" width="80" height="45">
           <div class="related-card-info">
@@ -326,6 +319,13 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
           <div class="related-card-info">
             <div class="related-card-title">Bubble Shooter Classic</div>
             <div class="related-card-meta">⭐ 4.6 · 215Rb</div>
+          </div>
+        </a>
+        <a href="/game/angry-birds/" class="related-card" title="Angry Birds Online">
+          <img src="/img/angry-birds.svg" alt="Angry Birds Online" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Angry Birds Online</div>
+            <div class="related-card-meta">⭐ 4.7 · 380Rb</div>
           </div>
         </a>
       </div>

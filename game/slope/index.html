@@ -89,7 +89,7 @@
 .breadcrumb-sep{color:var(--text3)}
 .game-layout{display:grid;grid-template-columns:1fr 300px;gap:24px;align-items:start}
 @media(max-width:900px){.game-layout{grid-template-columns:1fr}}
-.iframe-wrap{position:relative;background:#000;border-radius:var(--radius-lg);overflow:hidden;aspect-ratio:16/9;border:1px solid var(--border)}
+.iframe-wrap{position:relative;background:#000;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--border);width:100%}
 .iframe-wrap iframe{width:100%;height:100%;border:none;display:block}
 .fullscreen-btn{margin-top:8px;background:var(--bg2);border:1px solid var(--border);color:var(--text2);padding:8px 16px;border-radius:var(--radius);font-size:13px;cursor:pointer;transition:all .15s}
 .fullscreen-btn:hover{border-color:var(--primary);color:var(--primary)}
@@ -239,10 +239,10 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <!-- LEFT: Game + info -->
     <div>
       <!-- Game iframe — GamePix API embed -->
-      <div class="iframe-wrap" id="game-wrap">
+      <div class="iframe-wrap" id="game-wrap" style="aspect-ratio:800/500;max-width:100%;margin:0 auto;">
         <iframe
           id="game-frame"
-          src="https://play.gamepix.com/slope/embed?sid=666G5 "
+          src="https://play.gamepix.com/slope/embed?sid=YOUR_GAMEPIX_SID"
           title="Slope Ball — main gratis"
           allowfullscreen
           loading="lazy"
@@ -293,11 +293,11 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/subway-surfers/" class="related-card" title="Subway Surfers">
-          <img src="/img/subway-surfers.svg" alt="Subway Surfers" loading="lazy" width="80" height="45">
+        <a href="/game/temple-run/" class="related-card" title="Temple Run 2">
+          <img src="/img/temple-run.svg" alt="Temple Run 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Subway Surfers</div>
-            <div class="related-card-meta">⭐ 4.8 · 450Rb</div>
+            <div class="related-card-title">Temple Run 2</div>
+            <div class="related-card-meta">⭐ 4.6 · 350Rb</div>
           </div>
         </a>
         <a href="/game/parkour-run/" class="related-card" title="Parkour Run 3D">
@@ -314,25 +314,25 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
             <div class="related-card-meta">⭐ 4.5 · 98Rb</div>
           </div>
         </a>
-        <a href="/game/stickman-fight/" class="related-card" title="Stickman Warriors">
-          <img src="/img/stickman-fight.svg" alt="Stickman Warriors" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Stickman Warriors</div>
-            <div class="related-card-meta">⭐ 4.3 · 79Rb</div>
-          </div>
-        </a>
-        <a href="/game/temple-run/" class="related-card" title="Temple Run 2">
-          <img src="/img/temple-run.svg" alt="Temple Run 2" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Temple Run 2</div>
-            <div class="related-card-meta">⭐ 4.6 · 350Rb</div>
-          </div>
-        </a>
         <a href="/game/geometry-dash/" class="related-card" title="Geometry Dash Lite">
           <img src="/img/geometry-dash.svg" alt="Geometry Dash Lite" loading="lazy" width="80" height="45">
           <div class="related-card-info">
             <div class="related-card-title">Geometry Dash Lite</div>
             <div class="related-card-meta">⭐ 4.8 · 290Rb</div>
+          </div>
+        </a>
+        <a href="/game/among-us/" class="related-card" title="Among Us Online">
+          <img src="/img/among-us.svg" alt="Among Us Online" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Among Us Online</div>
+            <div class="related-card-meta">⭐ 4.7 · 430Rb</div>
+          </div>
+        </a>
+        <a href="/game/racing-limits/" class="related-card" title="Racing Limits">
+          <img src="/img/racing-limits.svg" alt="Racing Limits" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Racing Limits</div>
+            <div class="related-card-meta">⭐ 4.5 · 112Rb</div>
           </div>
         </a>
       </div>
