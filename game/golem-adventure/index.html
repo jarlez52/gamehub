@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Golem Adventure</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/penguin-ice-breaker/" class="related-card" title="Penguin Ice Breaker">
-          <img src="https://img.gamepix.com/games/penguin-ice-breaker/icon/penguin-ice-breaker.png?w=105" alt="Penguin Ice Breaker" loading="lazy" width="80" height="45">
+        <a href="/game/world-war-iii/" class="related-card" title="World War III">
+          <img src="https://img.gamepix.com/games/world-war-iii/icon/world-war-iii.png?w=105" alt="World War III" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Penguin Ice Breaker</div>
-            <div class="related-card-meta">⭐ 4.5 · 993Rb</div>
+            <div class="related-card-title">World War III</div>
+            <div class="related-card-meta">⭐ 4.8 · 929Rb</div>
           </div>
         </a>
-        <a href="/game/skibidi-wood-cutter/" class="related-card" title="Skibidi Wood Cutter">
-          <img src="https://img.gamepix.com/games/skibidi-wood-cutter/icon/skibidi-wood-cutter.png?w=105" alt="Skibidi Wood Cutter" loading="lazy" width="80" height="45">
+        <a href="/game/castle-defense/" class="related-card" title="Castle Defense">
+          <img src="https://img.gamepix.com/games/castle-defense/icon/castle-defense.png?w=105" alt="Castle Defense" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Skibidi Wood Cutter</div>
-            <div class="related-card-meta">⭐ 4.4 · 910Rb</div>
+            <div class="related-card-title">Castle Defense</div>
+            <div class="related-card-meta">⭐ 4.6 · 466Rb</div>
           </div>
         </a>
-        <a href="/game/space-crash/" class="related-card" title="Space Crash">
-          <img src="https://img.gamepix.com/games/space-crash/icon/space-crash.png?w=105" alt="Space Crash" loading="lazy" width="80" height="45">
+        <a href="/game/special-strike/" class="related-card" title="Special Strike">
+          <img src="https://img.gamepix.com/games/special-strike/icon/special-strike.png?w=105" alt="Special Strike" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Space Crash</div>
-            <div class="related-card-meta">⭐ 4.8 · 227Rb</div>
+            <div class="related-card-title">Special Strike</div>
+            <div class="related-card-meta">⭐ 4.4 · 324Rb</div>
           </div>
         </a>
-        <a href="/game/elemental-gloves-magic-power/" class="related-card" title="Elemental Gloves Magic Power">
-          <img src="https://img.gamepix.com/games/elemental-gloves-magic-power/icon/elemental-gloves-magic-power.png?w=105" alt="Elemental Gloves Magic Power" loading="lazy" width="80" height="45">
+        <a href="/game/heist-of-the-century/" class="related-card" title="Heist of the century">
+          <img src="https://img.gamepix.com/games/heist-of-the-century/icon/heist-of-the-century.png?w=105" alt="Heist of the century" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Elemental Gloves Magic Power</div>
-            <div class="related-card-meta">⭐ 4.6 · 743Rb</div>
+            <div class="related-card-title">Heist of the century</div>
+            <div class="related-card-meta">⭐ 4.1 · 141Rb</div>
           </div>
         </a>
-        <a href="/game/zombie-hunter-survival/" class="related-card" title="Zombie Hunter Survival">
-          <img src="https://img.gamepix.com/games/zombie-hunter-survival/icon/zombie-hunter-survival.png?w=105" alt="Zombie Hunter Survival" loading="lazy" width="80" height="45">
+        <a href="/game/merge-mine-idle-clicker/" class="related-card" title="Merge Mine - Idle Clicker">
+          <img src="https://img.gamepix.com/games/merge-mine-idle-clicker/icon/merge-mine-idle-clicker.png?w=105" alt="Merge Mine - Idle Clicker" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Zombie Hunter Survival</div>
-            <div class="related-card-meta">⭐ 4.8 · 859Rb</div>
+            <div class="related-card-title">Merge Mine - Idle Clicker</div>
+            <div class="related-card-meta">⭐ 4.4 · 151Rb</div>
           </div>
         </a>
-        <a href="/game/mcparkour-noob-and-noob-baby/" class="related-card" title="MCParkour Noob & Noob Baby">
-          <img src="https://img.gamepix.com/games/mcparkour-noob-and-noob-baby/icon/mcparkour-noob-and-noob-baby.png?w=105" alt="MCParkour Noob & Noob Baby" loading="lazy" width="80" height="45">
+        <a href="/game/zombotron-re-boot/" class="related-card" title="Zombotron Re-Boot">
+          <img src="https://img.gamepix.com/games/zombotron-re-boot/icon/zombotron-re-boot.png?w=105" alt="Zombotron Re-Boot" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">MCParkour Noob & Noob Baby</div>
-            <div class="related-card-meta">⭐ 4.9 · 493Rb</div>
+            <div class="related-card-title">Zombotron Re-Boot</div>
+            <div class="related-card-meta">⭐ 4.3 · 129Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

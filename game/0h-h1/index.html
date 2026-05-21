@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">0h h1</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/mahjong-riddles-egypt/" class="related-card" title="Mahjong Riddles Egypt">
-          <img src="https://img.gamepix.com/games/mahjong-riddles-egypt/icon/mahjong-riddles-egypt.png?w=105" alt="Mahjong Riddles Egypt" loading="lazy" width="80" height="45">
+        <a href="/game/reversi-2/" class="related-card" title="Reversi 2">
+          <img src="https://img.gamepix.com/games/reversi-2/icon/reversi-2.png?w=105" alt="Reversi 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mahjong Riddles Egypt</div>
-            <div class="related-card-meta">⭐ 4.2 · 453Rb</div>
+            <div class="related-card-title">Reversi 2</div>
+            <div class="related-card-meta">⭐ 4.8 · 140Rb</div>
           </div>
         </a>
-        <a href="/game/hackersync-power-surge-challenge/" class="related-card" title="HackerSync Power Surge Challenge">
-          <img src="https://img.gamepix.com/games/hackersync-power-surge-challenge/icon/hackersync-power-surge-challenge.png?w=105" alt="HackerSync Power Surge Challenge" loading="lazy" width="80" height="45">
+        <a href="/game/macro-maze/" class="related-card" title="Macro Maze">
+          <img src="https://img.gamepix.com/games/macro-maze/icon/macro-maze.png?w=105" alt="Macro Maze" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">HackerSync Power Surge Challenge</div>
-            <div class="related-card-meta">⭐ 4.8 · 687Rb</div>
+            <div class="related-card-title">Macro Maze</div>
+            <div class="related-card-meta">⭐ 4.1 · 677Rb</div>
           </div>
         </a>
-        <a href="/game/ball-sort-color-puzzle-game/" class="related-card" title="Ball Sort - Color Puzzle Game">
-          <img src="https://img.gamepix.com/games/ball-sort-color-puzzle-game/icon/ball-sort-color-puzzle-game.png?w=105" alt="Ball Sort - Color Puzzle Game" loading="lazy" width="80" height="45">
+        <a href="/game/twist-solve/" class="related-card" title="Twist & Solve">
+          <img src="https://img.gamepix.com/games/twist-solve/icon/twist-solve.png?w=105" alt="Twist & Solve" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ball Sort - Color Puzzle Game</div>
-            <div class="related-card-meta">⭐ 4.1 · 848Rb</div>
+            <div class="related-card-title">Twist & Solve</div>
+            <div class="related-card-meta">⭐ 4.5 · 237Rb</div>
           </div>
         </a>
-        <a href="/game/bus-jam/" class="related-card" title="Bus Jam">
-          <img src="https://img.gamepix.com/games/bus-jam/icon/bus-jam.png?w=105" alt="Bus Jam" loading="lazy" width="80" height="45">
+        <a href="/game/hexa-puzzle/" class="related-card" title="Hexa Puzzle">
+          <img src="https://img.gamepix.com/games/hexa-puzzle/icon/hexa-puzzle.png?w=105" alt="Hexa Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bus Jam</div>
-            <div class="related-card-meta">⭐ 4.6 · 244Rb</div>
+            <div class="related-card-title">Hexa Puzzle</div>
+            <div class="related-card-meta">⭐ 4.9 · 233Rb</div>
           </div>
         </a>
-        <a href="/game/jelly-rock-ola/" class="related-card" title="Jelly Rock Saga">
-          <img src="https://img.gamepix.com/games/jelly-rock-ola/icon/jelly-rock-ola.png?w=105" alt="Jelly Rock Saga" loading="lazy" width="80" height="45">
+        <a href="/game/obunga-nextbots-sliding-puzzle/" class="related-card" title="Obunga Nextbots Sliding Puzzle">
+          <img src="https://img.gamepix.com/games/obunga-nextbots-sliding-puzzle/icon/obunga-nextbots-sliding-puzzle.png?w=105" alt="Obunga Nextbots Sliding Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jelly Rock Saga</div>
-            <div class="related-card-meta">⭐ 4.6 · 325Rb</div>
+            <div class="related-card-title">Obunga Nextbots Sliding Puzzle</div>
+            <div class="related-card-meta">⭐ 4.6 · 937Rb</div>
           </div>
         </a>
-        <a href="/game/dogeblocks/" class="related-card" title="Dog Blocks">
-          <img src="https://img.gamepix.com/games/dogeblocks/icon/dogeblocks.png?w=105" alt="Dog Blocks" loading="lazy" width="80" height="45">
+        <a href="/game/lines-air-balloons/" class="related-card" title="Lines - Air Balloons">
+          <img src="https://img.gamepix.com/games/lines-air-balloons/icon/lines-air-balloons.png?w=105" alt="Lines - Air Balloons" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dog Blocks</div>
-            <div class="related-card-meta">⭐ 4.9 · 999Rb</div>
+            <div class="related-card-title">Lines - Air Balloons</div>
+            <div class="related-card-meta">⭐ 4.1 · 995Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

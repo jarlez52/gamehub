@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Neon Pong 1</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/dot/" class="related-card" title="Dot">
-          <img src="https://img.gamepix.com/games/dot/icon/dot.png?w=105" alt="Dot" loading="lazy" width="80" height="45">
+        <a href="/game/balloon-pop-advance/" class="related-card" title="Balloon Pop Advance">
+          <img src="https://img.gamepix.com/games/balloon-pop-advance/icon/balloon-pop-advance.png?w=105" alt="Balloon Pop Advance" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dot</div>
-            <div class="related-card-meta">⭐ 4.2 · 149Rb</div>
+            <div class="related-card-title">Balloon Pop Advance</div>
+            <div class="related-card-meta">⭐ 4.1 · 672Rb</div>
           </div>
         </a>
-        <a href="/game/point-adventure/" class="related-card" title="Point Adventure">
-          <img src="https://img.gamepix.com/games/point-adventure/icon/point-adventure.png?w=105" alt="Point Adventure" loading="lazy" width="80" height="45">
+        <a href="/game/zombie-counter-craft/" class="related-card" title="Zombie Counter Craft">
+          <img src="https://img.gamepix.com/games/zombie-counter-craft/icon/zombie-counter-craft.png?w=105" alt="Zombie Counter Craft" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Point Adventure</div>
-            <div class="related-card-meta">⭐ 4.4 · 221Rb</div>
+            <div class="related-card-title">Zombie Counter Craft</div>
+            <div class="related-card-meta">⭐ 4.7 · 258Rb</div>
           </div>
         </a>
-        <a href="/game/ballpoint/" class="related-card" title="Ballpoint">
-          <img src="https://img.gamepix.com/games/ballpoint/icon/ballpoint.png?w=105" alt="Ballpoint" loading="lazy" width="80" height="45">
+        <a href="/game/battleops/" class="related-card" title="Battleops">
+          <img src="https://img.gamepix.com/games/battleops/icon/battleops.png?w=105" alt="Battleops" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ballpoint</div>
-            <div class="related-card-meta">⭐ 4.6 · 596Rb</div>
+            <div class="related-card-title">Battleops</div>
+            <div class="related-card-meta">⭐ 4.6 · 842Rb</div>
           </div>
         </a>
-        <a href="/game/car-parking-3d-merge-puzzle/" class="related-card" title="Car Parking 3D Merge Puzzle">
-          <img src="https://img.gamepix.com/games/car-parking-3d-merge-puzzle/icon/car-parking-3d-merge-puzzle.png?w=105" alt="Car Parking 3D Merge Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/toilet-paper-please/" class="related-card" title="Toilet Paper Please">
+          <img src="https://img.gamepix.com/games/toilet-paper-please/icon/toilet-paper-please.png?w=105" alt="Toilet Paper Please" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Car Parking 3D Merge Puzzle</div>
-            <div class="related-card-meta">⭐ 4.6 · 778Rb</div>
+            <div class="related-card-title">Toilet Paper Please</div>
+            <div class="related-card-meta">⭐ 4.8 · 959Rb</div>
           </div>
         </a>
-        <a href="/game/turkish-draughts/" class="related-card" title="Turkish Draughts">
-          <img src="https://img.gamepix.com/games/turkish-draughts/icon/turkish-draughts.png?w=105" alt="Turkish Draughts" loading="lazy" width="80" height="45">
+        <a href="/game/funny-food-duel/" class="related-card" title="Funny Food Duel">
+          <img src="https://img.gamepix.com/games/funny-food-duel/icon/funny-food-duel.png?w=105" alt="Funny Food Duel" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Turkish Draughts</div>
-            <div class="related-card-meta">⭐ 4.9 · 771Rb</div>
+            <div class="related-card-title">Funny Food Duel</div>
+            <div class="related-card-meta">⭐ 4.6 · 407Rb</div>
           </div>
         </a>
-        <a href="/game/duck-hunter/" class="related-card" title="Duck Hunter">
-          <img src="https://img.gamepix.com/games/duck-hunter/icon/duck-hunter.png?w=105" alt="Duck Hunter" loading="lazy" width="80" height="45">
+        <a href="/game/among-at-easter/" class="related-card" title="Among at Easter">
+          <img src="https://img.gamepix.com/games/among-at-easter/icon/among-at-easter.png?w=105" alt="Among at Easter" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Duck Hunter</div>
-            <div class="related-card-meta">⭐ 4.1 · 734Rb</div>
+            <div class="related-card-title">Among at Easter</div>
+            <div class="related-card-meta">⭐ 4.9 · 782Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

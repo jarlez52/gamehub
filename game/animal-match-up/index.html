@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Animal Match-Up</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/gemcrafter/" class="related-card" title="Gemcrafter">
-          <img src="https://img.gamepix.com/games/gemcrafter/icon/gemcrafter.png?w=105" alt="Gemcrafter" loading="lazy" width="80" height="45">
+        <a href="/game/underwater/" class="related-card" title="Underwater Adventures: Match 3">
+          <img src="https://img.gamepix.com/games/underwater/icon/underwater.png?w=105" alt="Underwater Adventures: Match 3" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Gemcrafter</div>
-            <div class="related-card-meta">⭐ 4.3 · 257Rb</div>
+            <div class="related-card-title">Underwater Adventures: Match 3</div>
+            <div class="related-card-meta">⭐ 4.2 · 231Rb</div>
           </div>
         </a>
-        <a href="/game/slime-sticky/" class="related-card" title="Slime Sticky">
-          <img src="https://img.gamepix.com/games/slime-sticky/icon/slime-sticky.png?w=105" alt="Slime Sticky" loading="lazy" width="80" height="45">
+        <a href="/game/pipes-flood-puzzle/" class="related-card" title="Pipes Flood Puzzle">
+          <img src="https://img.gamepix.com/games/pipes-flood-puzzle/icon/pipes-flood-puzzle.png?w=105" alt="Pipes Flood Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Slime Sticky</div>
-            <div class="related-card-meta">⭐ 4.4 · 449Rb</div>
+            <div class="related-card-title">Pipes Flood Puzzle</div>
+            <div class="related-card-meta">⭐ 4.5 · 849Rb</div>
           </div>
         </a>
-        <a href="/game/fragments-a-relaxing-tile-matching-puzzle-game/" class="related-card" title="Fragments - A Relaxing Tile Matching Puzzle Game">
-          <img src="https://img.gamepix.com/games/fragments-a-relaxing-tile-matching-puzzle-game/icon/fragments-a-relaxing-tile-matching-puzzle-game.png?w=105" alt="Fragments - A Relaxing Tile Matching Puzzle Game" loading="lazy" width="80" height="45">
+        <a href="/game/dice-puzzle-fruits/" class="related-card" title="Dice Puzzle Fruits">
+          <img src="https://img.gamepix.com/games/dice-puzzle-fruits/icon/dice-puzzle-fruits.png?w=105" alt="Dice Puzzle Fruits" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fragments - A Relaxing Tile Matching Puzzle Game</div>
-            <div class="related-card-meta">⭐ 4.6 · 854Rb</div>
+            <div class="related-card-title">Dice Puzzle Fruits</div>
+            <div class="related-card-meta">⭐ 4.1 · 327Rb</div>
           </div>
         </a>
-        <a href="/game/block-builder/" class="related-card" title="Block Builder">
-          <img src="https://img.gamepix.com/games/block-builder/icon/block-builder.png?w=105" alt="Block Builder" loading="lazy" width="80" height="45">
+        <a href="/game/juicy-match/" class="related-card" title="Juicy Match">
+          <img src="https://img.gamepix.com/games/juicy-match/icon/juicy-match.png?w=105" alt="Juicy Match" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Block Builder</div>
-            <div class="related-card-meta">⭐ 4.8 · 692Rb</div>
+            <div class="related-card-title">Juicy Match</div>
+            <div class="related-card-meta">⭐ 4.2 · 722Rb</div>
           </div>
         </a>
-        <a href="/game/bird-sort-color-puzzle-game/" class="related-card" title="Bird Sort Color Puzzle Game">
-          <img src="https://img.gamepix.com/games/bird-sort-color-puzzle-game/icon/bird-sort-color-puzzle-game.png?w=105" alt="Bird Sort Color Puzzle Game" loading="lazy" width="80" height="45">
+        <a href="/game/mergeface/" class="related-card" title="MergeFace">
+          <img src="https://img.gamepix.com/games/mergeface/icon/mergeface.png?w=105" alt="MergeFace" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bird Sort Color Puzzle Game</div>
-            <div class="related-card-meta">⭐ 4.3 · 152Rb</div>
+            <div class="related-card-title">MergeFace</div>
+            <div class="related-card-meta">⭐ 4 · 344Rb</div>
           </div>
         </a>
-        <a href="/game/puzzlebot/" class="related-card" title="Puzzlebot">
-          <img src="https://img.gamepix.com/games/puzzlebot/icon/puzzlebot.png?w=105" alt="Puzzlebot" loading="lazy" width="80" height="45">
+        <a href="/game/macro-maze/" class="related-card" title="Macro Maze">
+          <img src="https://img.gamepix.com/games/macro-maze/icon/macro-maze.png?w=105" alt="Macro Maze" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Puzzlebot</div>
-            <div class="related-card-meta">⭐ 4.2 · 832Rb</div>
+            <div class="related-card-title">Macro Maze</div>
+            <div class="related-card-meta">⭐ 4.1 · 677Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

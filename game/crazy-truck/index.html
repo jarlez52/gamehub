@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Crazy Truck</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/insane-track-supercars/" class="related-card" title="Insane Track Supercars">
-          <img src="https://img.gamepix.com/games/insane-track-supercars/icon/insane-track-supercars.png?w=105" alt="Insane Track Supercars" loading="lazy" width="80" height="45">
+        <a href="/game/aquapark-surfer-race-1/" class="related-card" title="Aquapark Surfer Race">
+          <img src="https://img.gamepix.com/games/aquapark-surfer-race-1/icon/aquapark-surfer-race-1.png?w=105" alt="Aquapark Surfer Race" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Insane Track Supercars</div>
-            <div class="related-card-meta">⭐ 4.3 · 781Rb</div>
+            <div class="related-card-title">Aquapark Surfer Race</div>
+            <div class="related-card-meta">⭐ 4.8 · 983Rb</div>
           </div>
         </a>
-        <a href="/game/car-garage-tycoon-simulation-game/" class="related-card" title="Car Garage Tycoon - Simulation Game">
-          <img src="https://img.gamepix.com/games/car-garage-tycoon-simulation-game/icon/car-garage-tycoon-simulation-game.png?w=105" alt="Car Garage Tycoon - Simulation Game" loading="lazy" width="80" height="45">
+        <a href="/game/dual-control-racing/" class="related-card" title="Dual Control Racing">
+          <img src="https://img.gamepix.com/games/dual-control-racing/icon/dual-control-racing.png?w=105" alt="Dual Control Racing" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Car Garage Tycoon - Simulation Game</div>
-            <div class="related-card-meta">⭐ 4.5 · 140Rb</div>
+            <div class="related-card-title">Dual Control Racing</div>
+            <div class="related-card-meta">⭐ 4.3 · 218Rb</div>
           </div>
         </a>
-        <a href="/game/scary-shawarma-kiosk-the-anomaly/" class="related-card" title="Scary Shawarma Kiosk the Anomaly">
-          <img src="https://img.gamepix.com/games/scary-shawarma-kiosk-the-anomaly/icon/scary-shawarma-kiosk-the-anomaly.png?w=105" alt="Scary Shawarma Kiosk the Anomaly" loading="lazy" width="80" height="45">
+        <a href="/game/run-guys-the-chaos-race/" class="related-card" title="Run Guys: The Chaos Race">
+          <img src="https://img.gamepix.com/games/run-guys-the-chaos-race/icon/run-guys-the-chaos-race.png?w=105" alt="Run Guys: The Chaos Race" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Scary Shawarma Kiosk the Anomaly</div>
-            <div class="related-card-meta">⭐ 4.9 · 849Rb</div>
+            <div class="related-card-title">Run Guys: The Chaos Race</div>
+            <div class="related-card-meta">⭐ 4 · 836Rb</div>
           </div>
         </a>
-        <a href="/game/retro-racer-3d/" class="related-card" title="Retro Racer 3D">
-          <img src="https://img.gamepix.com/games/retro-racer-3d/icon/retro-racer-3d.png?w=105" alt="Retro Racer 3D" loading="lazy" width="80" height="45">
+        <a href="/game/carrot-climber/" class="related-card" title="Carrot Climber">
+          <img src="https://img.gamepix.com/games/carrot-climber/icon/carrot-climber.png?w=105" alt="Carrot Climber" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Retro Racer 3D</div>
-            <div class="related-card-meta">⭐ 4.2 · 134Rb</div>
+            <div class="related-card-title">Carrot Climber</div>
+            <div class="related-card-meta">⭐ 4.3 · 689Rb</div>
           </div>
         </a>
-        <a href="/game/car-nabbing-race-the-police-car-chase/" class="related-card" title="Car Nabbing Race - The Police Car Chase">
-          <img src="https://img.gamepix.com/games/car-nabbing-race-the-police-car-chase/icon/car-nabbing-race-the-police-car-chase.png?w=105" alt="Car Nabbing Race - The Police Car Chase" loading="lazy" width="80" height="45">
+        <a href="/game/grand-city-car-thief/" class="related-card" title="Grand City Car Thief">
+          <img src="https://img.gamepix.com/games/grand-city-car-thief/icon/grand-city-car-thief.png?w=105" alt="Grand City Car Thief" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Car Nabbing Race - The Police Car Chase</div>
-            <div class="related-card-meta">⭐ 4.9 · 644Rb</div>
+            <div class="related-card-title">Grand City Car Thief</div>
+            <div class="related-card-meta">⭐ 4.3 · 335Rb</div>
           </div>
         </a>
-        <a href="/game/moto-bike-highway-racing-game/" class="related-card" title="Moto Bike Highway Racing Game">
-          <img src="https://img.gamepix.com/games/moto-bike-highway-racing-game/icon/moto-bike-highway-racing-game.png?w=105" alt="Moto Bike Highway Racing Game" loading="lazy" width="80" height="45">
+        <a href="/game/ramp-racing/" class="related-card" title="Ramp Racing">
+          <img src="https://img.gamepix.com/games/ramp-racing/icon/ramp-racing.png?w=105" alt="Ramp Racing" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Moto Bike Highway Racing Game</div>
-            <div class="related-card-meta">⭐ 4.6 · 368Rb</div>
+            <div class="related-card-title">Ramp Racing</div>
+            <div class="related-card-meta">⭐ 4.8 · 795Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Desert Attack</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/river-crosser/" class="related-card" title="River Crosser">
-          <img src="https://img.gamepix.com/games/river-crosser/icon/river-crosser.png?w=105" alt="River Crosser" loading="lazy" width="80" height="45">
+        <a href="/game/western-maverick/" class="related-card" title="Western Maverick">
+          <img src="https://img.gamepix.com/games/western-maverick/icon/western-maverick.png?w=105" alt="Western Maverick" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">River Crosser</div>
-            <div class="related-card-meta">⭐ 4.8 · 585Rb</div>
+            <div class="related-card-title">Western Maverick</div>
+            <div class="related-card-meta">⭐ 4.2 · 850Rb</div>
           </div>
         </a>
-        <a href="/game/monster-truck-mountain-car-stunts/" class="related-card" title="Mountain Car Stunt">
-          <img src="https://img.gamepix.com/games/monster-truck-mountain-car-stunts/icon/monster-truck-mountain-car-stunts.png?w=105" alt="Mountain Car Stunt" loading="lazy" width="80" height="45">
+        <a href="/game/cinderella-tile-slide-challenge/" class="related-card" title="Cinderella Tile Slide Challenge">
+          <img src="https://img.gamepix.com/games/cinderella-tile-slide-challenge/icon/cinderella-tile-slide-challenge.png?w=105" alt="Cinderella Tile Slide Challenge" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mountain Car Stunt</div>
-            <div class="related-card-meta">⭐ 4.8 · 196Rb</div>
+            <div class="related-card-title">Cinderella Tile Slide Challenge</div>
+            <div class="related-card-meta">⭐ 4.6 · 871Rb</div>
           </div>
         </a>
-        <a href="/game/snack-time/" class="related-card" title="Snack Time">
-          <img src="https://img.gamepix.com/games/snack-time/icon/snack-time.png?w=105" alt="Snack Time" loading="lazy" width="80" height="45">
+        <a href="/game/telejump-pixel/" class="related-card" title="Telejump Pixel">
+          <img src="https://img.gamepix.com/games/telejump-pixel/icon/telejump-pixel.png?w=105" alt="Telejump Pixel" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Snack Time</div>
-            <div class="related-card-meta">⭐ 4.7 · 596Rb</div>
+            <div class="related-card-title">Telejump Pixel</div>
+            <div class="related-card-meta">⭐ 4.6 · 223Rb</div>
           </div>
         </a>
-        <a href="/game/jump-in-the-wall/" class="related-card" title="Jump In The Wall">
-          <img src="https://img.gamepix.com/games/jump-in-the-wall/icon/jump-in-the-wall.png?w=105" alt="Jump In The Wall" loading="lazy" width="80" height="45">
+        <a href="/game/brain-find-can-you-find-it/" class="related-card" title="Brain Find Can You Find It">
+          <img src="https://img.gamepix.com/games/brain-find-can-you-find-it/icon/brain-find-can-you-find-it.png?w=105" alt="Brain Find Can You Find It" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jump In The Wall</div>
-            <div class="related-card-meta">⭐ 4.4 · 726Rb</div>
+            <div class="related-card-title">Brain Find Can You Find It</div>
+            <div class="related-card-meta">⭐ 4.2 · 656Rb</div>
           </div>
         </a>
-        <a href="/game/satisfying-ball-clicker/" class="related-card" title="Satisfying Ball Clicker">
-          <img src="https://img.gamepix.com/games/satisfying-ball-clicker/icon/satisfying-ball-clicker.png?w=105" alt="Satisfying Ball Clicker" loading="lazy" width="80" height="45">
+        <a href="/game/coloring-by-numbers-pixel-room/" class="related-card" title="Coloring by Numbers. Pixel Room">
+          <img src="https://img.gamepix.com/games/coloring-by-numbers-pixel-room/icon/coloring-by-numbers-pixel-room.png?w=105" alt="Coloring by Numbers. Pixel Room" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Satisfying Ball Clicker</div>
-            <div class="related-card-meta">⭐ 4.7 · 229Rb</div>
+            <div class="related-card-title">Coloring by Numbers. Pixel Room</div>
+            <div class="related-card-meta">⭐ 4.5 · 753Rb</div>
           </div>
         </a>
-        <a href="/game/neon-block-arcade/" class="related-card" title="Neon Block Arcade">
-          <img src="https://img.gamepix.com/games/neon-block-arcade/icon/neon-block-arcade.png?w=105" alt="Neon Block Arcade" loading="lazy" width="80" height="45">
+        <a href="/game/sliding-tim-way-to-home/" class="related-card" title="Sliding Tim - Way to home">
+          <img src="https://img.gamepix.com/games/sliding-tim-way-to-home/icon/sliding-tim-way-to-home.png?w=105" alt="Sliding Tim - Way to home" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Neon Block Arcade</div>
-            <div class="related-card-meta">⭐ 4.6 · 749Rb</div>
+            <div class="related-card-title">Sliding Tim - Way to home</div>
+            <div class="related-card-meta">⭐ 4.7 · 725Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

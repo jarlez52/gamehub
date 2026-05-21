@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Beltz</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/10-second-challenge/" class="related-card" title="10-Second Challenge">
-          <img src="https://img.gamepix.com/games/10-second-challenge/icon/10-second-challenge.png?w=105" alt="10-Second Challenge" loading="lazy" width="80" height="45">
+        <a href="/game/double-bird/" class="related-card" title="Double Bird">
+          <img src="https://img.gamepix.com/games/double-bird/icon/double-bird.png?w=105" alt="Double Bird" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">10-Second Challenge</div>
-            <div class="related-card-meta">⭐ 4.6 · 109Rb</div>
+            <div class="related-card-title">Double Bird</div>
+            <div class="related-card-meta">⭐ 4.4 · 825Rb</div>
           </div>
         </a>
-        <a href="/game/dinogunz/" class="related-card" title="DinoGunz">
-          <img src="https://img.gamepix.com/games/dinogunz/icon/dinogunz.png?w=105" alt="DinoGunz" loading="lazy" width="80" height="45">
+        <a href="/game/sliding-puzzle-the-15-puzzle/" class="related-card" title="Sliding Puzzle - The 15 Puzzle">
+          <img src="https://img.gamepix.com/games/sliding-puzzle-the-15-puzzle/icon/sliding-puzzle-the-15-puzzle.png?w=105" alt="Sliding Puzzle - The 15 Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">DinoGunz</div>
-            <div class="related-card-meta">⭐ 4.5 · 151Rb</div>
+            <div class="related-card-title">Sliding Puzzle - The 15 Puzzle</div>
+            <div class="related-card-meta">⭐ 4.8 · 674Rb</div>
           </div>
         </a>
-        <a href="/game/classic-space-invader/" class="related-card" title="Classic Space Invader">
-          <img src="https://img.gamepix.com/games/classic-space-invader/icon/classic-space-invader.png?w=105" alt="Classic Space Invader" loading="lazy" width="80" height="45">
+        <a href="/game/turkish-draughts/" class="related-card" title="Turkish Draughts">
+          <img src="https://img.gamepix.com/games/turkish-draughts/icon/turkish-draughts.png?w=105" alt="Turkish Draughts" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Classic Space Invader</div>
-            <div class="related-card-meta">⭐ 4.1 · 601Rb</div>
+            <div class="related-card-title">Turkish Draughts</div>
+            <div class="related-card-meta">⭐ 4.9 · 771Rb</div>
           </div>
         </a>
-        <a href="/game/bouncy-heroes/" class="related-card" title="Bouncy Heroes">
-          <img src="https://img.gamepix.com/games/bouncy-heroes/icon/bouncy-heroes.png?w=105" alt="Bouncy Heroes" loading="lazy" width="80" height="45">
+        <a href="/game/the-maze/" class="related-card" title="The Maze">
+          <img src="https://img.gamepix.com/games/the-maze/icon/the-maze.png?w=105" alt="The Maze" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bouncy Heroes</div>
-            <div class="related-card-meta">⭐ 4.8 · 784Rb</div>
+            <div class="related-card-title">The Maze</div>
+            <div class="related-card-meta">⭐ 4.8 · 223Rb</div>
           </div>
         </a>
-        <a href="/game/freddy-drift-driving/" class="related-card" title="Freddy Drift Driving">
-          <img src="https://img.gamepix.com/games/freddy-drift-driving/icon/freddy-drift-driving.png?w=105" alt="Freddy Drift Driving" loading="lazy" width="80" height="45">
+        <a href="/game/impossible-formula-stunts/" class="related-card" title="Impossible Formula Car Stunts">
+          <img src="https://img.gamepix.com/games/impossible-formula-stunts/icon/impossible-formula-stunts.png?w=105" alt="Impossible Formula Car Stunts" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Freddy Drift Driving</div>
-            <div class="related-card-meta">⭐ 4.7 · 517Rb</div>
+            <div class="related-card-title">Impossible Formula Car Stunts</div>
+            <div class="related-card-meta">⭐ 4.6 · 698Rb</div>
           </div>
         </a>
-        <a href="/game/drift-bus/" class="related-card" title="Drift Bus">
-          <img src="https://img.gamepix.com/games/drift-bus/icon/drift-bus.png?w=105" alt="Drift Bus" loading="lazy" width="80" height="45">
+        <a href="/game/car-vs-cop/" class="related-card" title="Car vs. Cop">
+          <img src="https://img.gamepix.com/games/car-vs-cop/icon/car-vs-cop.png?w=105" alt="Car vs. Cop" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Drift Bus</div>
-            <div class="related-card-meta">⭐ 4.4 · 936Rb</div>
+            <div class="related-card-title">Car vs. Cop</div>
+            <div class="related-card-meta">⭐ 4.3 · 830Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

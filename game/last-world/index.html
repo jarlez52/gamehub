@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Last World</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/gasspark/" class="related-card" title="GasSpark">
-          <img src="https://img.gamepix.com/games/gasspark/icon/gasspark.png?w=105" alt="GasSpark" loading="lazy" width="80" height="45">
+        <a href="/game/fishing-baron-real-fishing/" class="related-card" title="Fishing Baron - Real Fishing">
+          <img src="https://img.gamepix.com/games/fishing-baron-real-fishing/icon/fishing-baron-real-fishing.png?w=105" alt="Fishing Baron - Real Fishing" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">GasSpark</div>
-            <div class="related-card-meta">⭐ 4.9 · 142Rb</div>
+            <div class="related-card-title">Fishing Baron - Real Fishing</div>
+            <div class="related-card-meta">⭐ 4.1 · 595Rb</div>
           </div>
         </a>
-        <a href="/game/merge-number-cube-3d-run-game/" class="related-card" title="Merge Number Cube 3d Run Game">
-          <img src="https://img.gamepix.com/games/merge-number-cube-3d-run-game/icon/merge-number-cube-3d-run-game.png?w=105" alt="Merge Number Cube 3d Run Game" loading="lazy" width="80" height="45">
+        <a href="/game/jigsawimage/" class="related-card" title="JigsawImage">
+          <img src="https://img.gamepix.com/games/jigsawimage/icon/jigsawimage.png?w=105" alt="JigsawImage" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Merge Number Cube 3d Run Game</div>
-            <div class="related-card-meta">⭐ 4.5 · 610Rb</div>
+            <div class="related-card-title">JigsawImage</div>
+            <div class="related-card-meta">⭐ 4.8 · 870Rb</div>
           </div>
         </a>
-        <a href="/game/chicken-hunter/" class="related-card" title="Chicken Hunter">
-          <img src="https://img.gamepix.com/games/chicken-hunter/icon/chicken-hunter.png?w=105" alt="Chicken Hunter" loading="lazy" width="80" height="45">
+        <a href="/game/ball-red-legacy/" class="related-card" title="Ball Red Legacy">
+          <img src="https://img.gamepix.com/games/ball-red-legacy/icon/ball-red-legacy.png?w=105" alt="Ball Red Legacy" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Chicken Hunter</div>
-            <div class="related-card-meta">⭐ 4.7 · 874Rb</div>
+            <div class="related-card-title">Ball Red Legacy</div>
+            <div class="related-card-meta">⭐ 4.3 · 861Rb</div>
           </div>
         </a>
-        <a href="/game/don-t-wake-brainrot/" class="related-card" title="Don't Wake Brainrot">
-          <img src="https://img.gamepix.com/games/don-t-wake-brainrot/icon/don-t-wake-brainrot.png?w=105" alt="Don't Wake Brainrot" loading="lazy" width="80" height="45">
+        <a href="/game/alien-high/" class="related-card" title="Alien High">
+          <img src="https://img.gamepix.com/games/alien-high/icon/alien-high.png?w=105" alt="Alien High" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Don't Wake Brainrot</div>
-            <div class="related-card-meta">⭐ 4.1 · 572Rb</div>
+            <div class="related-card-title">Alien High</div>
+            <div class="related-card-meta">⭐ 4.5 · 185Rb</div>
           </div>
         </a>
-        <a href="/game/tap-double-tap/" class="related-card" title="Tap Double-Tap REMAKE!">
-          <img src="https://img.gamepix.com/games/tap-double-tap/icon/tap-double-tap.png?w=105" alt="Tap Double-Tap REMAKE!" loading="lazy" width="80" height="45">
+        <a href="/game/cs-upgrade-gun/" class="related-card" title="CS Upgrade Gun">
+          <img src="https://img.gamepix.com/games/cs-upgrade-gun/icon/cs-upgrade-gun.png?w=105" alt="CS Upgrade Gun" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tap Double-Tap REMAKE!</div>
-            <div class="related-card-meta">⭐ 4.1 · 601Rb</div>
+            <div class="related-card-title">CS Upgrade Gun</div>
+            <div class="related-card-meta">⭐ 4.1 · 359Rb</div>
           </div>
         </a>
-        <a href="/game/tetris-neon/" class="related-card" title="Tetris Neon">
-          <img src="https://img.gamepix.com/games/tetris-neon/icon/tetris-neon.png?w=105" alt="Tetris Neon" loading="lazy" width="80" height="45">
+        <a href="/game/helicopter/" class="related-card" title="Helicopter">
+          <img src="https://img.gamepix.com/games/helicopter/icon/helicopter.png?w=105" alt="Helicopter" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tetris Neon</div>
-            <div class="related-card-meta">⭐ 4.1 · 666Rb</div>
+            <div class="related-card-title">Helicopter</div>
+            <div class="related-card-meta">⭐ 4.8 · 189Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

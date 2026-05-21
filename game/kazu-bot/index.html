@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Kazu Bot</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/last-quiver/" class="related-card" title="Last Quiver">
-          <img src="https://img.gamepix.com/games/last-quiver/icon/last-quiver.png?w=105" alt="Last Quiver" loading="lazy" width="80" height="45">
+        <a href="/game/bubbles-clicker/" class="related-card" title="Bubbles Clicker">
+          <img src="https://img.gamepix.com/games/bubbles-clicker/icon/bubbles-clicker.png?w=105" alt="Bubbles Clicker" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Last Quiver</div>
-            <div class="related-card-meta">⭐ 4.7 · 937Rb</div>
+            <div class="related-card-title">Bubbles Clicker</div>
+            <div class="related-card-meta">⭐ 4.7 · 119Rb</div>
           </div>
         </a>
-        <a href="/game/barbarian-trunk/" class="related-card" title="Barbarian Trunk">
-          <img src="https://img.gamepix.com/games/barbarian-trunk/icon/barbarian-trunk.png?w=105" alt="Barbarian Trunk" loading="lazy" width="80" height="45">
+        <a href="/game/escape-labyrinth/" class="related-card" title="Escape Labyrinth">
+          <img src="https://img.gamepix.com/games/escape-labyrinth/icon/escape-labyrinth.png?w=105" alt="Escape Labyrinth" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Barbarian Trunk</div>
-            <div class="related-card-meta">⭐ 4.9 · 101Rb</div>
+            <div class="related-card-title">Escape Labyrinth</div>
+            <div class="related-card-meta">⭐ 4.6 · 187Rb</div>
           </div>
         </a>
-        <a href="/game/dungeon-brick/" class="related-card" title="Dungeon Brick">
-          <img src="https://img.gamepix.com/games/dungeon-brick/icon/dungeon-brick.png?w=105" alt="Dungeon Brick" loading="lazy" width="80" height="45">
+        <a href="/game/vortex-9-online-shooter/" class="related-card" title="Vortex 9 Online Shooter">
+          <img src="https://img.gamepix.com/games/vortex-9-online-shooter/icon/vortex-9-online-shooter.png?w=105" alt="Vortex 9 Online Shooter" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dungeon Brick</div>
-            <div class="related-card-meta">⭐ 4.6 · 802Rb</div>
+            <div class="related-card-title">Vortex 9 Online Shooter</div>
+            <div class="related-card-meta">⭐ 4.2 · 905Rb</div>
           </div>
         </a>
-        <a href="/game/platform-shooter/" class="related-card" title="Platform Shooter">
-          <img src="https://img.gamepix.com/games/platform-shooter/icon/platform-shooter.png?w=105" alt="Platform Shooter" loading="lazy" width="80" height="45">
+        <a href="/game/special-strike-zombies/" class="related-card" title="Special Strike Zombies">
+          <img src="https://img.gamepix.com/games/special-strike-zombies/icon/special-strike-zombies.png?w=105" alt="Special Strike Zombies" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Platform Shooter</div>
-            <div class="related-card-meta">⭐ 4.7 · 754Rb</div>
+            <div class="related-card-title">Special Strike Zombies</div>
+            <div class="related-card-meta">⭐ 4.6 · 230Rb</div>
           </div>
         </a>
-        <a href="/game/bump-robot/" class="related-card" title="Bump Robot">
-          <img src="https://img.gamepix.com/games/bump-robot/icon/bump-robot.png?w=105" alt="Bump Robot" loading="lazy" width="80" height="45">
+        <a href="/game/grenade-hit-stickman/" class="related-card" title="Grenade Hit Stickman">
+          <img src="https://img.gamepix.com/games/grenade-hit-stickman/icon/grenade-hit-stickman.png?w=105" alt="Grenade Hit Stickman" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bump Robot</div>
-            <div class="related-card-meta">⭐ 4.1 · 219Rb</div>
+            <div class="related-card-title">Grenade Hit Stickman</div>
+            <div class="related-card-meta">⭐ 4.1 · 492Rb</div>
           </div>
         </a>
-        <a href="/game/italian-brainrot-vs-r-e-p-o-royale/" class="related-card" title="Italian Brainrot VS R.E.P.O Royale">
-          <img src="https://img.gamepix.com/games/italian-brainrot-vs-r-e-p-o-royale/icon/italian-brainrot-vs-r-e-p-o-royale.png?w=105" alt="Italian Brainrot VS R.E.P.O Royale" loading="lazy" width="80" height="45">
+        <a href="/game/crap-attack/" class="related-card" title="Crap Attack">
+          <img src="https://img.gamepix.com/games/crap-attack/icon/crap-attack.png?w=105" alt="Crap Attack" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Italian Brainrot VS R.E.P.O Royale</div>
-            <div class="related-card-meta">⭐ 4.2 · 178Rb</div>
+            <div class="related-card-title">Crap Attack</div>
+            <div class="related-card-meta">⭐ 4.4 · 622Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Dot and Box</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/mill-nine-mens-morris/" class="related-card" title="Mill Nine Mens Morris">
-          <img src="https://img.gamepix.com/games/mill-nine-mens-morris/icon/mill-nine-mens-morris.png?w=105" alt="Mill Nine Mens Morris" loading="lazy" width="80" height="45">
+        <a href="/game/klondike-solitaire-panda/" class="related-card" title="Klondike Solitaire Panda">
+          <img src="https://img.gamepix.com/games/klondike-solitaire-panda/icon/klondike-solitaire-panda.png?w=105" alt="Klondike Solitaire Panda" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mill Nine Mens Morris</div>
-            <div class="related-card-meta">⭐ 4.1 · 792Rb</div>
+            <div class="related-card-title">Klondike Solitaire Panda</div>
+            <div class="related-card-meta">⭐ 4.1 · 131Rb</div>
           </div>
         </a>
-        <a href="/game/jewel-garden-story/" class="related-card" title="Jewel Garden Story">
-          <img src="https://img.gamepix.com/games/jewel-garden-story/icon/jewel-garden-story.png?w=105" alt="Jewel Garden Story" loading="lazy" width="80" height="45">
+        <a href="/game/jelly-journey/" class="related-card" title="Jelly Journey">
+          <img src="https://img.gamepix.com/games/jelly-journey/icon/jelly-journey.png?w=105" alt="Jelly Journey" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jewel Garden Story</div>
-            <div class="related-card-meta">⭐ 4.4 · 181Rb</div>
+            <div class="related-card-title">Jelly Journey</div>
+            <div class="related-card-meta">⭐ 4.7 · 782Rb</div>
           </div>
         </a>
-        <a href="/game/spider-solitaire-3/" class="related-card" title="Spider Solitaire">
-          <img src="https://img.gamepix.com/games/spider-solitaire-3/icon/spider-solitaire-3.png?w=105" alt="Spider Solitaire" loading="lazy" width="80" height="45">
+        <a href="/game/treasure-aztec/" class="related-card" title="Treasures Aztec">
+          <img src="https://img.gamepix.com/games/treasure-aztec/icon/treasure-aztec.png?w=105" alt="Treasures Aztec" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Spider Solitaire</div>
-            <div class="related-card-meta">⭐ 4.9 · 190Rb</div>
+            <div class="related-card-title">Treasures Aztec</div>
+            <div class="related-card-meta">⭐ 4.8 · 531Rb</div>
           </div>
         </a>
-        <a href="/game/geography-quiz-countries-flag-capitals/" class="related-card" title="Geography Quiz - Countries Flag Capitals">
-          <img src="https://img.gamepix.com/games/geography-quiz-countries-flag-capitals/icon/geography-quiz-countries-flag-capitals.png?w=105" alt="Geography Quiz - Countries Flag Capitals" loading="lazy" width="80" height="45">
+        <a href="/game/fruit-king/" class="related-card" title="Fruit King">
+          <img src="https://img.gamepix.com/games/fruit-king/icon/fruit-king.png?w=105" alt="Fruit King" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Geography Quiz - Countries Flag Capitals</div>
-            <div class="related-card-meta">⭐ 4.8 · 803Rb</div>
+            <div class="related-card-title">Fruit King</div>
+            <div class="related-card-meta">⭐ 4.2 · 315Rb</div>
           </div>
         </a>
-        <a href="/game/angry-checkers/" class="related-card" title="Angry Checkers">
-          <img src="https://img.gamepix.com/games/angry-checkers/icon/angry-checkers.png?w=105" alt="Angry Checkers" loading="lazy" width="80" height="45">
+        <a href="/game/juicy-tic-tac-toe/" class="related-card" title="Juicy Tic Tac Toe">
+          <img src="https://img.gamepix.com/games/juicy-tic-tac-toe/icon/juicy-tic-tac-toe.png?w=105" alt="Juicy Tic Tac Toe" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Angry Checkers</div>
-            <div class="related-card-meta">⭐ 4.2 · 676Rb</div>
+            <div class="related-card-title">Juicy Tic Tac Toe</div>
+            <div class="related-card-meta">⭐ 4.6 · 365Rb</div>
           </div>
         </a>
-        <a href="/game/super-adventure-elip/" class="related-card" title="Elip Adventure">
-          <img src="https://img.gamepix.com/games/super-adventure-elip/icon/super-adventure-elip.png?w=105" alt="Elip Adventure" loading="lazy" width="80" height="45">
+        <a href="/game/zumba-quest/" class="related-card" title="Zumba Quest">
+          <img src="https://img.gamepix.com/games/zumba-quest/icon/zumba-quest.png?w=105" alt="Zumba Quest" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Elip Adventure</div>
-            <div class="related-card-meta">⭐ 4.8 · 387Rb</div>
+            <div class="related-card-title">Zumba Quest</div>
+            <div class="related-card-meta">⭐ 4.4 · 858Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

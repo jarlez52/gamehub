@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Crazy Cow</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/eggstreme-eggscape/" class="related-card" title="Eggstreme Eggscape">
-          <img src="https://img.gamepix.com/games/eggstreme-eggscape/icon/eggstreme-eggscape.png?w=105" alt="Eggstreme Eggscape" loading="lazy" width="80" height="45">
+        <a href="/game/choose-puzzle/" class="related-card" title="Choose Puzzle">
+          <img src="https://img.gamepix.com/games/choose-puzzle/icon/choose-puzzle.png?w=105" alt="Choose Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Eggstreme Eggscape</div>
-            <div class="related-card-meta">⭐ 4.5 · 391Rb</div>
+            <div class="related-card-title">Choose Puzzle</div>
+            <div class="related-card-meta">⭐ 4.3 · 200Rb</div>
           </div>
         </a>
-        <a href="/game/color-rush/" class="related-card" title="Color Rush">
-          <img src="https://img.gamepix.com/games/color-rush/icon/color-rush.png?w=105" alt="Color Rush" loading="lazy" width="80" height="45">
+        <a href="/game/car-vs-cop/" class="related-card" title="Car vs. Cop">
+          <img src="https://img.gamepix.com/games/car-vs-cop/icon/car-vs-cop.png?w=105" alt="Car vs. Cop" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Color Rush</div>
-            <div class="related-card-meta">⭐ 4.6 · 907Rb</div>
+            <div class="related-card-title">Car vs. Cop</div>
+            <div class="related-card-meta">⭐ 4.3 · 830Rb</div>
           </div>
         </a>
-        <a href="/game/robot-run/" class="related-card" title="Robot Run">
-          <img src="https://img.gamepix.com/games/robot-run/icon/robot-run.png?w=105" alt="Robot Run" loading="lazy" width="80" height="45">
+        <a href="/game/thung-thung-sahur-night-escape/" class="related-card" title="Thung Thung Sahur Night Escape">
+          <img src="https://img.gamepix.com/games/thung-thung-sahur-night-escape/icon/thung-thung-sahur-night-escape.png?w=105" alt="Thung Thung Sahur Night Escape" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Robot Run</div>
-            <div class="related-card-meta">⭐ 4.8 · 961Rb</div>
+            <div class="related-card-title">Thung Thung Sahur Night Escape</div>
+            <div class="related-card-meta">⭐ 4.8 · 910Rb</div>
           </div>
         </a>
-        <a href="/game/christmas-tic-tac-toe/" class="related-card" title="Christmas Tic Tac Toe">
-          <img src="https://img.gamepix.com/games/christmas-tic-tac-toe/icon/christmas-tic-tac-toe.png?w=105" alt="Christmas Tic Tac Toe" loading="lazy" width="80" height="45">
+        <a href="/game/robotomy/" class="related-card" title="Robotomy">
+          <img src="https://img.gamepix.com/games/robotomy/icon/robotomy.png?w=105" alt="Robotomy" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Christmas Tic Tac Toe</div>
-            <div class="related-card-meta">⭐ 4.7 · 214Rb</div>
+            <div class="related-card-title">Robotomy</div>
+            <div class="related-card-meta">⭐ 4.8 · 414Rb</div>
           </div>
         </a>
-        <a href="/game/circle-drive/" class="related-card" title="Circle Drive">
-          <img src="https://img.gamepix.com/games/circle-drive/icon/circle-drive.png?w=105" alt="Circle Drive" loading="lazy" width="80" height="45">
+        <a href="/game/mantis-clicker/" class="related-card" title="Mantis Clicker">
+          <img src="https://img.gamepix.com/games/mantis-clicker/icon/mantis-clicker.png?w=105" alt="Mantis Clicker" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Circle Drive</div>
-            <div class="related-card-meta">⭐ 4.8 · 647Rb</div>
+            <div class="related-card-title">Mantis Clicker</div>
+            <div class="related-card-meta">⭐ 4.2 · 845Rb</div>
           </div>
         </a>
-        <a href="/game/bff-stylish-off-shoulder-outfits/" class="related-card" title="Bff Stylish Off Shoulder Outfits">
-          <img src="https://img.gamepix.com/games/bff-stylish-off-shoulder-outfits/icon/bff-stylish-off-shoulder-outfits.png?w=105" alt="Bff Stylish Off Shoulder Outfits" loading="lazy" width="80" height="45">
+        <a href="/game/window-jump-guy/" class="related-card" title="Window Jump Guy">
+          <img src="https://img.gamepix.com/games/window-jump-guy/icon/window-jump-guy.png?w=105" alt="Window Jump Guy" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bff Stylish Off Shoulder Outfits</div>
-            <div class="related-card-meta">⭐ 4.1 · 912Rb</div>
+            <div class="related-card-title">Window Jump Guy</div>
+            <div class="related-card-meta">⭐ 4.6 · 680Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

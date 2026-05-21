@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Mahjong Tiles Matching</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/klondike-card-quest/" class="related-card" title="Klondike Card Quest">
-          <img src="https://img.gamepix.com/games/klondike-card-quest/icon/klondike-card-quest.png?w=105" alt="Klondike Card Quest" loading="lazy" width="80" height="45">
+        <a href="/game/mirrors-puzzle/" class="related-card" title="Mirrors - Puzzle">
+          <img src="https://img.gamepix.com/games/mirrors-puzzle/icon/mirrors-puzzle.png?w=105" alt="Mirrors - Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Klondike Card Quest</div>
-            <div class="related-card-meta">⭐ 4.6 · 303Rb</div>
+            <div class="related-card-title">Mirrors - Puzzle</div>
+            <div class="related-card-meta">⭐ 4.9 · 953Rb</div>
           </div>
         </a>
-        <a href="/game/coin-merge-machine/" class="related-card" title="Coin Merge Machine">
-          <img src="https://img.gamepix.com/games/coin-merge-machine/icon/coin-merge-machine.png?w=105" alt="Coin Merge Machine" loading="lazy" width="80" height="45">
+        <a href="/game/your-trumps-a-card-duel/" class="related-card" title="Your Trumps a Card Duel">
+          <img src="https://img.gamepix.com/games/your-trumps-a-card-duel/icon/your-trumps-a-card-duel.png?w=105" alt="Your Trumps a Card Duel" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Coin Merge Machine</div>
-            <div class="related-card-meta">⭐ 4.1 · 817Rb</div>
+            <div class="related-card-title">Your Trumps a Card Duel</div>
+            <div class="related-card-meta">⭐ 4.1 · 775Rb</div>
           </div>
         </a>
-        <a href="/game/donuts-match/" class="related-card" title="Donuts Match">
-          <img src="https://img.gamepix.com/games/donuts-match/icon/donuts-match.png?w=105" alt="Donuts Match" loading="lazy" width="80" height="45">
+        <a href="/game/escape-maze/" class="related-card" title="Escape Maze">
+          <img src="https://img.gamepix.com/games/escape-maze/icon/escape-maze.png?w=105" alt="Escape Maze" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Donuts Match</div>
-            <div class="related-card-meta">⭐ 4.4 · 896Rb</div>
+            <div class="related-card-title">Escape Maze</div>
+            <div class="related-card-meta">⭐ 4.6 · 947Rb</div>
           </div>
         </a>
-        <a href="/game/word-ladder/" class="related-card" title="Word Ladder">
-          <img src="https://img.gamepix.com/games/word-ladder/icon/word-ladder.png?w=105" alt="Word Ladder" loading="lazy" width="80" height="45">
+        <a href="/game/bolts/" class="related-card" title="Bolts">
+          <img src="https://img.gamepix.com/games/bolts/icon/bolts.png?w=105" alt="Bolts" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Word Ladder</div>
-            <div class="related-card-meta">⭐ 4.2 · 563Rb</div>
+            <div class="related-card-title">Bolts</div>
+            <div class="related-card-meta">⭐ 4.7 · 907Rb</div>
           </div>
         </a>
-        <a href="/game/paper-ant/" class="related-card" title="Paper Ant">
-          <img src="https://img.gamepix.com/games/paper-ant/icon/paper-ant.png?w=105" alt="Paper Ant" loading="lazy" width="80" height="45">
+        <a href="/game/food-jam/" class="related-card" title="Food Jam">
+          <img src="https://img.gamepix.com/games/food-jam/icon/food-jam.png?w=105" alt="Food Jam" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Paper Ant</div>
-            <div class="related-card-meta">⭐ 4.2 · 767Rb</div>
+            <div class="related-card-title">Food Jam</div>
+            <div class="related-card-meta">⭐ 4.4 · 728Rb</div>
           </div>
         </a>
-        <a href="/game/hotel-manager/" class="related-card" title="Hotel Manager">
-          <img src="https://img.gamepix.com/games/hotel-manager/icon/hotel-manager.png?w=105" alt="Hotel Manager" loading="lazy" width="80" height="45">
+        <a href="/game/colors-domination/" class="related-card" title="Colors Domination">
+          <img src="https://img.gamepix.com/games/colors-domination/icon/colors-domination.png?w=105" alt="Colors Domination" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Hotel Manager</div>
-            <div class="related-card-meta">⭐ 4.2 · 356Rb</div>
+            <div class="related-card-title">Colors Domination</div>
+            <div class="related-card-meta">⭐ 4.1 · 468Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

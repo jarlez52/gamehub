@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Magic Mahjong</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/liquid-logic/" class="related-card" title="Liquid Logic">
-          <img src="https://img.gamepix.com/games/liquid-logic/icon/liquid-logic.png?w=105" alt="Liquid Logic" loading="lazy" width="80" height="45">
+        <a href="/game/cat-girl-fashion-challenge/" class="related-card" title="Cat Girl Fashion Challenge">
+          <img src="https://img.gamepix.com/games/cat-girl-fashion-challenge/icon/cat-girl-fashion-challenge.png?w=105" alt="Cat Girl Fashion Challenge" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Liquid Logic</div>
-            <div class="related-card-meta">⭐ 4.4 · 360Rb</div>
+            <div class="related-card-title">Cat Girl Fashion Challenge</div>
+            <div class="related-card-meta">⭐ 4.4 · 839Rb</div>
           </div>
         </a>
-        <a href="/game/pin-puzzle-love-story/" class="related-card" title="Pin Puzzle Love Story">
-          <img src="https://img.gamepix.com/games/pin-puzzle-love-story/icon/pin-puzzle-love-story.png?w=105" alt="Pin Puzzle Love Story" loading="lazy" width="80" height="45">
+        <a href="/game/smoothie-sorting/" class="related-card" title="Smoothie Sorting">
+          <img src="https://img.gamepix.com/games/smoothie-sorting/icon/smoothie-sorting.png?w=105" alt="Smoothie Sorting" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pin Puzzle Love Story</div>
-            <div class="related-card-meta">⭐ 4.9 · 199Rb</div>
+            <div class="related-card-title">Smoothie Sorting</div>
+            <div class="related-card-meta">⭐ 4 · 895Rb</div>
           </div>
         </a>
-        <a href="/game/flip-match/" class="related-card" title="Flip & Match">
-          <img src="https://img.gamepix.com/games/flip-match/icon/flip-match.png?w=105" alt="Flip & Match" loading="lazy" width="80" height="45">
+        <a href="/game/flash-candy/" class="related-card" title="Flash Candy">
+          <img src="https://img.gamepix.com/games/flash-candy/icon/flash-candy.png?w=105" alt="Flash Candy" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Flip & Match</div>
-            <div class="related-card-meta">⭐ 4.2 · 404Rb</div>
+            <div class="related-card-title">Flash Candy</div>
+            <div class="related-card-meta">⭐ 4.6 · 469Rb</div>
           </div>
         </a>
-        <a href="/game/blocks-arcade/" class="related-card" title="Blocks Arcade">
-          <img src="https://img.gamepix.com/games/blocks-arcade/icon/blocks-arcade.png?w=105" alt="Blocks Arcade" loading="lazy" width="80" height="45">
+        <a href="/game/doodle-minesweeper-unblocked/" class="related-card" title="Doodle Minesweeper Unblocked">
+          <img src="https://img.gamepix.com/games/doodle-minesweeper-unblocked/icon/doodle-minesweeper-unblocked.png?w=105" alt="Doodle Minesweeper Unblocked" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Blocks Arcade</div>
-            <div class="related-card-meta">⭐ 4.2 · 854Rb</div>
+            <div class="related-card-title">Doodle Minesweeper Unblocked</div>
+            <div class="related-card-meta">⭐ 4.8 · 690Rb</div>
           </div>
         </a>
-        <a href="/game/vault-breaker/" class="related-card" title="Vault Breaker">
-          <img src="https://img.gamepix.com/games/vault-breaker/icon/vault-breaker.png?w=105" alt="Vault Breaker" loading="lazy" width="80" height="45">
+        <a href="/game/tile-triple/" class="related-card" title="Tile Triple">
+          <img src="https://img.gamepix.com/games/tile-triple/icon/tile-triple.png?w=105" alt="Tile Triple" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Vault Breaker</div>
-            <div class="related-card-meta">⭐ 4.6 · 431Rb</div>
+            <div class="related-card-title">Tile Triple</div>
+            <div class="related-card-meta">⭐ 4.8 · 910Rb</div>
           </div>
         </a>
-        <a href="/game/number-match-match-ten/" class="related-card" title="Number Match - Match Ten">
-          <img src="https://img.gamepix.com/games/number-match-match-ten/icon/number-match-match-ten.png?w=105" alt="Number Match - Match Ten" loading="lazy" width="80" height="45">
+        <a href="/game/blocks-fill-and-clear/" class="related-card" title="Blocks Fill and Clear">
+          <img src="https://img.gamepix.com/games/blocks-fill-and-clear/icon/blocks-fill-and-clear.png?w=105" alt="Blocks Fill and Clear" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Number Match - Match Ten</div>
-            <div class="related-card-meta">⭐ 4.6 · 135Rb</div>
+            <div class="related-card-title">Blocks Fill and Clear</div>
+            <div class="related-card-meta">⭐ 4.3 · 716Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

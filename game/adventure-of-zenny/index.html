@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Adventure of Zenny</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/granny-and-skibidi-toilet-escape-horror/" class="related-card" title="Granny & Skibidi toilet Escape Horror">
-          <img src="https://img.gamepix.com/games/granny-and-skibidi-toilet-escape-horror/icon/granny-and-skibidi-toilet-escape-horror.png?w=105" alt="Granny & Skibidi toilet Escape Horror" loading="lazy" width="80" height="45">
+        <a href="/game/battle-hamsters/" class="related-card" title="Battle Hamsters">
+          <img src="https://img.gamepix.com/games/battle-hamsters/icon/battle-hamsters.png?w=105" alt="Battle Hamsters" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Granny & Skibidi toilet Escape Horror</div>
-            <div class="related-card-meta">⭐ 4.3 · 135Rb</div>
+            <div class="related-card-title">Battle Hamsters</div>
+            <div class="related-card-meta">⭐ 4.9 · 640Rb</div>
           </div>
         </a>
-        <a href="/game/cutos-quest-2/" class="related-card" title="Cutos Quest 2">
-          <img src="https://img.gamepix.com/games/cutos-quest-2/icon/cutos-quest-2.png?w=105" alt="Cutos Quest 2" loading="lazy" width="80" height="45">
+        <a href="/game/stickman-vs-noob-hammer/" class="related-card" title="Stickman vs Noob Hammer">
+          <img src="https://img.gamepix.com/games/stickman-vs-noob-hammer/icon/stickman-vs-noob-hammer.png?w=105" alt="Stickman vs Noob Hammer" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cutos Quest 2</div>
-            <div class="related-card-meta">⭐ 4.4 · 495Rb</div>
+            <div class="related-card-title">Stickman vs Noob Hammer</div>
+            <div class="related-card-meta">⭐ 4.8 · 757Rb</div>
           </div>
         </a>
-        <a href="/game/mr-sniper-4-hard-target/" class="related-card" title="Mr Sniper 4 Hard Target">
-          <img src="https://img.gamepix.com/games/mr-sniper-4-hard-target/icon/mr-sniper-4-hard-target.png?w=105" alt="Mr Sniper 4 Hard Target" loading="lazy" width="80" height="45">
+        <a href="/game/gun-dude-epic-retro-run-gun-adventure/" class="related-card" title="Gun Dude Epic Retro Run & Gun Adventure">
+          <img src="https://img.gamepix.com/games/gun-dude-epic-retro-run-gun-adventure/icon/gun-dude-epic-retro-run-gun-adventure.png?w=105" alt="Gun Dude Epic Retro Run & Gun Adventure" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mr Sniper 4 Hard Target</div>
-            <div class="related-card-meta">⭐ 4.4 · 212Rb</div>
+            <div class="related-card-title">Gun Dude Epic Retro Run & Gun Adventure</div>
+            <div class="related-card-meta">⭐ 4.6 · 417Rb</div>
           </div>
         </a>
-        <a href="/game/retro-running-boxes/" class="related-card" title="Retro Running Boxes">
-          <img src="https://img.gamepix.com/games/retro-running-boxes/icon/retro-running-boxes.png?w=105" alt="Retro Running Boxes" loading="lazy" width="80" height="45">
+        <a href="/game/stuck-in-space/" class="related-card" title="Stuck in Space">
+          <img src="https://img.gamepix.com/games/stuck-in-space/icon/stuck-in-space.png?w=105" alt="Stuck in Space" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Retro Running Boxes</div>
-            <div class="related-card-meta">⭐ 4.4 · 542Rb</div>
+            <div class="related-card-title">Stuck in Space</div>
+            <div class="related-card-meta">⭐ 4.6 · 699Rb</div>
           </div>
         </a>
-        <a href="/game/italian-brainrot-hunter/" class="related-card" title="Italian Brainrot Hunter">
-          <img src="https://img.gamepix.com/games/italian-brainrot-hunter/icon/italian-brainrot-hunter.png?w=105" alt="Italian Brainrot Hunter" loading="lazy" width="80" height="45">
+        <a href="/game/kaboom-maze/" class="related-card" title="Kaboom Maze">
+          <img src="https://img.gamepix.com/games/kaboom-maze/icon/kaboom-maze.png?w=105" alt="Kaboom Maze" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Italian Brainrot Hunter</div>
-            <div class="related-card-meta">⭐ 4.4 · 700Rb</div>
+            <div class="related-card-title">Kaboom Maze</div>
+            <div class="related-card-meta">⭐ 4.1 · 201Rb</div>
           </div>
         </a>
-        <a href="/game/blueman-adventure/" class="related-card" title="Blueman Adventure">
-          <img src="https://img.gamepix.com/games/blueman-adventure/icon/blueman-adventure.png?w=105" alt="Blueman Adventure" loading="lazy" width="80" height="45">
+        <a href="/game/bombardino-crocodilo-brainrot-gunner/" class="related-card" title="Bombardino Crocodilo Brainrot Gunner">
+          <img src="https://img.gamepix.com/games/bombardino-crocodilo-brainrot-gunner/icon/bombardino-crocodilo-brainrot-gunner.png?w=105" alt="Bombardino Crocodilo Brainrot Gunner" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Blueman Adventure</div>
-            <div class="related-card-meta">⭐ 4.6 · 226Rb</div>
+            <div class="related-card-title">Bombardino Crocodilo Brainrot Gunner</div>
+            <div class="related-card-meta">⭐ 4.3 · 885Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Adventure Quiz</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/arabian-tictactoe/" class="related-card" title="Arabian TicTacToe">
-          <img src="https://img.gamepix.com/games/arabian-tictactoe/icon/arabian-tictactoe.png?w=105" alt="Arabian TicTacToe" loading="lazy" width="80" height="45">
+        <a href="/game/puzzel-15-elite/" class="related-card" title="Puzzel 15 Elite">
+          <img src="https://img.gamepix.com/games/puzzel-15-elite/icon/puzzel-15-elite.png?w=105" alt="Puzzel 15 Elite" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Arabian TicTacToe</div>
-            <div class="related-card-meta">⭐ 4.1 · 572Rb</div>
+            <div class="related-card-title">Puzzel 15 Elite</div>
+            <div class="related-card-meta">⭐ 4.2 · 787Rb</div>
           </div>
         </a>
-        <a href="/game/patchwork-images/" class="related-card" title="Patchwork Images">
-          <img src="https://img.gamepix.com/games/patchwork-images/icon/patchwork-images.png?w=105" alt="Patchwork Images" loading="lazy" width="80" height="45">
+        <a href="/game/motorcycles-photo-image-scramble/" class="related-card" title="Motorcycles Photo Image Scramble">
+          <img src="https://img.gamepix.com/games/motorcycles-photo-image-scramble/icon/motorcycles-photo-image-scramble.png?w=105" alt="Motorcycles Photo Image Scramble" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Patchwork Images</div>
-            <div class="related-card-meta">⭐ 4.3 · 973Rb</div>
+            <div class="related-card-title">Motorcycles Photo Image Scramble</div>
+            <div class="related-card-meta">⭐ 4.8 · 854Rb</div>
           </div>
         </a>
-        <a href="/game/match-fighter/" class="related-card" title="Match Fighter">
-          <img src="https://img.gamepix.com/games/match-fighter/icon/match-fighter.png?w=105" alt="Match Fighter" loading="lazy" width="80" height="45">
+        <a href="/game/bottle-escape-pro/" class="related-card" title="Bottle Escape Pro">
+          <img src="https://img.gamepix.com/games/bottle-escape-pro/icon/bottle-escape-pro.png?w=105" alt="Bottle Escape Pro" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Match Fighter</div>
-            <div class="related-card-meta">⭐ 4.6 · 923Rb</div>
+            <div class="related-card-title">Bottle Escape Pro</div>
+            <div class="related-card-meta">⭐ 4.5 · 565Rb</div>
           </div>
         </a>
-        <a href="/game/shapepuzzle/" class="related-card" title="ShapePuzzle">
-          <img src="https://img.gamepix.com/games/shapepuzzle/icon/shapepuzzle.png?w=105" alt="ShapePuzzle" loading="lazy" width="80" height="45">
+        <a href="/game/philatelic-escape-fauna-album-2/" class="related-card" title="Philatelic Escape - Fauna Album 2">
+          <img src="https://img.gamepix.com/games/philatelic-escape-fauna-album-2/icon/philatelic-escape-fauna-album-2.png?w=105" alt="Philatelic Escape - Fauna Album 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">ShapePuzzle</div>
-            <div class="related-card-meta">⭐ 4.7 · 596Rb</div>
+            <div class="related-card-title">Philatelic Escape - Fauna Album 2</div>
+            <div class="related-card-meta">⭐ 4.4 · 496Rb</div>
           </div>
         </a>
-        <a href="/game/jelly-match-3/" class="related-card" title="Jelly Match 3">
-          <img src="https://img.gamepix.com/games/jelly-match-3/icon/jelly-match-3.png?w=105" alt="Jelly Match 3" loading="lazy" width="80" height="45">
+        <a href="/game/solitaire-match-puzzle/" class="related-card" title="Solitaire Match Puzzle">
+          <img src="https://img.gamepix.com/games/solitaire-match-puzzle/icon/solitaire-match-puzzle.png?w=105" alt="Solitaire Match Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jelly Match 3</div>
-            <div class="related-card-meta">⭐ 4.7 · 416Rb</div>
+            <div class="related-card-title">Solitaire Match Puzzle</div>
+            <div class="related-card-meta">⭐ 4.8 · 397Rb</div>
           </div>
         </a>
-        <a href="/game/buzzy-match/" class="related-card" title="Buzzy Match">
-          <img src="https://img.gamepix.com/games/buzzy-match/icon/buzzy-match.png?w=105" alt="Buzzy Match" loading="lazy" width="80" height="45">
+        <a href="/game/board-kings-board-dice/" class="related-card" title="Board Kings Board Dice">
+          <img src="https://img.gamepix.com/games/board-kings-board-dice/icon/board-kings-board-dice.png?w=105" alt="Board Kings Board Dice" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Buzzy Match</div>
-            <div class="related-card-meta">⭐ 4.1 · 705Rb</div>
+            <div class="related-card-title">Board Kings Board Dice</div>
+            <div class="related-card-meta">⭐ 4.5 · 103Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

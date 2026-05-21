@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Artillery Time</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/wings-of-the-viking/" class="related-card" title="Wings of the Viking">
-          <img src="https://img.gamepix.com/games/wings-of-the-viking/icon/wings-of-the-viking.png?w=105" alt="Wings of the Viking" loading="lazy" width="80" height="45">
+        <a href="/game/monster-heroes-of-myths/" class="related-card" title="Monster Heroes of Myths">
+          <img src="https://img.gamepix.com/games/monster-heroes-of-myths/icon/monster-heroes-of-myths.png?w=105" alt="Monster Heroes of Myths" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Wings of the Viking</div>
-            <div class="related-card-meta">⭐ 4.5 · 965Rb</div>
+            <div class="related-card-title">Monster Heroes of Myths</div>
+            <div class="related-card-meta">⭐ 4.7 · 808Rb</div>
           </div>
         </a>
-        <a href="/game/darios-quest-2/" class="related-card" title="Darios Quest 2">
-          <img src="https://img.gamepix.com/games/darios-quest-2/icon/darios-quest-2.png?w=105" alt="Darios Quest 2" loading="lazy" width="80" height="45">
+        <a href="/game/zombiesmack/" class="related-card" title="ZombieSmack">
+          <img src="https://img.gamepix.com/games/zombiesmack/icon/zombiesmack.png?w=105" alt="ZombieSmack" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Darios Quest 2</div>
-            <div class="related-card-meta">⭐ 4.9 · 255Rb</div>
+            <div class="related-card-title">ZombieSmack</div>
+            <div class="related-card-meta">⭐ 4.4 · 900Rb</div>
           </div>
         </a>
-        <a href="/game/ricosan-2/" class="related-card" title="Ricosan 2">
-          <img src="https://img.gamepix.com/games/ricosan-2/icon/ricosan-2.png?w=105" alt="Ricosan 2" loading="lazy" width="80" height="45">
+        <a href="/game/christmas-deno-bot-2/" class="related-card" title="Christmas Deno Bot 2">
+          <img src="https://img.gamepix.com/games/christmas-deno-bot-2/icon/christmas-deno-bot-2.png?w=105" alt="Christmas Deno Bot 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ricosan 2</div>
-            <div class="related-card-meta">⭐ 4.5 · 225Rb</div>
+            <div class="related-card-title">Christmas Deno Bot 2</div>
+            <div class="related-card-meta">⭐ 4 · 684Rb</div>
           </div>
         </a>
-        <a href="/game/stunt-jack/" class="related-card" title="Stunt Jack">
-          <img src="https://img.gamepix.com/games/stunt-jack/icon/stunt-jack.png?w=105" alt="Stunt Jack" loading="lazy" width="80" height="45">
+        <a href="/game/ino-valentines/" class="related-card" title="Ino Valentines">
+          <img src="https://img.gamepix.com/games/ino-valentines/icon/ino-valentines.png?w=105" alt="Ino Valentines" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Stunt Jack</div>
-            <div class="related-card-meta">⭐ 4.7 · 279Rb</div>
+            <div class="related-card-title">Ino Valentines</div>
+            <div class="related-card-meta">⭐ 4.8 · 564Rb</div>
           </div>
         </a>
-        <a href="/game/chitu-adventures-2/" class="related-card" title="Chitu Adventures 2">
-          <img src="https://img.gamepix.com/games/chitu-adventures-2/icon/chitu-adventures-2.png?w=105" alt="Chitu Adventures 2" loading="lazy" width="80" height="45">
+        <a href="/game/gravin/" class="related-card" title="Gravin">
+          <img src="https://img.gamepix.com/games/gravin/icon/gravin.png?w=105" alt="Gravin" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Chitu Adventures 2</div>
-            <div class="related-card-meta">⭐ 4.7 · 602Rb</div>
+            <div class="related-card-title">Gravin</div>
+            <div class="related-card-meta">⭐ 4.4 · 523Rb</div>
           </div>
         </a>
-        <a href="/game/mizu-quest-2/" class="related-card" title="Mizu Quest 2">
-          <img src="https://img.gamepix.com/games/mizu-quest-2/icon/mizu-quest-2.png?w=105" alt="Mizu Quest 2" loading="lazy" width="80" height="45">
+        <a href="/game/save-the-sheep/" class="related-card" title="Save the Sheep">
+          <img src="https://img.gamepix.com/games/save-the-sheep/icon/save-the-sheep.png?w=105" alt="Save the Sheep" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mizu Quest 2</div>
-            <div class="related-card-meta">⭐ 4.3 · 260Rb</div>
+            <div class="related-card-title">Save the Sheep</div>
+            <div class="related-card-meta">⭐ 4.4 · 519Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

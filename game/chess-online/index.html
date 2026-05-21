@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Chess Online</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/sandro-s-world/" class="related-card" title="Sandro's World">
-          <img src="https://img.gamepix.com/games/sandro-s-world/icon/sandro-s-world.png?w=105" alt="Sandro's World" loading="lazy" width="80" height="45">
+        <a href="/game/frogger-2d-game/" class="related-card" title="Frogger 2D Game">
+          <img src="https://img.gamepix.com/games/frogger-2d-game/icon/frogger-2d-game.png?w=105" alt="Frogger 2D Game" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sandro's World</div>
-            <div class="related-card-meta">⭐ 4 · 490Rb</div>
+            <div class="related-card-title">Frogger 2D Game</div>
+            <div class="related-card-meta">⭐ 4.7 · 215Rb</div>
           </div>
         </a>
-        <a href="/game/haunted-bricks/" class="related-card" title="Haunted Bricks">
-          <img src="https://img.gamepix.com/games/haunted-bricks/icon/haunted-bricks.png?w=105" alt="Haunted Bricks" loading="lazy" width="80" height="45">
+        <a href="/game/blocks-stack-rush/" class="related-card" title="Blocks Stack Rush">
+          <img src="https://img.gamepix.com/games/blocks-stack-rush/icon/blocks-stack-rush.png?w=105" alt="Blocks Stack Rush" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Haunted Bricks</div>
-            <div class="related-card-meta">⭐ 4.4 · 247Rb</div>
+            <div class="related-card-title">Blocks Stack Rush</div>
+            <div class="related-card-meta">⭐ 4 · 216Rb</div>
           </div>
         </a>
-        <a href="/game/squid-escape-game/" class="related-card" title="Squid Escape Game">
-          <img src="https://img.gamepix.com/games/squid-escape-game/icon/squid-escape-game.png?w=105" alt="Squid Escape Game" loading="lazy" width="80" height="45">
+        <a href="/game/amazing-jumper/" class="related-card" title="Amazing Jumper">
+          <img src="https://img.gamepix.com/games/amazing-jumper/icon/amazing-jumper.png?w=105" alt="Amazing Jumper" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Squid Escape Game</div>
-            <div class="related-card-meta">⭐ 4.2 · 555Rb</div>
+            <div class="related-card-title">Amazing Jumper</div>
+            <div class="related-card-meta">⭐ 4.4 · 672Rb</div>
           </div>
         </a>
-        <a href="/game/doodle-game-ver-2-00/" class="related-card" title="Doodle Game">
-          <img src="https://img.gamepix.com/games/doodle-game-ver-2-00/icon/doodle-game-ver-2-00.png?w=105" alt="Doodle Game" loading="lazy" width="80" height="45">
+        <a href="/game/color-with-santa/" class="related-card" title="Color with Santa">
+          <img src="https://img.gamepix.com/games/color-with-santa/icon/color-with-santa.png?w=105" alt="Color with Santa" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Doodle Game</div>
-            <div class="related-card-meta">⭐ 4.8 · 595Rb</div>
+            <div class="related-card-title">Color with Santa</div>
+            <div class="related-card-meta">⭐ 4.5 · 178Rb</div>
           </div>
         </a>
-        <a href="/game/celebrity-halloween-costumes/" class="related-card" title="Celebrity Halloween Costumes">
-          <img src="https://img.gamepix.com/games/celebrity-halloween-costumes/icon/celebrity-halloween-costumes.png?w=105" alt="Celebrity Halloween Costumes" loading="lazy" width="80" height="45">
+        <a href="/game/color-by-numbers/" class="related-card" title="Color by Numbers">
+          <img src="https://img.gamepix.com/games/color-by-numbers/icon/color-by-numbers.png?w=105" alt="Color by Numbers" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Celebrity Halloween Costumes</div>
-            <div class="related-card-meta">⭐ 4.1 · 694Rb</div>
+            <div class="related-card-title">Color by Numbers</div>
+            <div class="related-card-meta">⭐ 4 · 770Rb</div>
           </div>
         </a>
-        <a href="/game/quick-move/" class="related-card" title="Quick Move">
-          <img src="https://img.gamepix.com/games/quick-move/icon/quick-move.png?w=105" alt="Quick Move" loading="lazy" width="80" height="45">
+        <a href="/game/goo-sticky-goo/" class="related-card" title="Sticky Goo">
+          <img src="https://img.gamepix.com/games/goo-sticky-goo/icon/goo-sticky-goo.png?w=105" alt="Sticky Goo" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Quick Move</div>
-            <div class="related-card-meta">⭐ 4.8 · 421Rb</div>
+            <div class="related-card-title">Sticky Goo</div>
+            <div class="related-card-meta">⭐ 4.1 · 336Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

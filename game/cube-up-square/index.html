@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Cube Up Square</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/ninja-vs-pirate/" class="related-card" title="Ninja Vs Pirate">
-          <img src="https://img.gamepix.com/games/ninja-vs-pirate/icon/ninja-vs-pirate.png?w=105" alt="Ninja Vs Pirate" loading="lazy" width="80" height="45">
+        <a href="/game/blondie-in-the-real-world/" class="related-card" title="Blondie in the Real World">
+          <img src="https://img.gamepix.com/games/blondie-in-the-real-world/icon/blondie-in-the-real-world.png?w=105" alt="Blondie in the Real World" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ninja Vs Pirate</div>
-            <div class="related-card-meta">⭐ 4.8 · 460Rb</div>
+            <div class="related-card-title">Blondie in the Real World</div>
+            <div class="related-card-meta">⭐ 4.7 · 740Rb</div>
           </div>
         </a>
-        <a href="/game/kids-geometry-game/" class="related-card" title="Kids Geometry Game">
-          <img src="https://img.gamepix.com/games/kids-geometry-game/icon/kids-geometry-game.png?w=105" alt="Kids Geometry Game" loading="lazy" width="80" height="45">
+        <a href="/game/bw-pumpkin/" class="related-card" title="BW Pumpkin">
+          <img src="https://img.gamepix.com/games/bw-pumpkin/icon/bw-pumpkin.png?w=105" alt="BW Pumpkin" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Kids Geometry Game</div>
-            <div class="related-card-meta">⭐ 4.6 · 423Rb</div>
+            <div class="related-card-title">BW Pumpkin</div>
+            <div class="related-card-meta">⭐ 4.3 · 319Rb</div>
           </div>
         </a>
-        <a href="/game/goo-sticky-goo/" class="related-card" title="Sticky Goo">
-          <img src="https://img.gamepix.com/games/goo-sticky-goo/icon/goo-sticky-goo.png?w=105" alt="Sticky Goo" loading="lazy" width="80" height="45">
+        <a href="/game/alex-and-steve-go-skate/" class="related-card" title="Alex and Steve Go Skate">
+          <img src="https://img.gamepix.com/games/alex-and-steve-go-skate/icon/alex-and-steve-go-skate.png?w=105" alt="Alex and Steve Go Skate" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sticky Goo</div>
-            <div class="related-card-meta">⭐ 4.1 · 336Rb</div>
+            <div class="related-card-title">Alex and Steve Go Skate</div>
+            <div class="related-card-meta">⭐ 4.7 · 521Rb</div>
           </div>
         </a>
-        <a href="/game/dressing-up-the-girl/" class="related-card" title="Dressing Up The Girl">
-          <img src="https://img.gamepix.com/games/dressing-up-the-girl/icon/dressing-up-the-girl.png?w=105" alt="Dressing Up The Girl" loading="lazy" width="80" height="45">
+        <a href="/game/checkers-classic-dama/" class="related-card" title="Checkers Classic - Draughts">
+          <img src="https://img.gamepix.com/games/checkers-classic-dama/icon/checkers-classic-dama.png?w=105" alt="Checkers Classic - Draughts" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dressing Up The Girl</div>
-            <div class="related-card-meta">⭐ 4 · 899Rb</div>
+            <div class="related-card-title">Checkers Classic - Draughts</div>
+            <div class="related-card-meta">⭐ 4.4 · 764Rb</div>
           </div>
         </a>
-        <a href="/game/serpent/" class="related-card" title="Serpent">
-          <img src="https://img.gamepix.com/games/serpent/icon/serpent.png?w=105" alt="Serpent" loading="lazy" width="80" height="45">
+        <a href="/game/robotic-snake/" class="related-card" title="Robotic Snake">
+          <img src="https://img.gamepix.com/games/robotic-snake/icon/robotic-snake.png?w=105" alt="Robotic Snake" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Serpent</div>
-            <div class="related-card-meta">⭐ 4.6 · 186Rb</div>
+            <div class="related-card-title">Robotic Snake</div>
+            <div class="related-card-meta">⭐ 4.5 · 252Rb</div>
           </div>
         </a>
-        <a href="/game/don-t-spill-the-water/" class="related-card" title="Don't Spill the Water">
-          <img src="https://img.gamepix.com/games/don-t-spill-the-water/icon/don-t-spill-the-water.png?w=105" alt="Don't Spill the Water" loading="lazy" width="80" height="45">
+        <a href="/game/grand-shift-auto/" class="related-card" title="Grand Shift Auto">
+          <img src="https://img.gamepix.com/games/grand-shift-auto/icon/grand-shift-auto.png?w=105" alt="Grand Shift Auto" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Don't Spill the Water</div>
-            <div class="related-card-meta">⭐ 4.2 · 308Rb</div>
+            <div class="related-card-title">Grand Shift Auto</div>
+            <div class="related-card-meta">⭐ 4.7 · 843Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

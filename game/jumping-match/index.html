@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Jumping Match</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/tomato-bounce/" class="related-card" title="Tomato Bounce">
-          <img src="https://img.gamepix.com/games/tomato-bounce/icon/tomato-bounce.png?w=105" alt="Tomato Bounce" loading="lazy" width="80" height="45">
+        <a href="/game/frog-jumping-on-clouds/" class="related-card" title="Frog - Jumping on Clouds">
+          <img src="https://img.gamepix.com/games/frog-jumping-on-clouds/icon/frog-jumping-on-clouds.png?w=105" alt="Frog - Jumping on Clouds" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tomato Bounce</div>
-            <div class="related-card-meta">⭐ 4.4 · 803Rb</div>
+            <div class="related-card-title">Frog - Jumping on Clouds</div>
+            <div class="related-card-meta">⭐ 4.3 · 728Rb</div>
           </div>
         </a>
-        <a href="/game/snow-mo-cannon-shooting-game/" class="related-card" title="Snow Mo-Cannon Shooting Game">
-          <img src="https://img.gamepix.com/games/snow-mo-cannon-shooting-game/icon/snow-mo-cannon-shooting-game.png?w=105" alt="Snow Mo-Cannon Shooting Game" loading="lazy" width="80" height="45">
+        <a href="/game/fishdom-mania/" class="related-card" title="Fishdom Mania">
+          <img src="https://img.gamepix.com/games/fishdom-mania/icon/fishdom-mania.png?w=105" alt="Fishdom Mania" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Snow Mo-Cannon Shooting Game</div>
-            <div class="related-card-meta">⭐ 4.7 · 385Rb</div>
+            <div class="related-card-title">Fishdom Mania</div>
+            <div class="related-card-meta">⭐ 4.5 · 957Rb</div>
           </div>
         </a>
-        <a href="/game/super-sucker-3d/" class="related-card" title="Super Sucker 3D">
-          <img src="https://img.gamepix.com/games/super-sucker-3d/icon/super-sucker-3d.png?w=105" alt="Super Sucker 3D" loading="lazy" width="80" height="45">
+        <a href="/game/puzzle-block-plunge/" class="related-card" title="Puzzle Block Plunge">
+          <img src="https://img.gamepix.com/games/puzzle-block-plunge/icon/puzzle-block-plunge.png?w=105" alt="Puzzle Block Plunge" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Super Sucker 3D</div>
-            <div class="related-card-meta">⭐ 4 · 834Rb</div>
+            <div class="related-card-title">Puzzle Block Plunge</div>
+            <div class="related-card-meta">⭐ 4.7 · 468Rb</div>
           </div>
         </a>
-        <a href="/game/bunny-goal/" class="related-card" title="Bunny Goal">
-          <img src="https://img.gamepix.com/games/bunny-goal/icon/bunny-goal.png?w=105" alt="Bunny Goal" loading="lazy" width="80" height="45">
+        <a href="/game/good-and-evil-dressup/" class="related-card" title="Good and Evil DressUp">
+          <img src="https://img.gamepix.com/games/good-and-evil-dressup/icon/good-and-evil-dressup.png?w=105" alt="Good and Evil DressUp" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bunny Goal</div>
-            <div class="related-card-meta">⭐ 4.8 · 930Rb</div>
+            <div class="related-card-title">Good and Evil DressUp</div>
+            <div class="related-card-meta">⭐ 4.8 · 955Rb</div>
           </div>
         </a>
-        <a href="/game/ketchme/" class="related-card" title="Ketchme">
-          <img src="https://img.gamepix.com/games/ketchme/icon/ketchme.png?w=105" alt="Ketchme" loading="lazy" width="80" height="45">
+        <a href="/game/junkyard-keeper/" class="related-card" title="Junkyard Keeper">
+          <img src="https://img.gamepix.com/games/junkyard-keeper/icon/junkyard-keeper.png?w=105" alt="Junkyard Keeper" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ketchme</div>
-            <div class="related-card-meta">⭐ 4.7 · 790Rb</div>
+            <div class="related-card-title">Junkyard Keeper</div>
+            <div class="related-card-meta">⭐ 4.1 · 724Rb</div>
           </div>
         </a>
-        <a href="/game/minecraft-money-stack/" class="related-card" title="Minecraft Money Stack">
-          <img src="https://img.gamepix.com/games/minecraft-money-stack/icon/minecraft-money-stack.png?w=105" alt="Minecraft Money Stack" loading="lazy" width="80" height="45">
+        <a href="/game/shootout-2-players/" class="related-card" title="Shootout 2 Players">
+          <img src="https://img.gamepix.com/games/shootout-2-players/icon/shootout-2-players.png?w=105" alt="Shootout 2 Players" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Minecraft Money Stack</div>
-            <div class="related-card-meta">⭐ 4.6 · 597Rb</div>
+            <div class="related-card-title">Shootout 2 Players</div>
+            <div class="related-card-meta">⭐ 4 · 600Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

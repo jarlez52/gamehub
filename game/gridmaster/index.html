@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">GridMaster</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/magic-slide/" class="related-card" title="Magic Slide">
-          <img src="https://img.gamepix.com/games/magic-slide/icon/magic-slide.png?w=105" alt="Magic Slide" loading="lazy" width="80" height="45">
+        <a href="/game/clashoflaw/" class="related-card" title="Clash of Law">
+          <img src="https://img.gamepix.com/games/clashoflaw/icon/clashoflaw.png?w=105" alt="Clash of Law" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Magic Slide</div>
-            <div class="related-card-meta">⭐ 4.5 · 660Rb</div>
+            <div class="related-card-title">Clash of Law</div>
+            <div class="related-card-meta">⭐ 4.6 · 594Rb</div>
           </div>
         </a>
-        <a href="/game/ring-fall-puzzle/" class="related-card" title="Ring Fall Puzzle">
-          <img src="https://img.gamepix.com/games/ring-fall-puzzle/icon/ring-fall-puzzle.png?w=105" alt="Ring Fall Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/pixel-master-gold-pro/" class="related-card" title="Pixel Master Gold">
+          <img src="https://img.gamepix.com/games/pixel-master-gold-pro/icon/pixel-master-gold-pro.png?w=105" alt="Pixel Master Gold" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ring Fall Puzzle</div>
-            <div class="related-card-meta">⭐ 4.8 · 702Rb</div>
+            <div class="related-card-title">Pixel Master Gold</div>
+            <div class="related-card-meta">⭐ 4.9 · 495Rb</div>
           </div>
         </a>
-        <a href="/game/tic-tac-toe-match-three/" class="related-card" title="Tic Tac Toe - Match Three">
-          <img src="https://img.gamepix.com/games/tic-tac-toe-match-three/icon/tic-tac-toe-match-three.png?w=105" alt="Tic Tac Toe - Match Three" loading="lazy" width="80" height="45">
+        <a href="/game/blow-fish-2/" class="related-card" title="Blow Fish 2">
+          <img src="https://img.gamepix.com/games/blow-fish-2/icon/blow-fish-2.png?w=105" alt="Blow Fish 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tic Tac Toe - Match Three</div>
-            <div class="related-card-meta">⭐ 4.3 · 299Rb</div>
+            <div class="related-card-title">Blow Fish 2</div>
+            <div class="related-card-meta">⭐ 4 · 215Rb</div>
           </div>
         </a>
-        <a href="/game/line-creator-match-3-puzzle/" class="related-card" title="Line Creator - Match 3 Puzzle">
-          <img src="https://img.gamepix.com/games/line-creator-match-3-puzzle/icon/line-creator-match-3-puzzle.png?w=105" alt="Line Creator - Match 3 Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/fill-the-box-puzzle/" class="related-card" title="Fill the Box Puzzle">
+          <img src="https://img.gamepix.com/games/fill-the-box-puzzle/icon/fill-the-box-puzzle.png?w=105" alt="Fill the Box Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Line Creator - Match 3 Puzzle</div>
-            <div class="related-card-meta">⭐ 4.9 · 659Rb</div>
+            <div class="related-card-title">Fill the Box Puzzle</div>
+            <div class="related-card-meta">⭐ 4.2 · 436Rb</div>
           </div>
         </a>
-        <a href="/game/word-up/" class="related-card" title="Word Up">
-          <img src="https://img.gamepix.com/games/word-up/icon/word-up.png?w=105" alt="Word Up" loading="lazy" width="80" height="45">
+        <a href="/game/parking-driver/" class="related-card" title="Parking Driver">
+          <img src="https://img.gamepix.com/games/parking-driver/icon/parking-driver.png?w=105" alt="Parking Driver" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Word Up</div>
-            <div class="related-card-meta">⭐ 4.6 · 866Rb</div>
+            <div class="related-card-title">Parking Driver</div>
+            <div class="related-card-meta">⭐ 4.2 · 169Rb</div>
           </div>
         </a>
-        <a href="/game/goose-game-multiplayer/" class="related-card" title="Goose Game Multiplayer">
-          <img src="https://img.gamepix.com/games/goose-game-multiplayer/icon/goose-game-multiplayer.png?w=105" alt="Goose Game Multiplayer" loading="lazy" width="80" height="45">
+        <a href="/game/jewel-match-3/" class="related-card" title="Jewel Match 3">
+          <img src="https://img.gamepix.com/games/jewel-match-3/icon/jewel-match-3.png?w=105" alt="Jewel Match 3" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Goose Game Multiplayer</div>
-            <div class="related-card-meta">⭐ 4.5 · 433Rb</div>
+            <div class="related-card-title">Jewel Match 3</div>
+            <div class="related-card-meta">⭐ 4.9 · 702Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

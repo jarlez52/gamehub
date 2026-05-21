@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">CyberVoid Drifter</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/hexa-merge-puzzle/" class="related-card" title="Hexa Merge Puzzle">
-          <img src="https://img.gamepix.com/games/hexa-merge-puzzle/icon/hexa-merge-puzzle.png?w=105" alt="Hexa Merge Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/evolution-of-hamsters/" class="related-card" title="Evolution of Hamsters">
+          <img src="https://img.gamepix.com/games/evolution-of-hamsters/icon/evolution-of-hamsters.png?w=105" alt="Evolution of Hamsters" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Hexa Merge Puzzle</div>
-            <div class="related-card-meta">⭐ 4.2 · 432Rb</div>
+            <div class="related-card-title">Evolution of Hamsters</div>
+            <div class="related-card-meta">⭐ 4.1 · 324Rb</div>
           </div>
         </a>
-        <a href="/game/roll-the-ball-2d/" class="related-card" title="Roll the Ball 2D">
-          <img src="https://img.gamepix.com/games/roll-the-ball-2d/icon/roll-the-ball-2d.png?w=105" alt="Roll the Ball 2D" loading="lazy" width="80" height="45">
+        <a href="/game/noob-vs-hacker-2-player/" class="related-card" title="Noob vs Hacker - 2 Player">
+          <img src="https://img.gamepix.com/games/noob-vs-hacker-2-player/icon/noob-vs-hacker-2-player.png?w=105" alt="Noob vs Hacker - 2 Player" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Roll the Ball 2D</div>
-            <div class="related-card-meta">⭐ 4.4 · 604Rb</div>
+            <div class="related-card-title">Noob vs Hacker - 2 Player</div>
+            <div class="related-card-meta">⭐ 4.6 · 754Rb</div>
           </div>
         </a>
-        <a href="/game/dinogen-online/" class="related-card" title="Dinogen Online">
-          <img src="https://img.gamepix.com/games/dinogen-online/icon/dinogen-online.png?w=105" alt="Dinogen Online" loading="lazy" width="80" height="45">
+        <a href="/game/combat-battle/" class="related-card" title="Combat Battle">
+          <img src="https://img.gamepix.com/games/combat-battle/icon/combat-battle.png?w=105" alt="Combat Battle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dinogen Online</div>
-            <div class="related-card-meta">⭐ 4 · 382Rb</div>
+            <div class="related-card-title">Combat Battle</div>
+            <div class="related-card-meta">⭐ 4.3 · 117Rb</div>
           </div>
         </a>
-        <a href="/game/transformers-battle-for-the-city/" class="related-card" title="Transformers Battle For The City">
-          <img src="https://img.gamepix.com/games/transformers-battle-for-the-city/icon/transformers-battle-for-the-city.png?w=105" alt="Transformers Battle For The City" loading="lazy" width="80" height="45">
+        <a href="/game/spaceship-pop/" class="related-card" title="Spaceship Pop">
+          <img src="https://img.gamepix.com/games/spaceship-pop/icon/spaceship-pop.png?w=105" alt="Spaceship Pop" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Transformers Battle For The City</div>
-            <div class="related-card-meta">⭐ 4.4 · 465Rb</div>
+            <div class="related-card-title">Spaceship Pop</div>
+            <div class="related-card-meta">⭐ 4.4 · 396Rb</div>
           </div>
         </a>
-        <a href="/game/kart-racer-vs/" class="related-card" title="Kart Racer Vs">
-          <img src="https://img.gamepix.com/games/kart-racer-vs/icon/kart-racer-vs.png?w=105" alt="Kart Racer Vs" loading="lazy" width="80" height="45">
+        <a href="/game/heads-up-skibidi/" class="related-card" title="Heads Up Skibidi">
+          <img src="https://img.gamepix.com/games/heads-up-skibidi/icon/heads-up-skibidi.png?w=105" alt="Heads Up Skibidi" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Kart Racer Vs</div>
-            <div class="related-card-meta">⭐ 4.8 · 944Rb</div>
+            <div class="related-card-title">Heads Up Skibidi</div>
+            <div class="related-card-meta">⭐ 4.7 · 294Rb</div>
           </div>
         </a>
-        <a href="/game/fighter-tank/" class="related-card" title="Fighter Tank">
-          <img src="https://img.gamepix.com/games/fighter-tank/icon/fighter-tank.png?w=105" alt="Fighter Tank" loading="lazy" width="80" height="45">
+        <a href="/game/vik-the-climber/" class="related-card" title="VIK The Climber">
+          <img src="https://img.gamepix.com/games/vik-the-climber/icon/vik-the-climber.png?w=105" alt="VIK The Climber" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fighter Tank</div>
-            <div class="related-card-meta">⭐ 4.1 · 649Rb</div>
+            <div class="related-card-title">VIK The Climber</div>
+            <div class="related-card-meta">⭐ 4.8 · 485Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

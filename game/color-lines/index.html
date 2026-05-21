@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Color Lines</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/15-puzzle-collect-numbers/" class="related-card" title="15 Puzzle - Collect numbers">
-          <img src="https://img.gamepix.com/games/15-puzzle-collect-numbers/icon/15-puzzle-collect-numbers.png?w=105" alt="15 Puzzle - Collect numbers" loading="lazy" width="80" height="45">
+        <a href="/game/velocity-click/" class="related-card" title="Velocity Click">
+          <img src="https://img.gamepix.com/games/velocity-click/icon/velocity-click.png?w=105" alt="Velocity Click" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">15 Puzzle - Collect numbers</div>
-            <div class="related-card-meta">⭐ 4.3 · 191Rb</div>
+            <div class="related-card-title">Velocity Click</div>
+            <div class="related-card-meta">⭐ 4.4 · 551Rb</div>
           </div>
         </a>
-        <a href="/game/vibe-colouring/" class="related-card" title="Vibe Colouring">
-          <img src="https://img.gamepix.com/games/vibe-colouring/icon/vibe-colouring.png?w=105" alt="Vibe Colouring" loading="lazy" width="80" height="45">
+        <a href="/game/labubu-coloring-book/" class="related-card" title="Labubu Coloring Book">
+          <img src="https://img.gamepix.com/games/labubu-coloring-book/icon/labubu-coloring-book.png?w=105" alt="Labubu Coloring Book" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Vibe Colouring</div>
-            <div class="related-card-meta">⭐ 4.6 · 341Rb</div>
+            <div class="related-card-title">Labubu Coloring Book</div>
+            <div class="related-card-meta">⭐ 4.8 · 553Rb</div>
           </div>
         </a>
-        <a href="/game/candy-pong/" class="related-card" title="Candy Pong">
-          <img src="https://img.gamepix.com/games/candy-pong/icon/candy-pong.png?w=105" alt="Candy Pong" loading="lazy" width="80" height="45">
+        <a href="/game/girl-dress-up/" class="related-card" title="Girl Dress Up">
+          <img src="https://img.gamepix.com/games/girl-dress-up/icon/girl-dress-up.png?w=105" alt="Girl Dress Up" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Candy Pong</div>
-            <div class="related-card-meta">⭐ 4.1 · 498Rb</div>
+            <div class="related-card-title">Girl Dress Up</div>
+            <div class="related-card-meta">⭐ 4.1 · 347Rb</div>
           </div>
         </a>
-        <a href="/game/soda-king-cooking-rush/" class="related-card" title="Soda King - Cooking Rush">
-          <img src="https://img.gamepix.com/games/soda-king-cooking-rush/icon/soda-king-cooking-rush.png?w=105" alt="Soda King - Cooking Rush" loading="lazy" width="80" height="45">
+        <a href="/game/vaz-drifting-legends/" class="related-card" title="Vaz Drifting Legends">
+          <img src="https://img.gamepix.com/games/vaz-drifting-legends/icon/vaz-drifting-legends.png?w=105" alt="Vaz Drifting Legends" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Soda King - Cooking Rush</div>
-            <div class="related-card-meta">⭐ 4.6 · 514Rb</div>
+            <div class="related-card-title">Vaz Drifting Legends</div>
+            <div class="related-card-meta">⭐ 4.8 · 945Rb</div>
           </div>
         </a>
-        <a href="/game/flappy-bird-classic/" class="related-card" title="Flappy Bird Classic">
-          <img src="https://img.gamepix.com/games/flappy-bird-classic/icon/flappy-bird-classic.png?w=105" alt="Flappy Bird Classic" loading="lazy" width="80" height="45">
+        <a href="/game/funny-zoo-emergency/" class="related-card" title="Funny Zoo Emergency">
+          <img src="https://img.gamepix.com/games/funny-zoo-emergency/icon/funny-zoo-emergency.png?w=105" alt="Funny Zoo Emergency" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Flappy Bird Classic</div>
-            <div class="related-card-meta">⭐ 4.8 · 896Rb</div>
+            <div class="related-card-title">Funny Zoo Emergency</div>
+            <div class="related-card-meta">⭐ 4.7 · 160Rb</div>
           </div>
         </a>
-        <a href="/game/morphit/" class="related-card" title="Morphit">
-          <img src="https://img.gamepix.com/games/morphit/icon/morphit.png?w=105" alt="Morphit" loading="lazy" width="80" height="45">
+        <a href="/game/mad-team-battle-royale/" class="related-card" title="Mad Team Battle Royale">
+          <img src="https://img.gamepix.com/games/mad-team-battle-royale/icon/mad-team-battle-royale.png?w=105" alt="Mad Team Battle Royale" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Morphit</div>
-            <div class="related-card-meta">⭐ 4.1 · 695Rb</div>
+            <div class="related-card-title">Mad Team Battle Royale</div>
+            <div class="related-card-meta">⭐ 4.9 · 463Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

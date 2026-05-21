@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Fall Germ</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/kitty-run/" class="related-card" title="Kitty Run">
-          <img src="https://img.gamepix.com/games/kitty-run/icon/kitty-run.png?w=105" alt="Kitty Run" loading="lazy" width="80" height="45">
+        <a href="/game/steve-and-alex-house-escape/" class="related-card" title="Steve and Alex House Escape">
+          <img src="https://img.gamepix.com/games/steve-and-alex-house-escape/icon/steve-and-alex-house-escape.png?w=105" alt="Steve and Alex House Escape" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Kitty Run</div>
-            <div class="related-card-meta">⭐ 4.7 · 141Rb</div>
+            <div class="related-card-title">Steve and Alex House Escape</div>
+            <div class="related-card-meta">⭐ 4.2 · 137Rb</div>
           </div>
         </a>
-        <a href="/game/craftius/" class="related-card" title="Craftius">
-          <img src="https://img.gamepix.com/games/craftius/icon/craftius.png?w=105" alt="Craftius" loading="lazy" width="80" height="45">
+        <a href="/game/blokjes/" class="related-card" title="Blokjes">
+          <img src="https://img.gamepix.com/games/blokjes/icon/blokjes.png?w=105" alt="Blokjes" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Craftius</div>
-            <div class="related-card-meta">⭐ 4.1 · 212Rb</div>
+            <div class="related-card-title">Blokjes</div>
+            <div class="related-card-meta">⭐ 4.8 · 222Rb</div>
           </div>
         </a>
-        <a href="/game/robo-butcher/" class="related-card" title="Robo-Butcher">
-          <img src="https://img.gamepix.com/games/robo-butcher/icon/robo-butcher.png?w=105" alt="Robo-Butcher" loading="lazy" width="80" height="45">
+        <a href="/game/undead-walking-experiment/" class="related-card" title="Undead Walking Experiment">
+          <img src="https://img.gamepix.com/games/undead-walking-experiment/icon/undead-walking-experiment.png?w=105" alt="Undead Walking Experiment" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Robo-Butcher</div>
-            <div class="related-card-meta">⭐ 4.2 · 875Rb</div>
+            <div class="related-card-title">Undead Walking Experiment</div>
+            <div class="related-card-meta">⭐ 4.8 · 506Rb</div>
           </div>
         </a>
-        <a href="/game/tnt-clicker/" class="related-card" title="TNT Clicker">
-          <img src="https://img.gamepix.com/games/tnt-clicker/icon/tnt-clicker.png?w=105" alt="TNT Clicker" loading="lazy" width="80" height="45">
+        <a href="/game/fighter-tank/" class="related-card" title="Fighter Tank">
+          <img src="https://img.gamepix.com/games/fighter-tank/icon/fighter-tank.png?w=105" alt="Fighter Tank" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">TNT Clicker</div>
-            <div class="related-card-meta">⭐ 4.2 · 693Rb</div>
+            <div class="related-card-title">Fighter Tank</div>
+            <div class="related-card-meta">⭐ 4.1 · 649Rb</div>
           </div>
         </a>
-        <a href="/game/noob-vs-blue-monster/" class="related-card" title="Noob vs Blue Monster">
-          <img src="https://img.gamepix.com/games/noob-vs-blue-monster/icon/noob-vs-blue-monster.png?w=105" alt="Noob vs Blue Monster" loading="lazy" width="80" height="45">
+        <a href="/game/orcborn-the-great-flight/" class="related-card" title="Orcborn: The Great Flight">
+          <img src="https://img.gamepix.com/games/orcborn-the-great-flight/icon/orcborn-the-great-flight.png?w=105" alt="Orcborn: The Great Flight" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Noob vs Blue Monster</div>
-            <div class="related-card-meta">⭐ 4 · 751Rb</div>
+            <div class="related-card-title">Orcborn: The Great Flight</div>
+            <div class="related-card-meta">⭐ 4.3 · 320Rb</div>
           </div>
         </a>
-        <a href="/game/italian-brainrot-find-the-difference/" class="related-card" title="Italian Brainrot: Find the Difference">
-          <img src="https://img.gamepix.com/games/italian-brainrot-find-the-difference/icon/italian-brainrot-find-the-difference.png?w=105" alt="Italian Brainrot: Find the Difference" loading="lazy" width="80" height="45">
+        <a href="/game/infinity-cat-adventure-runner/" class="related-card" title="Infinity Cat Adventure Runner">
+          <img src="https://img.gamepix.com/games/infinity-cat-adventure-runner/icon/infinity-cat-adventure-runner.png?w=105" alt="Infinity Cat Adventure Runner" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Italian Brainrot: Find the Difference</div>
-            <div class="related-card-meta">⭐ 4.8 · 397Rb</div>
+            <div class="related-card-title">Infinity Cat Adventure Runner</div>
+            <div class="related-card-meta">⭐ 4.2 · 638Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

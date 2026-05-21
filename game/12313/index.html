@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">The Quiz Game</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/merge-numbers-drop-the-numbers/" class="related-card" title="Merge Numbers - Drop The Numbers">
-          <img src="https://img.gamepix.com/games/merge-numbers-drop-the-numbers/icon/merge-numbers-drop-the-numbers.png?w=105" alt="Merge Numbers - Drop The Numbers" loading="lazy" width="80" height="45">
+        <a href="/game/italian-brainrot-anomaly/" class="related-card" title="Italian Brainrot Anomaly">
+          <img src="https://img.gamepix.com/games/italian-brainrot-anomaly/icon/italian-brainrot-anomaly.png?w=105" alt="Italian Brainrot Anomaly" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Merge Numbers - Drop The Numbers</div>
-            <div class="related-card-meta">⭐ 4.2 · 714Rb</div>
+            <div class="related-card-title">Italian Brainrot Anomaly</div>
+            <div class="related-card-meta">⭐ 4.4 · 698Rb</div>
           </div>
         </a>
-        <a href="/game/tile-master-classic-match/" class="related-card" title="Tile Master Puzzle">
-          <img src="https://img.gamepix.com/games/tile-master-classic-match/icon/tile-master-classic-match.png?w=105" alt="Tile Master Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/color-maze-star-search/" class="related-card" title="Color Maze Star Search">
+          <img src="https://img.gamepix.com/games/color-maze-star-search/icon/color-maze-star-search.png?w=105" alt="Color Maze Star Search" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tile Master Puzzle</div>
-            <div class="related-card-meta">⭐ 4.9 · 373Rb</div>
+            <div class="related-card-title">Color Maze Star Search</div>
+            <div class="related-card-meta">⭐ 4.2 · 236Rb</div>
           </div>
         </a>
-        <a href="/game/minefield/" class="related-card" title="Minefield">
-          <img src="https://img.gamepix.com/games/minefield/icon/minefield.png?w=105" alt="Minefield" loading="lazy" width="80" height="45">
+        <a href="/game/popdify/" class="related-card" title="Popdify">
+          <img src="https://img.gamepix.com/games/popdify/icon/popdify.png?w=105" alt="Popdify" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Minefield</div>
-            <div class="related-card-meta">⭐ 4.3 · 778Rb</div>
+            <div class="related-card-title">Popdify</div>
+            <div class="related-card-meta">⭐ 4.7 · 860Rb</div>
           </div>
         </a>
-        <a href="/game/petits-chevaux-small-horses/" class="related-card" title="Petits Chevaux Small Horses">
-          <img src="https://img.gamepix.com/games/petits-chevaux-small-horses/icon/petits-chevaux-small-horses.png?w=105" alt="Petits Chevaux Small Horses" loading="lazy" width="80" height="45">
+        <a href="/game/jelly-merge/" class="related-card" title="Jelly merge">
+          <img src="https://img.gamepix.com/games/jelly-merge/icon/jelly-merge.png?w=105" alt="Jelly merge" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Petits Chevaux Small Horses</div>
-            <div class="related-card-meta">⭐ 4.5 · 585Rb</div>
+            <div class="related-card-title">Jelly merge</div>
+            <div class="related-card-meta">⭐ 4.1 · 283Rb</div>
           </div>
         </a>
-        <a href="/game/fasr-words-challenge-game/" class="related-card" title="Fast Words - Challenge Game">
-          <img src="https://img.gamepix.com/games/fasr-words-challenge-game/icon/fasr-words-challenge-game.png?w=105" alt="Fast Words - Challenge Game" loading="lazy" width="80" height="45">
+        <a href="/game/geography-quiz/" class="related-card" title="Geography Quiz">
+          <img src="https://img.gamepix.com/games/geography-quiz/icon/geography-quiz.png?w=105" alt="Geography Quiz" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fast Words - Challenge Game</div>
-            <div class="related-card-meta">⭐ 4.4 · 791Rb</div>
+            <div class="related-card-title">Geography Quiz</div>
+            <div class="related-card-meta">⭐ 4.1 · 997Rb</div>
           </div>
         </a>
-        <a href="/game/vault-breaker/" class="related-card" title="Vault Breaker">
-          <img src="https://img.gamepix.com/games/vault-breaker/icon/vault-breaker.png?w=105" alt="Vault Breaker" loading="lazy" width="80" height="45">
+        <a href="/game/street-cafe-mahjong/" class="related-card" title="Mahjong Street Cafe">
+          <img src="https://img.gamepix.com/games/street-cafe-mahjong/icon/street-cafe-mahjong.png?w=105" alt="Mahjong Street Cafe" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Vault Breaker</div>
-            <div class="related-card-meta">⭐ 4.6 · 431Rb</div>
+            <div class="related-card-title">Mahjong Street Cafe</div>
+            <div class="related-card-meta">⭐ 4.5 · 137Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

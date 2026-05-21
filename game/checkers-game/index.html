@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Simple Checkers</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/spider-solitaire/" class="related-card" title="Spider Solitaire">
-          <img src="https://img.gamepix.com/games/spider-solitaire/icon/spider-solitaire.png?w=105" alt="Spider Solitaire" loading="lazy" width="80" height="45">
+        <a href="/game/chrono-tiles-puzzle-game/" class="related-card" title="Chrono Tiles">
+          <img src="https://img.gamepix.com/games/chrono-tiles-puzzle-game/icon/chrono-tiles-puzzle-game.png?w=105" alt="Chrono Tiles" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Spider Solitaire</div>
-            <div class="related-card-meta">⭐ 4.9 · 609Rb</div>
+            <div class="related-card-title">Chrono Tiles</div>
+            <div class="related-card-meta">⭐ 4.9 · 568Rb</div>
           </div>
         </a>
-        <a href="/game/2048-wood-block/" class="related-card" title="2048 Wood Block">
-          <img src="https://img.gamepix.com/games/2048-wood-block/icon/2048-wood-block.png?w=105" alt="2048 Wood Block" loading="lazy" width="80" height="45">
+        <a href="/game/advent-mahjong/" class="related-card" title="Advent Mahjong">
+          <img src="https://img.gamepix.com/games/advent-mahjong/icon/advent-mahjong.png?w=105" alt="Advent Mahjong" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">2048 Wood Block</div>
-            <div class="related-card-meta">⭐ 4.5 · 232Rb</div>
+            <div class="related-card-title">Advent Mahjong</div>
+            <div class="related-card-meta">⭐ 4.3 · 814Rb</div>
           </div>
         </a>
-        <a href="/game/fit-cats/" class="related-card" title="Fit Cats">
-          <img src="https://img.gamepix.com/games/fit-cats/icon/fit-cats.png?w=105" alt="Fit Cats" loading="lazy" width="80" height="45">
+        <a href="/game/pizza-mker-2048/" class="related-card" title="Pizza Maker 2048">
+          <img src="https://img.gamepix.com/games/pizza-mker-2048/icon/pizza-mker-2048.png?w=105" alt="Pizza Maker 2048" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fit Cats</div>
-            <div class="related-card-meta">⭐ 4.5 · 129Rb</div>
+            <div class="related-card-title">Pizza Maker 2048</div>
+            <div class="related-card-meta">⭐ 4.9 · 410Rb</div>
           </div>
         </a>
-        <a href="/game/jewel-bubbles-3/" class="related-card" title="Jewel Bubbles 3">
-          <img src="https://img.gamepix.com/games/jewel-bubbles-3/icon/jewel-bubbles-3.png?w=105" alt="Jewel Bubbles 3" loading="lazy" width="80" height="45">
+        <a href="/game/fruit-festival/" class="related-card" title="Fruit Festival">
+          <img src="https://img.gamepix.com/games/fruit-festival/icon/fruit-festival.png?w=105" alt="Fruit Festival" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jewel Bubbles 3</div>
-            <div class="related-card-meta">⭐ 4.4 · 975Rb</div>
+            <div class="related-card-title">Fruit Festival</div>
+            <div class="related-card-meta">⭐ 4.7 · 306Rb</div>
           </div>
         </a>
-        <a href="/game/pictures-swap/" class="related-card" title="Pictures Swap">
-          <img src="https://img.gamepix.com/games/pictures-swap/icon/pictures-swap.png?w=105" alt="Pictures Swap" loading="lazy" width="80" height="45">
+        <a href="/game/galactic-gems/" class="related-card" title="Galactic Gems">
+          <img src="https://img.gamepix.com/games/galactic-gems/icon/galactic-gems.png?w=105" alt="Galactic Gems" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pictures Swap</div>
-            <div class="related-card-meta">⭐ 4.3 · 610Rb</div>
+            <div class="related-card-title">Galactic Gems</div>
+            <div class="related-card-meta">⭐ 4.6 · 351Rb</div>
           </div>
         </a>
-        <a href="/game/solitaire-classic-klondike-master/" class="related-card" title="Solitaire Classic - Klondike Master">
-          <img src="https://img.gamepix.com/games/solitaire-classic-klondike-master/icon/solitaire-classic-klondike-master.png?w=105" alt="Solitaire Classic - Klondike Master" loading="lazy" width="80" height="45">
+        <a href="/game/puzzle-drive/" class="related-card" title="Puzzle Drive">
+          <img src="https://img.gamepix.com/games/puzzle-drive/icon/puzzle-drive.png?w=105" alt="Puzzle Drive" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Solitaire Classic - Klondike Master</div>
-            <div class="related-card-meta">⭐ 4.9 · 504Rb</div>
+            <div class="related-card-title">Puzzle Drive</div>
+            <div class="related-card-meta">⭐ 4.3 · 837Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

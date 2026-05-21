@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Fantasy Forest</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/rings-rotate/" class="related-card" title="Rings Rotate">
-          <img src="https://img.gamepix.com/games/rings-rotate/icon/rings-rotate.png?w=105" alt="Rings Rotate" loading="lazy" width="80" height="45">
+        <a href="/game/cube-blast/" class="related-card" title="Cube Blast">
+          <img src="https://img.gamepix.com/games/cube-blast/icon/cube-blast.png?w=105" alt="Cube Blast" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Rings Rotate</div>
-            <div class="related-card-meta">⭐ 4.6 · 667Rb</div>
+            <div class="related-card-title">Cube Blast</div>
+            <div class="related-card-meta">⭐ 4.3 · 138Rb</div>
           </div>
         </a>
-        <a href="/game/dots-lines-connect/" class="related-card" title="Dots-lines. Connect.">
-          <img src="https://img.gamepix.com/games/dots-lines-connect/icon/dots-lines-connect.png?w=105" alt="Dots-lines. Connect." loading="lazy" width="80" height="45">
+        <a href="/game/juicy-tic-tac-toe/" class="related-card" title="Juicy Tic Tac Toe">
+          <img src="https://img.gamepix.com/games/juicy-tic-tac-toe/icon/juicy-tic-tac-toe.png?w=105" alt="Juicy Tic Tac Toe" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dots-lines. Connect.</div>
-            <div class="related-card-meta">⭐ 4.9 · 378Rb</div>
+            <div class="related-card-title">Juicy Tic Tac Toe</div>
+            <div class="related-card-meta">⭐ 4.6 · 365Rb</div>
           </div>
         </a>
-        <a href="/game/ghost-hunters/" class="related-card" title="Ghost Hunters">
-          <img src="https://img.gamepix.com/games/ghost-hunters/icon/ghost-hunters.png?w=105" alt="Ghost Hunters" loading="lazy" width="80" height="45">
+        <a href="/game/traffic-jam-hop-on/" class="related-card" title="Traffic Jam Hop On">
+          <img src="https://img.gamepix.com/games/traffic-jam-hop-on/icon/traffic-jam-hop-on.png?w=105" alt="Traffic Jam Hop On" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ghost Hunters</div>
-            <div class="related-card-meta">⭐ 4.1 · 565Rb</div>
+            <div class="related-card-title">Traffic Jam Hop On</div>
+            <div class="related-card-meta">⭐ 4 · 588Rb</div>
           </div>
         </a>
-        <a href="/game/the-lost-city-puzzle-match-3/" class="related-card" title="The Lost City Match 3">
-          <img src="https://img.gamepix.com/games/the-lost-city-puzzle-match-3/icon/the-lost-city-puzzle-match-3.png?w=105" alt="The Lost City Match 3" loading="lazy" width="80" height="45">
+        <a href="/game/solitaire-world-tour/" class="related-card" title="Solitaire World Tour">
+          <img src="https://img.gamepix.com/games/solitaire-world-tour/icon/solitaire-world-tour.png?w=105" alt="Solitaire World Tour" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">The Lost City Match 3</div>
-            <div class="related-card-meta">⭐ 4.6 · 763Rb</div>
+            <div class="related-card-title">Solitaire World Tour</div>
+            <div class="related-card-meta">⭐ 4.8 · 430Rb</div>
           </div>
         </a>
-        <a href="/game/paraboxical/" class="related-card" title="Paraboxical">
-          <img src="https://img.gamepix.com/games/paraboxical/icon/paraboxical.png?w=105" alt="Paraboxical" loading="lazy" width="80" height="45">
+        <a href="/game/skibidi-match-master/" class="related-card" title="Skibidi Match Master">
+          <img src="https://img.gamepix.com/games/skibidi-match-master/icon/skibidi-match-master.png?w=105" alt="Skibidi Match Master" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Paraboxical</div>
-            <div class="related-card-meta">⭐ 4.3 · 330Rb</div>
+            <div class="related-card-title">Skibidi Match Master</div>
+            <div class="related-card-meta">⭐ 4.1 · 998Rb</div>
           </div>
         </a>
-        <a href="/game/block-builder/" class="related-card" title="Block Builder">
-          <img src="https://img.gamepix.com/games/block-builder/icon/block-builder.png?w=105" alt="Block Builder" loading="lazy" width="80" height="45">
+        <a href="/game/magicball22/" class="related-card" title="MathTest22">
+          <img src="https://img.gamepix.com/games/magicball22/icon/magicball22.png?w=105" alt="MathTest22" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Block Builder</div>
-            <div class="related-card-meta">⭐ 4.8 · 692Rb</div>
+            <div class="related-card-title">MathTest22</div>
+            <div class="related-card-meta">⭐ 4.5 · 418Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

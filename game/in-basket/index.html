@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">In Basket</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/cricket-hero/" class="related-card" title="Cricket Hero">
-          <img src="https://img.gamepix.com/games/cricket-hero/icon/cricket-hero.png?w=105" alt="Cricket Hero" loading="lazy" width="80" height="45">
+        <a href="/game/crazy-goal/" class="related-card" title="Crazy Goal">
+          <img src="https://img.gamepix.com/games/crazy-goal/icon/crazy-goal.png?w=105" alt="Crazy Goal" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cricket Hero</div>
-            <div class="related-card-meta">⭐ 4.5 · 518Rb</div>
+            <div class="related-card-title">Crazy Goal</div>
+            <div class="related-card-meta">⭐ 4.1 · 754Rb</div>
           </div>
         </a>
-        <a href="/game/boxing-stars/" class="related-card" title="Boxing Stars">
-          <img src="https://img.gamepix.com/games/boxing-stars/icon/boxing-stars.png?w=105" alt="Boxing Stars" loading="lazy" width="80" height="45">
+        <a href="/game/sprunki-vs-pirates/" class="related-card" title="Sprunki Vs Pirates">
+          <img src="https://img.gamepix.com/games/sprunki-vs-pirates/icon/sprunki-vs-pirates.png?w=105" alt="Sprunki Vs Pirates" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Boxing Stars</div>
-            <div class="related-card-meta">⭐ 4.6 · 182Rb</div>
+            <div class="related-card-title">Sprunki Vs Pirates</div>
+            <div class="related-card-meta">⭐ 4.1 · 990Rb</div>
           </div>
         </a>
-        <a href="/game/airplane-pilot-simulator/" class="related-card" title="Airplane Pilot Simulator">
-          <img src="https://img.gamepix.com/games/airplane-pilot-simulator/icon/airplane-pilot-simulator.png?w=105" alt="Airplane Pilot Simulator" loading="lazy" width="80" height="45">
+        <a href="/game/soccer-play/" class="related-card" title="Soccer Play">
+          <img src="https://img.gamepix.com/games/soccer-play/icon/soccer-play.png?w=105" alt="Soccer Play" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Airplane Pilot Simulator</div>
-            <div class="related-card-meta">⭐ 4.3 · 394Rb</div>
+            <div class="related-card-title">Soccer Play</div>
+            <div class="related-card-meta">⭐ 4.6 · 389Rb</div>
           </div>
         </a>
-        <a href="/game/basket-boom/" class="related-card" title="Basket Boom">
-          <img src="https://img.gamepix.com/games/basket-boom/icon/basket-boom.png?w=105" alt="Basket Boom" loading="lazy" width="80" height="45">
+        <a href="/game/stickman-football/" class="related-card" title="Stickman Football">
+          <img src="https://img.gamepix.com/games/stickman-football/icon/stickman-football.png?w=105" alt="Stickman Football" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Basket Boom</div>
-            <div class="related-card-meta">⭐ 4.6 · 736Rb</div>
+            <div class="related-card-title">Stickman Football</div>
+            <div class="related-card-meta">⭐ 4.4 · 389Rb</div>
           </div>
         </a>
-        <a href="/game/pixel-basket/" class="related-card" title="Pixel Basket">
-          <img src="https://img.gamepix.com/games/pixel-basket/icon/pixel-basket.png?w=105" alt="Pixel Basket" loading="lazy" width="80" height="45">
+        <a href="/game/basketballchallenge/" class="related-card" title="DD Basketball Challenge">
+          <img src="https://img.gamepix.com/games/basketballchallenge/icon/basketballchallenge.png?w=105" alt="DD Basketball Challenge" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pixel Basket</div>
-            <div class="related-card-meta">⭐ 4.3 · 534Rb</div>
+            <div class="related-card-title">DD Basketball Challenge</div>
+            <div class="related-card-meta">⭐ 4.4 · 394Rb</div>
           </div>
         </a>
-        <a href="/game/tennis-open-2020/" class="related-card" title="Tennis Open 2020">
-          <img src="https://img.gamepix.com/games/tennis-open-2020/icon/tennis-open-2020.png?w=105" alt="Tennis Open 2020" loading="lazy" width="80" height="45">
+        <a href="/game/game-on-cat-vs-rats/" class="related-card" title="Game On Cat vs Rats!">
+          <img src="https://img.gamepix.com/games/game-on-cat-vs-rats/icon/game-on-cat-vs-rats.png?w=105" alt="Game On Cat vs Rats!" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tennis Open 2020</div>
-            <div class="related-card-meta">⭐ 4.9 · 171Rb</div>
+            <div class="related-card-title">Game On Cat vs Rats!</div>
+            <div class="related-card-meta">⭐ 4.6 · 806Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

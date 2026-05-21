@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Arrowstorm Defense</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/germaway/" class="related-card" title="GermAway">
-          <img src="https://img.gamepix.com/games/germaway/icon/germaway.png?w=105" alt="GermAway" loading="lazy" width="80" height="45">
+        <a href="/game/letters-memory/" class="related-card" title="Letters Memory">
+          <img src="https://img.gamepix.com/games/letters-memory/icon/letters-memory.png?w=105" alt="Letters Memory" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">GermAway</div>
-            <div class="related-card-meta">⭐ 4.1 · 545Rb</div>
+            <div class="related-card-title">Letters Memory</div>
+            <div class="related-card-meta">⭐ 4.1 · 956Rb</div>
           </div>
         </a>
-        <a href="/game/geometrix/" class="related-card" title="Geometrix">
-          <img src="https://img.gamepix.com/games/geometrix/icon/geometrix.png?w=105" alt="Geometrix" loading="lazy" width="80" height="45">
+        <a href="/game/mahjong-sweet-easter/" class="related-card" title="Mahjong Sweet Easter">
+          <img src="https://img.gamepix.com/games/mahjong-sweet-easter/icon/mahjong-sweet-easter.png?w=105" alt="Mahjong Sweet Easter" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Geometrix</div>
-            <div class="related-card-meta">⭐ 4.4 · 116Rb</div>
+            <div class="related-card-title">Mahjong Sweet Easter</div>
+            <div class="related-card-meta">⭐ 4.8 · 202Rb</div>
           </div>
         </a>
-        <a href="/game/crowd-evolution/" class="related-card" title="Crowd Evolution!">
-          <img src="https://img.gamepix.com/games/crowd-evolution/icon/crowd-evolution.png?w=105" alt="Crowd Evolution!" loading="lazy" width="80" height="45">
+        <a href="/game/poppop-candies/" class="related-card" title="Pop-Pop Candies">
+          <img src="https://img.gamepix.com/games/poppop-candies/icon/poppop-candies.png?w=105" alt="Pop-Pop Candies" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Crowd Evolution!</div>
-            <div class="related-card-meta">⭐ 4.7 · 434Rb</div>
+            <div class="related-card-title">Pop-Pop Candies</div>
+            <div class="related-card-meta">⭐ 4.9 · 804Rb</div>
           </div>
         </a>
-        <a href="/game/thung-thung-sahur-night-escape/" class="related-card" title="Thung Thung Sahur Night Escape">
-          <img src="https://img.gamepix.com/games/thung-thung-sahur-night-escape/icon/thung-thung-sahur-night-escape.png?w=105" alt="Thung Thung Sahur Night Escape" loading="lazy" width="80" height="45">
+        <a href="/game/robo-runner-io/" class="related-card" title="Robo Runner IO">
+          <img src="https://img.gamepix.com/games/robo-runner-io/icon/robo-runner-io.png?w=105" alt="Robo Runner IO" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Thung Thung Sahur Night Escape</div>
-            <div class="related-card-meta">⭐ 4.8 · 910Rb</div>
+            <div class="related-card-title">Robo Runner IO</div>
+            <div class="related-card-meta">⭐ 4.2 · 376Rb</div>
           </div>
         </a>
-        <a href="/game/jumping-color/" class="related-card" title="Jumping Color">
-          <img src="https://img.gamepix.com/games/jumping-color/icon/jumping-color.png?w=105" alt="Jumping Color" loading="lazy" width="80" height="45">
+        <a href="/game/guess-the-days/" class="related-card" title="Guess The Days">
+          <img src="https://img.gamepix.com/games/guess-the-days/icon/guess-the-days.png?w=105" alt="Guess The Days" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jumping Color</div>
-            <div class="related-card-meta">⭐ 4.6 · 437Rb</div>
+            <div class="related-card-title">Guess The Days</div>
+            <div class="related-card-meta">⭐ 4.3 · 868Rb</div>
           </div>
         </a>
-        <a href="/game/mouth-shift-3d-1/" class="related-card" title="Mouth Shift 3D">
-          <img src="https://img.gamepix.com/games/mouth-shift-3d-1/icon/mouth-shift-3d-1.png?w=105" alt="Mouth Shift 3D" loading="lazy" width="80" height="45">
+        <a href="/game/red-and-blue-stickman-rope/" class="related-card" title="Red and Blue Stickman Rope">
+          <img src="https://img.gamepix.com/games/red-and-blue-stickman-rope/icon/red-and-blue-stickman-rope.png?w=105" alt="Red and Blue Stickman Rope" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mouth Shift 3D</div>
-            <div class="related-card-meta">⭐ 4.1 · 996Rb</div>
+            <div class="related-card-title">Red and Blue Stickman Rope</div>
+            <div class="related-card-meta">⭐ 4.4 · 570Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

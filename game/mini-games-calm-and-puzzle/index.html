@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Mini Games: Calm and Puzzle</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/iron-mom/" class="related-card" title="Iron Mom">
-          <img src="https://img.gamepix.com/games/iron-mom/icon/iron-mom.png?w=105" alt="Iron Mom" loading="lazy" width="80" height="45">
+        <a href="/game/crab-and-fish/" class="related-card" title="Crab & Fish">
+          <img src="https://img.gamepix.com/games/crab-and-fish/icon/crab-and-fish.png?w=105" alt="Crab & Fish" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Iron Mom</div>
-            <div class="related-card-meta">⭐ 4 · 794Rb</div>
+            <div class="related-card-title">Crab & Fish</div>
+            <div class="related-card-meta">⭐ 4.8 · 323Rb</div>
           </div>
         </a>
-        <a href="/game/spong/" class="related-card" title="Spong">
-          <img src="https://img.gamepix.com/games/spong/icon/spong.png?w=105" alt="Spong" loading="lazy" width="80" height="45">
+        <a href="/game/ants-party/" class="related-card" title="Ants Party">
+          <img src="https://img.gamepix.com/games/ants-party/icon/ants-party.png?w=105" alt="Ants Party" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Spong</div>
-            <div class="related-card-meta">⭐ 4.1 · 822Rb</div>
+            <div class="related-card-title">Ants Party</div>
+            <div class="related-card-meta">⭐ 4.6 · 334Rb</div>
           </div>
         </a>
-        <a href="/game/paradise/" class="related-card" title="Paradise">
-          <img src="https://img.gamepix.com/games/paradise/icon/paradise.png?w=105" alt="Paradise" loading="lazy" width="80" height="45">
+        <a href="/game/stick-man-hook/" class="related-card" title="Stickman Swing Hook">
+          <img src="https://img.gamepix.com/games/stick-man-hook/icon/stick-man-hook.png?w=105" alt="Stickman Swing Hook" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Paradise</div>
-            <div class="related-card-meta">⭐ 4.1 · 574Rb</div>
+            <div class="related-card-title">Stickman Swing Hook</div>
+            <div class="related-card-meta">⭐ 4 · 411Rb</div>
           </div>
         </a>
-        <a href="/game/gun-blast/" class="related-card" title="Gun Blast">
-          <img src="https://img.gamepix.com/games/gun-blast/icon/gun-blast.png?w=105" alt="Gun Blast" loading="lazy" width="80" height="45">
+        <a href="/game/pitballs/" class="related-card" title="Pitballs">
+          <img src="https://img.gamepix.com/games/pitballs/icon/pitballs.png?w=105" alt="Pitballs" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Gun Blast</div>
-            <div class="related-card-meta">⭐ 4.4 · 277Rb</div>
+            <div class="related-card-title">Pitballs</div>
+            <div class="related-card-meta">⭐ 4.1 · 402Rb</div>
           </div>
         </a>
-        <a href="/game/car-garage-tycoon-simulation-game/" class="related-card" title="Car Garage Tycoon - Simulation Game">
-          <img src="https://img.gamepix.com/games/car-garage-tycoon-simulation-game/icon/car-garage-tycoon-simulation-game.png?w=105" alt="Car Garage Tycoon - Simulation Game" loading="lazy" width="80" height="45">
+        <a href="/game/endless-sprunki/" class="related-card" title="Endless Sprunki">
+          <img src="https://img.gamepix.com/games/endless-sprunki/icon/endless-sprunki.png?w=105" alt="Endless Sprunki" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Car Garage Tycoon - Simulation Game</div>
-            <div class="related-card-meta">⭐ 4.5 · 140Rb</div>
+            <div class="related-card-title">Endless Sprunki</div>
+            <div class="related-card-meta">⭐ 4.7 · 946Rb</div>
           </div>
         </a>
-        <a href="/game/foot-doctor/" class="related-card" title="Foot Doctor">
-          <img src="https://img.gamepix.com/games/foot-doctor/icon/foot-doctor.png?w=105" alt="Foot Doctor" loading="lazy" width="80" height="45">
+        <a href="/game/fluffy-rush/" class="related-card" title="Fluffy Rush">
+          <img src="https://img.gamepix.com/games/fluffy-rush/icon/fluffy-rush.png?w=105" alt="Fluffy Rush" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Foot Doctor</div>
-            <div class="related-card-meta">⭐ 4.6 · 525Rb</div>
+            <div class="related-card-title">Fluffy Rush</div>
+            <div class="related-card-meta">⭐ 4.7 · 943Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

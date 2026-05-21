@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Cozy Pizzeria</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/candy-ice-rush-game/" class="related-card" title="Candy Ice Rush">
-          <img src="https://img.gamepix.com/games/candy-ice-rush-game/icon/candy-ice-rush-game.png?w=105" alt="Candy Ice Rush" loading="lazy" width="80" height="45">
+        <a href="/game/car-battle-ride/" class="related-card" title="Car Battle Ride">
+          <img src="https://img.gamepix.com/games/car-battle-ride/icon/car-battle-ride.png?w=105" alt="Car Battle Ride" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Candy Ice Rush</div>
-            <div class="related-card-meta">⭐ 4 · 370Rb</div>
+            <div class="related-card-title">Car Battle Ride</div>
+            <div class="related-card-meta">⭐ 4.4 · 379Rb</div>
           </div>
         </a>
-        <a href="/game/multiplayer-cooking-coop/" class="related-card" title="Multiplayer Cooking Coop">
-          <img src="https://img.gamepix.com/games/multiplayer-cooking-coop/icon/multiplayer-cooking-coop.png?w=105" alt="Multiplayer Cooking Coop" loading="lazy" width="80" height="45">
+        <a href="/game/elemental-domination/" class="related-card" title="Elemental Domination">
+          <img src="https://img.gamepix.com/games/elemental-domination/icon/elemental-domination.png?w=105" alt="Elemental Domination" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Multiplayer Cooking Coop</div>
-            <div class="related-card-meta">⭐ 4.5 · 137Rb</div>
+            <div class="related-card-title">Elemental Domination</div>
+            <div class="related-card-meta">⭐ 4.2 · 149Rb</div>
           </div>
         </a>
-        <a href="/game/auto-rickshaw/" class="related-card" title="Auto Rickshaw">
-          <img src="https://img.gamepix.com/games/auto-rickshaw/icon/auto-rickshaw.png?w=105" alt="Auto Rickshaw" loading="lazy" width="80" height="45">
+        <a href="/game/ballpoint/" class="related-card" title="Ballpoint">
+          <img src="https://img.gamepix.com/games/ballpoint/icon/ballpoint.png?w=105" alt="Ballpoint" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Auto Rickshaw</div>
-            <div class="related-card-meta">⭐ 4.2 · 459Rb</div>
+            <div class="related-card-title">Ballpoint</div>
+            <div class="related-card-meta">⭐ 4.6 · 596Rb</div>
           </div>
         </a>
-        <a href="/game/jump-to-the-moon/" class="related-card" title="Jump to the Moon">
-          <img src="https://img.gamepix.com/games/jump-to-the-moon/icon/jump-to-the-moon.png?w=105" alt="Jump to the Moon" loading="lazy" width="80" height="45">
+        <a href="/game/chin-up-shin-up/" class="related-card" title="Chin Up Shin Up">
+          <img src="https://img.gamepix.com/games/chin-up-shin-up/icon/chin-up-shin-up.png?w=105" alt="Chin Up Shin Up" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jump to the Moon</div>
-            <div class="related-card-meta">⭐ 4.5 · 332Rb</div>
+            <div class="related-card-title">Chin Up Shin Up</div>
+            <div class="related-card-meta">⭐ 4.3 · 365Rb</div>
           </div>
         </a>
-        <a href="/game/ascend/" class="related-card" title="Ascend">
-          <img src="https://img.gamepix.com/games/ascend/icon/ascend.png?w=105" alt="Ascend" loading="lazy" width="80" height="45">
+        <a href="/game/3d-terrain-generator/" class="related-card" title="3D Terrain Generator">
+          <img src="https://img.gamepix.com/games/3d-terrain-generator/icon/3d-terrain-generator.png?w=105" alt="3D Terrain Generator" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ascend</div>
-            <div class="related-card-meta">⭐ 4.5 · 467Rb</div>
+            <div class="related-card-title">3D Terrain Generator</div>
+            <div class="related-card-meta">⭐ 4.9 · 911Rb</div>
           </div>
         </a>
-        <a href="/game/pinta-colours/" class="related-card" title="Pinta Colour">
-          <img src="https://img.gamepix.com/games/pinta-colours/icon/pinta-colours.png?w=105" alt="Pinta Colour" loading="lazy" width="80" height="45">
+        <a href="/game/draw-to-pee-toilet-race/" class="related-card" title="Draw to Pee Toilet Race!">
+          <img src="https://img.gamepix.com/games/draw-to-pee-toilet-race/icon/draw-to-pee-toilet-race.png?w=105" alt="Draw to Pee Toilet Race!" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pinta Colour</div>
-            <div class="related-card-meta">⭐ 4.7 · 779Rb</div>
+            <div class="related-card-title">Draw to Pee Toilet Race!</div>
+            <div class="related-card-meta">⭐ 4.8 · 926Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

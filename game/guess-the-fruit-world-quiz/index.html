@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Guess the Fruit World Quiz</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/bubble-popp/" class="related-card" title="Bubble Pop">
-          <img src="https://img.gamepix.com/games/bubble-popp/icon/bubble-popp.png?w=105" alt="Bubble Pop" loading="lazy" width="80" height="45">
+        <a href="/game/tangram-puzzle-guess-the-silhouette-of-a-little-man/" class="related-card" title="Tangram puzzle guess the silhouette of a little man">
+          <img src="https://img.gamepix.com/games/tangram-puzzle-guess-the-silhouette-of-a-little-man/icon/tangram-puzzle-guess-the-silhouette-of-a-little-man.png?w=105" alt="Tangram puzzle guess the silhouette of a little man" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bubble Pop</div>
-            <div class="related-card-meta">⭐ 4.8 · 388Rb</div>
+            <div class="related-card-title">Tangram puzzle guess the silhouette of a little man</div>
+            <div class="related-card-meta">⭐ 4.3 · 609Rb</div>
           </div>
         </a>
-        <a href="/game/ultimate-basketball-quiz/" class="related-card" title="Ultimate Basketball Quiz">
-          <img src="https://img.gamepix.com/games/ultimate-basketball-quiz/icon/ultimate-basketball-quiz.png?w=105" alt="Ultimate Basketball Quiz" loading="lazy" width="80" height="45">
+        <a href="/game/sokoban-push-the-box/" class="related-card" title="Sokoban Push The Box">
+          <img src="https://img.gamepix.com/games/sokoban-push-the-box/icon/sokoban-push-the-box.png?w=105" alt="Sokoban Push The Box" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ultimate Basketball Quiz</div>
-            <div class="related-card-meta">⭐ 4.2 · 557Rb</div>
+            <div class="related-card-title">Sokoban Push The Box</div>
+            <div class="related-card-meta">⭐ 4.4 · 280Rb</div>
           </div>
         </a>
-        <a href="/game/limball-ball-sort/" class="related-card" title="Limball Ball Sort">
-          <img src="https://img.gamepix.com/games/limball-ball-sort/icon/limball-ball-sort.png?w=105" alt="Limball Ball Sort" loading="lazy" width="80" height="45">
+        <a href="/game/animal-path-puzzle/" class="related-card" title="Animal Path Puzzle">
+          <img src="https://img.gamepix.com/games/animal-path-puzzle/icon/animal-path-puzzle.png?w=105" alt="Animal Path Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Limball Ball Sort</div>
-            <div class="related-card-meta">⭐ 4.3 · 213Rb</div>
+            <div class="related-card-title">Animal Path Puzzle</div>
+            <div class="related-card-meta">⭐ 4.9 · 370Rb</div>
           </div>
         </a>
-        <a href="/game/pairscape/" class="related-card" title="PairScape">
-          <img src="https://img.gamepix.com/games/pairscape/icon/pairscape.png?w=105" alt="PairScape" loading="lazy" width="80" height="45">
+        <a href="/game/puzzel-15-elite/" class="related-card" title="Puzzel 15 Elite">
+          <img src="https://img.gamepix.com/games/puzzel-15-elite/icon/puzzel-15-elite.png?w=105" alt="Puzzel 15 Elite" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">PairScape</div>
-            <div class="related-card-meta">⭐ 4.9 · 734Rb</div>
+            <div class="related-card-title">Puzzel 15 Elite</div>
+            <div class="related-card-meta">⭐ 4.2 · 787Rb</div>
           </div>
         </a>
-        <a href="/game/classic-yatzy/" class="related-card" title="Classic Yatzy">
-          <img src="https://img.gamepix.com/games/classic-yatzy/icon/classic-yatzy.png?w=105" alt="Classic Yatzy" loading="lazy" width="80" height="45">
+        <a href="/game/candy-unblock/" class="related-card" title="Candy Unblock">
+          <img src="https://img.gamepix.com/games/candy-unblock/icon/candy-unblock.png?w=105" alt="Candy Unblock" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Classic Yatzy</div>
-            <div class="related-card-meta">⭐ 4.4 · 659Rb</div>
+            <div class="related-card-title">Candy Unblock</div>
+            <div class="related-card-meta">⭐ 4.3 · 514Rb</div>
           </div>
         </a>
-        <a href="/game/chain-reaction/" class="related-card" title="Chain Reaction">
-          <img src="https://img.gamepix.com/games/chain-reaction/icon/chain-reaction.png?w=105" alt="Chain Reaction" loading="lazy" width="80" height="45">
+        <a href="/game/dog-maze-adventure/" class="related-card" title="Dog Maze Adventure">
+          <img src="https://img.gamepix.com/games/dog-maze-adventure/icon/dog-maze-adventure.png?w=105" alt="Dog Maze Adventure" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Chain Reaction</div>
-            <div class="related-card-meta">⭐ 4.6 · 261Rb</div>
+            <div class="related-card-title">Dog Maze Adventure</div>
+            <div class="related-card-meta">⭐ 4.6 · 224Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

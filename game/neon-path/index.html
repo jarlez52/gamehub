@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Neon Path</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/brokun-2/" class="related-card" title="Brokun 2">
-          <img src="https://img.gamepix.com/games/brokun-2/icon/brokun-2.png?w=105" alt="Brokun 2" loading="lazy" width="80" height="45">
+        <a href="/game/mouth-shift-3d-1/" class="related-card" title="Mouth Shift 3D">
+          <img src="https://img.gamepix.com/games/mouth-shift-3d-1/icon/mouth-shift-3d-1.png?w=105" alt="Mouth Shift 3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Brokun 2</div>
-            <div class="related-card-meta">⭐ 4.8 · 833Rb</div>
+            <div class="related-card-title">Mouth Shift 3D</div>
+            <div class="related-card-meta">⭐ 4.1 · 996Rb</div>
           </div>
         </a>
-        <a href="/game/bricks-of-wrath/" class="related-card" title="Bricks of Wrath">
-          <img src="https://img.gamepix.com/games/bricks-of-wrath/icon/bricks-of-wrath.png?w=105" alt="Bricks of Wrath" loading="lazy" width="80" height="45">
+        <a href="/game/whos-tail/" class="related-card" title="Whose Tail">
+          <img src="https://img.gamepix.com/games/whos-tail/icon/whos-tail.png?w=105" alt="Whose Tail" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bricks of Wrath</div>
-            <div class="related-card-meta">⭐ 4.3 · 982Rb</div>
+            <div class="related-card-title">Whose Tail</div>
+            <div class="related-card-meta">⭐ 4.7 · 499Rb</div>
           </div>
         </a>
-        <a href="/game/super-tank-hero/" class="related-card" title="Super Tank Hero">
-          <img src="https://img.gamepix.com/games/super-tank-hero/icon/super-tank-hero.png?w=105" alt="Super Tank Hero" loading="lazy" width="80" height="45">
+        <a href="/game/zombie-shooter-survival/" class="related-card" title="Zombie Shooter Survival">
+          <img src="https://img.gamepix.com/games/zombie-shooter-survival/icon/zombie-shooter-survival.png?w=105" alt="Zombie Shooter Survival" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Super Tank Hero</div>
-            <div class="related-card-meta">⭐ 4.6 · 764Rb</div>
+            <div class="related-card-title">Zombie Shooter Survival</div>
+            <div class="related-card-meta">⭐ 4.1 · 918Rb</div>
           </div>
         </a>
-        <a href="/game/magic-rabbit/" class="related-card" title="Magic Rabbit">
-          <img src="https://img.gamepix.com/games/magic-rabbit/icon/magic-rabbit.png?w=105" alt="Magic Rabbit" loading="lazy" width="80" height="45">
+        <a href="/game/moscow-metro-driver-3d/" class="related-card" title="Moscow Metro Driver 3D">
+          <img src="https://img.gamepix.com/games/moscow-metro-driver-3d/icon/moscow-metro-driver-3d.png?w=105" alt="Moscow Metro Driver 3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Magic Rabbit</div>
-            <div class="related-card-meta">⭐ 4.1 · 770Rb</div>
+            <div class="related-card-title">Moscow Metro Driver 3D</div>
+            <div class="related-card-meta">⭐ 4.8 · 356Rb</div>
           </div>
         </a>
-        <a href="/game/space-runner/" class="related-card" title="Space Runner">
-          <img src="https://img.gamepix.com/games/space-runner/icon/space-runner.png?w=105" alt="Space Runner" loading="lazy" width="80" height="45">
+        <a href="/game/floor-is-soap/" class="related-card" title="Floor is Soap">
+          <img src="https://img.gamepix.com/games/floor-is-soap/icon/floor-is-soap.png?w=105" alt="Floor is Soap" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Space Runner</div>
-            <div class="related-card-meta">⭐ 4.7 · 461Rb</div>
+            <div class="related-card-title">Floor is Soap</div>
+            <div class="related-card-meta">⭐ 4.8 · 344Rb</div>
           </div>
         </a>
-        <a href="/game/spring-color-awakening/" class="related-card" title="Spring Color Awakening">
-          <img src="https://img.gamepix.com/games/spring-color-awakening/icon/spring-color-awakening.png?w=105" alt="Spring Color Awakening" loading="lazy" width="80" height="45">
+        <a href="/game/my-100-first-words/" class="related-card" title="My First 100 Words">
+          <img src="https://img.gamepix.com/games/my-100-first-words/icon/my-100-first-words.png?w=105" alt="My First 100 Words" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Spring Color Awakening</div>
-            <div class="related-card-meta">⭐ 4.5 · 673Rb</div>
+            <div class="related-card-title">My First 100 Words</div>
+            <div class="related-card-meta">⭐ 4.5 · 779Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Color Me</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/popsicle-jigsaw-puzzle-quest/" class="related-card" title="Popsicle Jigsaw Puzzle Quest">
-          <img src="https://img.gamepix.com/games/popsicle-jigsaw-puzzle-quest/icon/popsicle-jigsaw-puzzle-quest.png?w=105" alt="Popsicle Jigsaw Puzzle Quest" loading="lazy" width="80" height="45">
+        <a href="/game/free-cell-solitaire/" class="related-card" title="Free Cell Solitaire">
+          <img src="https://img.gamepix.com/games/free-cell-solitaire/icon/free-cell-solitaire.png?w=105" alt="Free Cell Solitaire" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Popsicle Jigsaw Puzzle Quest</div>
-            <div class="related-card-meta">⭐ 4.4 · 287Rb</div>
+            <div class="related-card-title">Free Cell Solitaire</div>
+            <div class="related-card-meta">⭐ 4.7 · 375Rb</div>
           </div>
         </a>
-        <a href="/game/match-fruits/" class="related-card" title="Match Fruits">
-          <img src="https://img.gamepix.com/games/match-fruits/icon/match-fruits.png?w=105" alt="Match Fruits" loading="lazy" width="80" height="45">
+        <a href="/game/secret-galaxy-match-three/" class="related-card" title="Secret Galaxy. Match-three">
+          <img src="https://img.gamepix.com/games/secret-galaxy-match-three/icon/secret-galaxy-match-three.png?w=105" alt="Secret Galaxy. Match-three" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Match Fruits</div>
-            <div class="related-card-meta">⭐ 4.5 · 794Rb</div>
+            <div class="related-card-title">Secret Galaxy. Match-three</div>
+            <div class="related-card-meta">⭐ 4.6 · 163Rb</div>
           </div>
         </a>
-        <a href="/game/fruit-drop-merge/" class="related-card" title="Fruit Drop Merge">
-          <img src="https://img.gamepix.com/games/fruit-drop-merge/icon/fruit-drop-merge.png?w=105" alt="Fruit Drop Merge" loading="lazy" width="80" height="45">
+        <a href="/game/vampire-tile-match/" class="related-card" title="Vampire Tile Match">
+          <img src="https://img.gamepix.com/games/vampire-tile-match/icon/vampire-tile-match.png?w=105" alt="Vampire Tile Match" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fruit Drop Merge</div>
-            <div class="related-card-meta">⭐ 4.1 · 597Rb</div>
+            <div class="related-card-title">Vampire Tile Match</div>
+            <div class="related-card-meta">⭐ 4.5 · 772Rb</div>
           </div>
         </a>
-        <a href="/game/fireboy-and-watergirl-online/" class="related-card" title="Fireboy and Watergirl Online">
-          <img src="https://img.gamepix.com/games/fireboy-and-watergirl-online/icon/fireboy-and-watergirl-online.png?w=105" alt="Fireboy and Watergirl Online" loading="lazy" width="80" height="45">
+        <a href="/game/overflowing-palette/" class="related-card" title="Overflowing Palette">
+          <img src="https://img.gamepix.com/games/overflowing-palette/icon/overflowing-palette.png?w=105" alt="Overflowing Palette" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fireboy and Watergirl Online</div>
-            <div class="related-card-meta">⭐ 4.2 · 908Rb</div>
+            <div class="related-card-title">Overflowing Palette</div>
+            <div class="related-card-meta">⭐ 4.5 · 360Rb</div>
           </div>
         </a>
-        <a href="/game/jewel-match-3/" class="related-card" title="Jewel Match 3">
-          <img src="https://img.gamepix.com/games/jewel-match-3/icon/jewel-match-3.png?w=105" alt="Jewel Match 3" loading="lazy" width="80" height="45">
+        <a href="/game/miner-minesweeper-in-reverse/" class="related-card" title="Miner Minesweeper In Reverse">
+          <img src="https://img.gamepix.com/games/miner-minesweeper-in-reverse/icon/miner-minesweeper-in-reverse.png?w=105" alt="Miner Minesweeper In Reverse" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jewel Match 3</div>
-            <div class="related-card-meta">⭐ 4.9 · 702Rb</div>
+            <div class="related-card-title">Miner Minesweeper In Reverse</div>
+            <div class="related-card-meta">⭐ 4.7 · 393Rb</div>
           </div>
         </a>
-        <a href="/game/fruit-party/" class="related-card" title="Fruit Party">
-          <img src="https://img.gamepix.com/games/fruit-party/icon/fruit-party.png?w=105" alt="Fruit Party" loading="lazy" width="80" height="45">
+        <a href="/game/waterpark-sort/" class="related-card" title="Waterpark Sort">
+          <img src="https://img.gamepix.com/games/waterpark-sort/icon/waterpark-sort.png?w=105" alt="Waterpark Sort" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fruit Party</div>
-            <div class="related-card-meta">⭐ 4.8 · 828Rb</div>
+            <div class="related-card-title">Waterpark Sort</div>
+            <div class="related-card-meta">⭐ 4.8 · 355Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

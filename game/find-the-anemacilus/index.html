@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Find the Anemacilus</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/jewel-dash/" class="related-card" title="Jewel Dash">
-          <img src="https://img.gamepix.com/games/jewel-dash/icon/jewel-dash.png?w=105" alt="Jewel Dash" loading="lazy" width="80" height="45">
+        <a href="/game/books-tower/" class="related-card" title="Books Tower">
+          <img src="https://img.gamepix.com/games/books-tower/icon/books-tower.png?w=105" alt="Books Tower" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jewel Dash</div>
-            <div class="related-card-meta">⭐ 4.6 · 499Rb</div>
+            <div class="related-card-title">Books Tower</div>
+            <div class="related-card-meta">⭐ 4.5 · 796Rb</div>
           </div>
         </a>
-        <a href="/game/tiles-hop-ball-music-game/" class="related-card" title="Tiles Hop Ball Music Game">
-          <img src="https://img.gamepix.com/games/tiles-hop-ball-music-game/icon/tiles-hop-ball-music-game.png?w=105" alt="Tiles Hop Ball Music Game" loading="lazy" width="80" height="45">
+        <a href="/game/western-maverick/" class="related-card" title="Western Maverick">
+          <img src="https://img.gamepix.com/games/western-maverick/icon/western-maverick.png?w=105" alt="Western Maverick" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tiles Hop Ball Music Game</div>
-            <div class="related-card-meta">⭐ 4.3 · 751Rb</div>
+            <div class="related-card-title">Western Maverick</div>
+            <div class="related-card-meta">⭐ 4.2 · 850Rb</div>
           </div>
         </a>
-        <a href="/game/emperor-napoleon-bonaparte-memory-match/" class="related-card" title="Emperor Napoleon Bonaparte Memory Match">
-          <img src="https://img.gamepix.com/games/emperor-napoleon-bonaparte-memory-match/icon/emperor-napoleon-bonaparte-memory-match.png?w=105" alt="Emperor Napoleon Bonaparte Memory Match" loading="lazy" width="80" height="45">
+        <a href="/game/baking-with-panda/" class="related-card" title="Baking with Panda">
+          <img src="https://img.gamepix.com/games/baking-with-panda/icon/baking-with-panda.png?w=105" alt="Baking with Panda" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Emperor Napoleon Bonaparte Memory Match</div>
-            <div class="related-card-meta">⭐ 4.4 · 817Rb</div>
+            <div class="related-card-title">Baking with Panda</div>
+            <div class="related-card-meta">⭐ 4.8 · 822Rb</div>
           </div>
         </a>
-        <a href="/game/lost-dino-world/" class="related-card" title="Lost Dino World">
-          <img src="https://img.gamepix.com/games/lost-dino-world/icon/lost-dino-world.png?w=105" alt="Lost Dino World" loading="lazy" width="80" height="45">
+        <a href="/game/jetpackboy-3d/" class="related-card" title="JetPackBoy 3D">
+          <img src="https://img.gamepix.com/games/jetpackboy-3d/icon/jetpackboy-3d.png?w=105" alt="JetPackBoy 3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Lost Dino World</div>
-            <div class="related-card-meta">⭐ 4.2 · 171Rb</div>
+            <div class="related-card-title">JetPackBoy 3D</div>
+            <div class="related-card-meta">⭐ 4 · 492Rb</div>
           </div>
         </a>
-        <a href="/game/ricky-rat/" class="related-card" title="Ricky Rat">
-          <img src="https://img.gamepix.com/games/ricky-rat/icon/ricky-rat.png?w=105" alt="Ricky Rat" loading="lazy" width="80" height="45">
+        <a href="/game/stunt-boxes/" class="related-card" title="Stunt Boxes">
+          <img src="https://img.gamepix.com/games/stunt-boxes/icon/stunt-boxes.png?w=105" alt="Stunt Boxes" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ricky Rat</div>
-            <div class="related-card-meta">⭐ 4.1 · 787Rb</div>
+            <div class="related-card-title">Stunt Boxes</div>
+            <div class="related-card-meta">⭐ 4.6 · 855Rb</div>
           </div>
         </a>
-        <a href="/game/the-cozy-fishing/" class="related-card" title="The Cozy Fishing">
-          <img src="https://img.gamepix.com/games/the-cozy-fishing/icon/the-cozy-fishing.png?w=105" alt="The Cozy Fishing" loading="lazy" width="80" height="45">
+        <a href="/game/minecraft-gold-clicker/" class="related-card" title="Minecraft Gold Clicker">
+          <img src="https://img.gamepix.com/games/minecraft-gold-clicker/icon/minecraft-gold-clicker.png?w=105" alt="Minecraft Gold Clicker" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">The Cozy Fishing</div>
-            <div class="related-card-meta">⭐ 4.3 · 460Rb</div>
+            <div class="related-card-title">Minecraft Gold Clicker</div>
+            <div class="related-card-meta">⭐ 4.5 · 204Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

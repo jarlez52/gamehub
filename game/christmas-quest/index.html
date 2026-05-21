@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Christmas Quest</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,11 +324,39 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/bouncing-bug/" class="related-card" title="Bouncing Bug">
-          <img src="https://img.gamepix.com/games/bouncing-bug/icon/bouncing-bug.png?w=105" alt="Bouncing Bug" loading="lazy" width="80" height="45">
+        <a href="/game/tictoc-paris-fashion/" class="related-card" title="Tictoc Paris Fashion">
+          <img src="https://img.gamepix.com/games/tictoc-paris-fashion/icon/tictoc-paris-fashion.png?w=105" alt="Tictoc Paris Fashion" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bouncing Bug</div>
-            <div class="related-card-meta">⭐ 4.6 · 733Rb</div>
+            <div class="related-card-title">Tictoc Paris Fashion</div>
+            <div class="related-card-meta">⭐ 4 · 475Rb</div>
+          </div>
+        </a>
+        <a href="/game/barber-shop/" class="related-card" title="Barber Shop Hair Salon Sim">
+          <img src="https://img.gamepix.com/games/barber-shop/icon/barber-shop.png?w=105" alt="Barber Shop Hair Salon Sim" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Barber Shop Hair Salon Sim</div>
+            <div class="related-card-meta">⭐ 4.6 · 236Rb</div>
+          </div>
+        </a>
+        <a href="/game/mushy/" class="related-card" title="Mushy">
+          <img src="https://img.gamepix.com/games/mushy/icon/mushy.png?w=105" alt="Mushy" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Mushy</div>
+            <div class="related-card-meta">⭐ 4.8 · 852Rb</div>
+          </div>
+        </a>
+        <a href="/game/the-office-escape/" class="related-card" title="The Office Escape">
+          <img src="https://img.gamepix.com/games/the-office-escape/icon/the-office-escape.png?w=105" alt="The Office Escape" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">The Office Escape</div>
+            <div class="related-card-meta">⭐ 4.5 · 902Rb</div>
+          </div>
+        </a>
+        <a href="/game/giant-wanted-1/" class="related-card" title="Giant Wanted">
+          <img src="https://img.gamepix.com/games/giant-wanted-1/icon/giant-wanted-1.png?w=105" alt="Giant Wanted" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Giant Wanted</div>
+            <div class="related-card-meta">⭐ 4.2 · 792Rb</div>
           </div>
         </a>
         <a href="/game/cat-drop/" class="related-card" title="Cat Drop">
@@ -307,34 +366,21 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
             <div class="related-card-meta">⭐ 4.7 · 652Rb</div>
           </div>
         </a>
-        <a href="/game/asteroid-space/" class="related-card" title="Asteroid Space">
-          <img src="https://img.gamepix.com/games/asteroid-space/icon/asteroid-space.png?w=105" alt="Asteroid Space" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Asteroid Space</div>
-            <div class="related-card-meta">⭐ 4.7 · 711Rb</div>
-          </div>
-        </a>
-        <a href="/game/archer-2023/" class="related-card" title="Archer 2023">
-          <img src="https://img.gamepix.com/games/archer-2023/icon/archer-2023.png?w=105" alt="Archer 2023" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Archer 2023</div>
-            <div class="related-card-meta">⭐ 4.6 · 419Rb</div>
-          </div>
-        </a>
-        <a href="/game/skibidi-toilet-five-difference/" class="related-card" title="Skibidi Toilet Five Difference">
-          <img src="https://img.gamepix.com/games/skibidi-toilet-five-difference/icon/skibidi-toilet-five-difference.png?w=105" alt="Skibidi Toilet Five Difference" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Skibidi Toilet Five Difference</div>
-            <div class="related-card-meta">⭐ 4.8 · 872Rb</div>
-          </div>
-        </a>
-        <a href="/game/angela-all-season-fashion/" class="related-card" title="Angela All Season Fashion">
-          <img src="https://img.gamepix.com/games/angela-all-season-fashion/icon/angela-all-season-fashion.png?w=105" alt="Angela All Season Fashion" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Angela All Season Fashion</div>
-            <div class="related-card-meta">⭐ 4.9 · 317Rb</div>
-          </div>
-        </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

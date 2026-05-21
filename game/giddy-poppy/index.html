@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Giddy Poppy</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/makruk-thai-chess/" class="related-card" title="Makruk Thai Chess">
-          <img src="https://img.gamepix.com/games/makruk-thai-chess/icon/makruk-thai-chess.png?w=105" alt="Makruk Thai Chess" loading="lazy" width="80" height="45">
+        <a href="/game/beltz/" class="related-card" title="Beltz">
+          <img src="https://img.gamepix.com/games/beltz/icon/beltz.png?w=105" alt="Beltz" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Makruk Thai Chess</div>
-            <div class="related-card-meta">⭐ 4.7 · 676Rb</div>
+            <div class="related-card-title">Beltz</div>
+            <div class="related-card-meta">⭐ 4.9 · 578Rb</div>
           </div>
         </a>
-        <a href="/game/bunny-goal/" class="related-card" title="Bunny Goal">
-          <img src="https://img.gamepix.com/games/bunny-goal/icon/bunny-goal.png?w=105" alt="Bunny Goal" loading="lazy" width="80" height="45">
+        <a href="/game/yummy-super-taco/" class="related-card" title="Yummy Super Taco">
+          <img src="https://img.gamepix.com/games/yummy-super-taco/icon/yummy-super-taco.png?w=105" alt="Yummy Super Taco" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bunny Goal</div>
-            <div class="related-card-meta">⭐ 4.8 · 930Rb</div>
+            <div class="related-card-title">Yummy Super Taco</div>
+            <div class="related-card-meta">⭐ 4.1 · 197Rb</div>
           </div>
         </a>
-        <a href="/game/seahorse-jump/" class="related-card" title="Seahorse Jump">
-          <img src="https://img.gamepix.com/games/seahorse-jump/icon/seahorse-jump.png?w=105" alt="Seahorse Jump" loading="lazy" width="80" height="45">
+        <a href="/game/solo-slap-dash/" class="related-card" title="Solo Slap Dash">
+          <img src="https://img.gamepix.com/games/solo-slap-dash/icon/solo-slap-dash.png?w=105" alt="Solo Slap Dash" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Seahorse Jump</div>
-            <div class="related-card-meta">⭐ 4.3 · 535Rb</div>
+            <div class="related-card-title">Solo Slap Dash</div>
+            <div class="related-card-meta">⭐ 4.7 · 185Rb</div>
           </div>
         </a>
-        <a href="/game/save-capybara/" class="related-card" title="Save the Capybara">
-          <img src="https://img.gamepix.com/games/save-capybara/icon/save-capybara.png?w=105" alt="Save the Capybara" loading="lazy" width="80" height="45">
+        <a href="/game/toy-assembly-3d/" class="related-card" title="Toy Assembly 3D">
+          <img src="https://img.gamepix.com/games/toy-assembly-3d/icon/toy-assembly-3d.png?w=105" alt="Toy Assembly 3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Save the Capybara</div>
-            <div class="related-card-meta">⭐ 4.8 · 353Rb</div>
+            <div class="related-card-title">Toy Assembly 3D</div>
+            <div class="related-card-meta">⭐ 4.8 · 874Rb</div>
           </div>
         </a>
-        <a href="/game/funny-nose-surgery/" class="related-card" title="Funny Nose Surgery">
-          <img src="https://img.gamepix.com/games/funny-nose-surgery/icon/funny-nose-surgery.png?w=105" alt="Funny Nose Surgery" loading="lazy" width="80" height="45">
+        <a href="/game/mini-golf-2/" class="related-card" title="Mini Golf 2">
+          <img src="https://img.gamepix.com/games/mini-golf-2/icon/mini-golf-2.png?w=105" alt="Mini Golf 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Funny Nose Surgery</div>
-            <div class="related-card-meta">⭐ 4 · 233Rb</div>
+            <div class="related-card-title">Mini Golf 2</div>
+            <div class="related-card-meta">⭐ 4.3 · 198Rb</div>
           </div>
         </a>
-        <a href="/game/tentrix-blast/" class="related-card" title="TenTrix Blast">
-          <img src="https://img.gamepix.com/games/tentrix-blast/icon/tentrix-blast.png?w=105" alt="TenTrix Blast" loading="lazy" width="80" height="45">
+        <a href="/game/chess-online/" class="related-card" title="Chess Online">
+          <img src="https://img.gamepix.com/games/chess-online/icon/chess-online.png?w=105" alt="Chess Online" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">TenTrix Blast</div>
-            <div class="related-card-meta">⭐ 4.3 · 237Rb</div>
+            <div class="related-card-title">Chess Online</div>
+            <div class="related-card-meta">⭐ 4.2 · 435Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

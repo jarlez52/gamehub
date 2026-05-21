@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Cocktail with Fruit</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/tori/" class="related-card" title="Tori">
-          <img src="https://img.gamepix.com/games/tori/icon/tori.png?w=105" alt="Tori" loading="lazy" width="80" height="45">
+        <a href="/game/jump-halloween/" class="related-card" title="Jump Halloween">
+          <img src="https://img.gamepix.com/games/jump-halloween/icon/jump-halloween.png?w=105" alt="Jump Halloween" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tori</div>
-            <div class="related-card-meta">⭐ 4.2 · 724Rb</div>
+            <div class="related-card-title">Jump Halloween</div>
+            <div class="related-card-meta">⭐ 4.7 · 214Rb</div>
           </div>
         </a>
-        <a href="/game/lollipop-match/" class="related-card" title="Lollipop Match">
-          <img src="https://img.gamepix.com/games/lollipop-match/icon/lollipop-match.png?w=105" alt="Lollipop Match" loading="lazy" width="80" height="45">
+        <a href="/game/geometry-gunner/" class="related-card" title="Geometry Gunner">
+          <img src="https://img.gamepix.com/games/geometry-gunner/icon/geometry-gunner.png?w=105" alt="Geometry Gunner" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Lollipop Match</div>
-            <div class="related-card-meta">⭐ 4.7 · 453Rb</div>
+            <div class="related-card-title">Geometry Gunner</div>
+            <div class="related-card-meta">⭐ 4.4 · 739Rb</div>
           </div>
         </a>
-        <a href="/game/kids-geometry-game/" class="related-card" title="Kids Geometry Game">
-          <img src="https://img.gamepix.com/games/kids-geometry-game/icon/kids-geometry-game.png?w=105" alt="Kids Geometry Game" loading="lazy" width="80" height="45">
+        <a href="/game/club-tycoon-idle-clicker/" class="related-card" title="Club Tycoon: Idle Clicker">
+          <img src="https://img.gamepix.com/games/club-tycoon-idle-clicker/icon/club-tycoon-idle-clicker.png?w=105" alt="Club Tycoon: Idle Clicker" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Kids Geometry Game</div>
-            <div class="related-card-meta">⭐ 4.6 · 423Rb</div>
+            <div class="related-card-title">Club Tycoon: Idle Clicker</div>
+            <div class="related-card-meta">⭐ 4.5 · 488Rb</div>
           </div>
         </a>
-        <a href="/game/russian-car-drift-3d/" class="related-card" title="Russian Car Drift 3D">
-          <img src="https://img.gamepix.com/games/russian-car-drift-3d/icon/russian-car-drift-3d.png?w=105" alt="Russian Car Drift 3D" loading="lazy" width="80" height="45">
+        <a href="/game/amazing-paper-doll-diary/" class="related-card" title="Amazing Paper Doll Diary">
+          <img src="https://img.gamepix.com/games/amazing-paper-doll-diary/icon/amazing-paper-doll-diary.png?w=105" alt="Amazing Paper Doll Diary" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Russian Car Drift 3D</div>
-            <div class="related-card-meta">⭐ 4.1 · 537Rb</div>
+            <div class="related-card-title">Amazing Paper Doll Diary</div>
+            <div class="related-card-meta">⭐ 4.7 · 514Rb</div>
           </div>
         </a>
-        <a href="/game/noise-clicker/" class="related-card" title="Noise Clicker">
-          <img src="https://img.gamepix.com/games/noise-clicker/icon/noise-clicker.png?w=105" alt="Noise Clicker" loading="lazy" width="80" height="45">
+        <a href="/game/blue-and-red-man/" class="related-card" title="Blue And Red Man">
+          <img src="https://img.gamepix.com/games/blue-and-red-man/icon/blue-and-red-man.png?w=105" alt="Blue And Red Man" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Noise Clicker</div>
-            <div class="related-card-meta">⭐ 4.7 · 473Rb</div>
+            <div class="related-card-title">Blue And Red Man</div>
+            <div class="related-card-meta">⭐ 4.1 · 260Rb</div>
           </div>
         </a>
-        <a href="/game/superstar-kitty-fashion-award/" class="related-card" title="Superstar Kitty Fashion Award">
-          <img src="https://img.gamepix.com/games/superstar-kitty-fashion-award/icon/superstar-kitty-fashion-award.png?w=105" alt="Superstar Kitty Fashion Award" loading="lazy" width="80" height="45">
+        <a href="/game/girls-fun-nail-salon/" class="related-card" title="Girls Fun Nail Salon">
+          <img src="https://img.gamepix.com/games/girls-fun-nail-salon/icon/girls-fun-nail-salon.png?w=105" alt="Girls Fun Nail Salon" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Superstar Kitty Fashion Award</div>
-            <div class="related-card-meta">⭐ 4.9 · 555Rb</div>
+            <div class="related-card-title">Girls Fun Nail Salon</div>
+            <div class="related-card-meta">⭐ 4 · 575Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

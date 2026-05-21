@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Connect Em All</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/merge-numbers-drop-the-numbers/" class="related-card" title="Merge Numbers - Drop The Numbers">
-          <img src="https://img.gamepix.com/games/merge-numbers-drop-the-numbers/icon/merge-numbers-drop-the-numbers.png?w=105" alt="Merge Numbers - Drop The Numbers" loading="lazy" width="80" height="45">
+        <a href="/game/russian-draughts/" class="related-card" title="Russian Draughts">
+          <img src="https://img.gamepix.com/games/russian-draughts/icon/russian-draughts.png?w=105" alt="Russian Draughts" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Merge Numbers - Drop The Numbers</div>
-            <div class="related-card-meta">⭐ 4.2 · 714Rb</div>
+            <div class="related-card-title">Russian Draughts</div>
+            <div class="related-card-meta">⭐ 4.8 · 313Rb</div>
           </div>
         </a>
-        <a href="/game/number-linked-up/" class="related-card" title="Number Linked Up">
-          <img src="https://img.gamepix.com/games/number-linked-up/icon/number-linked-up.png?w=105" alt="Number Linked Up" loading="lazy" width="80" height="45">
+        <a href="/game/italian-brainrot-anomaly/" class="related-card" title="Italian Brainrot Anomaly">
+          <img src="https://img.gamepix.com/games/italian-brainrot-anomaly/icon/italian-brainrot-anomaly.png?w=105" alt="Italian Brainrot Anomaly" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Number Linked Up</div>
-            <div class="related-card-meta">⭐ 4.9 · 556Rb</div>
+            <div class="related-card-title">Italian Brainrot Anomaly</div>
+            <div class="related-card-meta">⭐ 4.4 · 698Rb</div>
           </div>
         </a>
-        <a href="/game/fruit-drop-merge/" class="related-card" title="Fruit Drop Merge">
-          <img src="https://img.gamepix.com/games/fruit-drop-merge/icon/fruit-drop-merge.png?w=105" alt="Fruit Drop Merge" loading="lazy" width="80" height="45">
+        <a href="/game/royal-match-tile-family/" class="related-card" title="Royal Match Tile Family">
+          <img src="https://img.gamepix.com/games/royal-match-tile-family/icon/royal-match-tile-family.png?w=105" alt="Royal Match Tile Family" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fruit Drop Merge</div>
-            <div class="related-card-meta">⭐ 4.1 · 597Rb</div>
+            <div class="related-card-title">Royal Match Tile Family</div>
+            <div class="related-card-meta">⭐ 4.8 · 198Rb</div>
           </div>
         </a>
-        <a href="/game/that-s-my-seat-logic-puzzle/" class="related-card" title="That's My Seat Logic Puzzle">
-          <img src="https://img.gamepix.com/games/that-s-my-seat-logic-puzzle/icon/that-s-my-seat-logic-puzzle.png?w=105" alt="That's My Seat Logic Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/ultimate-spider-solitaire/" class="related-card" title="Ultimate Spider Solitaire">
+          <img src="https://img.gamepix.com/games/ultimate-spider-solitaire/icon/ultimate-spider-solitaire.png?w=105" alt="Ultimate Spider Solitaire" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">That's My Seat Logic Puzzle</div>
-            <div class="related-card-meta">⭐ 4.6 · 146Rb</div>
+            <div class="related-card-title">Ultimate Spider Solitaire</div>
+            <div class="related-card-meta">⭐ 4.3 · 574Rb</div>
           </div>
         </a>
-        <a href="/game/word-scramble-game-challenge/" class="related-card" title="Word Scramble Game Challenge">
-          <img src="https://img.gamepix.com/games/word-scramble-game-challenge/icon/word-scramble-game-challenge.png?w=105" alt="Word Scramble Game Challenge" loading="lazy" width="80" height="45">
+        <a href="/game/jelly-match-3/" class="related-card" title="Jelly Match 3">
+          <img src="https://img.gamepix.com/games/jelly-match-3/icon/jelly-match-3.png?w=105" alt="Jelly Match 3" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Word Scramble Game Challenge</div>
-            <div class="related-card-meta">⭐ 4.6 · 837Rb</div>
+            <div class="related-card-title">Jelly Match 3</div>
+            <div class="related-card-meta">⭐ 4.7 · 416Rb</div>
           </div>
         </a>
-        <a href="/game/catch-an-ant/" class="related-card" title="Catch an Ant">
-          <img src="https://img.gamepix.com/games/catch-an-ant/icon/catch-an-ant.png?w=105" alt="Catch an Ant" loading="lazy" width="80" height="45">
+        <a href="/game/three-juicy-tiles-mahjong/" class="related-card" title="Three Juicy Tiles Mahjong">
+          <img src="https://img.gamepix.com/games/three-juicy-tiles-mahjong/icon/three-juicy-tiles-mahjong.png?w=105" alt="Three Juicy Tiles Mahjong" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Catch an Ant</div>
-            <div class="related-card-meta">⭐ 4.2 · 351Rb</div>
+            <div class="related-card-title">Three Juicy Tiles Mahjong</div>
+            <div class="related-card-meta">⭐ 4.7 · 434Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

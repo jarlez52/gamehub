@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Neon King - A local multiplayer Platformer</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/demonic-run/" class="related-card" title="Demonic Run">
-          <img src="https://img.gamepix.com/games/demonic-run/icon/demonic-run.png?w=105" alt="Demonic Run" loading="lazy" width="80" height="45">
+        <a href="/game/easy-obby-girl-friend/" class="related-card" title="Easy Obby Girl Friend">
+          <img src="https://img.gamepix.com/games/easy-obby-girl-friend/icon/easy-obby-girl-friend.png?w=105" alt="Easy Obby Girl Friend" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Demonic Run</div>
-            <div class="related-card-meta">⭐ 4.5 · 784Rb</div>
+            <div class="related-card-title">Easy Obby Girl Friend</div>
+            <div class="related-card-meta">⭐ 4.1 · 789Rb</div>
           </div>
         </a>
-        <a href="/game/naval-conquest/" class="related-card" title="Naval Conquest">
-          <img src="https://img.gamepix.com/games/naval-conquest/icon/naval-conquest.png?w=105" alt="Naval Conquest" loading="lazy" width="80" height="45">
+        <a href="/game/special-easy-animal-coloring-pages-for-kids/" class="related-card" title="Special Easy Animal Coloring Pages For Kids">
+          <img src="https://img.gamepix.com/games/special-easy-animal-coloring-pages-for-kids/icon/special-easy-animal-coloring-pages-for-kids.png?w=105" alt="Special Easy Animal Coloring Pages For Kids" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Naval Conquest</div>
-            <div class="related-card-meta">⭐ 4.1 · 124Rb</div>
+            <div class="related-card-title">Special Easy Animal Coloring Pages For Kids</div>
+            <div class="related-card-meta">⭐ 4.1 · 282Rb</div>
           </div>
         </a>
-        <a href="/game/gem-run-gem-stack/" class="related-card" title="Gem Run Gem Stack">
-          <img src="https://img.gamepix.com/games/gem-run-gem-stack/icon/gem-run-gem-stack.png?w=105" alt="Gem Run Gem Stack" loading="lazy" width="80" height="45">
+        <a href="/game/color-snake-dx/" class="related-card" title="Color Snake DX">
+          <img src="https://img.gamepix.com/games/color-snake-dx/icon/color-snake-dx.png?w=105" alt="Color Snake DX" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Gem Run Gem Stack</div>
-            <div class="related-card-meta">⭐ 4.1 · 222Rb</div>
+            <div class="related-card-title">Color Snake DX</div>
+            <div class="related-card-meta">⭐ 4.3 · 665Rb</div>
           </div>
         </a>
-        <a href="/game/parking-order-ultimate/" class="related-card" title="Parking Order Ultimate">
-          <img src="https://img.gamepix.com/games/parking-order-ultimate/icon/parking-order-ultimate.png?w=105" alt="Parking Order Ultimate" loading="lazy" width="80" height="45">
+        <a href="/game/little-mermaid/" class="related-card" title="Little Mermaid">
+          <img src="https://img.gamepix.com/games/little-mermaid/icon/little-mermaid.png?w=105" alt="Little Mermaid" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Parking Order Ultimate</div>
-            <div class="related-card-meta">⭐ 4.4 · 574Rb</div>
+            <div class="related-card-title">Little Mermaid</div>
+            <div class="related-card-meta">⭐ 4.5 · 562Rb</div>
           </div>
         </a>
-        <a href="/game/bucket-crusher-asmr/" class="related-card" title="Bucket Crusher ASMR">
-          <img src="https://img.gamepix.com/games/bucket-crusher-asmr/icon/bucket-crusher-asmr.png?w=105" alt="Bucket Crusher ASMR" loading="lazy" width="80" height="45">
+        <a href="/game/toca-life-memory-card-match/" class="related-card" title="Toca Life Memory Card Match">
+          <img src="https://img.gamepix.com/games/toca-life-memory-card-match/icon/toca-life-memory-card-match.png?w=105" alt="Toca Life Memory Card Match" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bucket Crusher ASMR</div>
-            <div class="related-card-meta">⭐ 4.9 · 602Rb</div>
+            <div class="related-card-title">Toca Life Memory Card Match</div>
+            <div class="related-card-meta">⭐ 4.7 · 318Rb</div>
           </div>
         </a>
-        <a href="/game/design-with-me-superhero-tutu-outfits/" class="related-card" title="Design With Me SuperHero Tutu Outfits">
-          <img src="https://img.gamepix.com/games/design-with-me-superhero-tutu-outfits/icon/design-with-me-superhero-tutu-outfits.png?w=105" alt="Design With Me SuperHero Tutu Outfits" loading="lazy" width="80" height="45">
+        <a href="/game/my-sweet-candy-outfits/" class="related-card" title="My Sweet Candy Outfits">
+          <img src="https://img.gamepix.com/games/my-sweet-candy-outfits/icon/my-sweet-candy-outfits.png?w=105" alt="My Sweet Candy Outfits" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Design With Me SuperHero Tutu Outfits</div>
-            <div class="related-card-meta">⭐ 4.8 · 102Rb</div>
+            <div class="related-card-title">My Sweet Candy Outfits</div>
+            <div class="related-card-meta">⭐ 4.6 · 842Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

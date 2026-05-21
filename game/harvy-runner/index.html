@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Harvy Runner</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/chin-up-shin-up/" class="related-card" title="Chin Up Shin Up">
-          <img src="https://img.gamepix.com/games/chin-up-shin-up/icon/chin-up-shin-up.png?w=105" alt="Chin Up Shin Up" loading="lazy" width="80" height="45">
+        <a href="/game/fallen-apples/" class="related-card" title="Fallen Apples">
+          <img src="https://img.gamepix.com/games/fallen-apples/icon/fallen-apples.png?w=105" alt="Fallen Apples" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Chin Up Shin Up</div>
-            <div class="related-card-meta">⭐ 4.3 · 365Rb</div>
+            <div class="related-card-title">Fallen Apples</div>
+            <div class="related-card-meta">⭐ 4.1 · 129Rb</div>
           </div>
         </a>
-        <a href="/game/save-the-alphabet-lore/" class="related-card" title="Save the Alphabet lore">
-          <img src="https://img.gamepix.com/games/save-the-alphabet-lore/icon/save-the-alphabet-lore.png?w=105" alt="Save the Alphabet lore" loading="lazy" width="80" height="45">
+        <a href="/game/deadflip-frenzy/" class="related-card" title="Deadflip Frenzy">
+          <img src="https://img.gamepix.com/games/deadflip-frenzy/icon/deadflip-frenzy.png?w=105" alt="Deadflip Frenzy" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Save the Alphabet lore</div>
-            <div class="related-card-meta">⭐ 4.1 · 407Rb</div>
+            <div class="related-card-title">Deadflip Frenzy</div>
+            <div class="related-card-meta">⭐ 4.5 · 398Rb</div>
           </div>
         </a>
-        <a href="/game/counter-craft/" class="related-card" title="Counter Craft">
-          <img src="https://img.gamepix.com/games/counter-craft/icon/counter-craft.png?w=105" alt="Counter Craft" loading="lazy" width="80" height="45">
+        <a href="/game/happy-monsters/" class="related-card" title="Happy Monsters">
+          <img src="https://img.gamepix.com/games/happy-monsters/icon/happy-monsters.png?w=105" alt="Happy Monsters" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Counter Craft</div>
-            <div class="related-card-meta">⭐ 4.7 · 701Rb</div>
+            <div class="related-card-title">Happy Monsters</div>
+            <div class="related-card-meta">⭐ 4.7 · 331Rb</div>
           </div>
         </a>
-        <a href="/game/gold-clicker/" class="related-card" title="Gold Clicker">
-          <img src="https://img.gamepix.com/games/gold-clicker/icon/gold-clicker.png?w=105" alt="Gold Clicker" loading="lazy" width="80" height="45">
+        <a href="/game/thung-thung-sahur-merge-forever/" class="related-card" title="Thung Thung Sahur Merge Forever">
+          <img src="https://img.gamepix.com/games/thung-thung-sahur-merge-forever/icon/thung-thung-sahur-merge-forever.png?w=105" alt="Thung Thung Sahur Merge Forever" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Gold Clicker</div>
-            <div class="related-card-meta">⭐ 4.6 · 260Rb</div>
+            <div class="related-card-title">Thung Thung Sahur Merge Forever</div>
+            <div class="related-card-meta">⭐ 4.3 · 614Rb</div>
           </div>
         </a>
-        <a href="/game/the-last-tiger-tank-simulator/" class="related-card" title="The Last Tiger Tank Simulator">
-          <img src="https://img.gamepix.com/games/the-last-tiger-tank-simulator/icon/the-last-tiger-tank-simulator.png?w=105" alt="The Last Tiger Tank Simulator" loading="lazy" width="80" height="45">
+        <a href="/game/the-escape/" class="related-card" title="AirSpace2">
+          <img src="https://img.gamepix.com/games/the-escape/icon/the-escape.png?w=105" alt="AirSpace2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">The Last Tiger Tank Simulator</div>
-            <div class="related-card-meta">⭐ 4.2 · 653Rb</div>
+            <div class="related-card-title">AirSpace2</div>
+            <div class="related-card-meta">⭐ 4.1 · 390Rb</div>
           </div>
         </a>
-        <a href="/game/survival-by-boat/" class="related-card" title="Survival by Boat">
-          <img src="https://img.gamepix.com/games/survival-by-boat/icon/survival-by-boat.png?w=105" alt="Survival by Boat" loading="lazy" width="80" height="45">
+        <a href="/game/phantom-dash/" class="related-card" title="Phantom Dash">
+          <img src="https://img.gamepix.com/games/phantom-dash/icon/phantom-dash.png?w=105" alt="Phantom Dash" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Survival by Boat</div>
-            <div class="related-card-meta">⭐ 4.3 · 231Rb</div>
+            <div class="related-card-title">Phantom Dash</div>
+            <div class="related-card-meta">⭐ 4.2 · 520Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

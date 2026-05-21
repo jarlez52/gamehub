@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Counter Terror Battle Simulator</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/click-planet/" class="related-card" title="Click Planet">
-          <img src="https://img.gamepix.com/games/click-planet/icon/click-planet.png?w=105" alt="Click Planet" loading="lazy" width="80" height="45">
+        <a href="/game/build-tower/" class="related-card" title="Build Tower">
+          <img src="https://img.gamepix.com/games/build-tower/icon/build-tower.png?w=105" alt="Build Tower" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Click Planet</div>
-            <div class="related-card-meta">⭐ 4.1 · 930Rb</div>
+            <div class="related-card-title">Build Tower</div>
+            <div class="related-card-meta">⭐ 4.5 · 168Rb</div>
           </div>
         </a>
-        <a href="/game/parking-jam-escape/" class="related-card" title="Parking Jam Escape">
-          <img src="https://img.gamepix.com/games/parking-jam-escape/icon/parking-jam-escape.png?w=105" alt="Parking Jam Escape" loading="lazy" width="80" height="45">
+        <a href="/game/tower-defense/" class="related-card" title="Tower Defense">
+          <img src="/img/tower-defense.svg" alt="Tower Defense" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Parking Jam Escape</div>
-            <div class="related-card-meta">⭐ 4.9 · 749Rb</div>
+            <div class="related-card-title">Tower Defense</div>
+            <div class="related-card-meta">⭐ 4.5 · 256Rb</div>
           </div>
         </a>
-        <a href="/game/my-idle-mart-empire-tycoon/" class="related-card" title="My Idle Mart Empire Tycoon">
-          <img src="https://img.gamepix.com/games/my-idle-mart-empire-tycoon/icon/my-idle-mart-empire-tycoon.png?w=105" alt="My Idle Mart Empire Tycoon" loading="lazy" width="80" height="45">
+        <a href="/game/roller-coaster-simulator/" class="related-card" title="Roller Coaster Simulator">
+          <img src="https://img.gamepix.com/games/roller-coaster-simulator/icon/roller-coaster-simulator.png?w=105" alt="Roller Coaster Simulator" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">My Idle Mart Empire Tycoon</div>
-            <div class="related-card-meta">⭐ 4.4 · 451Rb</div>
+            <div class="related-card-title">Roller Coaster Simulator</div>
+            <div class="related-card-meta">⭐ 4.9 · 934Rb</div>
           </div>
         </a>
-        <a href="/game/limited-defense/" class="related-card" title="Limited Defense">
-          <img src="https://img.gamepix.com/games/limited-defense/icon/limited-defense.png?w=105" alt="Limited Defense" loading="lazy" width="80" height="45">
+        <a href="/game/shipbuilding-tycoon/" class="related-card" title="Shipbuilding Tycoon">
+          <img src="https://img.gamepix.com/games/shipbuilding-tycoon/icon/shipbuilding-tycoon.png?w=105" alt="Shipbuilding Tycoon" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Limited Defense</div>
-            <div class="related-card-meta">⭐ 4.9 · 264Rb</div>
+            <div class="related-card-title">Shipbuilding Tycoon</div>
+            <div class="related-card-meta">⭐ 4.6 · 363Rb</div>
           </div>
         </a>
-        <a href="/game/green-submarine/" class="related-card" title="Green Submarine">
-          <img src="https://img.gamepix.com/games/green-submarine/icon/green-submarine.png?w=105" alt="Green Submarine" loading="lazy" width="80" height="45">
+        <a href="/game/perimeter/" class="related-card" title="Perimeter - Legate Edition">
+          <img src="https://img.gamepix.com/games/perimeter/icon/perimeter.png?w=105" alt="Perimeter - Legate Edition" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Green Submarine</div>
-            <div class="related-card-meta">⭐ 4.7 · 591Rb</div>
+            <div class="related-card-title">Perimeter - Legate Edition</div>
+            <div class="related-card-meta">⭐ 4.3 · 318Rb</div>
           </div>
         </a>
-        <a href="/game/farming-life/" class="related-card" title="Farming Life">
-          <img src="https://img.gamepix.com/games/farming-life/icon/farming-life.png?w=105" alt="Farming Life" loading="lazy" width="80" height="45">
+        <a href="/game/mining-rush/" class="related-card" title="Mining Rush">
+          <img src="https://img.gamepix.com/games/mining-rush/icon/mining-rush.png?w=105" alt="Mining Rush" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Farming Life</div>
-            <div class="related-card-meta">⭐ 4.3 · 787Rb</div>
+            <div class="related-card-title">Mining Rush</div>
+            <div class="related-card-meta">⭐ 4.4 · 621Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

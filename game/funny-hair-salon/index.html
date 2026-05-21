@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Funny Hair Salon</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/block-quest/" class="related-card" title="Block Quest">
-          <img src="https://img.gamepix.com/games/block-quest/icon/block-quest.png?w=105" alt="Block Quest" loading="lazy" width="80" height="45">
+        <a href="/game/idle-gold-miner/" class="related-card" title="Idle Gold Miner">
+          <img src="https://img.gamepix.com/games/idle-gold-miner/icon/idle-gold-miner.png?w=105" alt="Idle Gold Miner" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Block Quest</div>
-            <div class="related-card-meta">⭐ 4.6 · 757Rb</div>
+            <div class="related-card-title">Idle Gold Miner</div>
+            <div class="related-card-meta">⭐ 4.3 · 618Rb</div>
           </div>
         </a>
-        <a href="/game/super-slashman/" class="related-card" title="Super Slashman">
-          <img src="https://img.gamepix.com/games/super-slashman/icon/super-slashman.png?w=105" alt="Super Slashman" loading="lazy" width="80" height="45">
+        <a href="/game/brick-breaker/" class="related-card" title="Ultra Brick Breaker">
+          <img src="https://img.gamepix.com/games/brick-breaker/icon/brick-breaker.png?w=105" alt="Ultra Brick Breaker" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Super Slashman</div>
-            <div class="related-card-meta">⭐ 4.4 · 242Rb</div>
+            <div class="related-card-title">Ultra Brick Breaker</div>
+            <div class="related-card-meta">⭐ 4.5 · 144Rb</div>
           </div>
         </a>
-        <a href="/game/super-motocross/" class="related-card" title="Super Motocross">
-          <img src="https://img.gamepix.com/games/super-motocross/icon/super-motocross.png?w=105" alt="Super Motocross" loading="lazy" width="80" height="45">
+        <a href="/game/gold-miner/" class="related-card" title="Gold Mine">
+          <img src="https://img.gamepix.com/games/gold-miner/icon/gold-miner.png?w=105" alt="Gold Mine" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Super Motocross</div>
-            <div class="related-card-meta">⭐ 4.7 · 321Rb</div>
+            <div class="related-card-title">Gold Mine</div>
+            <div class="related-card-meta">⭐ 4.3 · 836Rb</div>
           </div>
         </a>
-        <a href="/game/skibidi-toilet-shooter/" class="related-card" title="Skibidi Toilet Shooter">
-          <img src="https://img.gamepix.com/games/skibidi-toilet-shooter/icon/skibidi-toilet-shooter.png?w=105" alt="Skibidi Toilet Shooter" loading="lazy" width="80" height="45">
+        <a href="/game/alien-princess/" class="related-card" title="Alien Princess">
+          <img src="https://img.gamepix.com/games/alien-princess/icon/alien-princess.png?w=105" alt="Alien Princess" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Skibidi Toilet Shooter</div>
-            <div class="related-card-meta">⭐ 4.1 · 435Rb</div>
+            <div class="related-card-title">Alien Princess</div>
+            <div class="related-card-meta">⭐ 4.5 · 441Rb</div>
           </div>
         </a>
-        <a href="/game/boss-level-shootout/" class="related-card" title="Boss Level Shootout">
-          <img src="https://img.gamepix.com/games/boss-level-shootout/icon/boss-level-shootout.png?w=105" alt="Boss Level Shootout" loading="lazy" width="80" height="45">
+        <a href="/game/tung-tung-sahur-the-sniper-hitman/" class="related-card" title="Tung Tung Sahur The Sniper Hitman">
+          <img src="https://img.gamepix.com/games/tung-tung-sahur-the-sniper-hitman/icon/tung-tung-sahur-the-sniper-hitman.png?w=105" alt="Tung Tung Sahur The Sniper Hitman" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Boss Level Shootout</div>
-            <div class="related-card-meta">⭐ 4.8 · 580Rb</div>
+            <div class="related-card-title">Tung Tung Sahur The Sniper Hitman</div>
+            <div class="related-card-meta">⭐ 4.1 · 921Rb</div>
           </div>
         </a>
-        <a href="/game/mahjong-sweet-connection/" class="related-card" title="Mahjong Sweet Connection">
-          <img src="https://img.gamepix.com/games/mahjong-sweet-connection/icon/mahjong-sweet-connection.png?w=105" alt="Mahjong Sweet Connection" loading="lazy" width="80" height="45">
+        <a href="/game/line-of-defense/" class="related-card" title="Line of Defense">
+          <img src="https://img.gamepix.com/games/line-of-defense/icon/line-of-defense.png?w=105" alt="Line of Defense" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mahjong Sweet Connection</div>
-            <div class="related-card-meta">⭐ 4.4 · 909Rb</div>
+            <div class="related-card-title">Line of Defense</div>
+            <div class="related-card-meta">⭐ 4.1 · 806Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

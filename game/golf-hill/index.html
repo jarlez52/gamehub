@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Golf Hill</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/farm-around/" class="related-card" title="Farm Around">
-          <img src="https://img.gamepix.com/games/farm-around/icon/farm-around.png?w=105" alt="Farm Around" loading="lazy" width="80" height="45">
+        <a href="/game/sheep-it-up/" class="related-card" title="Sheep it Up">
+          <img src="https://img.gamepix.com/games/sheep-it-up/icon/sheep-it-up.png?w=105" alt="Sheep it Up" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Farm Around</div>
-            <div class="related-card-meta">⭐ 4.7 · 288Rb</div>
+            <div class="related-card-title">Sheep it Up</div>
+            <div class="related-card-meta">⭐ 4.5 · 756Rb</div>
           </div>
         </a>
-        <a href="/game/space-survival/" class="related-card" title="Asteroids Survival">
-          <img src="https://img.gamepix.com/games/space-survival/icon/space-survival.png?w=105" alt="Asteroids Survival" loading="lazy" width="80" height="45">
+        <a href="/game/ellie-chinese-new-year-celebration/" class="related-card" title="Ellie Chinese New Year Celebration">
+          <img src="https://img.gamepix.com/games/ellie-chinese-new-year-celebration/icon/ellie-chinese-new-year-celebration.png?w=105" alt="Ellie Chinese New Year Celebration" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Asteroids Survival</div>
-            <div class="related-card-meta">⭐ 4.3 · 349Rb</div>
+            <div class="related-card-title">Ellie Chinese New Year Celebration</div>
+            <div class="related-card-meta">⭐ 4.4 · 809Rb</div>
           </div>
         </a>
-        <a href="/game/turtle-math/" class="related-card" title="Turtle Math">
-          <img src="https://img.gamepix.com/games/turtle-math/icon/turtle-math.png?w=105" alt="Turtle Math" loading="lazy" width="80" height="45">
+        <a href="/game/escape-the-bomb/" class="related-card" title="Escape the Bomb">
+          <img src="https://img.gamepix.com/games/escape-the-bomb/icon/escape-the-bomb.png?w=105" alt="Escape the Bomb" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Turtle Math</div>
-            <div class="related-card-meta">⭐ 4.6 · 224Rb</div>
+            <div class="related-card-title">Escape the Bomb</div>
+            <div class="related-card-meta">⭐ 4.7 · 323Rb</div>
           </div>
         </a>
-        <a href="/game/spider/" class="related-card" title="Spider">
-          <img src="https://img.gamepix.com/games/spider/icon/spider.png?w=105" alt="Spider" loading="lazy" width="80" height="45">
+        <a href="/game/tung-tung-sahur-the-sniper-hitman/" class="related-card" title="Tung Tung Sahur The Sniper Hitman">
+          <img src="https://img.gamepix.com/games/tung-tung-sahur-the-sniper-hitman/icon/tung-tung-sahur-the-sniper-hitman.png?w=105" alt="Tung Tung Sahur The Sniper Hitman" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Spider</div>
-            <div class="related-card-meta">⭐ 4 · 697Rb</div>
+            <div class="related-card-title">Tung Tung Sahur The Sniper Hitman</div>
+            <div class="related-card-meta">⭐ 4.1 · 921Rb</div>
           </div>
         </a>
-        <a href="/game/among-vs-creeper/" class="related-card" title="Among vs Creeper">
-          <img src="https://img.gamepix.com/games/among-vs-creeper/icon/among-vs-creeper.png?w=105" alt="Among vs Creeper" loading="lazy" width="80" height="45">
+        <a href="/game/no-way-out/" class="related-card" title="No Way Out">
+          <img src="https://img.gamepix.com/games/no-way-out/icon/no-way-out.png?w=105" alt="No Way Out" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Among vs Creeper</div>
-            <div class="related-card-meta">⭐ 4.3 · 171Rb</div>
+            <div class="related-card-title">No Way Out</div>
+            <div class="related-card-meta">⭐ 4.6 · 540Rb</div>
           </div>
         </a>
-        <a href="/game/swarm-master/" class="related-card" title="Swarm Master">
-          <img src="https://img.gamepix.com/games/swarm-master/icon/swarm-master.png?w=105" alt="Swarm Master" loading="lazy" width="80" height="45">
+        <a href="/game/tabs-clicker/" class="related-card" title="Tabs Clicker">
+          <img src="https://img.gamepix.com/games/tabs-clicker/icon/tabs-clicker.png?w=105" alt="Tabs Clicker" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Swarm Master</div>
-            <div class="related-card-meta">⭐ 4.1 · 631Rb</div>
+            <div class="related-card-title">Tabs Clicker</div>
+            <div class="related-card-meta">⭐ 4.7 · 159Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

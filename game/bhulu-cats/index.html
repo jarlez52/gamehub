@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Bhulu Cats</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/fury-escape/" class="related-card" title="Fury Escape">
-          <img src="https://img.gamepix.com/games/fury-escape/icon/fury-escape.png?w=105" alt="Fury Escape" loading="lazy" width="80" height="45">
+        <a href="/game/tenno/" class="related-card" title="Tenno">
+          <img src="https://img.gamepix.com/games/tenno/icon/tenno.png?w=105" alt="Tenno" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fury Escape</div>
-            <div class="related-card-meta">⭐ 4.4 · 583Rb</div>
+            <div class="related-card-title">Tenno</div>
+            <div class="related-card-meta">⭐ 4.4 · 513Rb</div>
           </div>
         </a>
-        <a href="/game/cubicjump/" class="related-card" title="CubicJump">
-          <img src="https://img.gamepix.com/games/cubicjump/icon/cubicjump.png?w=105" alt="CubicJump" loading="lazy" width="80" height="45">
+        <a href="/game/duck-shooter-pro/" class="related-card" title="Duck Shooter Pro">
+          <img src="https://img.gamepix.com/games/duck-shooter-pro/icon/duck-shooter-pro.png?w=105" alt="Duck Shooter Pro" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">CubicJump</div>
-            <div class="related-card-meta">⭐ 4.6 · 959Rb</div>
+            <div class="related-card-title">Duck Shooter Pro</div>
+            <div class="related-card-meta">⭐ 4 · 595Rb</div>
           </div>
         </a>
-        <a href="/game/ricosan/" class="related-card" title="Ricosan">
-          <img src="https://img.gamepix.com/games/ricosan/icon/ricosan.png?w=105" alt="Ricosan" loading="lazy" width="80" height="45">
+        <a href="/game/mermaid-adventure/" class="related-card" title="Mermaid Adventure">
+          <img src="https://img.gamepix.com/games/mermaid-adventure/icon/mermaid-adventure.png?w=105" alt="Mermaid Adventure" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ricosan</div>
-            <div class="related-card-meta">⭐ 4.3 · 512Rb</div>
+            <div class="related-card-title">Mermaid Adventure</div>
+            <div class="related-card-meta">⭐ 4.8 · 241Rb</div>
           </div>
         </a>
-        <a href="/game/robox-adventure/" class="related-card" title="Robox Adventure">
-          <img src="https://img.gamepix.com/games/robox-adventure/icon/robox-adventure.png?w=105" alt="Robox Adventure" loading="lazy" width="80" height="45">
+        <a href="/game/path-wardens-defense-game/" class="related-card" title="Path Wardens - Defense Game">
+          <img src="https://img.gamepix.com/games/path-wardens-defense-game/icon/path-wardens-defense-game.png?w=105" alt="Path Wardens - Defense Game" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Robox Adventure</div>
-            <div class="related-card-meta">⭐ 4.2 · 618Rb</div>
+            <div class="related-card-title">Path Wardens - Defense Game</div>
+            <div class="related-card-meta">⭐ 4.6 · 224Rb</div>
           </div>
         </a>
-        <a href="/game/defence/" class="related-card" title="Defence">
-          <img src="https://img.gamepix.com/games/defence/icon/defence.png?w=105" alt="Defence" loading="lazy" width="80" height="45">
+        <a href="/game/squid-game-2-sprunki-shooter/" class="related-card" title="Squid Game 2 Sprunki Shooter">
+          <img src="https://img.gamepix.com/games/squid-game-2-sprunki-shooter/icon/squid-game-2-sprunki-shooter.png?w=105" alt="Squid Game 2 Sprunki Shooter" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Defence</div>
-            <div class="related-card-meta">⭐ 4 · 459Rb</div>
+            <div class="related-card-title">Squid Game 2 Sprunki Shooter</div>
+            <div class="related-card-meta">⭐ 4.7 · 201Rb</div>
           </div>
         </a>
-        <a href="/game/set-bot-2/" class="related-card" title="Set Bot 2">
-          <img src="https://img.gamepix.com/games/set-bot-2/icon/set-bot-2.png?w=105" alt="Set Bot 2" loading="lazy" width="80" height="45">
+        <a href="/game/fishing-descent/" class="related-card" title="Fishing Descent">
+          <img src="https://img.gamepix.com/games/fishing-descent/icon/fishing-descent.png?w=105" alt="Fishing Descent" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Set Bot 2</div>
-            <div class="related-card-meta">⭐ 4.8 · 115Rb</div>
+            <div class="related-card-title">Fishing Descent</div>
+            <div class="related-card-meta">⭐ 4.8 · 772Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

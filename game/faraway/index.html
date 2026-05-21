@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Faraway</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/robots-battle-mech-arena/" class="related-card" title="Robots Battle: Mech Arena">
-          <img src="https://img.gamepix.com/games/robots-battle-mech-arena/icon/robots-battle-mech-arena.png?w=105" alt="Robots Battle: Mech Arena" loading="lazy" width="80" height="45">
+        <a href="/game/sausage-flip-free/" class="related-card" title="Sausage Flip Free">
+          <img src="https://img.gamepix.com/games/sausage-flip-free/icon/sausage-flip-free.png?w=105" alt="Sausage Flip Free" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Robots Battle: Mech Arena</div>
-            <div class="related-card-meta">⭐ 4.8 · 238Rb</div>
+            <div class="related-card-title">Sausage Flip Free</div>
+            <div class="related-card-meta">⭐ 4.4 · 969Rb</div>
           </div>
         </a>
-        <a href="/game/tank-stars-battle-arena/" class="related-card" title="Tank Stars Battle Arena">
-          <img src="https://img.gamepix.com/games/tank-stars-battle-arena/icon/tank-stars-battle-arena.png?w=105" alt="Tank Stars Battle Arena" loading="lazy" width="80" height="45">
+        <a href="/game/mani-mouse-2/" class="related-card" title="Mani Mouse 2">
+          <img src="https://img.gamepix.com/games/mani-mouse-2/icon/mani-mouse-2.png?w=105" alt="Mani Mouse 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tank Stars Battle Arena</div>
-            <div class="related-card-meta">⭐ 4.4 · 359Rb</div>
+            <div class="related-card-title">Mani Mouse 2</div>
+            <div class="related-card-meta">⭐ 4.8 · 292Rb</div>
           </div>
         </a>
-        <a href="/game/stick-hero-tower-defense/" class="related-card" title="Stick Hero Tower Defense">
-          <img src="https://img.gamepix.com/games/stick-hero-tower-defense/icon/stick-hero-tower-defense.png?w=105" alt="Stick Hero Tower Defense" loading="lazy" width="80" height="45">
+        <a href="/game/mr-santa-run/" class="related-card" title="Mr. Santa Run">
+          <img src="https://img.gamepix.com/games/mr-santa-run/icon/mr-santa-run.png?w=105" alt="Mr. Santa Run" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Stick Hero Tower Defense</div>
-            <div class="related-card-meta">⭐ 4.8 · 150Rb</div>
+            <div class="related-card-title">Mr. Santa Run</div>
+            <div class="related-card-meta">⭐ 4 · 932Rb</div>
           </div>
         </a>
-        <a href="/game/ballshooter/" class="related-card" title="Space Stormtrooper">
-          <img src="https://img.gamepix.com/games/ballshooter/icon/ballshooter.png?w=105" alt="Space Stormtrooper" loading="lazy" width="80" height="45">
+        <a href="/game/pinugs-frees-aivin/" class="related-card" title="Pinugs Frees Aivin">
+          <img src="https://img.gamepix.com/games/pinugs-frees-aivin/icon/pinugs-frees-aivin.png?w=105" alt="Pinugs Frees Aivin" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Space Stormtrooper</div>
-            <div class="related-card-meta">⭐ 4.3 · 556Rb</div>
+            <div class="related-card-title">Pinugs Frees Aivin</div>
+            <div class="related-card-meta">⭐ 4.6 · 912Rb</div>
           </div>
         </a>
-        <a href="/game/the-bulb-girlfriend-2/" class="related-card" title="The Bulb Girlfriend 2">
-          <img src="https://img.gamepix.com/games/the-bulb-girlfriend-2/icon/the-bulb-girlfriend-2.png?w=105" alt="The Bulb Girlfriend 2" loading="lazy" width="80" height="45">
+        <a href="/game/wild-paws-sprint/" class="related-card" title="Wild Paws Sprint">
+          <img src="https://img.gamepix.com/games/wild-paws-sprint/icon/wild-paws-sprint.png?w=105" alt="Wild Paws Sprint" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">The Bulb Girlfriend 2</div>
-            <div class="related-card-meta">⭐ 4.6 · 721Rb</div>
+            <div class="related-card-title">Wild Paws Sprint</div>
+            <div class="related-card-meta">⭐ 4.3 · 303Rb</div>
           </div>
         </a>
-        <a href="/game/zombie-inferno/" class="related-card" title="Zombie Inferno">
-          <img src="https://img.gamepix.com/games/zombie-inferno/icon/zombie-inferno.png?w=105" alt="Zombie Inferno" loading="lazy" width="80" height="45">
+        <a href="/game/zombie-street/" class="related-card" title="Zombie Street">
+          <img src="https://img.gamepix.com/games/zombie-street/icon/zombie-street.png?w=105" alt="Zombie Street" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Zombie Inferno</div>
-            <div class="related-card-meta">⭐ 4 · 777Rb</div>
+            <div class="related-card-title">Zombie Street</div>
+            <div class="related-card-meta">⭐ 4.5 · 540Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

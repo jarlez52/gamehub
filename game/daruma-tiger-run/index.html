@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Daruma Tiger Run</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/herojump/" class="related-card" title="HeroJump">
-          <img src="https://img.gamepix.com/games/herojump/icon/herojump.png?w=105" alt="HeroJump" loading="lazy" width="80" height="45">
+        <a href="/game/jungle-memory/" class="related-card" title="Jungle Memory">
+          <img src="https://img.gamepix.com/games/jungle-memory/icon/jungle-memory.png?w=105" alt="Jungle Memory" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">HeroJump</div>
-            <div class="related-card-meta">⭐ 4.5 · 402Rb</div>
+            <div class="related-card-title">Jungle Memory</div>
+            <div class="related-card-meta">⭐ 4.2 · 112Rb</div>
           </div>
         </a>
-        <a href="/game/anime-blue-mermaid-coloring/" class="related-card" title="Anime Blue Mermaid Coloring">
-          <img src="https://img.gamepix.com/games/anime-blue-mermaid-coloring/icon/anime-blue-mermaid-coloring.png?w=105" alt="Anime Blue Mermaid Coloring" loading="lazy" width="80" height="45">
+        <a href="/game/liquid-sort/" class="related-card" title="Liquid Sort">
+          <img src="https://img.gamepix.com/games/liquid-sort/icon/liquid-sort.png?w=105" alt="Liquid Sort" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Anime Blue Mermaid Coloring</div>
-            <div class="related-card-meta">⭐ 4.5 · 634Rb</div>
+            <div class="related-card-title">Liquid Sort</div>
+            <div class="related-card-meta">⭐ 4 · 286Rb</div>
           </div>
         </a>
-        <a href="/game/mr-pong/" class="related-card" title="Mr Pong">
-          <img src="https://img.gamepix.com/games/mr-pong/icon/mr-pong.png?w=105" alt="Mr Pong" loading="lazy" width="80" height="45">
+        <a href="/game/one-odd-out/" class="related-card" title="One Odd Out">
+          <img src="https://img.gamepix.com/games/one-odd-out/icon/one-odd-out.png?w=105" alt="One Odd Out" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mr Pong</div>
-            <div class="related-card-meta">⭐ 4.3 · 180Rb</div>
+            <div class="related-card-title">One Odd Out</div>
+            <div class="related-card-meta">⭐ 4.7 · 716Rb</div>
           </div>
         </a>
-        <a href="/game/soldier-of-ruins-temple-of-apocalypse/" class="related-card" title="Soldier of Ruins - Temple of Apocalypse">
-          <img src="https://img.gamepix.com/games/soldier-of-ruins-temple-of-apocalypse/icon/soldier-of-ruins-temple-of-apocalypse.png?w=105" alt="Soldier of Ruins - Temple of Apocalypse" loading="lazy" width="80" height="45">
+        <a href="/game/swimming-pool-romance/" class="related-card" title="Swimming Pool Romance">
+          <img src="https://img.gamepix.com/games/swimming-pool-romance/icon/swimming-pool-romance.png?w=105" alt="Swimming Pool Romance" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Soldier of Ruins - Temple of Apocalypse</div>
-            <div class="related-card-meta">⭐ 4.1 · 254Rb</div>
+            <div class="related-card-title">Swimming Pool Romance</div>
+            <div class="related-card-meta">⭐ 4.8 · 469Rb</div>
           </div>
         </a>
-        <a href="/game/star-pusher/" class="related-card" title="Star Pusher">
-          <img src="https://img.gamepix.com/games/star-pusher/icon/star-pusher.png?w=105" alt="Star Pusher" loading="lazy" width="80" height="45">
+        <a href="/game/stickman-army-the-resistance/" class="related-card" title="Stickman Army The Resistance">
+          <img src="https://img.gamepix.com/games/stickman-army-the-resistance/icon/stickman-army-the-resistance.png?w=105" alt="Stickman Army The Resistance" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Star Pusher</div>
-            <div class="related-card-meta">⭐ 4.1 · 504Rb</div>
+            <div class="related-card-title">Stickman Army The Resistance</div>
+            <div class="related-card-meta">⭐ 4.1 · 887Rb</div>
           </div>
         </a>
-        <a href="/game/wake-rider-escape/" class="related-card" title="Wake Rider Escape">
-          <img src="https://img.gamepix.com/games/wake-rider-escape/icon/wake-rider-escape.png?w=105" alt="Wake Rider Escape" loading="lazy" width="80" height="45">
+        <a href="/game/bread-pit-2/" class="related-card" title="Bread Pit 2">
+          <img src="https://img.gamepix.com/games/bread-pit-2/icon/bread-pit-2.png?w=105" alt="Bread Pit 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Wake Rider Escape</div>
-            <div class="related-card-meta">⭐ 4.7 · 587Rb</div>
+            <div class="related-card-title">Bread Pit 2</div>
+            <div class="related-card-meta">⭐ 4.7 · 494Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

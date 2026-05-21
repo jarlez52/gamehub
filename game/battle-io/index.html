@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Battle.io</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/supermarket-simulator/" class="related-card" title="Supermarket Simulator">
-          <img src="https://img.gamepix.com/games/supermarket-simulator/icon/supermarket-simulator.png?w=105" alt="Supermarket Simulator" loading="lazy" width="80" height="45">
+        <a href="/game/openttd/" class="related-card" title="Transport Tycoon Deluxe - Open TTD">
+          <img src="https://img.gamepix.com/games/openttd/icon/openttd.png?w=105" alt="Transport Tycoon Deluxe - Open TTD" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Supermarket Simulator</div>
-            <div class="related-card-meta">⭐ 4.2 · 571Rb</div>
+            <div class="related-card-title">Transport Tycoon Deluxe - Open TTD</div>
+            <div class="related-card-meta">⭐ 4.1 · 660Rb</div>
           </div>
         </a>
-        <a href="/game/alchemist-tower-defense/" class="related-card" title="Alchemist Tower Defense">
-          <img src="https://img.gamepix.com/games/alchemist-tower-defense/icon/alchemist-tower-defense.png?w=105" alt="Alchemist Tower Defense" loading="lazy" width="80" height="45">
+        <a href="/game/idle-bathroom-empire-tycoon/" class="related-card" title="Idle Bathroom Empire Tycoon">
+          <img src="https://img.gamepix.com/games/idle-bathroom-empire-tycoon/icon/idle-bathroom-empire-tycoon.png?w=105" alt="Idle Bathroom Empire Tycoon" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Alchemist Tower Defense</div>
-            <div class="related-card-meta">⭐ 4.8 · 420Rb</div>
+            <div class="related-card-title">Idle Bathroom Empire Tycoon</div>
+            <div class="related-card-meta">⭐ 4.4 · 700Rb</div>
           </div>
         </a>
-        <a href="/game/agewars/" class="related-card" title="AgeWars">
-          <img src="https://img.gamepix.com/games/agewars/icon/agewars.png?w=105" alt="AgeWars" loading="lazy" width="80" height="45">
+        <a href="/game/smash/" class="related-card" title="Smash">
+          <img src="https://img.gamepix.com/games/smash/icon/smash.png?w=105" alt="Smash" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">AgeWars</div>
-            <div class="related-card-meta">⭐ 4.6 · 492Rb</div>
+            <div class="related-card-title">Smash</div>
+            <div class="related-card-meta">⭐ 4.9 · 625Rb</div>
           </div>
         </a>
-        <a href="/game/ninja-dragon/" class="related-card" title="Ninja Dragon">
-          <img src="https://img.gamepix.com/games/ninja-dragon/icon/ninja-dragon.png?w=105" alt="Ninja Dragon" loading="lazy" width="80" height="45">
+        <a href="/game/apocalypse-shelter/" class="related-card" title="Apocalypse Shelter">
+          <img src="https://img.gamepix.com/games/apocalypse-shelter/icon/apocalypse-shelter.png?w=105" alt="Apocalypse Shelter" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ninja Dragon</div>
-            <div class="related-card-meta">⭐ 4.7 · 427Rb</div>
+            <div class="related-card-title">Apocalypse Shelter</div>
+            <div class="related-card-meta">⭐ 4.8 · 556Rb</div>
           </div>
         </a>
-        <a href="/game/block-defence/" class="related-card" title="Block Defence">
-          <img src="https://img.gamepix.com/games/block-defence/icon/block-defence.png?w=105" alt="Block Defence" loading="lazy" width="80" height="45">
+        <a href="/game/dollwar-2/" class="related-card" title="DollWar 2">
+          <img src="https://img.gamepix.com/games/dollwar-2/icon/dollwar-2.png?w=105" alt="DollWar 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Block Defence</div>
-            <div class="related-card-meta">⭐ 4.6 · 340Rb</div>
+            <div class="related-card-title">DollWar 2</div>
+            <div class="related-card-meta">⭐ 4.4 · 849Rb</div>
           </div>
         </a>
-        <a href="/game/pets-are-rogue/" class="related-card" title="Pets Are Rogue">
-          <img src="https://img.gamepix.com/games/pets-are-rogue/icon/pets-are-rogue.png?w=105" alt="Pets Are Rogue" loading="lazy" width="80" height="45">
+        <a href="/game/fruit-chop/" class="related-card" title="Fruit Chop">
+          <img src="https://img.gamepix.com/games/fruit-chop/icon/fruit-chop.png?w=105" alt="Fruit Chop" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pets Are Rogue</div>
-            <div class="related-card-meta">⭐ 4.5 · 697Rb</div>
+            <div class="related-card-title">Fruit Chop</div>
+            <div class="related-card-meta">⭐ 4.8 · 466Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

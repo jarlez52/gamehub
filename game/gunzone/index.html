@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">GunZone</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/flappy-bird-old-style/" class="related-card" title="Flappy Bird Old Style">
-          <img src="https://img.gamepix.com/games/flappy-bird-old-style/icon/flappy-bird-old-style.png?w=105" alt="Flappy Bird Old Style" loading="lazy" width="80" height="45">
+        <a href="/game/simon-lite/" class="related-card" title="Simon Lite">
+          <img src="https://img.gamepix.com/games/simon-lite/icon/simon-lite.png?w=105" alt="Simon Lite" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Flappy Bird Old Style</div>
-            <div class="related-card-meta">⭐ 4 · 907Rb</div>
+            <div class="related-card-title">Simon Lite</div>
+            <div class="related-card-meta">⭐ 4.3 · 129Rb</div>
           </div>
         </a>
-        <a href="/game/wuggy-repeater/" class="related-card" title="Wuggy Repeater">
-          <img src="https://img.gamepix.com/games/wuggy-repeater/icon/wuggy-repeater.png?w=105" alt="Wuggy Repeater" loading="lazy" width="80" height="45">
+        <a href="/game/super-jetpackman/" class="related-card" title="Super Jetpackman">
+          <img src="https://img.gamepix.com/games/super-jetpackman/icon/super-jetpackman.png?w=105" alt="Super Jetpackman" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Wuggy Repeater</div>
-            <div class="related-card-meta">⭐ 4.9 · 982Rb</div>
+            <div class="related-card-title">Super Jetpackman</div>
+            <div class="related-card-meta">⭐ 4.4 · 419Rb</div>
           </div>
         </a>
-        <a href="/game/magic-princess-dress-up/" class="related-card" title="Magic Princess Dress Up">
-          <img src="https://img.gamepix.com/games/magic-princess-dress-up/icon/magic-princess-dress-up.png?w=105" alt="Magic Princess Dress Up" loading="lazy" width="80" height="45">
+        <a href="/game/endless-sprunki/" class="related-card" title="Endless Sprunki">
+          <img src="https://img.gamepix.com/games/endless-sprunki/icon/endless-sprunki.png?w=105" alt="Endless Sprunki" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Magic Princess Dress Up</div>
-            <div class="related-card-meta">⭐ 4.8 · 927Rb</div>
+            <div class="related-card-title">Endless Sprunki</div>
+            <div class="related-card-meta">⭐ 4.7 · 946Rb</div>
           </div>
         </a>
-        <a href="/game/crazy-goat-hunter/" class="related-card" title="Crazy Goat Hunter">
-          <img src="https://img.gamepix.com/games/crazy-goat-hunter/icon/crazy-goat-hunter.png?w=105" alt="Crazy Goat Hunter" loading="lazy" width="80" height="45">
+        <a href="/game/bff-stylish-off-shoulder-outfits/" class="related-card" title="Bff Stylish Off Shoulder Outfits">
+          <img src="https://img.gamepix.com/games/bff-stylish-off-shoulder-outfits/icon/bff-stylish-off-shoulder-outfits.png?w=105" alt="Bff Stylish Off Shoulder Outfits" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Crazy Goat Hunter</div>
-            <div class="related-card-meta">⭐ 4.5 · 162Rb</div>
+            <div class="related-card-title">Bff Stylish Off Shoulder Outfits</div>
+            <div class="related-card-meta">⭐ 4.1 · 912Rb</div>
           </div>
         </a>
-        <a href="/game/woodturning-simulator-1/" class="related-card" title="Woodturning Simulator">
-          <img src="https://img.gamepix.com/games/woodturning-simulator-1/icon/woodturning-simulator-1.png?w=105" alt="Woodturning Simulator" loading="lazy" width="80" height="45">
+        <a href="/game/zrist-dx/" class="related-card" title="Zrist DX">
+          <img src="https://img.gamepix.com/games/zrist-dx/icon/zrist-dx.png?w=105" alt="Zrist DX" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Woodturning Simulator</div>
-            <div class="related-card-meta">⭐ 4.2 · 188Rb</div>
+            <div class="related-card-title">Zrist DX</div>
+            <div class="related-card-meta">⭐ 4 · 864Rb</div>
           </div>
         </a>
-        <a href="/game/cube-geometry-dash/" class="related-card" title="Cube Geometry Dash">
-          <img src="https://img.gamepix.com/games/cube-geometry-dash/icon/cube-geometry-dash.png?w=105" alt="Cube Geometry Dash" loading="lazy" width="80" height="45">
+        <a href="/game/silent-asylum/" class="related-card" title="Silent Asylum">
+          <img src="https://img.gamepix.com/games/silent-asylum/icon/silent-asylum.png?w=105" alt="Silent Asylum" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cube Geometry Dash</div>
-            <div class="related-card-meta">⭐ 4.6 · 639Rb</div>
+            <div class="related-card-title">Silent Asylum</div>
+            <div class="related-card-meta">⭐ 4.6 · 613Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

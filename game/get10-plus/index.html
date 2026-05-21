@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Get 10 Plus</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/lines-constructor-puzzle/" class="related-card" title="Lines Constructor - Puzzle">
-          <img src="https://img.gamepix.com/games/lines-constructor-puzzle/icon/lines-constructor-puzzle.png?w=105" alt="Lines Constructor - Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/tilting-maze/" class="related-card" title="Tilting Maze">
+          <img src="https://img.gamepix.com/games/tilting-maze/icon/tilting-maze.png?w=105" alt="Tilting Maze" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Lines Constructor - Puzzle</div>
-            <div class="related-card-meta">⭐ 4.1 · 150Rb</div>
+            <div class="related-card-title">Tilting Maze</div>
+            <div class="related-card-meta">⭐ 4.5 · 248Rb</div>
           </div>
         </a>
-        <a href="/game/gridmaster/" class="related-card" title="GridMaster">
-          <img src="https://img.gamepix.com/games/gridmaster/icon/gridmaster.png?w=105" alt="GridMaster" loading="lazy" width="80" height="45">
+        <a href="/game/word-magic/" class="related-card" title="Word Magic">
+          <img src="https://img.gamepix.com/games/word-magic/icon/word-magic.png?w=105" alt="Word Magic" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">GridMaster</div>
-            <div class="related-card-meta">⭐ 4.4 · 599Rb</div>
+            <div class="related-card-title">Word Magic</div>
+            <div class="related-card-meta">⭐ 4.4 · 557Rb</div>
           </div>
         </a>
-        <a href="/game/ropeway-master/" class="related-card" title="Ropeway Master">
-          <img src="https://img.gamepix.com/games/ropeway-master/icon/ropeway-master.png?w=105" alt="Ropeway Master" loading="lazy" width="80" height="45">
+        <a href="/game/bubble-match-3/" class="related-card" title="Bubble Match 3">
+          <img src="https://img.gamepix.com/games/bubble-match-3/icon/bubble-match-3.png?w=105" alt="Bubble Match 3" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ropeway Master</div>
-            <div class="related-card-meta">⭐ 4.8 · 590Rb</div>
+            <div class="related-card-title">Bubble Match 3</div>
+            <div class="related-card-meta">⭐ 4.8 · 918Rb</div>
           </div>
         </a>
-        <a href="/game/shockwaves/" class="related-card" title="Shockwaves">
-          <img src="https://img.gamepix.com/games/shockwaves/icon/shockwaves.png?w=105" alt="Shockwaves" loading="lazy" width="80" height="45">
+        <a href="/game/water-sort-color-quest/" class="related-card" title="Water Sort Color Quest">
+          <img src="https://img.gamepix.com/games/water-sort-color-quest/icon/water-sort-color-quest.png?w=105" alt="Water Sort Color Quest" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Shockwaves</div>
-            <div class="related-card-meta">⭐ 4.6 · 362Rb</div>
+            <div class="related-card-title">Water Sort Color Quest</div>
+            <div class="related-card-meta">⭐ 4.4 · 427Rb</div>
           </div>
         </a>
-        <a href="/game/ballerina-cappuccina-loves-tung-tung-sahur/" class="related-card" title="Ballerina Cappuccina loves Tung Tung Sahur">
-          <img src="https://img.gamepix.com/games/ballerina-cappuccina-loves-tung-tung-sahur/icon/ballerina-cappuccina-loves-tung-tung-sahur.png?w=105" alt="Ballerina Cappuccina loves Tung Tung Sahur" loading="lazy" width="80" height="45">
+        <a href="/game/meet-my-girlfriend-puzzles/" class="related-card" title="Meet My Girlfriend Puzzles">
+          <img src="https://img.gamepix.com/games/meet-my-girlfriend-puzzles/icon/meet-my-girlfriend-puzzles.png?w=105" alt="Meet My Girlfriend Puzzles" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ballerina Cappuccina loves Tung Tung Sahur</div>
-            <div class="related-card-meta">⭐ 4.4 · 830Rb</div>
+            <div class="related-card-title">Meet My Girlfriend Puzzles</div>
+            <div class="related-card-meta">⭐ 4.8 · 487Rb</div>
           </div>
         </a>
-        <a href="/game/100-doors-escape-puzzle/" class="related-card" title="100 Doors Escape Puzzle">
-          <img src="https://img.gamepix.com/games/100-doors-escape-puzzle/icon/100-doors-escape-puzzle.png?w=105" alt="100 Doors Escape Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/fall-fu-panda/" class="related-card" title="Fall Fu Panda">
+          <img src="https://img.gamepix.com/games/fall-fu-panda/icon/fall-fu-panda.png?w=105" alt="Fall Fu Panda" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">100 Doors Escape Puzzle</div>
-            <div class="related-card-meta">⭐ 4.7 · 699Rb</div>
+            <div class="related-card-title">Fall Fu Panda</div>
+            <div class="related-card-meta">⭐ 4.3 · 455Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

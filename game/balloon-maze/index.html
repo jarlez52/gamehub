@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Balloon Maze</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/motocross-racing/" class="related-card" title="Motocross Racing">
-          <img src="https://img.gamepix.com/games/motocross-racing/icon/motocross-racing.png?w=105" alt="Motocross Racing" loading="lazy" width="80" height="45">
+        <a href="/game/stick-war-infinity-duel/" class="related-card" title="Stick War: Infinity Duel">
+          <img src="https://img.gamepix.com/games/stick-war-infinity-duel/icon/stick-war-infinity-duel.png?w=105" alt="Stick War: Infinity Duel" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Motocross Racing</div>
-            <div class="related-card-meta">⭐ 4.2 · 141Rb</div>
+            <div class="related-card-title">Stick War: Infinity Duel</div>
+            <div class="related-card-meta">⭐ 4.4 · 304Rb</div>
           </div>
         </a>
-        <a href="/game/bigboom/" class="related-card" title="BigBoom">
-          <img src="https://img.gamepix.com/games/bigboom/icon/bigboom.png?w=105" alt="BigBoom" loading="lazy" width="80" height="45">
+        <a href="/game/eggdog-tralalero-tralala-flappy/" class="related-card" title="Eggdog Flappy Tralalero Tralala">
+          <img src="https://img.gamepix.com/games/eggdog-tralalero-tralala-flappy/icon/eggdog-tralalero-tralala-flappy.png?w=105" alt="Eggdog Flappy Tralalero Tralala" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">BigBoom</div>
-            <div class="related-card-meta">⭐ 4.4 · 310Rb</div>
+            <div class="related-card-title">Eggdog Flappy Tralalero Tralala</div>
+            <div class="related-card-meta">⭐ 4.4 · 625Rb</div>
           </div>
         </a>
-        <a href="/game/doctordot-connect-mania/" class="related-card" title="DoctorDot Connect Mania">
-          <img src="https://img.gamepix.com/games/doctordot-connect-mania/icon/doctordot-connect-mania.png?w=105" alt="DoctorDot Connect Mania" loading="lazy" width="80" height="45">
+        <a href="/game/shoots-skibidi-dop-dop-yes-yes/" class="related-card" title="Shoots Skibidi Dop Dop Yes Yes">
+          <img src="https://img.gamepix.com/games/shoots-skibidi-dop-dop-yes-yes/icon/shoots-skibidi-dop-dop-yes-yes.png?w=105" alt="Shoots Skibidi Dop Dop Yes Yes" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">DoctorDot Connect Mania</div>
-            <div class="related-card-meta">⭐ 4.8 · 494Rb</div>
+            <div class="related-card-title">Shoots Skibidi Dop Dop Yes Yes</div>
+            <div class="related-card-meta">⭐ 4.6 · 605Rb</div>
           </div>
         </a>
-        <a href="/game/dress-up-game-princess-doll/" class="related-card" title="Dress Up Game: Princess Doll">
-          <img src="https://img.gamepix.com/games/dress-up-game-princess-doll/icon/dress-up-game-princess-doll.png?w=105" alt="Dress Up Game: Princess Doll" loading="lazy" width="80" height="45">
+        <a href="/game/bouncing-bug/" class="related-card" title="Bouncing Bug">
+          <img src="https://img.gamepix.com/games/bouncing-bug/icon/bouncing-bug.png?w=105" alt="Bouncing Bug" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dress Up Game: Princess Doll</div>
-            <div class="related-card-meta">⭐ 4.4 · 422Rb</div>
+            <div class="related-card-title">Bouncing Bug</div>
+            <div class="related-card-meta">⭐ 4.6 · 733Rb</div>
           </div>
         </a>
-        <a href="/game/squid-coloring-game/" class="related-card" title="Squid Coloring Game">
-          <img src="https://img.gamepix.com/games/squid-coloring-game/icon/squid-coloring-game.png?w=105" alt="Squid Coloring Game" loading="lazy" width="80" height="45">
+        <a href="/game/speakerman-vs-skibidi-toilet/" class="related-card" title="Speakerman Vs Skibidi Toilet">
+          <img src="https://img.gamepix.com/games/speakerman-vs-skibidi-toilet/icon/speakerman-vs-skibidi-toilet.png?w=105" alt="Speakerman Vs Skibidi Toilet" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Squid Coloring Game</div>
-            <div class="related-card-meta">⭐ 4.8 · 856Rb</div>
+            <div class="related-card-title">Speakerman Vs Skibidi Toilet</div>
+            <div class="related-card-meta">⭐ 4.7 · 266Rb</div>
           </div>
         </a>
-        <a href="/game/bridal-rush-1/" class="related-card" title="Bridal Rush">
-          <img src="https://img.gamepix.com/games/bridal-rush-1/icon/bridal-rush-1.png?w=105" alt="Bridal Rush" loading="lazy" width="80" height="45">
+        <a href="/game/warriors-vs-evil-spirits/" class="related-card" title="Warriors VS Evil Spirits">
+          <img src="https://img.gamepix.com/games/warriors-vs-evil-spirits/icon/warriors-vs-evil-spirits.png?w=105" alt="Warriors VS Evil Spirits" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bridal Rush</div>
-            <div class="related-card-meta">⭐ 4.4 · 603Rb</div>
+            <div class="related-card-title">Warriors VS Evil Spirits</div>
+            <div class="related-card-meta">⭐ 4.4 · 923Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

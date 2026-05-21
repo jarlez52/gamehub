@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Find Sort Match</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/double-up/" class="related-card" title="Double Up">
-          <img src="https://img.gamepix.com/games/double-up/icon/double-up.png?w=105" alt="Double Up" loading="lazy" width="80" height="45">
+        <a href="/game/kingdoms-wars/" class="related-card" title="Kingdoms Wars">
+          <img src="https://img.gamepix.com/games/kingdoms-wars/icon/kingdoms-wars.png?w=105" alt="Kingdoms Wars" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Double Up</div>
-            <div class="related-card-meta">⭐ 4.5 · 316Rb</div>
+            <div class="related-card-title">Kingdoms Wars</div>
+            <div class="related-card-meta">⭐ 4.2 · 754Rb</div>
           </div>
         </a>
-        <a href="/game/tetra-trials/" class="related-card" title="Tetra Trials">
-          <img src="https://img.gamepix.com/games/tetra-trials/icon/tetra-trials.png?w=105" alt="Tetra Trials" loading="lazy" width="80" height="45">
+        <a href="/game/cubic-adventure-don-t-fall/" class="related-card" title="Cubic Adventure Don't Fall">
+          <img src="https://img.gamepix.com/games/cubic-adventure-don-t-fall/icon/cubic-adventure-don-t-fall.png?w=105" alt="Cubic Adventure Don't Fall" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tetra Trials</div>
-            <div class="related-card-meta">⭐ 4.2 · 360Rb</div>
+            <div class="related-card-title">Cubic Adventure Don't Fall</div>
+            <div class="related-card-meta">⭐ 4.2 · 585Rb</div>
           </div>
         </a>
-        <a href="/game/labirnt/" class="related-card" title="Labirint">
-          <img src="https://img.gamepix.com/games/labirnt/icon/labirnt.png?w=105" alt="Labirint" loading="lazy" width="80" height="45">
+        <a href="/game/sea-match/" class="related-card" title="Sea Match">
+          <img src="https://img.gamepix.com/games/sea-match/icon/sea-match.png?w=105" alt="Sea Match" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Labirint</div>
-            <div class="related-card-meta">⭐ 4 · 318Rb</div>
+            <div class="related-card-title">Sea Match</div>
+            <div class="related-card-meta">⭐ 4.4 · 674Rb</div>
           </div>
         </a>
-        <a href="/game/word-storm/" class="related-card" title="Word Storm">
-          <img src="https://img.gamepix.com/games/word-storm/icon/word-storm.png?w=105" alt="Word Storm" loading="lazy" width="80" height="45">
+        <a href="/game/sticky-balls-match-3-bubble-shooter/" class="related-card" title="Sticky Balls - Match 3 Bubble Shooter">
+          <img src="https://img.gamepix.com/games/sticky-balls-match-3-bubble-shooter/icon/sticky-balls-match-3-bubble-shooter.png?w=105" alt="Sticky Balls - Match 3 Bubble Shooter" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Word Storm</div>
-            <div class="related-card-meta">⭐ 4.4 · 380Rb</div>
+            <div class="related-card-title">Sticky Balls - Match 3 Bubble Shooter</div>
+            <div class="related-card-meta">⭐ 4.3 · 853Rb</div>
           </div>
         </a>
-        <a href="/game/coin-merge-machine/" class="related-card" title="Coin Merge Machine">
-          <img src="https://img.gamepix.com/games/coin-merge-machine/icon/coin-merge-machine.png?w=105" alt="Coin Merge Machine" loading="lazy" width="80" height="45">
+        <a href="/game/tute/" class="related-card" title="Tute">
+          <img src="https://img.gamepix.com/games/tute/icon/tute.png?w=105" alt="Tute" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Coin Merge Machine</div>
-            <div class="related-card-meta">⭐ 4.1 · 817Rb</div>
+            <div class="related-card-title">Tute</div>
+            <div class="related-card-meta">⭐ 4.2 · 780Rb</div>
           </div>
         </a>
-        <a href="/game/guess-the-fruit-world-quiz/" class="related-card" title="Guess the Fruit World Quiz">
-          <img src="https://img.gamepix.com/games/guess-the-fruit-world-quiz/icon/guess-the-fruit-world-quiz.png?w=105" alt="Guess the Fruit World Quiz" loading="lazy" width="80" height="45">
+        <a href="/game/fish-evolution1/" class="related-card" title="Fish Evolution">
+          <img src="https://img.gamepix.com/games/fish-evolution1/icon/fish-evolution1.png?w=105" alt="Fish Evolution" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Guess the Fruit World Quiz</div>
-            <div class="related-card-meta">⭐ 4.6 · 509Rb</div>
+            <div class="related-card-title">Fish Evolution</div>
+            <div class="related-card-meta">⭐ 4.5 · 927Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

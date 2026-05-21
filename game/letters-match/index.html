@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Letters Match</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/uno-online/" class="related-card" title="UNO Online">
-          <img src="https://img.gamepix.com/games/uno-online/icon/uno-online.png?w=105" alt="UNO Online" loading="lazy" width="80" height="45">
+        <a href="/game/bloxorz-roll-3d/" class="related-card" title="Bloxorz Roll 3D">
+          <img src="https://img.gamepix.com/games/bloxorz-roll-3d/icon/bloxorz-roll-3d.png?w=105" alt="Bloxorz Roll 3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">UNO Online</div>
-            <div class="related-card-meta">⭐ 4.6 · 703Rb</div>
+            <div class="related-card-title">Bloxorz Roll 3D</div>
+            <div class="related-card-meta">⭐ 4.3 · 964Rb</div>
           </div>
         </a>
-        <a href="/game/bubble-shoot-merge-box-2048/" class="related-card" title="Bubble Shoot Merge Box 2048">
-          <img src="https://img.gamepix.com/games/bubble-shoot-merge-box-2048/icon/bubble-shoot-merge-box-2048.png?w=105" alt="Bubble Shoot Merge Box 2048" loading="lazy" width="80" height="45">
+        <a href="/game/epic-blast/" class="related-card" title="Epic Blast">
+          <img src="https://img.gamepix.com/games/epic-blast/icon/epic-blast.png?w=105" alt="Epic Blast" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bubble Shoot Merge Box 2048</div>
-            <div class="related-card-meta">⭐ 4.2 · 413Rb</div>
+            <div class="related-card-title">Epic Blast</div>
+            <div class="related-card-meta">⭐ 4.4 · 117Rb</div>
           </div>
         </a>
-        <a href="/game/animal-feed-puzzle/" class="related-card" title="Animal Feed Puzzle">
-          <img src="https://img.gamepix.com/games/animal-feed-puzzle/icon/animal-feed-puzzle.png?w=105" alt="Animal Feed Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/mommy-stickman-vs-huggi-waggi/" class="related-card" title="Zen Farm 2022">
+          <img src="https://img.gamepix.com/games/mommy-stickman-vs-huggi-waggi/icon/mommy-stickman-vs-huggi-waggi.png?w=105" alt="Zen Farm 2022" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Animal Feed Puzzle</div>
-            <div class="related-card-meta">⭐ 4.7 · 198Rb</div>
+            <div class="related-card-title">Zen Farm 2022</div>
+            <div class="related-card-meta">⭐ 4.1 · 951Rb</div>
           </div>
         </a>
-        <a href="/game/quiz-quest-the-ultimate-knowledge-challenge/" class="related-card" title="Quiz Quest The Ultimate Knowledge Challenge">
-          <img src="https://img.gamepix.com/games/quiz-quest-the-ultimate-knowledge-challenge/icon/quiz-quest-the-ultimate-knowledge-challenge.png?w=105" alt="Quiz Quest The Ultimate Knowledge Challenge" loading="lazy" width="80" height="45">
+        <a href="/game/marble-zumar/" class="related-card" title="Marble Zumar">
+          <img src="https://img.gamepix.com/games/marble-zumar/icon/marble-zumar.png?w=105" alt="Marble Zumar" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Quiz Quest The Ultimate Knowledge Challenge</div>
-            <div class="related-card-meta">⭐ 4.3 · 282Rb</div>
+            <div class="related-card-title">Marble Zumar</div>
+            <div class="related-card-meta">⭐ 4.5 · 384Rb</div>
           </div>
         </a>
-        <a href="/game/buzzy-match/" class="related-card" title="Buzzy Match">
-          <img src="https://img.gamepix.com/games/buzzy-match/icon/buzzy-match.png?w=105" alt="Buzzy Match" loading="lazy" width="80" height="45">
+        <a href="/game/woblox/" class="related-card" title="Woblox">
+          <img src="https://img.gamepix.com/games/woblox/icon/woblox.png?w=105" alt="Woblox" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Buzzy Match</div>
-            <div class="related-card-meta">⭐ 4.1 · 705Rb</div>
+            <div class="related-card-title">Woblox</div>
+            <div class="related-card-meta">⭐ 4.8 · 891Rb</div>
           </div>
         </a>
-        <a href="/game/cosmic-match/" class="related-card" title="Cosmic Match">
-          <img src="https://img.gamepix.com/games/cosmic-match/icon/cosmic-match.png?w=105" alt="Cosmic Match" loading="lazy" width="80" height="45">
+        <a href="/game/emoji-puzzle-riddle/" class="related-card" title="Emoji Puzzle Riddle">
+          <img src="https://img.gamepix.com/games/emoji-puzzle-riddle/icon/emoji-puzzle-riddle.png?w=105" alt="Emoji Puzzle Riddle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cosmic Match</div>
-            <div class="related-card-meta">⭐ 4 · 180Rb</div>
+            <div class="related-card-title">Emoji Puzzle Riddle</div>
+            <div class="related-card-meta">⭐ 4.3 · 912Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

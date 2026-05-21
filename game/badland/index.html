@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Badland</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/princess-villains/" class="related-card" title="Princess Villains">
-          <img src="https://img.gamepix.com/games/princess-villains/icon/princess-villains.png?w=105" alt="Princess Villains" loading="lazy" width="80" height="45">
+        <a href="/game/candy-pong/" class="related-card" title="Candy Pong">
+          <img src="https://img.gamepix.com/games/candy-pong/icon/candy-pong.png?w=105" alt="Candy Pong" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Princess Villains</div>
-            <div class="related-card-meta">⭐ 4.4 · 989Rb</div>
+            <div class="related-card-title">Candy Pong</div>
+            <div class="related-card-meta">⭐ 4.1 · 498Rb</div>
           </div>
         </a>
-        <a href="/game/diy-doll-factory/" class="related-card" title="DIY Doll Factory">
-          <img src="https://img.gamepix.com/games/diy-doll-factory/icon/diy-doll-factory.png?w=105" alt="DIY Doll Factory" loading="lazy" width="80" height="45">
+        <a href="/game/complete-the-missing-numbers/" class="related-card" title="Complete The Missing Numbers">
+          <img src="https://img.gamepix.com/games/complete-the-missing-numbers/icon/complete-the-missing-numbers.png?w=105" alt="Complete The Missing Numbers" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">DIY Doll Factory</div>
-            <div class="related-card-meta">⭐ 4.2 · 882Rb</div>
+            <div class="related-card-title">Complete The Missing Numbers</div>
+            <div class="related-card-meta">⭐ 4.5 · 601Rb</div>
           </div>
         </a>
-        <a href="/game/counter-craft-modern-warfare/" class="related-card" title="Counter Craft Modern Warfare">
-          <img src="https://img.gamepix.com/games/counter-craft-modern-warfare/icon/counter-craft-modern-warfare.png?w=105" alt="Counter Craft Modern Warfare" loading="lazy" width="80" height="45">
+        <a href="/game/grench-vs-santa/" class="related-card" title="Grench vs Santa">
+          <img src="https://img.gamepix.com/games/grench-vs-santa/icon/grench-vs-santa.png?w=105" alt="Grench vs Santa" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Counter Craft Modern Warfare</div>
-            <div class="related-card-meta">⭐ 4.1 · 883Rb</div>
+            <div class="related-card-title">Grench vs Santa</div>
+            <div class="related-card-meta">⭐ 4.5 · 663Rb</div>
           </div>
         </a>
-        <a href="/game/block-puzzle-blaster/" class="related-card" title="Block Puzzle Blaster">
-          <img src="https://img.gamepix.com/games/block-puzzle-blaster/icon/block-puzzle-blaster.png?w=105" alt="Block Puzzle Blaster" loading="lazy" width="80" height="45">
+        <a href="/game/christmas-adventure/" class="related-card" title="Christmas Adventures">
+          <img src="https://img.gamepix.com/games/christmas-adventure/icon/christmas-adventure.png?w=105" alt="Christmas Adventures" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Block Puzzle Blaster</div>
-            <div class="related-card-meta">⭐ 4.4 · 841Rb</div>
+            <div class="related-card-title">Christmas Adventures</div>
+            <div class="related-card-meta">⭐ 4.2 · 477Rb</div>
           </div>
         </a>
-        <a href="/game/redball-adventure/" class="related-card" title="RedBall Adventure">
-          <img src="https://img.gamepix.com/games/redball-adventure/icon/redball-adventure.png?w=105" alt="RedBall Adventure" loading="lazy" width="80" height="45">
+        <a href="/game/taxi-empire-airport-tycoon/" class="related-card" title="Taxi Empire - Airport Tycoon">
+          <img src="https://img.gamepix.com/games/taxi-empire-airport-tycoon/icon/taxi-empire-airport-tycoon.png?w=105" alt="Taxi Empire - Airport Tycoon" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">RedBall Adventure</div>
-            <div class="related-card-meta">⭐ 4.7 · 412Rb</div>
+            <div class="related-card-title">Taxi Empire - Airport Tycoon</div>
+            <div class="related-card-meta">⭐ 4.5 · 527Rb</div>
           </div>
         </a>
-        <a href="/game/flight-simulator-737-800/" class="related-card" title="Flight Simulator 737-800">
-          <img src="https://img.gamepix.com/games/flight-simulator-737-800/icon/flight-simulator-737-800.png?w=105" alt="Flight Simulator 737-800" loading="lazy" width="80" height="45">
+        <a href="/game/gnam-gnam-shark/" class="related-card" title="Gnam Gnam Shark">
+          <img src="https://img.gamepix.com/games/gnam-gnam-shark/icon/gnam-gnam-shark.png?w=105" alt="Gnam Gnam Shark" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Flight Simulator 737-800</div>
-            <div class="related-card-meta">⭐ 4.1 · 605Rb</div>
+            <div class="related-card-title">Gnam Gnam Shark</div>
+            <div class="related-card-meta">⭐ 4.9 · 222Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

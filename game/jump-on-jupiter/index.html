@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Jump on Jupiter</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/the-best-man-rises/" class="related-card" title="The Best Man Rises">
-          <img src="https://img.gamepix.com/games/the-best-man-rises/icon/the-best-man-rises.png?w=105" alt="The Best Man Rises" loading="lazy" width="80" height="45">
+        <a href="/game/nubik-vs-herobrin-s-army/" class="related-card" title="Nubik vs Herobrin's Army">
+          <img src="https://img.gamepix.com/games/nubik-vs-herobrin-s-army/icon/nubik-vs-herobrin-s-army.png?w=105" alt="Nubik vs Herobrin's Army" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">The Best Man Rises</div>
-            <div class="related-card-meta">⭐ 4.2 · 247Rb</div>
+            <div class="related-card-title">Nubik vs Herobrin's Army</div>
+            <div class="related-card-meta">⭐ 4.7 · 483Rb</div>
           </div>
         </a>
-        <a href="/game/i-want-ice-cream/" class="related-card" title="I Want Ice Cream">
-          <img src="https://img.gamepix.com/games/i-want-ice-cream/icon/i-want-ice-cream.png?w=105" alt="I Want Ice Cream" loading="lazy" width="80" height="45">
+        <a href="/game/nanychan-vs-ghosts/" class="related-card" title="Nanychan vs Ghosts">
+          <img src="https://img.gamepix.com/games/nanychan-vs-ghosts/icon/nanychan-vs-ghosts.png?w=105" alt="Nanychan vs Ghosts" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">I Want Ice Cream</div>
-            <div class="related-card-meta">⭐ 4.6 · 106Rb</div>
+            <div class="related-card-title">Nanychan vs Ghosts</div>
+            <div class="related-card-meta">⭐ 4.5 · 584Rb</div>
           </div>
         </a>
-        <a href="/game/run-guys-the-chaos-race/" class="related-card" title="Run Guys: The Chaos Race">
-          <img src="https://img.gamepix.com/games/run-guys-the-chaos-race/icon/run-guys-the-chaos-race.png?w=105" alt="Run Guys: The Chaos Race" loading="lazy" width="80" height="45">
+        <a href="/game/tower-defense-kingdom-2d/" class="related-card" title="Tower Defense Kingdom 2D">
+          <img src="https://img.gamepix.com/games/tower-defense-kingdom-2d/icon/tower-defense-kingdom-2d.png?w=105" alt="Tower Defense Kingdom 2D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Run Guys: The Chaos Race</div>
-            <div class="related-card-meta">⭐ 4 · 836Rb</div>
+            <div class="related-card-title">Tower Defense Kingdom 2D</div>
+            <div class="related-card-meta">⭐ 4.5 · 563Rb</div>
           </div>
         </a>
-        <a href="/game/rambo-hit-em-up/" class="related-card" title="Rambo Hit em up">
-          <img src="https://img.gamepix.com/games/rambo-hit-em-up/icon/rambo-hit-em-up.png?w=105" alt="Rambo Hit em up" loading="lazy" width="80" height="45">
+        <a href="/game/italian-brainrot-epic-wars/" class="related-card" title="Italian Brainrot Epic Wars">
+          <img src="https://img.gamepix.com/games/italian-brainrot-epic-wars/icon/italian-brainrot-epic-wars.png?w=105" alt="Italian Brainrot Epic Wars" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Rambo Hit em up</div>
-            <div class="related-card-meta">⭐ 4.1 · 554Rb</div>
+            <div class="related-card-title">Italian Brainrot Epic Wars</div>
+            <div class="related-card-meta">⭐ 4 · 402Rb</div>
           </div>
         </a>
-        <a href="/game/robby-bomberman/" class="related-card" title="Robby Bomberman">
-          <img src="https://img.gamepix.com/games/robby-bomberman/icon/robby-bomberman.png?w=105" alt="Robby Bomberman" loading="lazy" width="80" height="45">
+        <a href="/game/battle-royale-heroes/" class="related-card" title="Battle Royale Heroes">
+          <img src="https://img.gamepix.com/games/battle-royale-heroes/icon/battle-royale-heroes.png?w=105" alt="Battle Royale Heroes" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Robby Bomberman</div>
-            <div class="related-card-meta">⭐ 4.2 · 493Rb</div>
+            <div class="related-card-title">Battle Royale Heroes</div>
+            <div class="related-card-meta">⭐ 4.3 · 650Rb</div>
           </div>
         </a>
-        <a href="/game/flying-jelly/" class="related-card" title="Flying Jelly">
-          <img src="https://img.gamepix.com/games/flying-jelly/icon/flying-jelly.png?w=105" alt="Flying Jelly" loading="lazy" width="80" height="45">
+        <a href="/game/on-the-away-flippy-adventure-epic-skater/" class="related-card" title="On the Away-Flippy Adventure Epic Skater">
+          <img src="https://img.gamepix.com/games/on-the-away-flippy-adventure-epic-skater/icon/on-the-away-flippy-adventure-epic-skater.png?w=105" alt="On the Away-Flippy Adventure Epic Skater" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Flying Jelly</div>
-            <div class="related-card-meta">⭐ 4.8 · 728Rb</div>
+            <div class="related-card-title">On the Away-Flippy Adventure Epic Skater</div>
+            <div class="related-card-meta">⭐ 4.9 · 595Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

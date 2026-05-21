@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">ColoJump</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/ice-cream-fever-cooking-game/" class="related-card" title="Ice Cream Fever - Cooking Game">
-          <img src="https://img.gamepix.com/games/ice-cream-fever-cooking-game/icon/ice-cream-fever-cooking-game.png?w=105" alt="Ice Cream Fever - Cooking Game" loading="lazy" width="80" height="45">
+        <a href="/game/skibidi-flappy-poppy/" class="related-card" title="Skibidi Flappy Poppy">
+          <img src="https://img.gamepix.com/games/skibidi-flappy-poppy/icon/skibidi-flappy-poppy.png?w=105" alt="Skibidi Flappy Poppy" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ice Cream Fever - Cooking Game</div>
-            <div class="related-card-meta">⭐ 4.3 · 974Rb</div>
+            <div class="related-card-title">Skibidi Flappy Poppy</div>
+            <div class="related-card-meta">⭐ 4.4 · 377Rb</div>
           </div>
         </a>
-        <a href="/game/pixel-christmas/" class="related-card" title="Pixel Christmas">
-          <img src="https://img.gamepix.com/games/pixel-christmas/icon/pixel-christmas.png?w=105" alt="Pixel Christmas" loading="lazy" width="80" height="45">
+        <a href="/game/chicken-jockey-red-light-green-light/" class="related-card" title="Chicken Jockey: Red Light Green Light">
+          <img src="https://img.gamepix.com/games/chicken-jockey-red-light-green-light/icon/chicken-jockey-red-light-green-light.png?w=105" alt="Chicken Jockey: Red Light Green Light" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pixel Christmas</div>
-            <div class="related-card-meta">⭐ 4.3 · 490Rb</div>
+            <div class="related-card-title">Chicken Jockey: Red Light Green Light</div>
+            <div class="related-card-meta">⭐ 4.9 · 963Rb</div>
           </div>
         </a>
-        <a href="/game/celebrity-social-media-adventure/" class="related-card" title="Celebrity Social Media Adventure">
-          <img src="https://img.gamepix.com/games/celebrity-social-media-adventure/icon/celebrity-social-media-adventure.png?w=105" alt="Celebrity Social Media Adventure" loading="lazy" width="80" height="45">
+        <a href="/game/layer-master/" class="related-card" title="Layer Master">
+          <img src="https://img.gamepix.com/games/layer-master/icon/layer-master.png?w=105" alt="Layer Master" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Celebrity Social Media Adventure</div>
-            <div class="related-card-meta">⭐ 4.7 · 631Rb</div>
+            <div class="related-card-title">Layer Master</div>
+            <div class="related-card-meta">⭐ 4.8 · 913Rb</div>
           </div>
         </a>
-        <a href="/game/super-sucker-3d/" class="related-card" title="Super Sucker 3D">
-          <img src="https://img.gamepix.com/games/super-sucker-3d/icon/super-sucker-3d.png?w=105" alt="Super Sucker 3D" loading="lazy" width="80" height="45">
+        <a href="/game/candy-craze/" class="related-card" title="Candy Craze">
+          <img src="https://img.gamepix.com/games/candy-craze/icon/candy-craze.png?w=105" alt="Candy Craze" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Super Sucker 3D</div>
-            <div class="related-card-meta">⭐ 4 · 834Rb</div>
+            <div class="related-card-title">Candy Craze</div>
+            <div class="related-card-meta">⭐ 4.4 · 217Rb</div>
           </div>
         </a>
-        <a href="/game/barry-prison-the-game/" class="related-card" title="Barry Prison - The Game">
-          <img src="https://img.gamepix.com/games/barry-prison-the-game/icon/barry-prison-the-game.png?w=105" alt="Barry Prison - The Game" loading="lazy" width="80" height="45">
+        <a href="/game/sir-bottomtight/" class="related-card" title="Sir Bottomtight">
+          <img src="https://img.gamepix.com/games/sir-bottomtight/icon/sir-bottomtight.png?w=105" alt="Sir Bottomtight" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Barry Prison - The Game</div>
-            <div class="related-card-meta">⭐ 4.2 · 413Rb</div>
+            <div class="related-card-title">Sir Bottomtight</div>
+            <div class="related-card-meta">⭐ 4.6 · 437Rb</div>
           </div>
         </a>
-        <a href="/game/santa-gravity/" class="related-card" title="Santa Gravity">
-          <img src="https://img.gamepix.com/games/santa-gravity/icon/santa-gravity.png?w=105" alt="Santa Gravity" loading="lazy" width="80" height="45">
+        <a href="/game/halloween-coloring-book-for-kids/" class="related-card" title="Halloween Coloring Book">
+          <img src="https://img.gamepix.com/games/halloween-coloring-book-for-kids/icon/halloween-coloring-book-for-kids.png?w=105" alt="Halloween Coloring Book" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Santa Gravity</div>
-            <div class="related-card-meta">⭐ 4.2 · 481Rb</div>
+            <div class="related-card-title">Halloween Coloring Book</div>
+            <div class="related-card-meta">⭐ 4.8 · 881Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

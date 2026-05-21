@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Flower Jam</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/pomme-pomme/" class="related-card" title="Pomme Pomme">
-          <img src="https://img.gamepix.com/games/pomme-pomme/icon/pomme-pomme.png?w=105" alt="Pomme Pomme" loading="lazy" width="80" height="45">
+        <a href="/game/pumpkin-spikes/" class="related-card" title="Pumpkin Spikes">
+          <img src="https://img.gamepix.com/games/pumpkin-spikes/icon/pumpkin-spikes.png?w=105" alt="Pumpkin Spikes" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pomme Pomme</div>
-            <div class="related-card-meta">⭐ 4.2 · 552Rb</div>
+            <div class="related-card-title">Pumpkin Spikes</div>
+            <div class="related-card-meta">⭐ 4.4 · 962Rb</div>
           </div>
         </a>
-        <a href="/game/hexa-dots/" class="related-card" title="Hexa Dots">
-          <img src="https://img.gamepix.com/games/hexa-dots/icon/hexa-dots.png?w=105" alt="Hexa Dots" loading="lazy" width="80" height="45">
+        <a href="/game/gun-master-3d/" class="related-card" title="Gun Master 3D">
+          <img src="https://img.gamepix.com/games/gun-master-3d/icon/gun-master-3d.png?w=105" alt="Gun Master 3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Hexa Dots</div>
-            <div class="related-card-meta">⭐ 4.6 · 971Rb</div>
+            <div class="related-card-title">Gun Master 3D</div>
+            <div class="related-card-meta">⭐ 4.9 · 787Rb</div>
           </div>
         </a>
-        <a href="/game/popcorn-race-3d-1/" class="related-card" title="Popcorn Race 3D">
-          <img src="https://img.gamepix.com/games/popcorn-race-3d-1/icon/popcorn-race-3d-1.png?w=105" alt="Popcorn Race 3D" loading="lazy" width="80" height="45">
+        <a href="/game/master-chess-multiplayer/" class="related-card" title="Master Chess Multiplayer">
+          <img src="https://img.gamepix.com/games/master-chess-multiplayer/icon/master-chess-multiplayer.png?w=105" alt="Master Chess Multiplayer" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Popcorn Race 3D</div>
-            <div class="related-card-meta">⭐ 4.5 · 493Rb</div>
+            <div class="related-card-title">Master Chess Multiplayer</div>
+            <div class="related-card-meta">⭐ 4.1 · 568Rb</div>
           </div>
         </a>
-        <a href="/game/my-style-hotel-empire/" class="related-card" title="My Style Hotel Empire">
-          <img src="https://img.gamepix.com/games/my-style-hotel-empire/icon/my-style-hotel-empire.png?w=105" alt="My Style Hotel Empire" loading="lazy" width="80" height="45">
+        <a href="/game/finish-the-race/" class="related-card" title="Finish the Race">
+          <img src="https://img.gamepix.com/games/finish-the-race/icon/finish-the-race.png?w=105" alt="Finish the Race" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">My Style Hotel Empire</div>
-            <div class="related-card-meta">⭐ 4.7 · 410Rb</div>
+            <div class="related-card-title">Finish the Race</div>
+            <div class="related-card-meta">⭐ 4.2 · 788Rb</div>
           </div>
         </a>
-        <a href="/game/impossible-car-stunt-game/" class="related-card" title="Impossible Car Stunt Game">
-          <img src="https://img.gamepix.com/games/impossible-car-stunt-game/icon/impossible-car-stunt-game.png?w=105" alt="Impossible Car Stunt Game" loading="lazy" width="80" height="45">
+        <a href="/game/funny-noob-2-player/" class="related-card" title="Funny Noob - 2 Player">
+          <img src="https://img.gamepix.com/games/funny-noob-2-player/icon/funny-noob-2-player.png?w=105" alt="Funny Noob - 2 Player" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Impossible Car Stunt Game</div>
-            <div class="related-card-meta">⭐ 4.1 · 459Rb</div>
+            <div class="related-card-title">Funny Noob - 2 Player</div>
+            <div class="related-card-meta">⭐ 4.5 · 350Rb</div>
           </div>
         </a>
-        <a href="/game/slippery-descent-by-car/" class="related-card" title="Slippery Descent By Car">
-          <img src="https://img.gamepix.com/games/slippery-descent-by-car/icon/slippery-descent-by-car.png?w=105" alt="Slippery Descent By Car" loading="lazy" width="80" height="45">
+        <a href="/game/save-your-ex/" class="related-card" title="Save Your Ex">
+          <img src="https://img.gamepix.com/games/save-your-ex/icon/save-your-ex.png?w=105" alt="Save Your Ex" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Slippery Descent By Car</div>
-            <div class="related-card-meta">⭐ 4.3 · 403Rb</div>
+            <div class="related-card-title">Save Your Ex</div>
+            <div class="related-card-meta">⭐ 4.4 · 420Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

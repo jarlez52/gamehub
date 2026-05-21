@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Bubble Shooter</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/tattoo-master-3d-crazy-art/" class="related-card" title="Tattoo Master 3D: Crazy Art">
-          <img src="https://img.gamepix.com/games/tattoo-master-3d-crazy-art/icon/tattoo-master-3d-crazy-art.png?w=105" alt="Tattoo Master 3D: Crazy Art" loading="lazy" width="80" height="45">
+        <a href="/game/hard-ball/" class="related-card" title="Hard Ball">
+          <img src="https://img.gamepix.com/games/hard-ball/icon/hard-ball.png?w=105" alt="Hard Ball" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tattoo Master 3D: Crazy Art</div>
-            <div class="related-card-meta">⭐ 4.5 · 795Rb</div>
+            <div class="related-card-title">Hard Ball</div>
+            <div class="related-card-meta">⭐ 4.5 · 839Rb</div>
           </div>
         </a>
-        <a href="/game/pumpkin-drop/" class="related-card" title="Pumpkin Drop">
-          <img src="https://img.gamepix.com/games/pumpkin-drop/icon/pumpkin-drop.png?w=105" alt="Pumpkin Drop" loading="lazy" width="80" height="45">
+        <a href="/game/catch-the-thief-police/" class="related-card" title="Catch The Thief">
+          <img src="https://img.gamepix.com/games/catch-the-thief-police/icon/catch-the-thief-police.png?w=105" alt="Catch The Thief" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pumpkin Drop</div>
-            <div class="related-card-meta">⭐ 4.3 · 657Rb</div>
+            <div class="related-card-title">Catch The Thief</div>
+            <div class="related-card-meta">⭐ 4.5 · 710Rb</div>
           </div>
         </a>
-        <a href="/game/cat-cut/" class="related-card" title="Cat Cut">
-          <img src="https://img.gamepix.com/games/cat-cut/icon/cat-cut.png?w=105" alt="Cat Cut" loading="lazy" width="80" height="45">
+        <a href="/game/archer-vs-monsters/" class="related-card" title="Archer vs Monsters">
+          <img src="https://img.gamepix.com/games/archer-vs-monsters/icon/archer-vs-monsters.png?w=105" alt="Archer vs Monsters" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cat Cut</div>
-            <div class="related-card-meta">⭐ 4.5 · 243Rb</div>
+            <div class="related-card-title">Archer vs Monsters</div>
+            <div class="related-card-meta">⭐ 4.4 · 314Rb</div>
           </div>
         </a>
-        <a href="/game/pop-it-fidget-now/" class="related-card" title="Pop It Fidget Now">
-          <img src="https://img.gamepix.com/games/pop-it-fidget-now/icon/pop-it-fidget-now.png?w=105" alt="Pop It Fidget Now" loading="lazy" width="80" height="45">
+        <a href="/game/rocket-balance/" class="related-card" title="Rocket Balance">
+          <img src="https://img.gamepix.com/games/rocket-balance/icon/rocket-balance.png?w=105" alt="Rocket Balance" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pop It Fidget Now</div>
-            <div class="related-card-meta">⭐ 4 · 274Rb</div>
+            <div class="related-card-title">Rocket Balance</div>
+            <div class="related-card-meta">⭐ 4.3 · 161Rb</div>
           </div>
         </a>
-        <a href="/game/animal-kingdom-wars/" class="related-card" title="Animal Kingdom Wars">
-          <img src="https://img.gamepix.com/games/animal-kingdom-wars/icon/animal-kingdom-wars.png?w=105" alt="Animal Kingdom Wars" loading="lazy" width="80" height="45">
+        <a href="/game/wild-hunting-clash/" class="related-card" title="Wild Hunting Clash">
+          <img src="https://img.gamepix.com/games/wild-hunting-clash/icon/wild-hunting-clash.png?w=105" alt="Wild Hunting Clash" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Animal Kingdom Wars</div>
-            <div class="related-card-meta">⭐ 4.5 · 166Rb</div>
+            <div class="related-card-title">Wild Hunting Clash</div>
+            <div class="related-card-meta">⭐ 4.5 · 449Rb</div>
           </div>
         </a>
-        <a href="/game/help-sprunky/" class="related-card" title="Help Sprunky">
-          <img src="https://img.gamepix.com/games/help-sprunky/icon/help-sprunky.png?w=105" alt="Help Sprunky" loading="lazy" width="80" height="45">
+        <a href="/game/running-dino/" class="related-card" title="Running Dino">
+          <img src="https://img.gamepix.com/games/running-dino/icon/running-dino.png?w=105" alt="Running Dino" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Help Sprunky</div>
-            <div class="related-card-meta">⭐ 4.8 · 717Rb</div>
+            <div class="related-card-title">Running Dino</div>
+            <div class="related-card-meta">⭐ 4.8 · 701Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

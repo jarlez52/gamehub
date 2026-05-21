@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Gas Station</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/real-estate-tycoon-strategy-game/" class="related-card" title="Real Estate Tycoon">
-          <img src="https://img.gamepix.com/games/real-estate-tycoon-strategy-game/icon/real-estate-tycoon-strategy-game.png?w=105" alt="Real Estate Tycoon" loading="lazy" width="80" height="45">
+        <a href="/game/idle-factory-game-tycoon/" class="related-card" title="Idle Factory Game Tycoon">
+          <img src="https://img.gamepix.com/games/idle-factory-game-tycoon/icon/idle-factory-game-tycoon.png?w=105" alt="Idle Factory Game Tycoon" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Real Estate Tycoon</div>
-            <div class="related-card-meta">⭐ 4.7 · 857Rb</div>
+            <div class="related-card-title">Idle Factory Game Tycoon</div>
+            <div class="related-card-meta">⭐ 4.1 · 920Rb</div>
           </div>
         </a>
-        <a href="/game/fruit-chop/" class="related-card" title="Fruit Chop">
-          <img src="https://img.gamepix.com/games/fruit-chop/icon/fruit-chop.png?w=105" alt="Fruit Chop" loading="lazy" width="80" height="45">
+        <a href="/game/europe-at-war/" class="related-card" title="Europe at War">
+          <img src="https://img.gamepix.com/games/europe-at-war/icon/europe-at-war.png?w=105" alt="Europe at War" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fruit Chop</div>
-            <div class="related-card-meta">⭐ 4.8 · 466Rb</div>
+            <div class="related-card-title">Europe at War</div>
+            <div class="related-card-meta">⭐ 4.4 · 146Rb</div>
           </div>
         </a>
-        <a href="/game/undead-world-skeleton-warriors/" class="related-card" title="Undead World Skeleton Warriors">
-          <img src="https://img.gamepix.com/games/undead-world-skeleton-warriors/icon/undead-world-skeleton-warriors.png?w=105" alt="Undead World Skeleton Warriors" loading="lazy" width="80" height="45">
+        <a href="/game/brainrot-tower-defense/" class="related-card" title="Brainrot Tower Defense">
+          <img src="https://img.gamepix.com/games/brainrot-tower-defense/icon/brainrot-tower-defense.png?w=105" alt="Brainrot Tower Defense" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Undead World Skeleton Warriors</div>
-            <div class="related-card-meta">⭐ 4.6 · 273Rb</div>
+            <div class="related-card-title">Brainrot Tower Defense</div>
+            <div class="related-card-meta">⭐ 4.1 · 846Rb</div>
           </div>
         </a>
-        <a href="/game/random-wars/" class="related-card" title="Random Wars">
-          <img src="https://img.gamepix.com/games/random-wars/icon/random-wars.png?w=105" alt="Random Wars" loading="lazy" width="80" height="45">
+        <a href="/game/mining-in-notebook/" class="related-card" title="Mining in Notebook">
+          <img src="https://img.gamepix.com/games/mining-in-notebook/icon/mining-in-notebook.png?w=105" alt="Mining in Notebook" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Random Wars</div>
-            <div class="related-card-meta">⭐ 4.2 · 526Rb</div>
+            <div class="related-card-title">Mining in Notebook</div>
+            <div class="related-card-meta">⭐ 4.5 · 252Rb</div>
           </div>
         </a>
-        <a href="/game/stack-run/" class="related-card" title="Stack Run">
-          <img src="https://img.gamepix.com/games/stack-run/icon/stack-run.png?w=105" alt="Stack Run" loading="lazy" width="80" height="45">
+        <a href="/game/ninja-sword-adventure/" class="related-card" title="Ninja Sword Adventure">
+          <img src="https://img.gamepix.com/games/ninja-sword-adventure/icon/ninja-sword-adventure.png?w=105" alt="Ninja Sword Adventure" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Stack Run</div>
-            <div class="related-card-meta">⭐ 4.4 · 371Rb</div>
+            <div class="related-card-title">Ninja Sword Adventure</div>
+            <div class="related-card-meta">⭐ 4.8 · 769Rb</div>
           </div>
         </a>
-        <a href="/game/fortress-defense/" class="related-card" title="Fortress Defense">
-          <img src="https://img.gamepix.com/games/fortress-defense/icon/fortress-defense.png?w=105" alt="Fortress Defense" loading="lazy" width="80" height="45">
+        <a href="/game/limited-defense/" class="related-card" title="Limited Defense">
+          <img src="https://img.gamepix.com/games/limited-defense/icon/limited-defense.png?w=105" alt="Limited Defense" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fortress Defense</div>
-            <div class="related-card-meta">⭐ 4.6 · 917Rb</div>
+            <div class="related-card-title">Limited Defense</div>
+            <div class="related-card-meta">⭐ 4.9 · 264Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

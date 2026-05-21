@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Candy Pong</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/yummy-cupcake/" class="related-card" title="Yummy Cupcake">
-          <img src="https://img.gamepix.com/games/yummy-cupcake/icon/yummy-cupcake.png?w=105" alt="Yummy Cupcake" loading="lazy" width="80" height="45">
+        <a href="/game/end-line-racer/" class="related-card" title="End Line Racer">
+          <img src="https://img.gamepix.com/games/end-line-racer/icon/end-line-racer.png?w=105" alt="End Line Racer" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Yummy Cupcake</div>
-            <div class="related-card-meta">⭐ 4.5 · 944Rb</div>
+            <div class="related-card-title">End Line Racer</div>
+            <div class="related-card-meta">⭐ 4.4 · 387Rb</div>
           </div>
         </a>
-        <a href="/game/smile-crazy-pong/" class="related-card" title="Smile Crazy Pong">
-          <img src="https://img.gamepix.com/games/smile-crazy-pong/icon/smile-crazy-pong.png?w=105" alt="Smile Crazy Pong" loading="lazy" width="80" height="45">
+        <a href="/game/fisherman/" class="related-card" title="Fisherman">
+          <img src="https://img.gamepix.com/games/fisherman/icon/fisherman.png?w=105" alt="Fisherman" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Smile Crazy Pong</div>
-            <div class="related-card-meta">⭐ 4.5 · 755Rb</div>
+            <div class="related-card-title">Fisherman</div>
+            <div class="related-card-meta">⭐ 4.6 · 137Rb</div>
           </div>
         </a>
-        <a href="/game/valentines-day-clicker/" class="related-card" title="Valentines Day Clicker">
-          <img src="https://img.gamepix.com/games/valentines-day-clicker/icon/valentines-day-clicker.png?w=105" alt="Valentines Day Clicker" loading="lazy" width="80" height="45">
+        <a href="/game/my-sweet-candy-outfits/" class="related-card" title="My Sweet Candy Outfits">
+          <img src="https://img.gamepix.com/games/my-sweet-candy-outfits/icon/my-sweet-candy-outfits.png?w=105" alt="My Sweet Candy Outfits" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Valentines Day Clicker</div>
-            <div class="related-card-meta">⭐ 4.6 · 600Rb</div>
+            <div class="related-card-title">My Sweet Candy Outfits</div>
+            <div class="related-card-meta">⭐ 4.6 · 842Rb</div>
           </div>
         </a>
-        <a href="/game/unlimited-cricket-night/" class="related-card" title="Unlimited Cricket Night">
-          <img src="https://img.gamepix.com/games/unlimited-cricket-night/icon/unlimited-cricket-night.png?w=105" alt="Unlimited Cricket Night" loading="lazy" width="80" height="45">
+        <a href="/game/alex-and-steve-adventures-saves/" class="related-card" title="Alex and Steve Adventures Saves">
+          <img src="https://img.gamepix.com/games/alex-and-steve-adventures-saves/icon/alex-and-steve-adventures-saves.png?w=105" alt="Alex and Steve Adventures Saves" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Unlimited Cricket Night</div>
-            <div class="related-card-meta">⭐ 4.6 · 412Rb</div>
+            <div class="related-card-title">Alex and Steve Adventures Saves</div>
+            <div class="related-card-meta">⭐ 4.5 · 684Rb</div>
           </div>
         </a>
-        <a href="/game/baby-doll-factory/" class="related-card" title="Baby Doll Factory">
-          <img src="https://img.gamepix.com/games/baby-doll-factory/icon/baby-doll-factory.png?w=105" alt="Baby Doll Factory" loading="lazy" width="80" height="45">
+        <a href="/game/stack-block-up/" class="related-card" title="Stack Block - Up">
+          <img src="https://img.gamepix.com/games/stack-block-up/icon/stack-block-up.png?w=105" alt="Stack Block - Up" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Baby Doll Factory</div>
-            <div class="related-card-meta">⭐ 4 · 869Rb</div>
+            <div class="related-card-title">Stack Block - Up</div>
+            <div class="related-card-meta">⭐ 4.4 · 507Rb</div>
           </div>
         </a>
-        <a href="/game/italian-brainrot-sprunki/" class="related-card" title="Italian Brainrot Sprunki">
-          <img src="https://img.gamepix.com/games/italian-brainrot-sprunki/icon/italian-brainrot-sprunki.png?w=105" alt="Italian Brainrot Sprunki" loading="lazy" width="80" height="45">
+        <a href="/game/smashy-bird/" class="related-card" title="Smashy Bird">
+          <img src="https://img.gamepix.com/games/smashy-bird/icon/smashy-bird.png?w=105" alt="Smashy Bird" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Italian Brainrot Sprunki</div>
-            <div class="related-card-meta">⭐ 4.1 · 736Rb</div>
+            <div class="related-card-title">Smashy Bird</div>
+            <div class="related-card-meta">⭐ 4.8 · 236Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

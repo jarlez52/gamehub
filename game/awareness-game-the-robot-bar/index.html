@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Awareness Game - The Robot Bar</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/colors-maze/" class="related-card" title="Colors Maze">
-          <img src="https://img.gamepix.com/games/colors-maze/icon/colors-maze.png?w=105" alt="Colors Maze" loading="lazy" width="80" height="45">
+        <a href="/game/save-the-girl-puzzle-escape/" class="related-card" title="Save the Girl Puzzle Escape">
+          <img src="https://img.gamepix.com/games/save-the-girl-puzzle-escape/icon/save-the-girl-puzzle-escape.png?w=105" alt="Save the Girl Puzzle Escape" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Colors Maze</div>
-            <div class="related-card-meta">⭐ 4.5 · 400Rb</div>
+            <div class="related-card-title">Save the Girl Puzzle Escape</div>
+            <div class="related-card-meta">⭐ 4.1 · 767Rb</div>
           </div>
         </a>
-        <a href="/game/2048-x2-legend/" class="related-card" title="2048 X2 Legend">
-          <img src="https://img.gamepix.com/games/2048-x2-legend/icon/2048-x2-legend.png?w=105" alt="2048 X2 Legend" loading="lazy" width="80" height="45">
+        <a href="/game/tricky-square-roots/" class="related-card" title="Tricky Square Roots">
+          <img src="https://img.gamepix.com/games/tricky-square-roots/icon/tricky-square-roots.png?w=105" alt="Tricky Square Roots" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">2048 X2 Legend</div>
-            <div class="related-card-meta">⭐ 4.6 · 366Rb</div>
+            <div class="related-card-title">Tricky Square Roots</div>
+            <div class="related-card-meta">⭐ 4.2 · 635Rb</div>
           </div>
         </a>
-        <a href="/game/fruit-combo-crush/" class="related-card" title="Fruit Combo Crush">
-          <img src="https://img.gamepix.com/games/fruit-combo-crush/icon/fruit-combo-crush.png?w=105" alt="Fruit Combo Crush" loading="lazy" width="80" height="45">
+        <a href="/game/debris-puzzle/" class="related-card" title="Debris Puzzle">
+          <img src="https://img.gamepix.com/games/debris-puzzle/icon/debris-puzzle.png?w=105" alt="Debris Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fruit Combo Crush</div>
-            <div class="related-card-meta">⭐ 4.4 · 531Rb</div>
+            <div class="related-card-title">Debris Puzzle</div>
+            <div class="related-card-meta">⭐ 4.5 · 561Rb</div>
           </div>
         </a>
-        <a href="/game/dogeblocks/" class="related-card" title="Dog Blocks">
-          <img src="https://img.gamepix.com/games/dogeblocks/icon/dogeblocks.png?w=105" alt="Dog Blocks" loading="lazy" width="80" height="45">
+        <a href="/game/balls-sorter-puzzle/" class="related-card" title="Balls Sorter - Puzzle">
+          <img src="https://img.gamepix.com/games/balls-sorter-puzzle/icon/balls-sorter-puzzle.png?w=105" alt="Balls Sorter - Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dog Blocks</div>
-            <div class="related-card-meta">⭐ 4.9 · 999Rb</div>
+            <div class="related-card-title">Balls Sorter - Puzzle</div>
+            <div class="related-card-meta">⭐ 4.5 · 284Rb</div>
           </div>
         </a>
-        <a href="/game/pirate-slots/" class="related-card" title="Pirate Slots">
-          <img src="https://img.gamepix.com/games/pirate-slots/icon/pirate-slots.png?w=105" alt="Pirate Slots" loading="lazy" width="80" height="45">
+        <a href="/game/bubble-up/" class="related-card" title="Bubble Up">
+          <img src="https://img.gamepix.com/games/bubble-up/icon/bubble-up.png?w=105" alt="Bubble Up" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pirate Slots</div>
-            <div class="related-card-meta">⭐ 4.4 · 813Rb</div>
+            <div class="related-card-title">Bubble Up</div>
+            <div class="related-card-meta">⭐ 4.7 · 215Rb</div>
           </div>
         </a>
-        <a href="/game/merge-rings/" class="related-card" title="Merge Rings">
-          <img src="https://img.gamepix.com/games/merge-rings/icon/merge-rings.png?w=105" alt="Merge Rings" loading="lazy" width="80" height="45">
+        <a href="/game/endless-ball-escape/" class="related-card" title="Endless Ball Escape">
+          <img src="https://img.gamepix.com/games/endless-ball-escape/icon/endless-ball-escape.png?w=105" alt="Endless Ball Escape" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Merge Rings</div>
-            <div class="related-card-meta">⭐ 4.2 · 958Rb</div>
+            <div class="related-card-title">Endless Ball Escape</div>
+            <div class="related-card-meta">⭐ 4.8 · 467Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

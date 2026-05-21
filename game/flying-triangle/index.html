@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Flying Triangle</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/the-genius-crow/" class="related-card" title="The Genius Crow">
-          <img src="https://img.gamepix.com/games/the-genius-crow/icon/the-genius-crow.png?w=105" alt="The Genius Crow" loading="lazy" width="80" height="45">
+        <a href="/game/flappy-bounce/" class="related-card" title="Flappy Bounce">
+          <img src="https://img.gamepix.com/games/flappy-bounce/icon/flappy-bounce.png?w=105" alt="Flappy Bounce" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">The Genius Crow</div>
-            <div class="related-card-meta">⭐ 4.2 · 275Rb</div>
+            <div class="related-card-title">Flappy Bounce</div>
+            <div class="related-card-meta">⭐ 4.4 · 128Rb</div>
           </div>
         </a>
-        <a href="/game/tetris-neon/" class="related-card" title="Tetris Neon">
-          <img src="https://img.gamepix.com/games/tetris-neon/icon/tetris-neon.png?w=105" alt="Tetris Neon" loading="lazy" width="80" height="45">
+        <a href="/game/get-drifty/" class="related-card" title="Get Drifty">
+          <img src="https://img.gamepix.com/games/get-drifty/icon/get-drifty.png?w=105" alt="Get Drifty" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tetris Neon</div>
-            <div class="related-card-meta">⭐ 4.1 · 666Rb</div>
+            <div class="related-card-title">Get Drifty</div>
+            <div class="related-card-meta">⭐ 4.6 · 637Rb</div>
           </div>
         </a>
-        <a href="/game/granny-halloween-house/" class="related-card" title="Granny Halloween House">
-          <img src="https://img.gamepix.com/games/granny-halloween-house/icon/granny-halloween-house.png?w=105" alt="Granny Halloween House" loading="lazy" width="80" height="45">
+        <a href="/game/clone-runner/" class="related-card" title="Clone Runner">
+          <img src="https://img.gamepix.com/games/clone-runner/icon/clone-runner.png?w=105" alt="Clone Runner" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Granny Halloween House</div>
-            <div class="related-card-meta">⭐ 4.8 · 773Rb</div>
+            <div class="related-card-title">Clone Runner</div>
+            <div class="related-card-meta">⭐ 4.3 · 556Rb</div>
           </div>
         </a>
-        <a href="/game/baby-noob-vs-heroman-2-player/" class="related-card" title="Baby Noob vs Heroman 2 Player">
-          <img src="https://img.gamepix.com/games/baby-noob-vs-heroman-2-player/icon/baby-noob-vs-heroman-2-player.png?w=105" alt="Baby Noob vs Heroman 2 Player" loading="lazy" width="80" height="45">
+        <a href="/game/save-capybara/" class="related-card" title="Save the Capybara">
+          <img src="https://img.gamepix.com/games/save-capybara/icon/save-capybara.png?w=105" alt="Save the Capybara" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Baby Noob vs Heroman 2 Player</div>
-            <div class="related-card-meta">⭐ 4.8 · 695Rb</div>
+            <div class="related-card-title">Save the Capybara</div>
+            <div class="related-card-meta">⭐ 4.8 · 353Rb</div>
           </div>
         </a>
-        <a href="/game/shape-setter-game/" class="related-card" title="Shape Setter">
-          <img src="https://img.gamepix.com/games/shape-setter-game/icon/shape-setter-game.png?w=105" alt="Shape Setter" loading="lazy" width="80" height="45">
+        <a href="/game/blockly-heroes/" class="related-card" title="Blockly Heroes">
+          <img src="https://img.gamepix.com/games/blockly-heroes/icon/blockly-heroes.png?w=105" alt="Blockly Heroes" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Shape Setter</div>
-            <div class="related-card-meta">⭐ 4.2 · 686Rb</div>
+            <div class="related-card-title">Blockly Heroes</div>
+            <div class="related-card-meta">⭐ 4.8 · 605Rb</div>
           </div>
         </a>
-        <a href="/game/line-join/" class="related-card" title="Line Join">
-          <img src="https://img.gamepix.com/games/line-join/icon/line-join.png?w=105" alt="Line Join" loading="lazy" width="80" height="45">
+        <a href="/game/santa-christmas-sack/" class="related-card" title="Christmas Santa Sack">
+          <img src="https://img.gamepix.com/games/santa-christmas-sack/icon/santa-christmas-sack.png?w=105" alt="Christmas Santa Sack" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Line Join</div>
-            <div class="related-card-meta">⭐ 4.5 · 661Rb</div>
+            <div class="related-card-title">Christmas Santa Sack</div>
+            <div class="related-card-meta">⭐ 4.5 · 302Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

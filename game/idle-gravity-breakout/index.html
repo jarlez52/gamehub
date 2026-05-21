@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Idle Gravity Breakout</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/my-ice-cream-shop/" class="related-card" title="My Ice Cream Shop">
-          <img src="https://img.gamepix.com/games/my-ice-cream-shop/icon/my-ice-cream-shop.png?w=105" alt="My Ice Cream Shop" loading="lazy" width="80" height="45">
+        <a href="/game/idle-robots/" class="related-card" title="Idle Robots">
+          <img src="https://img.gamepix.com/games/idle-robots/icon/idle-robots.png?w=105" alt="Idle Robots" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">My Ice Cream Shop</div>
-            <div class="related-card-meta">⭐ 4.9 · 940Rb</div>
+            <div class="related-card-title">Idle Robots</div>
+            <div class="related-card-meta">⭐ 4.6 · 391Rb</div>
           </div>
         </a>
-        <a href="/game/survive-squad/" class="related-card" title="Survive Squad">
-          <img src="https://img.gamepix.com/games/survive-squad/icon/survive-squad.png?w=105" alt="Survive Squad" loading="lazy" width="80" height="45">
+        <a href="/game/the-earth-evolution/" class="related-card" title="The Earth Evolution">
+          <img src="https://img.gamepix.com/games/the-earth-evolution/icon/the-earth-evolution.png?w=105" alt="The Earth Evolution" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Survive Squad</div>
-            <div class="related-card-meta">⭐ 4.3 · 237Rb</div>
+            <div class="related-card-title">The Earth Evolution</div>
+            <div class="related-card-meta">⭐ 4.8 · 988Rb</div>
           </div>
         </a>
-        <a href="/game/tower-defense-world-war/" class="related-card" title="Tower Defense - World War">
-          <img src="https://img.gamepix.com/games/tower-defense-world-war/icon/tower-defense-world-war.png?w=105" alt="Tower Defense - World War" loading="lazy" width="80" height="45">
+        <a href="/game/defend-the-castle/" class="related-card" title="Defend the Castle">
+          <img src="https://img.gamepix.com/games/defend-the-castle/icon/defend-the-castle.png?w=105" alt="Defend the Castle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tower Defense - World War</div>
-            <div class="related-card-meta">⭐ 4 · 348Rb</div>
+            <div class="related-card-title">Defend the Castle</div>
+            <div class="related-card-meta">⭐ 4 · 444Rb</div>
           </div>
         </a>
-        <a href="/game/among-spider-at-easter/" class="related-card" title="AMONG SPIDER AT EASTER">
-          <img src="https://img.gamepix.com/games/among-spider-at-easter/icon/among-spider-at-easter.png?w=105" alt="AMONG SPIDER AT EASTER" loading="lazy" width="80" height="45">
+        <a href="/game/sanguo-conquest-thirteen-provinces/" class="related-card" title="Sanguo Conquest - Thirteen Provinces">
+          <img src="https://img.gamepix.com/games/sanguo-conquest-thirteen-provinces/icon/sanguo-conquest-thirteen-provinces.png?w=105" alt="Sanguo Conquest - Thirteen Provinces" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">AMONG SPIDER AT EASTER</div>
-            <div class="related-card-meta">⭐ 4.8 · 861Rb</div>
+            <div class="related-card-title">Sanguo Conquest - Thirteen Provinces</div>
+            <div class="related-card-meta">⭐ 4.6 · 837Rb</div>
           </div>
         </a>
-        <a href="/game/castel-war-3d/" class="related-card" title="Castel War 3D">
-          <img src="https://img.gamepix.com/games/castel-war-3d/icon/castel-war-3d.png?w=105" alt="Castel War 3D" loading="lazy" width="80" height="45">
+        <a href="/game/medical-shop-cash-register-drug-store/" class="related-card" title="Medical Shop - Cash Register Drug Store">
+          <img src="https://img.gamepix.com/games/medical-shop-cash-register-drug-store/icon/medical-shop-cash-register-drug-store.png?w=105" alt="Medical Shop - Cash Register Drug Store" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Castel War 3D</div>
-            <div class="related-card-meta">⭐ 4.6 · 300Rb</div>
+            <div class="related-card-title">Medical Shop - Cash Register Drug Store</div>
+            <div class="related-card-meta">⭐ 4.7 · 184Rb</div>
           </div>
         </a>
-        <a href="/game/mining-rush/" class="related-card" title="Mining Rush">
-          <img src="https://img.gamepix.com/games/mining-rush/icon/mining-rush.png?w=105" alt="Mining Rush" loading="lazy" width="80" height="45">
+        <a href="/game/knight-wars/" class="related-card" title="Knight Wars">
+          <img src="https://img.gamepix.com/games/knight-wars/icon/knight-wars.png?w=105" alt="Knight Wars" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mining Rush</div>
-            <div class="related-card-meta">⭐ 4.4 · 621Rb</div>
+            <div class="related-card-title">Knight Wars</div>
+            <div class="related-card-meta">⭐ 4.9 · 619Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">3Tris</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/shape-defense/" class="related-card" title="Shape Defense">
-          <img src="https://img.gamepix.com/games/shape-defense/icon/shape-defense.png?w=105" alt="Shape Defense" loading="lazy" width="80" height="45">
+        <a href="/game/td-neon-shoot-zuma/" class="related-card" title="TD Neon Shoot - Zuma">
+          <img src="https://img.gamepix.com/games/td-neon-shoot-zuma/icon/td-neon-shoot-zuma.png?w=105" alt="TD Neon Shoot - Zuma" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Shape Defense</div>
-            <div class="related-card-meta">⭐ 4.8 · 202Rb</div>
+            <div class="related-card-title">TD Neon Shoot - Zuma</div>
+            <div class="related-card-meta">⭐ 4.6 · 394Rb</div>
           </div>
         </a>
-        <a href="/game/bubble-match-3/" class="related-card" title="Bubble Match 3">
-          <img src="https://img.gamepix.com/games/bubble-match-3/icon/bubble-match-3.png?w=105" alt="Bubble Match 3" loading="lazy" width="80" height="45">
+        <a href="/game/soda-block-jam/" class="related-card" title="Soda Block Jam">
+          <img src="https://img.gamepix.com/games/soda-block-jam/icon/soda-block-jam.png?w=105" alt="Soda Block Jam" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bubble Match 3</div>
-            <div class="related-card-meta">⭐ 4.8 · 918Rb</div>
+            <div class="related-card-title">Soda Block Jam</div>
+            <div class="related-card-meta">⭐ 4.2 · 538Rb</div>
           </div>
         </a>
-        <a href="/game/dop-puzzle-displace-one-part/" class="related-card" title="DOP Puzzle. Displace One Part">
-          <img src="https://img.gamepix.com/games/dop-puzzle-displace-one-part/icon/dop-puzzle-displace-one-part.png?w=105" alt="DOP Puzzle. Displace One Part" loading="lazy" width="80" height="45">
+        <a href="/game/number-guessing-classic-game/" class="related-card" title="Number Guessing Classic Game">
+          <img src="https://img.gamepix.com/games/number-guessing-classic-game/icon/number-guessing-classic-game.png?w=105" alt="Number Guessing Classic Game" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">DOP Puzzle. Displace One Part</div>
-            <div class="related-card-meta">⭐ 4.1 · 714Rb</div>
+            <div class="related-card-title">Number Guessing Classic Game</div>
+            <div class="related-card-meta">⭐ 4.9 · 847Rb</div>
           </div>
         </a>
-        <a href="/game/save-her-tour/" class="related-card" title="Save Her Tour">
-          <img src="https://img.gamepix.com/games/save-her-tour/icon/save-her-tour.png?w=105" alt="Save Her Tour" loading="lazy" width="80" height="45">
+        <a href="/game/the-three-tiles-in-the-halloween-world/" class="related-card" title="The Three Tiles in the Halloween World">
+          <img src="https://img.gamepix.com/games/the-three-tiles-in-the-halloween-world/icon/the-three-tiles-in-the-halloween-world.png?w=105" alt="The Three Tiles in the Halloween World" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Save Her Tour</div>
-            <div class="related-card-meta">⭐ 4.2 · 503Rb</div>
+            <div class="related-card-title">The Three Tiles in the Halloween World</div>
+            <div class="related-card-meta">⭐ 4.1 · 418Rb</div>
           </div>
         </a>
-        <a href="/game/boxing-quiz/" class="related-card" title="Boxing Quiz">
-          <img src="https://img.gamepix.com/games/boxing-quiz/icon/boxing-quiz.png?w=105" alt="Boxing Quiz" loading="lazy" width="80" height="45">
+        <a href="/game/move-the-rubber-bands-logic-puzzle/" class="related-card" title="Move the Rubber Bands Logic puzzle">
+          <img src="https://img.gamepix.com/games/move-the-rubber-bands-logic-puzzle/icon/move-the-rubber-bands-logic-puzzle.png?w=105" alt="Move the Rubber Bands Logic puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Boxing Quiz</div>
-            <div class="related-card-meta">⭐ 4.3 · 416Rb</div>
+            <div class="related-card-title">Move the Rubber Bands Logic puzzle</div>
+            <div class="related-card-meta">⭐ 4.7 · 529Rb</div>
           </div>
         </a>
-        <a href="/game/tripeaks-solitaire/" class="related-card" title="Tripeaks Solitaire 100 levels">
-          <img src="https://img.gamepix.com/games/tripeaks-solitaire/icon/tripeaks-solitaire.png?w=105" alt="Tripeaks Solitaire 100 levels" loading="lazy" width="80" height="45">
+        <a href="/game/cosmic-match/" class="related-card" title="Cosmic Match">
+          <img src="https://img.gamepix.com/games/cosmic-match/icon/cosmic-match.png?w=105" alt="Cosmic Match" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tripeaks Solitaire 100 levels</div>
-            <div class="related-card-meta">⭐ 4.6 · 626Rb</div>
+            <div class="related-card-title">Cosmic Match</div>
+            <div class="related-card-meta">⭐ 4 · 180Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

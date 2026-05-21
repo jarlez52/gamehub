@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Flying Shodow</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/the-surreptitious-operation/" class="related-card" title="The Surreptitious Operation">
-          <img src="https://img.gamepix.com/games/the-surreptitious-operation/icon/the-surreptitious-operation.png?w=105" alt="The Surreptitious Operation" loading="lazy" width="80" height="45">
+        <a href="/game/rainbow-friends-swarm/" class="related-card" title="Rainbow Friends Swarm">
+          <img src="https://img.gamepix.com/games/rainbow-friends-swarm/icon/rainbow-friends-swarm.png?w=105" alt="Rainbow Friends Swarm" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">The Surreptitious Operation</div>
-            <div class="related-card-meta">⭐ 4.7 · 607Rb</div>
+            <div class="related-card-title">Rainbow Friends Swarm</div>
+            <div class="related-card-meta">⭐ 4.6 · 377Rb</div>
           </div>
         </a>
-        <a href="/game/urban-sniper-multiplayer/" class="related-card" title="Urban Sniper Multiplayer">
-          <img src="https://img.gamepix.com/games/urban-sniper-multiplayer/icon/urban-sniper-multiplayer.png?w=105" alt="Urban Sniper Multiplayer" loading="lazy" width="80" height="45">
+        <a href="/game/grimace-and-skibidi-whack-a-mole/" class="related-card" title="Grimace And Skibidi Whack A Mole">
+          <img src="https://img.gamepix.com/games/grimace-and-skibidi-whack-a-mole/icon/grimace-and-skibidi-whack-a-mole.png?w=105" alt="Grimace And Skibidi Whack A Mole" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Urban Sniper Multiplayer</div>
-            <div class="related-card-meta">⭐ 4.5 · 142Rb</div>
+            <div class="related-card-title">Grimace And Skibidi Whack A Mole</div>
+            <div class="related-card-meta">⭐ 4.5 · 889Rb</div>
           </div>
         </a>
-        <a href="/game/naval-battle-infinite-war/" class="related-card" title="Battleship - Infinity War">
-          <img src="https://img.gamepix.com/games/naval-battle-infinite-war/icon/naval-battle-infinite-war.png?w=105" alt="Battleship - Infinity War" loading="lazy" width="80" height="45">
+        <a href="/game/journey-through-hell/" class="related-card" title="Journey Through Hell">
+          <img src="https://img.gamepix.com/games/journey-through-hell/icon/journey-through-hell.png?w=105" alt="Journey Through Hell" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Battleship - Infinity War</div>
-            <div class="related-card-meta">⭐ 4.7 · 406Rb</div>
+            <div class="related-card-title">Journey Through Hell</div>
+            <div class="related-card-meta">⭐ 4.4 · 800Rb</div>
           </div>
         </a>
-        <a href="/game/parmesan-partisan-deluxe/" class="related-card" title="Parmesan Partisan Deluxe">
-          <img src="https://img.gamepix.com/games/parmesan-partisan-deluxe/icon/parmesan-partisan-deluxe.png?w=105" alt="Parmesan Partisan Deluxe" loading="lazy" width="80" height="45">
+        <a href="/game/alien-attack/" class="related-card" title="Alien Attack">
+          <img src="https://img.gamepix.com/games/alien-attack/icon/alien-attack.png?w=105" alt="Alien Attack" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Parmesan Partisan Deluxe</div>
-            <div class="related-card-meta">⭐ 4.1 · 687Rb</div>
+            <div class="related-card-title">Alien Attack</div>
+            <div class="related-card-meta">⭐ 4.3 · 592Rb</div>
           </div>
         </a>
-        <a href="/game/kaido/" class="related-card" title="Kaido">
-          <img src="https://img.gamepix.com/games/kaido/icon/kaido.png?w=105" alt="Kaido" loading="lazy" width="80" height="45">
+        <a href="/game/crazy-driver-noob/" class="related-card" title="Crazy Driver Noob">
+          <img src="https://img.gamepix.com/games/crazy-driver-noob/icon/crazy-driver-noob.png?w=105" alt="Crazy Driver Noob" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Kaido</div>
-            <div class="related-card-meta">⭐ 4.2 · 772Rb</div>
+            <div class="related-card-title">Crazy Driver Noob</div>
+            <div class="related-card-meta">⭐ 4.6 · 384Rb</div>
           </div>
         </a>
-        <a href="/game/barry-prison-hide-and-seek/" class="related-card" title="Barry Prison: Hide And Seek">
-          <img src="https://img.gamepix.com/games/barry-prison-hide-and-seek/icon/barry-prison-hide-and-seek.png?w=105" alt="Barry Prison: Hide And Seek" loading="lazy" width="80" height="45">
+        <a href="/game/chicken-jockey-penguin-rescue/" class="related-card" title="Chicken Jockey: Penguin Rescue">
+          <img src="https://img.gamepix.com/games/chicken-jockey-penguin-rescue/icon/chicken-jockey-penguin-rescue.png?w=105" alt="Chicken Jockey: Penguin Rescue" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Barry Prison: Hide And Seek</div>
-            <div class="related-card-meta">⭐ 4.7 · 467Rb</div>
+            <div class="related-card-title">Chicken Jockey: Penguin Rescue</div>
+            <div class="related-card-meta">⭐ 4.1 · 555Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

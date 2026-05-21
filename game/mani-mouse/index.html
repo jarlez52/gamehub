@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Mani Mouse</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/detto-man/" class="related-card" title="Detto Man">
-          <img src="https://img.gamepix.com/games/detto-man/icon/detto-man.png?w=105" alt="Detto Man" loading="lazy" width="80" height="45">
+        <a href="/game/noob-s-chicken-farm-tycoon/" class="related-card" title="Noob's Chicken Farm Tycoon">
+          <img src="https://img.gamepix.com/games/noob-s-chicken-farm-tycoon/icon/noob-s-chicken-farm-tycoon.png?w=105" alt="Noob's Chicken Farm Tycoon" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Detto Man</div>
-            <div class="related-card-meta">⭐ 4.3 · 431Rb</div>
+            <div class="related-card-title">Noob's Chicken Farm Tycoon</div>
+            <div class="related-card-meta">⭐ 4 · 576Rb</div>
           </div>
         </a>
-        <a href="/game/the-imposter-between-us/" class="related-card" title="The Imposter Between Us">
-          <img src="https://img.gamepix.com/games/the-imposter-between-us/icon/the-imposter-between-us.png?w=105" alt="The Imposter Between Us" loading="lazy" width="80" height="45">
+        <a href="/game/sumo-showdown/" class="related-card" title="Sumo Showdown">
+          <img src="https://img.gamepix.com/games/sumo-showdown/icon/sumo-showdown.png?w=105" alt="Sumo Showdown" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">The Imposter Between Us</div>
-            <div class="related-card-meta">⭐ 4.9 · 384Rb</div>
+            <div class="related-card-title">Sumo Showdown</div>
+            <div class="related-card-meta">⭐ 4.3 · 491Rb</div>
           </div>
         </a>
-        <a href="/game/swim-or-die/" class="related-card" title="Swim or Die">
-          <img src="https://img.gamepix.com/games/swim-or-die/icon/swim-or-die.png?w=105" alt="Swim or Die" loading="lazy" width="80" height="45">
+        <a href="/game/traigon/" class="related-card" title="Traigon">
+          <img src="https://img.gamepix.com/games/traigon/icon/traigon.png?w=105" alt="Traigon" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Swim or Die</div>
-            <div class="related-card-meta">⭐ 4.4 · 702Rb</div>
+            <div class="related-card-title">Traigon</div>
+            <div class="related-card-meta">⭐ 4.3 · 441Rb</div>
           </div>
         </a>
-        <a href="/game/knight-360/" class="related-card" title="Knight 360">
-          <img src="https://img.gamepix.com/games/knight-360/icon/knight-360.png?w=105" alt="Knight 360" loading="lazy" width="80" height="45">
+        <a href="/game/mr-lupato-2-egyptian-piramids-treasures/" class="related-card" title="Mr. Lupato 2: Egyptian Pyramids Treasures">
+          <img src="https://img.gamepix.com/games/mr-lupato-2-egyptian-piramids-treasures/icon/mr-lupato-2-egyptian-piramids-treasures.png?w=105" alt="Mr. Lupato 2: Egyptian Pyramids Treasures" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Knight 360</div>
-            <div class="related-card-meta">⭐ 4.3 · 870Rb</div>
+            <div class="related-card-title">Mr. Lupato 2: Egyptian Pyramids Treasures</div>
+            <div class="related-card-meta">⭐ 4.1 · 265Rb</div>
           </div>
         </a>
-        <a href="/game/kuli/" class="related-card" title="KULI">
-          <img src="https://img.gamepix.com/games/kuli/icon/kuli.png?w=105" alt="KULI" loading="lazy" width="80" height="45">
+        <a href="/game/laser-marathon-alpha/" class="related-card" title="Laser Marathon">
+          <img src="https://img.gamepix.com/games/laser-marathon-alpha/icon/laser-marathon-alpha.png?w=105" alt="Laser Marathon" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">KULI</div>
-            <div class="related-card-meta">⭐ 4.8 · 817Rb</div>
+            <div class="related-card-title">Laser Marathon</div>
+            <div class="related-card-meta">⭐ 4.5 · 905Rb</div>
           </div>
         </a>
-        <a href="/game/nubik-vs-herobrin-s-army/" class="related-card" title="Nubik vs Herobrin's Army">
-          <img src="https://img.gamepix.com/games/nubik-vs-herobrin-s-army/icon/nubik-vs-herobrin-s-army.png?w=105" alt="Nubik vs Herobrin's Army" loading="lazy" width="80" height="45">
+        <a href="/game/galaxy-crush/" class="related-card" title="Galaxy Crush">
+          <img src="https://img.gamepix.com/games/galaxy-crush/icon/galaxy-crush.png?w=105" alt="Galaxy Crush" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Nubik vs Herobrin's Army</div>
-            <div class="related-card-meta">⭐ 4.7 · 483Rb</div>
+            <div class="related-card-title">Galaxy Crush</div>
+            <div class="related-card-meta">⭐ 4.4 · 884Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

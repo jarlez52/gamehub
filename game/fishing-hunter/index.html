@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Fishing Hunter</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/sky-blaster/" class="related-card" title="Sky Blaster">
-          <img src="https://img.gamepix.com/games/sky-blaster/icon/sky-blaster.png?w=105" alt="Sky Blaster" loading="lazy" width="80" height="45">
+        <a href="/game/ant-colony/" class="related-card" title="Ant Colony">
+          <img src="https://img.gamepix.com/games/ant-colony/icon/ant-colony.png?w=105" alt="Ant Colony" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sky Blaster</div>
-            <div class="related-card-meta">⭐ 4.1 · 698Rb</div>
+            <div class="related-card-title">Ant Colony</div>
+            <div class="related-card-meta">⭐ 4.5 · 910Rb</div>
           </div>
         </a>
-        <a href="/game/skyforce-fighter/" class="related-card" title="Skyforce Fighter">
-          <img src="https://img.gamepix.com/games/skyforce-fighter/icon/skyforce-fighter.png?w=105" alt="Skyforce Fighter" loading="lazy" width="80" height="45">
+        <a href="/game/akihiko-vs-cannons-2/" class="related-card" title="Akihiko vs Cannons 2">
+          <img src="https://img.gamepix.com/games/akihiko-vs-cannons-2/icon/akihiko-vs-cannons-2.png?w=105" alt="Akihiko vs Cannons 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Skyforce Fighter</div>
-            <div class="related-card-meta">⭐ 4.7 · 188Rb</div>
+            <div class="related-card-title">Akihiko vs Cannons 2</div>
+            <div class="related-card-meta">⭐ 4.9 · 810Rb</div>
           </div>
         </a>
-        <a href="/game/skeleton-slayer/" class="related-card" title="Skeleton Slayer">
-          <img src="https://img.gamepix.com/games/skeleton-slayer/icon/skeleton-slayer.png?w=105" alt="Skeleton Slayer" loading="lazy" width="80" height="45">
+        <a href="/game/stumble-run/" class="related-card" title="Strumble Run Fall Colors">
+          <img src="https://img.gamepix.com/games/stumble-run/icon/stumble-run.png?w=105" alt="Strumble Run Fall Colors" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Skeleton Slayer</div>
-            <div class="related-card-meta">⭐ 4 · 185Rb</div>
+            <div class="related-card-title">Strumble Run Fall Colors</div>
+            <div class="related-card-meta">⭐ 4.8 · 813Rb</div>
           </div>
         </a>
-        <a href="/game/train-bandit/" class="related-card" title="Train Bandit">
-          <img src="https://img.gamepix.com/games/train-bandit/icon/train-bandit.png?w=105" alt="Train Bandit" loading="lazy" width="80" height="45">
+        <a href="/game/colorful-ball-x/" class="related-card" title="Colorful Ball X">
+          <img src="https://img.gamepix.com/games/colorful-ball-x/icon/colorful-ball-x.png?w=105" alt="Colorful Ball X" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Train Bandit</div>
-            <div class="related-card-meta">⭐ 4.5 · 770Rb</div>
+            <div class="related-card-title">Colorful Ball X</div>
+            <div class="related-card-meta">⭐ 4.2 · 803Rb</div>
           </div>
         </a>
-        <a href="/game/tuu-bot-2/" class="related-card" title="Tuu Bot 2">
-          <img src="https://img.gamepix.com/games/tuu-bot-2/icon/tuu-bot-2.png?w=105" alt="Tuu Bot 2" loading="lazy" width="80" height="45">
+        <a href="/game/cave-escape/" class="related-card" title="Cave Escape">
+          <img src="https://img.gamepix.com/games/cave-escape/icon/cave-escape.png?w=105" alt="Cave Escape" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tuu Bot 2</div>
-            <div class="related-card-meta">⭐ 4.3 · 697Rb</div>
+            <div class="related-card-title">Cave Escape</div>
+            <div class="related-card-meta">⭐ 4.5 · 591Rb</div>
           </div>
         </a>
-        <a href="/game/ogli-cats/" class="related-card" title="Ogli Cats">
-          <img src="https://img.gamepix.com/games/ogli-cats/icon/ogli-cats.png?w=105" alt="Ogli Cats" loading="lazy" width="80" height="45">
+        <a href="/game/survival-island/" class="related-card" title="Survival Island">
+          <img src="https://img.gamepix.com/games/survival-island/icon/survival-island.png?w=105" alt="Survival Island" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ogli Cats</div>
-            <div class="related-card-meta">⭐ 4.8 · 925Rb</div>
+            <div class="related-card-title">Survival Island</div>
+            <div class="related-card-meta">⭐ 4.7 · 930Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

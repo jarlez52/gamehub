@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Little Alchemy</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/insect-legends/" class="related-card" title="Insect Legends">
-          <img src="https://img.gamepix.com/games/insect-legends/icon/insect-legends.png?w=105" alt="Insect Legends" loading="lazy" width="80" height="45">
+        <a href="/game/paladin-memory-find-for-kids/" class="related-card" title="Paladin Memory Find for Kids">
+          <img src="https://img.gamepix.com/games/paladin-memory-find-for-kids/icon/paladin-memory-find-for-kids.png?w=105" alt="Paladin Memory Find for Kids" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Insect Legends</div>
-            <div class="related-card-meta">⭐ 4.8 · 379Rb</div>
+            <div class="related-card-title">Paladin Memory Find for Kids</div>
+            <div class="related-card-meta">⭐ 4.9 · 263Rb</div>
           </div>
         </a>
-        <a href="/game/captain-pirate/" class="related-card" title="Captain Pirate">
-          <img src="https://img.gamepix.com/games/captain-pirate/icon/captain-pirate.png?w=105" alt="Captain Pirate" loading="lazy" width="80" height="45">
+        <a href="/game/sprunki-ketchup-mod/" class="related-card" title="Sprunki Ketchup Mod">
+          <img src="https://img.gamepix.com/games/sprunki-ketchup-mod/icon/sprunki-ketchup-mod.png?w=105" alt="Sprunki Ketchup Mod" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Captain Pirate</div>
-            <div class="related-card-meta">⭐ 4.4 · 870Rb</div>
+            <div class="related-card-title">Sprunki Ketchup Mod</div>
+            <div class="related-card-meta">⭐ 4.5 · 958Rb</div>
           </div>
         </a>
-        <a href="/game/flappy-bird-spinning-oia-oia-cat/" class="related-card" title="Flappy Bird Spinning Oia Oia Cat">
-          <img src="https://img.gamepix.com/games/flappy-bird-spinning-oia-oia-cat/icon/flappy-bird-spinning-oia-oia-cat.png?w=105" alt="Flappy Bird Spinning Oia Oia Cat" loading="lazy" width="80" height="45">
+        <a href="/game/super-chains/" class="related-card" title="Super Chains">
+          <img src="https://img.gamepix.com/games/super-chains/icon/super-chains.png?w=105" alt="Super Chains" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Flappy Bird Spinning Oia Oia Cat</div>
-            <div class="related-card-meta">⭐ 4.4 · 767Rb</div>
+            <div class="related-card-title">Super Chains</div>
+            <div class="related-card-meta">⭐ 4.8 · 845Rb</div>
           </div>
         </a>
-        <a href="/game/neon-brick-breaker/" class="related-card" title="Neon Brick Breaker">
-          <img src="https://img.gamepix.com/games/neon-brick-breaker/icon/neon-brick-breaker.png?w=105" alt="Neon Brick Breaker" loading="lazy" width="80" height="45">
+        <a href="/game/the-malevolent-mansion-of-evil/" class="related-card" title="The malevolent mansion of evil">
+          <img src="https://img.gamepix.com/games/the-malevolent-mansion-of-evil/icon/the-malevolent-mansion-of-evil.png?w=105" alt="The malevolent mansion of evil" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Neon Brick Breaker</div>
-            <div class="related-card-meta">⭐ 4.4 · 841Rb</div>
+            <div class="related-card-title">The malevolent mansion of evil</div>
+            <div class="related-card-meta">⭐ 4.6 · 165Rb</div>
           </div>
         </a>
-        <a href="/game/double-pinball-machine/" class="related-card" title="Double Pinball Machine">
-          <img src="https://img.gamepix.com/games/double-pinball-machine/icon/double-pinball-machine.png?w=105" alt="Double Pinball Machine" loading="lazy" width="80" height="45">
+        <a href="/game/car-wash-games-car-service/" class="related-card" title="Car Wash Garage">
+          <img src="https://img.gamepix.com/games/car-wash-games-car-service/icon/car-wash-games-car-service.png?w=105" alt="Car Wash Garage" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Double Pinball Machine</div>
-            <div class="related-card-meta">⭐ 4.3 · 129Rb</div>
+            <div class="related-card-title">Car Wash Garage</div>
+            <div class="related-card-meta">⭐ 4.3 · 912Rb</div>
           </div>
         </a>
-        <a href="/game/falling-ball/" class="related-card" title="Falling Ball">
-          <img src="https://img.gamepix.com/games/falling-ball/icon/falling-ball.png?w=105" alt="Falling Ball" loading="lazy" width="80" height="45">
+        <a href="/game/master-chess-multiplayer/" class="related-card" title="Master Chess Multiplayer">
+          <img src="https://img.gamepix.com/games/master-chess-multiplayer/icon/master-chess-multiplayer.png?w=105" alt="Master Chess Multiplayer" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Falling Ball</div>
-            <div class="related-card-meta">⭐ 4.4 · 460Rb</div>
+            <div class="related-card-title">Master Chess Multiplayer</div>
+            <div class="related-card-meta">⭐ 4.1 · 568Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

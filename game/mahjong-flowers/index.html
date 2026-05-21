@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Mahjong Flowers</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/ghost-hunters/" class="related-card" title="Ghost Hunters">
-          <img src="https://img.gamepix.com/games/ghost-hunters/icon/ghost-hunters.png?w=105" alt="Ghost Hunters" loading="lazy" width="80" height="45">
+        <a href="/game/jewels-of-oz/" class="related-card" title="Jewels of Oz">
+          <img src="https://img.gamepix.com/games/jewels-of-oz/icon/jewels-of-oz.png?w=105" alt="Jewels of Oz" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ghost Hunters</div>
-            <div class="related-card-meta">⭐ 4.1 · 565Rb</div>
+            <div class="related-card-title">Jewels of Oz</div>
+            <div class="related-card-meta">⭐ 4.9 · 838Rb</div>
           </div>
         </a>
-        <a href="/game/colors-pins/" class="related-card" title="Colors Pins">
-          <img src="https://img.gamepix.com/games/colors-pins/icon/colors-pins.png?w=105" alt="Colors Pins" loading="lazy" width="80" height="45">
+        <a href="/game/tile-triple/" class="related-card" title="Tile Triple">
+          <img src="https://img.gamepix.com/games/tile-triple/icon/tile-triple.png?w=105" alt="Tile Triple" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Colors Pins</div>
-            <div class="related-card-meta">⭐ 4.4 · 480Rb</div>
+            <div class="related-card-title">Tile Triple</div>
+            <div class="related-card-meta">⭐ 4.8 · 910Rb</div>
           </div>
         </a>
-        <a href="/game/candy-cascade/" class="related-card" title="Candy Cascade">
-          <img src="https://img.gamepix.com/games/candy-cascade/icon/candy-cascade.png?w=105" alt="Candy Cascade" loading="lazy" width="80" height="45">
+        <a href="/game/hex-2048/" class="related-card" title="Hex-2048">
+          <img src="https://img.gamepix.com/games/hex-2048/icon/hex-2048.png?w=105" alt="Hex-2048" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Candy Cascade</div>
-            <div class="related-card-meta">⭐ 4.8 · 261Rb</div>
+            <div class="related-card-title">Hex-2048</div>
+            <div class="related-card-meta">⭐ 4 · 521Rb</div>
           </div>
         </a>
-        <a href="/game/camp-arrange/" class="related-card" title="Camp Arrange">
-          <img src="https://img.gamepix.com/games/camp-arrange/icon/camp-arrange.png?w=105" alt="Camp Arrange" loading="lazy" width="80" height="45">
+        <a href="/game/tile-rush/" class="related-card" title="Tile Rush">
+          <img src="https://img.gamepix.com/games/tile-rush/icon/tile-rush.png?w=105" alt="Tile Rush" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Camp Arrange</div>
-            <div class="related-card-meta">⭐ 4.3 · 250Rb</div>
+            <div class="related-card-title">Tile Rush</div>
+            <div class="related-card-meta">⭐ 4.3 · 636Rb</div>
           </div>
         </a>
-        <a href="/game/number-nexus/" class="related-card" title="Number Nexus">
-          <img src="https://img.gamepix.com/games/number-nexus/icon/number-nexus.png?w=105" alt="Number Nexus" loading="lazy" width="80" height="45">
+        <a href="/game/othello/" class="related-card" title="Othello">
+          <img src="https://img.gamepix.com/games/othello/icon/othello.png?w=105" alt="Othello" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Number Nexus</div>
-            <div class="related-card-meta">⭐ 4.5 · 485Rb</div>
+            <div class="related-card-title">Othello</div>
+            <div class="related-card-meta">⭐ 4.5 · 161Rb</div>
           </div>
         </a>
-        <a href="/game/puzzle-game-sokoban/" class="related-card" title="Puzzle Game Sokoban">
-          <img src="https://img.gamepix.com/games/puzzle-game-sokoban/icon/puzzle-game-sokoban.png?w=105" alt="Puzzle Game Sokoban" loading="lazy" width="80" height="45">
+        <a href="/game/tilecraft-nexus/" class="related-card" title="TileCraft Nexus">
+          <img src="https://img.gamepix.com/games/tilecraft-nexus/icon/tilecraft-nexus.png?w=105" alt="TileCraft Nexus" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Puzzle Game Sokoban</div>
-            <div class="related-card-meta">⭐ 4.2 · 597Rb</div>
+            <div class="related-card-title">TileCraft Nexus</div>
+            <div class="related-card-meta">⭐ 4.9 · 880Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

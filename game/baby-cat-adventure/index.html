@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Baby Cat Adventure</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/chess-for-two/" class="related-card" title="Chess for Two">
-          <img src="https://img.gamepix.com/games/chess-for-two/icon/chess-for-two.png?w=105" alt="Chess for Two" loading="lazy" width="80" height="45">
+        <a href="/game/monster-block-game/" class="related-card" title="Monster Block Game">
+          <img src="https://img.gamepix.com/games/monster-block-game/icon/monster-block-game.png?w=105" alt="Monster Block Game" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Chess for Two</div>
-            <div class="related-card-meta">⭐ 4.8 · 987Rb</div>
+            <div class="related-card-title">Monster Block Game</div>
+            <div class="related-card-meta">⭐ 4.8 · 321Rb</div>
           </div>
         </a>
-        <a href="/game/around-elbrus/" class="related-card" title="Around Elbrus">
-          <img src="https://img.gamepix.com/games/around-elbrus/icon/around-elbrus.png?w=105" alt="Around Elbrus" loading="lazy" width="80" height="45">
+        <a href="/game/speedball/" class="related-card" title="SpeedBall">
+          <img src="https://img.gamepix.com/games/speedball/icon/speedball.png?w=105" alt="SpeedBall" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Around Elbrus</div>
-            <div class="related-card-meta">⭐ 4.5 · 158Rb</div>
+            <div class="related-card-title">SpeedBall</div>
+            <div class="related-card-meta">⭐ 4.4 · 842Rb</div>
           </div>
         </a>
-        <a href="/game/bounce-ball-hook/" class="related-card" title="Bounce Ball Hook">
-          <img src="https://img.gamepix.com/games/bounce-ball-hook/icon/bounce-ball-hook.png?w=105" alt="Bounce Ball Hook" loading="lazy" width="80" height="45">
+        <a href="/game/auto-rickshaw/" class="related-card" title="Auto Rickshaw">
+          <img src="https://img.gamepix.com/games/auto-rickshaw/icon/auto-rickshaw.png?w=105" alt="Auto Rickshaw" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bounce Ball Hook</div>
-            <div class="related-card-meta">⭐ 4.9 · 130Rb</div>
+            <div class="related-card-title">Auto Rickshaw</div>
+            <div class="related-card-meta">⭐ 4.2 · 459Rb</div>
           </div>
         </a>
-        <a href="/game/soviet-codebreaker-v1-0/" class="related-card" title="Soviet Codebreaker v1.0">
-          <img src="https://img.gamepix.com/games/soviet-codebreaker-v1-0/icon/soviet-codebreaker-v1-0.png?w=105" alt="Soviet Codebreaker v1.0" loading="lazy" width="80" height="45">
+        <a href="/game/yeti-sensation/" class="related-card" title="Yeti Sensation">
+          <img src="https://img.gamepix.com/games/yeti-sensation/icon/yeti-sensation.png?w=105" alt="Yeti Sensation" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Soviet Codebreaker v1.0</div>
-            <div class="related-card-meta">⭐ 4.5 · 864Rb</div>
+            <div class="related-card-title">Yeti Sensation</div>
+            <div class="related-card-meta">⭐ 4.8 · 284Rb</div>
           </div>
         </a>
-        <a href="/game/anime-girls-fashion-makeup/" class="related-card" title="Anime Girls Fashion Makeup">
-          <img src="https://img.gamepix.com/games/anime-girls-fashion-makeup/icon/anime-girls-fashion-makeup.png?w=105" alt="Anime Girls Fashion Makeup" loading="lazy" width="80" height="45">
+        <a href="/game/retro-rogue/" class="related-card" title="Retro Rogue">
+          <img src="https://img.gamepix.com/games/retro-rogue/icon/retro-rogue.png?w=105" alt="Retro Rogue" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Anime Girls Fashion Makeup</div>
-            <div class="related-card-meta">⭐ 4.7 · 580Rb</div>
+            <div class="related-card-title">Retro Rogue</div>
+            <div class="related-card-meta">⭐ 4.1 · 932Rb</div>
           </div>
         </a>
-        <a href="/game/j-o-jumporb/" class="related-card" title="JumpOrb">
-          <img src="https://img.gamepix.com/games/j-o-jumporb/icon/j-o-jumporb.png?w=105" alt="JumpOrb" loading="lazy" width="80" height="45">
+        <a href="/game/sprunki-lava-escape-2player/" class="related-card" title="Sprunki Lava Escape 2Player">
+          <img src="https://img.gamepix.com/games/sprunki-lava-escape-2player/icon/sprunki-lava-escape-2player.png?w=105" alt="Sprunki Lava Escape 2Player" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">JumpOrb</div>
-            <div class="related-card-meta">⭐ 4.6 · 374Rb</div>
+            <div class="related-card-title">Sprunki Lava Escape 2Player</div>
+            <div class="related-card-meta">⭐ 4.8 · 528Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

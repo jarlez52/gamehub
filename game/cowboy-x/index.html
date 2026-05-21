@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Cowboy</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/moon-rocket/" class="related-card" title="Moon Rocket">
-          <img src="https://img.gamepix.com/games/moon-rocket/icon/moon-rocket.png?w=105" alt="Moon Rocket" loading="lazy" width="80" height="45">
+        <a href="/game/hopeless-island-survival-hero/" class="related-card" title="Hopeless Island Survival Hero">
+          <img src="https://img.gamepix.com/games/hopeless-island-survival-hero/icon/hopeless-island-survival-hero.png?w=105" alt="Hopeless Island Survival Hero" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Moon Rocket</div>
-            <div class="related-card-meta">⭐ 4.4 · 321Rb</div>
+            <div class="related-card-title">Hopeless Island Survival Hero</div>
+            <div class="related-card-meta">⭐ 4.4 · 263Rb</div>
           </div>
         </a>
-        <a href="/game/kuli/" class="related-card" title="KULI">
-          <img src="https://img.gamepix.com/games/kuli/icon/kuli.png?w=105" alt="KULI" loading="lazy" width="80" height="45">
+        <a href="/game/parcel-delivery/" class="related-card" title="Parcel Delivery">
+          <img src="https://img.gamepix.com/games/parcel-delivery/icon/parcel-delivery.png?w=105" alt="Parcel Delivery" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">KULI</div>
-            <div class="related-card-meta">⭐ 4.8 · 817Rb</div>
+            <div class="related-card-title">Parcel Delivery</div>
+            <div class="related-card-meta">⭐ 4.6 · 242Rb</div>
           </div>
         </a>
-        <a href="/game/astro-digger/" class="related-card" title="Astro Digger">
-          <img src="https://img.gamepix.com/games/astro-digger/icon/astro-digger.png?w=105" alt="Astro Digger" loading="lazy" width="80" height="45">
+        <a href="/game/triple-run/" class="related-card" title="Triple Run">
+          <img src="https://img.gamepix.com/games/triple-run/icon/triple-run.png?w=105" alt="Triple Run" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Astro Digger</div>
-            <div class="related-card-meta">⭐ 4.5 · 410Rb</div>
+            <div class="related-card-title">Triple Run</div>
+            <div class="related-card-meta">⭐ 4.2 · 240Rb</div>
           </div>
         </a>
-        <a href="/game/impostor-among-space/" class="related-card" title="Impostor Among Space">
-          <img src="https://img.gamepix.com/games/impostor-among-space/icon/impostor-among-space.png?w=105" alt="Impostor Among Space" loading="lazy" width="80" height="45">
+        <a href="/game/poppy-strike/" class="related-card" title="Poppy Strike">
+          <img src="https://img.gamepix.com/games/poppy-strike/icon/poppy-strike.png?w=105" alt="Poppy Strike" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Impostor Among Space</div>
-            <div class="related-card-meta">⭐ 4.8 · 872Rb</div>
+            <div class="related-card-title">Poppy Strike</div>
+            <div class="related-card-meta">⭐ 4.5 · 287Rb</div>
           </div>
         </a>
-        <a href="/game/roar-of-city/" class="related-card" title="Roar of City">
-          <img src="https://img.gamepix.com/games/roar-of-city/icon/roar-of-city.png?w=105" alt="Roar of City" loading="lazy" width="80" height="45">
+        <a href="/game/volcanic-danger-adventure/" class="related-card" title="Volcanic Danger Adventure">
+          <img src="https://img.gamepix.com/games/volcanic-danger-adventure/icon/volcanic-danger-adventure.png?w=105" alt="Volcanic Danger Adventure" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Roar of City</div>
-            <div class="related-card-meta">⭐ 4.5 · 884Rb</div>
+            <div class="related-card-title">Volcanic Danger Adventure</div>
+            <div class="related-card-meta">⭐ 4.2 · 883Rb</div>
           </div>
         </a>
-        <a href="/game/the-kulka/" class="related-card" title="The Kulka">
-          <img src="https://img.gamepix.com/games/the-kulka/icon/the-kulka.png?w=105" alt="The Kulka" loading="lazy" width="80" height="45">
+        <a href="/game/mobile-legends-slime-3v3/" class="related-card" title="Mobile Legends Slime 3v3">
+          <img src="https://img.gamepix.com/games/mobile-legends-slime-3v3/icon/mobile-legends-slime-3v3.png?w=105" alt="Mobile Legends Slime 3v3" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">The Kulka</div>
-            <div class="related-card-meta">⭐ 4.8 · 993Rb</div>
+            <div class="related-card-title">Mobile Legends Slime 3v3</div>
+            <div class="related-card-meta">⭐ 4.3 · 500Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

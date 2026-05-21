@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Little Golf</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/falling-rock/" class="related-card" title="Falling Rock">
-          <img src="https://img.gamepix.com/games/falling-rock/icon/falling-rock.png?w=105" alt="Falling Rock" loading="lazy" width="80" height="45">
+        <a href="/game/fruit-frenzy/" class="related-card" title="Fruit Frenzy">
+          <img src="https://img.gamepix.com/games/fruit-frenzy/icon/fruit-frenzy.png?w=105" alt="Fruit Frenzy" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Falling Rock</div>
-            <div class="related-card-meta">⭐ 4.6 · 389Rb</div>
+            <div class="related-card-title">Fruit Frenzy</div>
+            <div class="related-card-meta">⭐ 4.2 · 737Rb</div>
           </div>
         </a>
-        <a href="/game/dots-n-lines/" class="related-card" title="Dots n Lines">
-          <img src="https://img.gamepix.com/games/dots-n-lines/icon/dots-n-lines.png?w=105" alt="Dots n Lines" loading="lazy" width="80" height="45">
+        <a href="/game/staxfall/" class="related-card" title="StaxFall">
+          <img src="https://img.gamepix.com/games/staxfall/icon/staxfall.png?w=105" alt="StaxFall" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dots n Lines</div>
-            <div class="related-card-meta">⭐ 4.7 · 908Rb</div>
+            <div class="related-card-title">StaxFall</div>
+            <div class="related-card-meta">⭐ 4.2 · 825Rb</div>
           </div>
         </a>
-        <a href="/game/face-breaker/" class="related-card" title="Face Breaker">
-          <img src="https://img.gamepix.com/games/face-breaker/icon/face-breaker.png?w=105" alt="Face Breaker" loading="lazy" width="80" height="45">
+        <a href="/game/ice-cream-truck/" class="related-card" title="Ice Cream Truck">
+          <img src="https://img.gamepix.com/games/ice-cream-truck/icon/ice-cream-truck.png?w=105" alt="Ice Cream Truck" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Face Breaker</div>
-            <div class="related-card-meta">⭐ 4.1 · 204Rb</div>
+            <div class="related-card-title">Ice Cream Truck</div>
+            <div class="related-card-meta">⭐ 4.1 · 539Rb</div>
           </div>
         </a>
-        <a href="/game/horror-granny-room/" class="related-card" title="Granny Halloween House">
-          <img src="https://img.gamepix.com/games/horror-granny-room/icon/horror-granny-room.png?w=105" alt="Granny Halloween House" loading="lazy" width="80" height="45">
+        <a href="/game/animal-match-master/" class="related-card" title="Animal Match Master">
+          <img src="https://img.gamepix.com/games/animal-match-master/icon/animal-match-master.png?w=105" alt="Animal Match Master" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Granny Halloween House</div>
-            <div class="related-card-meta">⭐ 4.9 · 185Rb</div>
+            <div class="related-card-title">Animal Match Master</div>
+            <div class="related-card-meta">⭐ 4 · 268Rb</div>
           </div>
         </a>
-        <a href="/game/tap-the-frog/" class="related-card" title="Tap the Frog">
-          <img src="https://img.gamepix.com/games/tap-the-frog/icon/tap-the-frog.png?w=105" alt="Tap the Frog" loading="lazy" width="80" height="45">
+        <a href="/game/ping-pong-arcade/" class="related-card" title="Ping Pong Arcade">
+          <img src="https://img.gamepix.com/games/ping-pong-arcade/icon/ping-pong-arcade.png?w=105" alt="Ping Pong Arcade" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tap the Frog</div>
-            <div class="related-card-meta">⭐ 4.4 · 833Rb</div>
+            <div class="related-card-title">Ping Pong Arcade</div>
+            <div class="related-card-meta">⭐ 4.2 · 470Rb</div>
           </div>
         </a>
-        <a href="/game/super-sergeant-zombies/" class="related-card" title="Super Sergeant Zombies">
-          <img src="https://img.gamepix.com/games/super-sergeant-zombies/icon/super-sergeant-zombies.png?w=105" alt="Super Sergeant Zombies" loading="lazy" width="80" height="45">
+        <a href="/game/crazy-table-tennis/" class="related-card" title="Crazy Table Tennis">
+          <img src="https://img.gamepix.com/games/crazy-table-tennis/icon/crazy-table-tennis.png?w=105" alt="Crazy Table Tennis" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Super Sergeant Zombies</div>
-            <div class="related-card-meta">⭐ 4.1 · 927Rb</div>
+            <div class="related-card-title">Crazy Table Tennis</div>
+            <div class="related-card-meta">⭐ 4.3 · 362Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>
