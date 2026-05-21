@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Pixel Peak</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,25 +324,18 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/basket-champs/" class="related-card" title="Basket Champs">
-          <img src="https://img.gamepix.com/games/basket-champs/icon/basket-champs.png?w=105" alt="Basket Champs" loading="lazy" width="80" height="45">
+        <a href="/game/angry-basketball/" class="related-card" title="Coconut Basketball">
+          <img src="https://img.gamepix.com/games/angry-basketball/icon/angry-basketball.png?w=105" alt="Coconut Basketball" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Basket Champs</div>
-            <div class="related-card-meta">⭐ 4.1 · 979Rb</div>
+            <div class="related-card-title">Coconut Basketball</div>
+            <div class="related-card-meta">⭐ 4.5 · 840Rb</div>
           </div>
         </a>
-        <a href="/game/javelin/" class="related-card" title="Javelin">
-          <img src="https://img.gamepix.com/games/javelin/icon/javelin.png?w=105" alt="Javelin" loading="lazy" width="80" height="45">
+        <a href="/game/procedural-racing/" class="related-card" title="Procedural Racing">
+          <img src="https://img.gamepix.com/games/procedural-racing/icon/procedural-racing.png?w=105" alt="Procedural Racing" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Javelin</div>
-            <div class="related-card-meta">⭐ 4.5 · 436Rb</div>
-          </div>
-        </a>
-        <a href="/game/pool-8-ball/" class="related-card" title="Pool 8 Ball">
-          <img src="https://img.gamepix.com/games/pool-8-ball/icon/pool-8-ball.png?w=105" alt="Pool 8 Ball" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Pool 8 Ball</div>
-            <div class="related-card-meta">⭐ 4.9 · 271Rb</div>
+            <div class="related-card-title">Procedural Racing</div>
+            <div class="related-card-meta">⭐ 4.4 · 383Rb</div>
           </div>
         </a>
         <a href="/game/football-kickoff/" class="related-card" title="Football Kickoff">
@@ -321,20 +345,42 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
             <div class="related-card-meta">⭐ 4.8 · 310Rb</div>
           </div>
         </a>
-        <a href="/game/racing-project-kit/" class="related-card" title="Racing Project Kit">
-          <img src="https://img.gamepix.com/games/racing-project-kit/icon/racing-project-kit.png?w=105" alt="Racing Project Kit" loading="lazy" width="80" height="45">
+        <a href="/game/crazy-goal/" class="related-card" title="Crazy Goal">
+          <img src="https://img.gamepix.com/games/crazy-goal/icon/crazy-goal.png?w=105" alt="Crazy Goal" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Racing Project Kit</div>
-            <div class="related-card-meta">⭐ 4.7 · 118Rb</div>
+            <div class="related-card-title">Crazy Goal</div>
+            <div class="related-card-meta">⭐ 4.1 · 754Rb</div>
           </div>
         </a>
-        <a href="/game/russian-niva-hexagon/" class="related-card" title="Russian Niva - HexagoN">
-          <img src="https://img.gamepix.com/games/russian-niva-hexagon/icon/russian-niva-hexagon.png?w=105" alt="Russian Niva - HexagoN" loading="lazy" width="80" height="45">
+        <a href="/game/hyper-goal/" class="related-card" title="Hyper Goal">
+          <img src="https://img.gamepix.com/games/hyper-goal/icon/hyper-goal.png?w=105" alt="Hyper Goal" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Russian Niva - HexagoN</div>
-            <div class="related-card-meta">⭐ 4.8 · 574Rb</div>
+            <div class="related-card-title">Hyper Goal</div>
+            <div class="related-card-meta">⭐ 4.3 · 127Rb</div>
           </div>
         </a>
+        <a href="/game/head-soccer-2022-1/" class="related-card" title="Head Soccer 2022">
+          <img src="https://img.gamepix.com/games/head-soccer-2022-1/icon/head-soccer-2022-1.png?w=105" alt="Head Soccer 2022" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Head Soccer 2022</div>
+            <div class="related-card-meta">⭐ 4.5 · 220Rb</div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

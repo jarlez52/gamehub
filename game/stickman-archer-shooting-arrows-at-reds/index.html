@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Stickman Archer Shooting Arrows at Reds</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/pong-2d-game/" class="related-card" title="Pong 2D Game">
-          <img src="https://img.gamepix.com/games/pong-2d-game/icon/pong-2d-game.png?w=105" alt="Pong 2D Game" loading="lazy" width="80" height="45">
+        <a href="/game/pumpking-vs-mummy/" class="related-card" title="Pumpking vs Mummy">
+          <img src="https://img.gamepix.com/games/pumpking-vs-mummy/icon/pumpking-vs-mummy.png?w=105" alt="Pumpking vs Mummy" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pong 2D Game</div>
-            <div class="related-card-meta">⭐ 4.4 · 928Rb</div>
+            <div class="related-card-title">Pumpking vs Mummy</div>
+            <div class="related-card-meta">⭐ 4.7 · 240Rb</div>
           </div>
         </a>
-        <a href="/game/bois-d-arc/" class="related-card" title="Bois d'Arc: Bow Shooting">
-          <img src="https://img.gamepix.com/games/bois-d-arc/icon/bois-d-arc.png?w=105" alt="Bois d'Arc: Bow Shooting" loading="lazy" width="80" height="45">
+        <a href="/game/baby-noob-vs-heroman-2-player/" class="related-card" title="Baby Noob vs Heroman 2 Player">
+          <img src="https://img.gamepix.com/games/baby-noob-vs-heroman-2-player/icon/baby-noob-vs-heroman-2-player.png?w=105" alt="Baby Noob vs Heroman 2 Player" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bois d'Arc: Bow Shooting</div>
-            <div class="related-card-meta">⭐ 4.5 · 861Rb</div>
+            <div class="related-card-title">Baby Noob vs Heroman 2 Player</div>
+            <div class="related-card-meta">⭐ 4.8 · 695Rb</div>
           </div>
         </a>
-        <a href="/game/dessert-stack-run/" class="related-card" title="Dessert Stack Run">
-          <img src="https://img.gamepix.com/games/dessert-stack-run/icon/dessert-stack-run.png?w=105" alt="Dessert Stack Run" loading="lazy" width="80" height="45">
+        <a href="/game/skibidi-toilet-vs-sigma-merge/" class="related-card" title="Skibidi Toilet vs Sigma Merge">
+          <img src="https://img.gamepix.com/games/skibidi-toilet-vs-sigma-merge/icon/skibidi-toilet-vs-sigma-merge.png?w=105" alt="Skibidi Toilet vs Sigma Merge" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dessert Stack Run</div>
-            <div class="related-card-meta">⭐ 4.3 · 594Rb</div>
+            <div class="related-card-title">Skibidi Toilet vs Sigma Merge</div>
+            <div class="related-card-meta">⭐ 4.1 · 531Rb</div>
           </div>
         </a>
-        <a href="/game/yarn-untangled/" class="related-card" title="Yarn Untangled">
-          <img src="https://img.gamepix.com/games/yarn-untangled/icon/yarn-untangled.png?w=105" alt="Yarn Untangled" loading="lazy" width="80" height="45">
+        <a href="/game/hiding-and-seeking/" class="related-card" title="Hiding and Seeking">
+          <img src="https://img.gamepix.com/games/hiding-and-seeking/icon/hiding-and-seeking.png?w=105" alt="Hiding and Seeking" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Yarn Untangled</div>
-            <div class="related-card-meta">⭐ 4.5 · 884Rb</div>
+            <div class="related-card-title">Hiding and Seeking</div>
+            <div class="related-card-meta">⭐ 4.2 · 338Rb</div>
           </div>
         </a>
-        <a href="/game/juicy-run-1/" class="related-card" title="Juicy Run">
-          <img src="https://img.gamepix.com/games/juicy-run-1/icon/juicy-run-1.png?w=105" alt="Juicy Run" loading="lazy" width="80" height="45">
+        <a href="/game/flipxy-the-bat/" class="related-card" title="Flipxy - The Bat">
+          <img src="https://img.gamepix.com/games/flipxy-the-bat/icon/flipxy-the-bat.png?w=105" alt="Flipxy - The Bat" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Juicy Run</div>
-            <div class="related-card-meta">⭐ 4.9 · 431Rb</div>
+            <div class="related-card-title">Flipxy - The Bat</div>
+            <div class="related-card-meta">⭐ 4.5 · 542Rb</div>
           </div>
         </a>
-        <a href="/game/flying-grimace/" class="related-card" title="Flying Grimace">
-          <img src="https://img.gamepix.com/games/flying-grimace/icon/flying-grimace.png?w=105" alt="Flying Grimace" loading="lazy" width="80" height="45">
+        <a href="/game/help-sprunky/" class="related-card" title="Help Sprunky">
+          <img src="https://img.gamepix.com/games/help-sprunky/icon/help-sprunky.png?w=105" alt="Help Sprunky" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Flying Grimace</div>
-            <div class="related-card-meta">⭐ 4.2 · 556Rb</div>
+            <div class="related-card-title">Help Sprunky</div>
+            <div class="related-card-meta">⭐ 4.8 · 717Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

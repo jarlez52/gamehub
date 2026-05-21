@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">The Mazes of Infinity</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/match-3-mania/" class="related-card" title="Match 3 Mania">
-          <img src="https://img.gamepix.com/games/match-3-mania/icon/match-3-mania.png?w=105" alt="Match 3 Mania" loading="lazy" width="80" height="45">
+        <a href="/game/neon-tic-tac-toe/" class="related-card" title="Neon Tic-Tac-Toe">
+          <img src="https://img.gamepix.com/games/neon-tic-tac-toe/icon/neon-tic-tac-toe.png?w=105" alt="Neon Tic-Tac-Toe" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Match 3 Mania</div>
-            <div class="related-card-meta">⭐ 4.1 · 302Rb</div>
+            <div class="related-card-title">Neon Tic-Tac-Toe</div>
+            <div class="related-card-meta">⭐ 4.8 · 878Rb</div>
           </div>
         </a>
-        <a href="/game/spin-puzzle/" class="related-card" title="Spin Puzzle">
-          <img src="https://img.gamepix.com/games/spin-puzzle/icon/spin-puzzle.png?w=105" alt="Spin Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/balls-sorter-puzzle/" class="related-card" title="Balls Sorter - Puzzle">
+          <img src="https://img.gamepix.com/games/balls-sorter-puzzle/icon/balls-sorter-puzzle.png?w=105" alt="Balls Sorter - Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Spin Puzzle</div>
-            <div class="related-card-meta">⭐ 4.1 · 526Rb</div>
+            <div class="related-card-title">Balls Sorter - Puzzle</div>
+            <div class="related-card-meta">⭐ 4.5 · 284Rb</div>
           </div>
         </a>
-        <a href="/game/tic-tac-toe-variant/" class="related-card" title="Tic Tac Toe Variant">
-          <img src="https://img.gamepix.com/games/tic-tac-toe-variant/icon/tic-tac-toe-variant.png?w=105" alt="Tic Tac Toe Variant" loading="lazy" width="80" height="45">
+        <a href="/game/colordock/" class="related-card" title="ColorDock">
+          <img src="https://img.gamepix.com/games/colordock/icon/colordock.png?w=105" alt="ColorDock" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tic Tac Toe Variant</div>
-            <div class="related-card-meta">⭐ 4.8 · 867Rb</div>
+            <div class="related-card-title">ColorDock</div>
+            <div class="related-card-meta">⭐ 4.3 · 723Rb</div>
           </div>
         </a>
-        <a href="/game/candy-crush-quest/" class="related-card" title="Jewel Treats Quest">
-          <img src="https://img.gamepix.com/games/candy-crush-quest/icon/candy-crush-quest.png?w=105" alt="Jewel Treats Quest" loading="lazy" width="80" height="45">
+        <a href="/game/movebox3d/" class="related-card" title="MoveBox3D">
+          <img src="https://img.gamepix.com/games/movebox3d/icon/movebox3d.png?w=105" alt="MoveBox3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jewel Treats Quest</div>
-            <div class="related-card-meta">⭐ 4.6 · 138Rb</div>
+            <div class="related-card-title">MoveBox3D</div>
+            <div class="related-card-meta">⭐ 4.8 · 832Rb</div>
           </div>
         </a>
-        <a href="/game/rope-sorting/" class="related-card" title="Rope Sorting">
-          <img src="https://img.gamepix.com/games/rope-sorting/icon/rope-sorting.png?w=105" alt="Rope Sorting" loading="lazy" width="80" height="45">
+        <a href="/game/rock-slide/" class="related-card" title="Rock Slide">
+          <img src="https://img.gamepix.com/games/rock-slide/icon/rock-slide.png?w=105" alt="Rock Slide" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Rope Sorting</div>
-            <div class="related-card-meta">⭐ 4.7 · 848Rb</div>
+            <div class="related-card-title">Rock Slide</div>
+            <div class="related-card-meta">⭐ 4.2 · 143Rb</div>
           </div>
         </a>
-        <a href="/game/tile-farm-story/" class="related-card" title="Tile Farm Story">
-          <img src="https://img.gamepix.com/games/tile-farm-story/icon/tile-farm-story.png?w=105" alt="Tile Farm Story" loading="lazy" width="80" height="45">
+        <a href="/game/block-pictures/" class="related-card" title="Block Pictures">
+          <img src="https://img.gamepix.com/games/block-pictures/icon/block-pictures.png?w=105" alt="Block Pictures" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tile Farm Story</div>
-            <div class="related-card-meta">⭐ 4.8 · 102Rb</div>
+            <div class="related-card-title">Block Pictures</div>
+            <div class="related-card-meta">⭐ 4.4 · 660Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

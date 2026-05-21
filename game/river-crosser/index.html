@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">River Crosser</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/bucket-crusher-asmr/" class="related-card" title="Bucket Crusher ASMR">
-          <img src="https://img.gamepix.com/games/bucket-crusher-asmr/icon/bucket-crusher-asmr.png?w=105" alt="Bucket Crusher ASMR" loading="lazy" width="80" height="45">
+        <a href="/game/monster-block/" class="related-card" title="Monster Block">
+          <img src="https://img.gamepix.com/games/monster-block/icon/monster-block.png?w=105" alt="Monster Block" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bucket Crusher ASMR</div>
-            <div class="related-card-meta">⭐ 4.9 · 602Rb</div>
+            <div class="related-card-title">Monster Block</div>
+            <div class="related-card-meta">⭐ 4.2 · 452Rb</div>
           </div>
         </a>
-        <a href="/game/easter-coloring-book-for-kids/" class="related-card" title="Easter Coloring Book for Kids">
-          <img src="https://img.gamepix.com/games/easter-coloring-book-for-kids/icon/easter-coloring-book-for-kids.png?w=105" alt="Easter Coloring Book for Kids" loading="lazy" width="80" height="45">
+        <a href="/game/super-knight-adventure/" class="related-card" title="Super Knight Adventure">
+          <img src="https://img.gamepix.com/games/super-knight-adventure/icon/super-knight-adventure.png?w=105" alt="Super Knight Adventure" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Easter Coloring Book for Kids</div>
-            <div class="related-card-meta">⭐ 4.9 · 131Rb</div>
+            <div class="related-card-title">Super Knight Adventure</div>
+            <div class="related-card-meta">⭐ 4.5 · 312Rb</div>
           </div>
         </a>
-        <a href="/game/roblox-craft-run/" class="related-card" title="Roblox Craft Run">
-          <img src="https://img.gamepix.com/games/roblox-craft-run/icon/roblox-craft-run.png?w=105" alt="Roblox Craft Run" loading="lazy" width="80" height="45">
+        <a href="/game/jailbreak-prison-run/" class="related-card" title="Jailbreak Prison Run">
+          <img src="https://img.gamepix.com/games/jailbreak-prison-run/icon/jailbreak-prison-run.png?w=105" alt="Jailbreak Prison Run" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Roblox Craft Run</div>
-            <div class="related-card-meta">⭐ 4.5 · 339Rb</div>
+            <div class="related-card-title">Jailbreak Prison Run</div>
+            <div class="related-card-meta">⭐ 4.1 · 427Rb</div>
           </div>
         </a>
-        <a href="/game/sky-troops/" class="related-card" title="Sky Troops">
-          <img src="https://img.gamepix.com/games/sky-troops/icon/sky-troops.png?w=105" alt="Sky Troops" loading="lazy" width="80" height="45">
+        <a href="/game/2-player-games-1v1-battle/" class="related-card" title="2 Player Games 1v1 Battle">
+          <img src="https://img.gamepix.com/games/2-player-games-1v1-battle/icon/2-player-games-1v1-battle.png?w=105" alt="2 Player Games 1v1 Battle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sky Troops</div>
-            <div class="related-card-meta">⭐ 4.6 · 355Rb</div>
+            <div class="related-card-title">2 Player Games 1v1 Battle</div>
+            <div class="related-card-meta">⭐ 4.1 · 807Rb</div>
           </div>
         </a>
-        <a href="/game/anime-girl-fashion-make-up/" class="related-card" title="Anime Girl Fashion Make Up">
-          <img src="https://img.gamepix.com/games/anime-girl-fashion-make-up/icon/anime-girl-fashion-make-up.png?w=105" alt="Anime Girl Fashion Make Up" loading="lazy" width="80" height="45">
+        <a href="/game/quick-move/" class="related-card" title="Quick Move">
+          <img src="https://img.gamepix.com/games/quick-move/icon/quick-move.png?w=105" alt="Quick Move" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Anime Girl Fashion Make Up</div>
-            <div class="related-card-meta">⭐ 4.1 · 834Rb</div>
+            <div class="related-card-title">Quick Move</div>
+            <div class="related-card-meta">⭐ 4.8 · 421Rb</div>
           </div>
         </a>
-        <a href="/game/jigsaw-collections/" class="related-card" title="Jigsaw Collections">
-          <img src="https://img.gamepix.com/games/jigsaw-collections/icon/jigsaw-collections.png?w=105" alt="Jigsaw Collections" loading="lazy" width="80" height="45">
+        <a href="/game/animal-tiger-memory-match/" class="related-card" title="Animal Tiger Memory Match">
+          <img src="https://img.gamepix.com/games/animal-tiger-memory-match/icon/animal-tiger-memory-match.png?w=105" alt="Animal Tiger Memory Match" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jigsaw Collections</div>
-            <div class="related-card-meta">⭐ 4.8 · 246Rb</div>
+            <div class="related-card-title">Animal Tiger Memory Match</div>
+            <div class="related-card-meta">⭐ 4.1 · 774Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

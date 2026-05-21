@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Stickman Collect Run</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/neochaos/" class="related-card" title="NeoChaos - 2 Player Game">
-          <img src="https://img.gamepix.com/games/neochaos/icon/neochaos.png?w=105" alt="NeoChaos - 2 Player Game" loading="lazy" width="80" height="45">
+        <a href="/game/maria-adventure/" class="related-card" title="Maria Adventure">
+          <img src="https://img.gamepix.com/games/maria-adventure/icon/maria-adventure.png?w=105" alt="Maria Adventure" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">NeoChaos - 2 Player Game</div>
-            <div class="related-card-meta">⭐ 4.8 · 439Rb</div>
+            <div class="related-card-title">Maria Adventure</div>
+            <div class="related-card-meta">⭐ 4.6 · 954Rb</div>
           </div>
         </a>
-        <a href="/game/train-empire-connect-railroad/" class="related-card" title="Train Empire Connect Railroad">
-          <img src="https://img.gamepix.com/games/train-empire-connect-railroad/icon/train-empire-connect-railroad.png?w=105" alt="Train Empire Connect Railroad" loading="lazy" width="80" height="45">
+        <a href="/game/grandma-with-machine-gun-apocalypsis/" class="related-card" title="Grandma with Machine-Gun Apocalypsis">
+          <img src="https://img.gamepix.com/games/grandma-with-machine-gun-apocalypsis/icon/grandma-with-machine-gun-apocalypsis.png?w=105" alt="Grandma with Machine-Gun Apocalypsis" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Train Empire Connect Railroad</div>
-            <div class="related-card-meta">⭐ 4.1 · 748Rb</div>
+            <div class="related-card-title">Grandma with Machine-Gun Apocalypsis</div>
+            <div class="related-card-meta">⭐ 4.5 · 396Rb</div>
           </div>
         </a>
-        <a href="/game/fizcolor/" class="related-card" title="FizColor">
-          <img src="https://img.gamepix.com/games/fizcolor/icon/fizcolor.png?w=105" alt="FizColor" loading="lazy" width="80" height="45">
+        <a href="/game/piano-music-tiles-deluxe/" class="related-card" title="Piano Music Tiles Deluxe">
+          <img src="https://img.gamepix.com/games/piano-music-tiles-deluxe/icon/piano-music-tiles-deluxe.png?w=105" alt="Piano Music Tiles Deluxe" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">FizColor</div>
-            <div class="related-card-meta">⭐ 4.6 · 478Rb</div>
+            <div class="related-card-title">Piano Music Tiles Deluxe</div>
+            <div class="related-card-meta">⭐ 4 · 466Rb</div>
           </div>
         </a>
-        <a href="/game/bffs-flowers-inspired-fashion/" class="related-card" title="BFFs Flowers Inspired Fashion">
-          <img src="https://img.gamepix.com/games/bffs-flowers-inspired-fashion/icon/bffs-flowers-inspired-fashion.png?w=105" alt="BFFs Flowers Inspired Fashion" loading="lazy" width="80" height="45">
+        <a href="/game/beenvaders/" class="related-card" title="Beenvaders">
+          <img src="https://img.gamepix.com/games/beenvaders/icon/beenvaders.png?w=105" alt="Beenvaders" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">BFFs Flowers Inspired Fashion</div>
-            <div class="related-card-meta">⭐ 4.2 · 267Rb</div>
+            <div class="related-card-title">Beenvaders</div>
+            <div class="related-card-meta">⭐ 4.5 · 519Rb</div>
           </div>
         </a>
-        <a href="/game/math-nerd/" class="related-card" title="Math Nerd">
-          <img src="https://img.gamepix.com/games/math-nerd/icon/math-nerd.png?w=105" alt="Math Nerd" loading="lazy" width="80" height="45">
+        <a href="/game/beauty-hair-salon/" class="related-card" title="Beauty Hair Salon">
+          <img src="https://img.gamepix.com/games/beauty-hair-salon/icon/beauty-hair-salon.png?w=105" alt="Beauty Hair Salon" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Math Nerd</div>
-            <div class="related-card-meta">⭐ 4.1 · 972Rb</div>
+            <div class="related-card-title">Beauty Hair Salon</div>
+            <div class="related-card-meta">⭐ 4.5 · 326Rb</div>
           </div>
         </a>
-        <a href="/game/crazy-way-drifting/" class="related-card" title="Crazy Way - Drifting">
-          <img src="https://img.gamepix.com/games/crazy-way-drifting/icon/crazy-way-drifting.png?w=105" alt="Crazy Way - Drifting" loading="lazy" width="80" height="45">
+        <a href="/game/funny-throat-surgery-2/" class="related-card" title="Funny Throat Surgery 2">
+          <img src="https://img.gamepix.com/games/funny-throat-surgery-2/icon/funny-throat-surgery-2.png?w=105" alt="Funny Throat Surgery 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Crazy Way - Drifting</div>
-            <div class="related-card-meta">⭐ 4.7 · 400Rb</div>
+            <div class="related-card-title">Funny Throat Surgery 2</div>
+            <div class="related-card-meta">⭐ 4 · 234Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

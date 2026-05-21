@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Super Sergeant 2</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/line-of-defense/" class="related-card" title="Line of Defense">
-          <img src="https://img.gamepix.com/games/line-of-defense/icon/line-of-defense.png?w=105" alt="Line of Defense" loading="lazy" width="80" height="45">
+        <a href="/game/red-hero/" class="related-card" title="Red Hero">
+          <img src="https://img.gamepix.com/games/red-hero/icon/red-hero.png?w=105" alt="Red Hero" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Line of Defense</div>
-            <div class="related-card-meta">⭐ 4.1 · 806Rb</div>
+            <div class="related-card-title">Red Hero</div>
+            <div class="related-card-meta">⭐ 4.2 · 985Rb</div>
           </div>
         </a>
-        <a href="/game/maze-black-and-withe/" class="related-card" title="Maze Black And Withe">
-          <img src="https://img.gamepix.com/games/maze-black-and-withe/icon/maze-black-and-withe.png?w=105" alt="Maze Black And Withe" loading="lazy" width="80" height="45">
+        <a href="/game/ragdoll-domino/" class="related-card" title="Ragdoll Domino">
+          <img src="https://img.gamepix.com/games/ragdoll-domino/icon/ragdoll-domino.png?w=105" alt="Ragdoll Domino" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Maze Black And Withe</div>
-            <div class="related-card-meta">⭐ 4.8 · 927Rb</div>
+            <div class="related-card-title">Ragdoll Domino</div>
+            <div class="related-card-meta">⭐ 4.4 · 207Rb</div>
           </div>
         </a>
-        <a href="/game/assault-on-the-evil-star/" class="related-card" title="Assault on the Evil Star">
-          <img src="https://img.gamepix.com/games/assault-on-the-evil-star/icon/assault-on-the-evil-star.png?w=105" alt="Assault on the Evil Star" loading="lazy" width="80" height="45">
+        <a href="/game/master-checkers-multiplayer/" class="related-card" title="Master Checkers Multiplayer">
+          <img src="https://img.gamepix.com/games/master-checkers-multiplayer/icon/master-checkers-multiplayer.png?w=105" alt="Master Checkers Multiplayer" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Assault on the Evil Star</div>
-            <div class="related-card-meta">⭐ 4.7 · 706Rb</div>
+            <div class="related-card-title">Master Checkers Multiplayer</div>
+            <div class="related-card-meta">⭐ 4.6 · 696Rb</div>
           </div>
         </a>
-        <a href="/game/brick-breaker-blitz/" class="related-card" title="Brick Breaker Blitz">
-          <img src="https://img.gamepix.com/games/brick-breaker-blitz/icon/brick-breaker-blitz.png?w=105" alt="Brick Breaker Blitz" loading="lazy" width="80" height="45">
+        <a href="/game/highway-car-race-2d/" class="related-card" title="Highway Car Race 2D">
+          <img src="https://img.gamepix.com/games/highway-car-race-2d/icon/highway-car-race-2d.png?w=105" alt="Highway Car Race 2D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Brick Breaker Blitz</div>
-            <div class="related-card-meta">⭐ 4.7 · 482Rb</div>
+            <div class="related-card-title">Highway Car Race 2D</div>
+            <div class="related-card-meta">⭐ 4.7 · 642Rb</div>
           </div>
         </a>
-        <a href="/game/boca-moca-freelancer/" class="related-card" title="Boca Moca Freelancer">
-          <img src="https://img.gamepix.com/games/boca-moca-freelancer/icon/boca-moca-freelancer.png?w=105" alt="Boca Moca Freelancer" loading="lazy" width="80" height="45">
+        <a href="/game/jump-step/" class="related-card" title="Jump Step">
+          <img src="https://img.gamepix.com/games/jump-step/icon/jump-step.png?w=105" alt="Jump Step" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Boca Moca Freelancer</div>
-            <div class="related-card-meta">⭐ 4.3 · 662Rb</div>
+            <div class="related-card-title">Jump Step</div>
+            <div class="related-card-meta">⭐ 4.6 · 691Rb</div>
           </div>
         </a>
-        <a href="/game/bff-math-class/" class="related-card" title="BFF Math Class">
-          <img src="https://img.gamepix.com/games/bff-math-class/icon/bff-math-class.png?w=105" alt="BFF Math Class" loading="lazy" width="80" height="45">
+        <a href="/game/flappy-skibidi-toilet/" class="related-card" title="Flappy Skibidi Toilet">
+          <img src="https://img.gamepix.com/games/flappy-skibidi-toilet/icon/flappy-skibidi-toilet.png?w=105" alt="Flappy Skibidi Toilet" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">BFF Math Class</div>
-            <div class="related-card-meta">⭐ 4.8 · 420Rb</div>
+            <div class="related-card-title">Flappy Skibidi Toilet</div>
+            <div class="related-card-meta">⭐ 4.4 · 739Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

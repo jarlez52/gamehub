@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Thorn and Blast</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/sum-island/" class="related-card" title="Sum Island">
-          <img src="https://img.gamepix.com/games/sum-island/icon/sum-island.png?w=105" alt="Sum Island" loading="lazy" width="80" height="45">
+        <a href="/game/steve-hardcore/" class="related-card" title="Steve Hardcore">
+          <img src="https://img.gamepix.com/games/steve-hardcore/icon/steve-hardcore.png?w=105" alt="Steve Hardcore" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sum Island</div>
-            <div class="related-card-meta">⭐ 4.8 · 734Rb</div>
+            <div class="related-card-title">Steve Hardcore</div>
+            <div class="related-card-meta">⭐ 4 · 231Rb</div>
           </div>
         </a>
-        <a href="/game/anaconda-adventure/" class="related-card" title="Anaconda Adventure">
-          <img src="https://img.gamepix.com/games/anaconda-adventure/icon/anaconda-adventure.png?w=105" alt="Anaconda Adventure" loading="lazy" width="80" height="45">
+        <a href="/game/epic-roll/" class="related-card" title="Epic Roll">
+          <img src="https://img.gamepix.com/games/epic-roll/icon/epic-roll.png?w=105" alt="Epic Roll" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Anaconda Adventure</div>
-            <div class="related-card-meta">⭐ 4.3 · 457Rb</div>
+            <div class="related-card-title">Epic Roll</div>
+            <div class="related-card-meta">⭐ 4.2 · 598Rb</div>
           </div>
         </a>
-        <a href="/game/drift-bus/" class="related-card" title="Drift Bus">
-          <img src="https://img.gamepix.com/games/drift-bus/icon/drift-bus.png?w=105" alt="Drift Bus" loading="lazy" width="80" height="45">
+        <a href="/game/neon-clash/" class="related-card" title="Neon Clash">
+          <img src="https://img.gamepix.com/games/neon-clash/icon/neon-clash.png?w=105" alt="Neon Clash" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Drift Bus</div>
-            <div class="related-card-meta">⭐ 4.4 · 936Rb</div>
+            <div class="related-card-title">Neon Clash</div>
+            <div class="related-card-meta">⭐ 4.4 · 340Rb</div>
           </div>
         </a>
-        <a href="/game/search-for-treasure-2/" class="related-card" title="Search for Treasure 2">
-          <img src="https://img.gamepix.com/games/search-for-treasure-2/icon/search-for-treasure-2.png?w=105" alt="Search for Treasure 2" loading="lazy" width="80" height="45">
+        <a href="/game/multyarmy/" class="related-card" title="MultyArmy">
+          <img src="https://img.gamepix.com/games/multyarmy/icon/multyarmy.png?w=105" alt="MultyArmy" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Search for Treasure 2</div>
-            <div class="related-card-meta">⭐ 4.3 · 371Rb</div>
+            <div class="related-card-title">MultyArmy</div>
+            <div class="related-card-meta">⭐ 4.5 · 613Rb</div>
           </div>
         </a>
-        <a href="/game/shmoup/" class="related-card" title="Shmoup">
-          <img src="https://img.gamepix.com/games/shmoup/icon/shmoup.png?w=105" alt="Shmoup" loading="lazy" width="80" height="45">
+        <a href="/game/counter-craft-modern-warfare/" class="related-card" title="Counter Craft Modern Warfare">
+          <img src="https://img.gamepix.com/games/counter-craft-modern-warfare/icon/counter-craft-modern-warfare.png?w=105" alt="Counter Craft Modern Warfare" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Shmoup</div>
-            <div class="related-card-meta">⭐ 4.7 · 261Rb</div>
+            <div class="related-card-title">Counter Craft Modern Warfare</div>
+            <div class="related-card-meta">⭐ 4.1 · 883Rb</div>
           </div>
         </a>
-        <a href="/game/planet-escape/" class="related-card" title="Planet Escape">
-          <img src="https://img.gamepix.com/games/planet-escape/icon/planet-escape.png?w=105" alt="Planet Escape" loading="lazy" width="80" height="45">
+        <a href="/game/time-master/" class="related-card" title="Time Master">
+          <img src="https://img.gamepix.com/games/time-master/icon/time-master.png?w=105" alt="Time Master" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Planet Escape</div>
-            <div class="related-card-meta">⭐ 4.8 · 266Rb</div>
+            <div class="related-card-title">Time Master</div>
+            <div class="related-card-meta">⭐ 4.1 · 496Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

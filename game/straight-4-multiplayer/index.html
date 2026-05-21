@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Straight 4 Multiplayer</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/horses-puzzle-quest/" class="related-card" title="Horses Puzzle quest">
-          <img src="https://img.gamepix.com/games/horses-puzzle-quest/icon/horses-puzzle-quest.png?w=105" alt="Horses Puzzle quest" loading="lazy" width="80" height="45">
+        <a href="/game/bubble-match-3/" class="related-card" title="Bubble Match 3">
+          <img src="https://img.gamepix.com/games/bubble-match-3/icon/bubble-match-3.png?w=105" alt="Bubble Match 3" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Horses Puzzle quest</div>
-            <div class="related-card-meta">⭐ 4.4 · 863Rb</div>
+            <div class="related-card-title">Bubble Match 3</div>
+            <div class="related-card-meta">⭐ 4.8 · 918Rb</div>
           </div>
         </a>
-        <a href="/game/gridmaster/" class="related-card" title="GridMaster">
-          <img src="https://img.gamepix.com/games/gridmaster/icon/gridmaster.png?w=105" alt="GridMaster" loading="lazy" width="80" height="45">
+        <a href="/game/short-backgammon/" class="related-card" title="Short Backgammon">
+          <img src="https://img.gamepix.com/games/short-backgammon/icon/short-backgammon.png?w=105" alt="Short Backgammon" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">GridMaster</div>
-            <div class="related-card-meta">⭐ 4.4 · 599Rb</div>
+            <div class="related-card-title">Short Backgammon</div>
+            <div class="related-card-meta">⭐ 4.7 · 212Rb</div>
           </div>
         </a>
-        <a href="/game/tictactoe-online/" class="related-card" title="TicTacToe vs AI">
-          <img src="https://img.gamepix.com/games/tictactoe-online/icon/tictactoe-online.png?w=105" alt="TicTacToe vs AI" loading="lazy" width="80" height="45">
+        <a href="/game/mahjong-mania/" class="related-card" title="Mahjong Mania">
+          <img src="https://img.gamepix.com/games/mahjong-mania/icon/mahjong-mania.png?w=105" alt="Mahjong Mania" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">TicTacToe vs AI</div>
-            <div class="related-card-meta">⭐ 4.6 · 686Rb</div>
+            <div class="related-card-title">Mahjong Mania</div>
+            <div class="related-card-meta">⭐ 4.5 · 276Rb</div>
           </div>
         </a>
-        <a href="/game/queen-of-the-maze/" class="related-card" title="Queen of the Maze">
-          <img src="https://img.gamepix.com/games/queen-of-the-maze/icon/queen-of-the-maze.png?w=105" alt="Queen of the Maze" loading="lazy" width="80" height="45">
+        <a href="/game/monkey-jigsaw-adventure/" class="related-card" title="Monkey Jigsaw">
+          <img src="https://img.gamepix.com/games/monkey-jigsaw-adventure/icon/monkey-jigsaw-adventure.png?w=105" alt="Monkey Jigsaw" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Queen of the Maze</div>
-            <div class="related-card-meta">⭐ 4.9 · 379Rb</div>
+            <div class="related-card-title">Monkey Jigsaw</div>
+            <div class="related-card-meta">⭐ 4.3 · 962Rb</div>
           </div>
         </a>
-        <a href="/game/scratch-town/" class="related-card" title="Scratch Town">
-          <img src="https://img.gamepix.com/games/scratch-town/icon/scratch-town.png?w=105" alt="Scratch Town" loading="lazy" width="80" height="45">
+        <a href="/game/hexa-sort-3d/" class="related-card" title="Hexa Sort 3D">
+          <img src="https://img.gamepix.com/games/hexa-sort-3d/icon/hexa-sort-3d.png?w=105" alt="Hexa Sort 3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Scratch Town</div>
-            <div class="related-card-meta">⭐ 4.2 · 414Rb</div>
+            <div class="related-card-title">Hexa Sort 3D</div>
+            <div class="related-card-meta">⭐ 4.5 · 723Rb</div>
           </div>
         </a>
-        <a href="/game/kiss-me/" class="related-card" title="Kiss Me">
-          <img src="https://img.gamepix.com/games/kiss-me/icon/kiss-me.png?w=105" alt="Kiss Me" loading="lazy" width="80" height="45">
+        <a href="/game/garten-of-banban-3-game/" class="related-card" title="Garten of Banban 3 Drag and Drop game">
+          <img src="https://img.gamepix.com/games/garten-of-banban-3-game/icon/garten-of-banban-3-game.png?w=105" alt="Garten of Banban 3 Drag and Drop game" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Kiss Me</div>
-            <div class="related-card-meta">⭐ 4.2 · 315Rb</div>
+            <div class="related-card-title">Garten of Banban 3 Drag and Drop game</div>
+            <div class="related-card-meta">⭐ 4.2 · 394Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

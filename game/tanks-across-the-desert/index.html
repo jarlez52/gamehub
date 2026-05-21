@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Tanks Across the Desert</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/para-shoot/" class="related-card" title="Para Shoot">
-          <img src="https://img.gamepix.com/games/para-shoot/icon/para-shoot.png?w=105" alt="Para Shoot" loading="lazy" width="80" height="45">
+        <a href="/game/orbit/" class="related-card" title="Run Rainbow Friends">
+          <img src="https://img.gamepix.com/games/orbit/icon/orbit.png?w=105" alt="Run Rainbow Friends" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Para Shoot</div>
-            <div class="related-card-meta">⭐ 4.5 · 288Rb</div>
+            <div class="related-card-title">Run Rainbow Friends</div>
+            <div class="related-card-meta">⭐ 4.3 · 654Rb</div>
           </div>
         </a>
-        <a href="/game/faraway/" class="related-card" title="Faraway">
-          <img src="https://img.gamepix.com/games/faraway/icon/faraway.png?w=105" alt="Faraway" loading="lazy" width="80" height="45">
+        <a href="/game/minecraft-archer/" class="related-card" title="Mincraft Archer">
+          <img src="https://img.gamepix.com/games/minecraft-archer/icon/minecraft-archer.png?w=105" alt="Mincraft Archer" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Faraway</div>
-            <div class="related-card-meta">⭐ 4.7 · 119Rb</div>
+            <div class="related-card-title">Mincraft Archer</div>
+            <div class="related-card-meta">⭐ 4.4 · 735Rb</div>
           </div>
         </a>
-        <a href="/game/army-force-war/" class="related-card" title="Army Force War">
-          <img src="https://img.gamepix.com/games/army-force-war/icon/army-force-war.png?w=105" alt="Army Force War" loading="lazy" width="80" height="45">
+        <a href="/game/extreme-huggy/" class="related-card" title="Extreme Huggy">
+          <img src="https://img.gamepix.com/games/extreme-huggy/icon/extreme-huggy.png?w=105" alt="Extreme Huggy" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Army Force War</div>
-            <div class="related-card-meta">⭐ 4 · 832Rb</div>
+            <div class="related-card-title">Extreme Huggy</div>
+            <div class="related-card-meta">⭐ 4.8 · 619Rb</div>
           </div>
         </a>
-        <a href="/game/11-kisses/" class="related-card" title="11 Kisses">
-          <img src="https://img.gamepix.com/games/11-kisses/icon/11-kisses.png?w=105" alt="11 Kisses" loading="lazy" width="80" height="45">
+        <a href="/game/chitu-adventures/" class="related-card" title="Chitu Adventures">
+          <img src="https://img.gamepix.com/games/chitu-adventures/icon/chitu-adventures.png?w=105" alt="Chitu Adventures" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">11 Kisses</div>
-            <div class="related-card-meta">⭐ 4.8 · 111Rb</div>
+            <div class="related-card-title">Chitu Adventures</div>
+            <div class="related-card-meta">⭐ 4.5 · 946Rb</div>
           </div>
         </a>
-        <a href="/game/flying-parrot/" class="related-card" title="Flying Parrot">
-          <img src="https://img.gamepix.com/games/flying-parrot/icon/flying-parrot.png?w=105" alt="Flying Parrot" loading="lazy" width="80" height="45">
+        <a href="/game/putot-2/" class="related-card" title="Putot 2">
+          <img src="https://img.gamepix.com/games/putot-2/icon/putot-2.png?w=105" alt="Putot 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Flying Parrot</div>
-            <div class="related-card-meta">⭐ 4.4 · 215Rb</div>
+            <div class="related-card-title">Putot 2</div>
+            <div class="related-card-meta">⭐ 4.3 · 605Rb</div>
           </div>
         </a>
-        <a href="/game/slime-jump/" class="related-card" title="Slime Jump">
-          <img src="https://img.gamepix.com/games/slime-jump/icon/slime-jump.png?w=105" alt="Slime Jump" loading="lazy" width="80" height="45">
+        <a href="/game/whipsaw-run/" class="related-card" title="Whipsaw Roll">
+          <img src="https://img.gamepix.com/games/whipsaw-run/icon/whipsaw-run.png?w=105" alt="Whipsaw Roll" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Slime Jump</div>
-            <div class="related-card-meta">⭐ 4.8 · 187Rb</div>
+            <div class="related-card-title">Whipsaw Roll</div>
+            <div class="related-card-meta">⭐ 4.7 · 721Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

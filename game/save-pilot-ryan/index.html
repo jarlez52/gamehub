@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Save Pilot Ryan</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/retro-santa/" class="related-card" title="Retro Santa">
-          <img src="https://img.gamepix.com/games/retro-santa/icon/retro-santa.png?w=105" alt="Retro Santa" loading="lazy" width="80" height="45">
+        <a href="/game/baby-noob-help-steve/" class="related-card" title="Baby Noob Help! Steve">
+          <img src="https://img.gamepix.com/games/baby-noob-help-steve/icon/baby-noob-help-steve.png?w=105" alt="Baby Noob Help! Steve" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Retro Santa</div>
-            <div class="related-card-meta">⭐ 4.6 · 346Rb</div>
+            <div class="related-card-title">Baby Noob Help! Steve</div>
+            <div class="related-card-meta">⭐ 4.1 · 414Rb</div>
           </div>
         </a>
-        <a href="/game/maze-game-3d/" class="related-card" title="Maze Game 3D">
-          <img src="https://img.gamepix.com/games/maze-game-3d/icon/maze-game-3d.png?w=105" alt="Maze Game 3D" loading="lazy" width="80" height="45">
+        <a href="/game/color-to-color-arcade/" class="related-card" title="Color To Color Arcade">
+          <img src="https://img.gamepix.com/games/color-to-color-arcade/icon/color-to-color-arcade.png?w=105" alt="Color To Color Arcade" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Maze Game 3D</div>
+            <div class="related-card-title">Color To Color Arcade</div>
+            <div class="related-card-meta">⭐ 4.6 · 803Rb</div>
+          </div>
+        </a>
+        <a href="/game/monkey-go/" class="related-card" title="Monkey Go">
+          <img src="https://img.gamepix.com/games/monkey-go/icon/monkey-go.png?w=105" alt="Monkey Go" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Monkey Go</div>
+            <div class="related-card-meta">⭐ 4.8 · 421Rb</div>
+          </div>
+        </a>
+        <a href="/game/eclipse-run-2/" class="related-card" title="Eclipse Run 2">
+          <img src="https://img.gamepix.com/games/eclipse-run-2/icon/eclipse-run-2.png?w=105" alt="Eclipse Run 2" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Eclipse Run 2</div>
+            <div class="related-card-meta">⭐ 4.6 · 154Rb</div>
+          </div>
+        </a>
+        <a href="/game/coins-rush-run/" class="related-card" title="Coins Rush Run">
+          <img src="https://img.gamepix.com/games/coins-rush-run/icon/coins-rush-run.png?w=105" alt="Coins Rush Run" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Coins Rush Run</div>
+            <div class="related-card-meta">⭐ 4.7 · 661Rb</div>
+          </div>
+        </a>
+        <a href="/game/sustainable-4/" class="related-card" title="Sustainable 4">
+          <img src="https://img.gamepix.com/games/sustainable-4/icon/sustainable-4.png?w=105" alt="Sustainable 4" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Sustainable 4</div>
             <div class="related-card-meta">⭐ 4.5 · 525Rb</div>
           </div>
         </a>
-        <a href="/game/bounce-ball-hook/" class="related-card" title="Bounce Ball Hook">
-          <img src="https://img.gamepix.com/games/bounce-ball-hook/icon/bounce-ball-hook.png?w=105" alt="Bounce Ball Hook" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Bounce Ball Hook</div>
-            <div class="related-card-meta">⭐ 4.9 · 130Rb</div>
-          </div>
-        </a>
-        <a href="/game/snake-escape/" class="related-card" title="Snake Escape">
-          <img src="https://img.gamepix.com/games/snake-escape/icon/snake-escape.png?w=105" alt="Snake Escape" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Snake Escape</div>
-            <div class="related-card-meta">⭐ 4.4 · 870Rb</div>
-          </div>
-        </a>
-        <a href="/game/cubeman-saw-escape/" class="related-card" title="Cubeman Saw Escape">
-          <img src="https://img.gamepix.com/games/cubeman-saw-escape/icon/cubeman-saw-escape.png?w=105" alt="Cubeman Saw Escape" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Cubeman Saw Escape</div>
-            <div class="related-card-meta">⭐ 4.4 · 147Rb</div>
-          </div>
-        </a>
-        <a href="/game/build-a-rich-queen/" class="related-card" title="Build A Rich Queen">
-          <img src="https://img.gamepix.com/games/build-a-rich-queen/icon/build-a-rich-queen.png?w=105" alt="Build A Rich Queen" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Build A Rich Queen</div>
-            <div class="related-card-meta">⭐ 4.5 · 903Rb</div>
-          </div>
-        </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

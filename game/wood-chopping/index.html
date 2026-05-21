@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Wood Chopping</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/planet-invasion/" class="related-card" title="Planet Invasion">
-          <img src="https://img.gamepix.com/games/planet-invasion/icon/planet-invasion.png?w=105" alt="Planet Invasion" loading="lazy" width="80" height="45">
+        <a href="/game/bubbles-blast/" class="related-card" title="Bubbles Blast">
+          <img src="https://img.gamepix.com/games/bubbles-blast/icon/bubbles-blast.png?w=105" alt="Bubbles Blast" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Planet Invasion</div>
-            <div class="related-card-meta">⭐ 4.4 · 478Rb</div>
+            <div class="related-card-title">Bubbles Blast</div>
+            <div class="related-card-meta">⭐ 4.2 · 136Rb</div>
           </div>
         </a>
-        <a href="/game/small-viking/" class="related-card" title="Small Viking">
-          <img src="https://img.gamepix.com/games/small-viking/icon/small-viking.png?w=105" alt="Small Viking" loading="lazy" width="80" height="45">
+        <a href="/game/push-the-block/" class="related-card" title="Push the block">
+          <img src="https://img.gamepix.com/games/push-the-block/icon/push-the-block.png?w=105" alt="Push the block" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Small Viking</div>
-            <div class="related-card-meta">⭐ 4.4 · 800Rb</div>
+            <div class="related-card-title">Push the block</div>
+            <div class="related-card-meta">⭐ 4.3 · 865Rb</div>
           </div>
         </a>
-        <a href="/game/satisfying-ball-clicker/" class="related-card" title="Satisfying Ball Clicker">
-          <img src="https://img.gamepix.com/games/satisfying-ball-clicker/icon/satisfying-ball-clicker.png?w=105" alt="Satisfying Ball Clicker" loading="lazy" width="80" height="45">
+        <a href="/game/tankbattle-2-player/" class="related-card" title="TankBattle 2 Player">
+          <img src="https://img.gamepix.com/games/tankbattle-2-player/icon/tankbattle-2-player.png?w=105" alt="TankBattle 2 Player" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Satisfying Ball Clicker</div>
-            <div class="related-card-meta">⭐ 4.7 · 229Rb</div>
+            <div class="related-card-title">TankBattle 2 Player</div>
+            <div class="related-card-meta">⭐ 4.7 · 218Rb</div>
           </div>
         </a>
-        <a href="/game/angry-tower/" class="related-card" title="Angry Tower">
-          <img src="https://img.gamepix.com/games/angry-tower/icon/angry-tower.png?w=105" alt="Angry Tower" loading="lazy" width="80" height="45">
+        <a href="/game/hungry-squirrel/" class="related-card" title="Hungry Squirrel">
+          <img src="https://img.gamepix.com/games/hungry-squirrel/icon/hungry-squirrel.png?w=105" alt="Hungry Squirrel" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Angry Tower</div>
-            <div class="related-card-meta">⭐ 4.2 · 965Rb</div>
+            <div class="related-card-title">Hungry Squirrel</div>
+            <div class="related-card-meta">⭐ 4.9 · 464Rb</div>
           </div>
         </a>
-        <a href="/game/airport-master-plane-tycoon/" class="related-card" title="Airport Master Plane Tycoon">
-          <img src="https://img.gamepix.com/games/airport-master-plane-tycoon/icon/airport-master-plane-tycoon.png?w=105" alt="Airport Master Plane Tycoon" loading="lazy" width="80" height="45">
+        <a href="/game/lost-treasures-match-3-myg/" class="related-card" title="Lost Treasures - Match 3">
+          <img src="https://img.gamepix.com/games/lost-treasures-match-3-myg/icon/lost-treasures-match-3-myg.png?w=105" alt="Lost Treasures - Match 3" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Airport Master Plane Tycoon</div>
-            <div class="related-card-meta">⭐ 4.6 · 780Rb</div>
+            <div class="related-card-title">Lost Treasures - Match 3</div>
+            <div class="related-card-meta">⭐ 4.9 · 587Rb</div>
           </div>
         </a>
-        <a href="/game/tiger-run/" class="related-card" title="Tiger Run">
-          <img src="https://img.gamepix.com/games/tiger-run/icon/tiger-run.png?w=105" alt="Tiger Run" loading="lazy" width="80" height="45">
+        <a href="/game/memqueue/" class="related-card" title="MemQueue">
+          <img src="https://img.gamepix.com/games/memqueue/icon/memqueue.png?w=105" alt="MemQueue" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tiger Run</div>
-            <div class="related-card-meta">⭐ 4 · 442Rb</div>
+            <div class="related-card-title">MemQueue</div>
+            <div class="related-card-meta">⭐ 4.7 · 702Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">What sound is this?</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/stealth-sprint-ninja-run/" class="related-card" title="Stealth Sprint - Ninja Run">
-          <img src="https://img.gamepix.com/games/stealth-sprint-ninja-run/icon/stealth-sprint-ninja-run.png?w=105" alt="Stealth Sprint - Ninja Run" loading="lazy" width="80" height="45">
+        <a href="/game/small-time/" class="related-card" title="Small Time">
+          <img src="https://img.gamepix.com/games/small-time/icon/small-time.png?w=105" alt="Small Time" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Stealth Sprint - Ninja Run</div>
-            <div class="related-card-meta">⭐ 4.8 · 456Rb</div>
+            <div class="related-card-title">Small Time</div>
+            <div class="related-card-meta">⭐ 4.4 · 392Rb</div>
           </div>
         </a>
-        <a href="/game/geometry-dash-game/" class="related-card" title="Geometry Dash Game">
-          <img src="https://img.gamepix.com/games/geometry-dash-game/icon/geometry-dash-game.png?w=105" alt="Geometry Dash Game" loading="lazy" width="80" height="45">
+        <a href="/game/blondy-in-pink/" class="related-card" title="Blondy in Pink">
+          <img src="https://img.gamepix.com/games/blondy-in-pink/icon/blondy-in-pink.png?w=105" alt="Blondy in Pink" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Geometry Dash Game</div>
-            <div class="related-card-meta">⭐ 4.3 · 775Rb</div>
+            <div class="related-card-title">Blondy in Pink</div>
+            <div class="related-card-meta">⭐ 4.8 · 512Rb</div>
           </div>
         </a>
-        <a href="/game/primal-war/" class="related-card" title="Primal War">
-          <img src="https://img.gamepix.com/games/primal-war/icon/primal-war.png?w=105" alt="Primal War" loading="lazy" width="80" height="45">
+        <a href="/game/brainrot-click-to-hatch/" class="related-card" title="Brainrot Click to Hatch">
+          <img src="https://img.gamepix.com/games/brainrot-click-to-hatch/icon/brainrot-click-to-hatch.png?w=105" alt="Brainrot Click to Hatch" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Primal War</div>
-            <div class="related-card-meta">⭐ 4.8 · 191Rb</div>
+            <div class="related-card-title">Brainrot Click to Hatch</div>
+            <div class="related-card-meta">⭐ 4.5 · 534Rb</div>
           </div>
         </a>
-        <a href="/game/pulse-arcade/" class="related-card" title="Pulse Arcade">
-          <img src="https://img.gamepix.com/games/pulse-arcade/icon/pulse-arcade.png?w=105" alt="Pulse Arcade" loading="lazy" width="80" height="45">
+        <a href="/game/bunny-graduation-double/" class="related-card" title="Bunny Graduation Double">
+          <img src="https://img.gamepix.com/games/bunny-graduation-double/icon/bunny-graduation-double.png?w=105" alt="Bunny Graduation Double" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pulse Arcade</div>
-            <div class="related-card-meta">⭐ 4.6 · 968Rb</div>
+            <div class="related-card-title">Bunny Graduation Double</div>
+            <div class="related-card-meta">⭐ 4.2 · 720Rb</div>
           </div>
         </a>
-        <a href="/game/baby-ava-daily-activities/" class="related-card" title="Baby Ava Daily Activities">
-          <img src="https://img.gamepix.com/games/baby-ava-daily-activities/icon/baby-ava-daily-activities.png?w=105" alt="Baby Ava Daily Activities" loading="lazy" width="80" height="45">
+        <a href="/game/bff-princess-back-to-school/" class="related-card" title="BFF Princess Back to School">
+          <img src="https://img.gamepix.com/games/bff-princess-back-to-school/icon/bff-princess-back-to-school.png?w=105" alt="BFF Princess Back to School" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Baby Ava Daily Activities</div>
-            <div class="related-card-meta">⭐ 4.7 · 188Rb</div>
+            <div class="related-card-title">BFF Princess Back to School</div>
+            <div class="related-card-meta">⭐ 4.4 · 662Rb</div>
           </div>
         </a>
-        <a href="/game/crazy-wheel/" class="related-card" title="Crazy Wheel">
-          <img src="https://img.gamepix.com/games/crazy-wheel/icon/crazy-wheel.png?w=105" alt="Crazy Wheel" loading="lazy" width="80" height="45">
+        <a href="/game/car-garage-tycoon-simulation-game/" class="related-card" title="Car Garage Tycoon - Simulation Game">
+          <img src="https://img.gamepix.com/games/car-garage-tycoon-simulation-game/icon/car-garage-tycoon-simulation-game.png?w=105" alt="Car Garage Tycoon - Simulation Game" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Crazy Wheel</div>
-            <div class="related-card-meta">⭐ 4.9 · 131Rb</div>
+            <div class="related-card-title">Car Garage Tycoon - Simulation Game</div>
+            <div class="related-card-meta">⭐ 4.5 · 140Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

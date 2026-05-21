@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Rocket Launch And Blast</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/destroy-asteroids/" class="related-card" title="Destroy Asteroids">
-          <img src="https://img.gamepix.com/games/destroy-asteroids/icon/destroy-asteroids.png?w=105" alt="Destroy Asteroids" loading="lazy" width="80" height="45">
+        <a href="/game/sacred-path-dash/" class="related-card" title="Sacred Path Dash">
+          <img src="https://img.gamepix.com/games/sacred-path-dash/icon/sacred-path-dash.png?w=105" alt="Sacred Path Dash" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Destroy Asteroids</div>
-            <div class="related-card-meta">⭐ 4.3 · 499Rb</div>
+            <div class="related-card-title">Sacred Path Dash</div>
+            <div class="related-card-meta">⭐ 4.4 · 839Rb</div>
           </div>
         </a>
-        <a href="/game/marine-fish/" class="related-card" title="Marine Fish">
-          <img src="https://img.gamepix.com/games/marine-fish/icon/marine-fish.png?w=105" alt="Marine Fish" loading="lazy" width="80" height="45">
+        <a href="/game/blocky-warrior/" class="related-card" title="Blocky Warrior">
+          <img src="https://img.gamepix.com/games/blocky-warrior/icon/blocky-warrior.png?w=105" alt="Blocky Warrior" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Marine Fish</div>
-            <div class="related-card-meta">⭐ 4.2 · 466Rb</div>
+            <div class="related-card-title">Blocky Warrior</div>
+            <div class="related-card-meta">⭐ 4.7 · 724Rb</div>
           </div>
         </a>
-        <a href="/game/chicken-dash/" class="related-card" title="Chicken Dash">
-          <img src="https://img.gamepix.com/games/chicken-dash/icon/chicken-dash.png?w=105" alt="Chicken Dash" loading="lazy" width="80" height="45">
+        <a href="/game/dta-6/" class="related-card" title="DTA 6">
+          <img src="https://img.gamepix.com/games/dta-6/icon/dta-6.png?w=105" alt="DTA 6" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Chicken Dash</div>
-            <div class="related-card-meta">⭐ 4.7 · 277Rb</div>
+            <div class="related-card-title">DTA 6</div>
+            <div class="related-card-meta">⭐ 4.2 · 218Rb</div>
           </div>
         </a>
-        <a href="/game/city-of-the-dead-zombie-shooter/" class="related-card" title="City of the Dead Zombie Shooter">
-          <img src="https://img.gamepix.com/games/city-of-the-dead-zombie-shooter/icon/city-of-the-dead-zombie-shooter.png?w=105" alt="City of the Dead Zombie Shooter" loading="lazy" width="80" height="45">
+        <a href="/game/waterpark-slide-race/" class="related-card" title="Waterpark Slide Race">
+          <img src="https://img.gamepix.com/games/waterpark-slide-race/icon/waterpark-slide-race.png?w=105" alt="Waterpark Slide Race" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">City of the Dead Zombie Shooter</div>
-            <div class="related-card-meta">⭐ 4.4 · 545Rb</div>
+            <div class="related-card-title">Waterpark Slide Race</div>
+            <div class="related-card-meta">⭐ 4.1 · 736Rb</div>
           </div>
         </a>
-        <a href="/game/fast-freddie/" class="related-card" title="Fast Freddie">
-          <img src="https://img.gamepix.com/games/fast-freddie/icon/fast-freddie.png?w=105" alt="Fast Freddie" loading="lazy" width="80" height="45">
+        <a href="/game/playground-ragdoll-sandbox/" class="related-card" title="Playground Ragdoll Sandbox">
+          <img src="https://img.gamepix.com/games/playground-ragdoll-sandbox/icon/playground-ragdoll-sandbox.png?w=105" alt="Playground Ragdoll Sandbox" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fast Freddie</div>
-            <div class="related-card-meta">⭐ 4.1 · 288Rb</div>
+            <div class="related-card-title">Playground Ragdoll Sandbox</div>
+            <div class="related-card-meta">⭐ 4.2 · 473Rb</div>
           </div>
         </a>
-        <a href="/game/bump-robot/" class="related-card" title="Bump Robot">
-          <img src="https://img.gamepix.com/games/bump-robot/icon/bump-robot.png?w=105" alt="Bump Robot" loading="lazy" width="80" height="45">
+        <a href="/game/cowboy-showdown/" class="related-card" title="Cowboy Showdown">
+          <img src="https://img.gamepix.com/games/cowboy-showdown/icon/cowboy-showdown.png?w=105" alt="Cowboy Showdown" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bump Robot</div>
-            <div class="related-card-meta">⭐ 4.1 · 219Rb</div>
+            <div class="related-card-title">Cowboy Showdown</div>
+            <div class="related-card-meta">⭐ 4 · 213Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

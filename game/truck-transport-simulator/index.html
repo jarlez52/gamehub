@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Truck Transport Simulator</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/cubicjump/" class="related-card" title="CubicJump">
-          <img src="https://img.gamepix.com/games/cubicjump/icon/cubicjump.png?w=105" alt="CubicJump" loading="lazy" width="80" height="45">
+        <a href="/game/old-man-and-demon/" class="related-card" title="Old Man and Demon">
+          <img src="https://img.gamepix.com/games/old-man-and-demon/icon/old-man-and-demon.png?w=105" alt="Old Man and Demon" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">CubicJump</div>
-            <div class="related-card-meta">⭐ 4.6 · 959Rb</div>
+            <div class="related-card-title">Old Man and Demon</div>
+            <div class="related-card-meta">⭐ 4.3 · 973Rb</div>
           </div>
         </a>
-        <a href="/game/stickman-assault-prison-strike/" class="related-card" title="Stickman Prison Counter Assault">
-          <img src="https://img.gamepix.com/games/stickman-assault-prison-strike/icon/stickman-assault-prison-strike.png?w=105" alt="Stickman Prison Counter Assault" loading="lazy" width="80" height="45">
+        <a href="/game/kite-flying/" class="related-card" title="Kite Flying">
+          <img src="https://img.gamepix.com/games/kite-flying/icon/kite-flying.png?w=105" alt="Kite Flying" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Stickman Prison Counter Assault</div>
-            <div class="related-card-meta">⭐ 4.7 · 968Rb</div>
+            <div class="related-card-title">Kite Flying</div>
+            <div class="related-card-meta">⭐ 4.7 · 994Rb</div>
           </div>
         </a>
-        <a href="/game/robots-battle-mech-arena/" class="related-card" title="Robots Battle: Mech Arena">
-          <img src="https://img.gamepix.com/games/robots-battle-mech-arena/icon/robots-battle-mech-arena.png?w=105" alt="Robots Battle: Mech Arena" loading="lazy" width="80" height="45">
+        <a href="/game/battalion-commander-1917/" class="related-card" title="Battalion Commander 1917">
+          <img src="https://img.gamepix.com/games/battalion-commander-1917/icon/battalion-commander-1917.png?w=105" alt="Battalion Commander 1917" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Robots Battle: Mech Arena</div>
-            <div class="related-card-meta">⭐ 4.8 · 238Rb</div>
+            <div class="related-card-title">Battalion Commander 1917</div>
+            <div class="related-card-meta">⭐ 4.9 · 753Rb</div>
           </div>
         </a>
-        <a href="/game/green-orb-adventure/" class="related-card" title="Green Orb Adventure">
-          <img src="https://img.gamepix.com/games/green-orb-adventure/icon/green-orb-adventure.png?w=105" alt="Green Orb Adventure" loading="lazy" width="80" height="45">
+        <a href="/game/mayika/" class="related-card" title="Mayika">
+          <img src="https://img.gamepix.com/games/mayika/icon/mayika.png?w=105" alt="Mayika" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Green Orb Adventure</div>
-            <div class="related-card-meta">⭐ 4.6 · 418Rb</div>
+            <div class="related-card-title">Mayika</div>
+            <div class="related-card-meta">⭐ 4.2 · 899Rb</div>
           </div>
         </a>
-        <a href="/game/caster-crawler/" class="related-card" title="Caster Crawler">
-          <img src="https://img.gamepix.com/games/caster-crawler/icon/caster-crawler.png?w=105" alt="Caster Crawler" loading="lazy" width="80" height="45">
+        <a href="/game/stickman-brothers-nether-parkour/" class="related-card" title="Stickman Brothers Nether Parkour">
+          <img src="https://img.gamepix.com/games/stickman-brothers-nether-parkour/icon/stickman-brothers-nether-parkour.png?w=105" alt="Stickman Brothers Nether Parkour" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Caster Crawler</div>
-            <div class="related-card-meta">⭐ 4.5 · 315Rb</div>
+            <div class="related-card-title">Stickman Brothers Nether Parkour</div>
+            <div class="related-card-meta">⭐ 4.6 · 615Rb</div>
           </div>
         </a>
-        <a href="/game/online-cats-multiplayer-park/" class="related-card" title="Online Cats Multiplayer Park">
-          <img src="https://img.gamepix.com/games/online-cats-multiplayer-park/icon/online-cats-multiplayer-park.png?w=105" alt="Online Cats Multiplayer Park" loading="lazy" width="80" height="45">
+        <a href="/game/minecraft-lava-chicken-2/" class="related-card" title="Minecraft Lava Chicken 2">
+          <img src="https://img.gamepix.com/games/minecraft-lava-chicken-2/icon/minecraft-lava-chicken-2.png?w=105" alt="Minecraft Lava Chicken 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Online Cats Multiplayer Park</div>
-            <div class="related-card-meta">⭐ 4.8 · 824Rb</div>
+            <div class="related-card-title">Minecraft Lava Chicken 2</div>
+            <div class="related-card-meta">⭐ 4.1 · 441Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

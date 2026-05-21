@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Swing Cube</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/stickman-hunter/" class="related-card" title="Stickman Hunter">
-          <img src="https://img.gamepix.com/games/stickman-hunter/icon/stickman-hunter.png?w=105" alt="Stickman Hunter" loading="lazy" width="80" height="45">
+        <a href="/game/unstable-attraction/" class="related-card" title="Unstable Attraction">
+          <img src="https://img.gamepix.com/games/unstable-attraction/icon/unstable-attraction.png?w=105" alt="Unstable Attraction" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Stickman Hunter</div>
-            <div class="related-card-meta">⭐ 4.7 · 235Rb</div>
+            <div class="related-card-title">Unstable Attraction</div>
+            <div class="related-card-meta">⭐ 4.9 · 384Rb</div>
           </div>
         </a>
-        <a href="/game/stickman-sniper-western-gun/" class="related-card" title="Stickman Sniper Western Gun">
-          <img src="https://img.gamepix.com/games/stickman-sniper-western-gun/icon/stickman-sniper-western-gun.png?w=105" alt="Stickman Sniper Western Gun" loading="lazy" width="80" height="45">
+        <a href="/game/black-and-white-ping-pong/" class="related-card" title="Black and White Ping Pong">
+          <img src="https://img.gamepix.com/games/black-and-white-ping-pong/icon/black-and-white-ping-pong.png?w=105" alt="Black and White Ping Pong" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Stickman Sniper Western Gun</div>
-            <div class="related-card-meta">⭐ 4.7 · 372Rb</div>
+            <div class="related-card-title">Black and White Ping Pong</div>
+            <div class="related-card-meta">⭐ 4.3 · 104Rb</div>
           </div>
         </a>
-        <a href="/game/doge-rush-draw-home-puzzle/" class="related-card" title="Doge Rush Draw Home Puzzle">
-          <img src="https://img.gamepix.com/games/doge-rush-draw-home-puzzle/icon/doge-rush-draw-home-puzzle.png?w=105" alt="Doge Rush Draw Home Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/alien-cube-runner/" class="related-card" title="Alien Cube - Runner">
+          <img src="https://img.gamepix.com/games/alien-cube-runner/icon/alien-cube-runner.png?w=105" alt="Alien Cube - Runner" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Doge Rush Draw Home Puzzle</div>
-            <div class="related-card-meta">⭐ 4.2 · 144Rb</div>
+            <div class="related-card-title">Alien Cube - Runner</div>
+            <div class="related-card-meta">⭐ 4.8 · 192Rb</div>
           </div>
         </a>
-        <a href="/game/win-or-lose/" class="related-card" title="Win or Lose">
-          <img src="https://img.gamepix.com/games/win-or-lose/icon/win-or-lose.png?w=105" alt="Win or Lose" loading="lazy" width="80" height="45">
+        <a href="/game/hop-ball/" class="related-card" title="Hop Ball">
+          <img src="https://img.gamepix.com/games/hop-ball/icon/hop-ball.png?w=105" alt="Hop Ball" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Win or Lose</div>
-            <div class="related-card-meta">⭐ 4.6 · 983Rb</div>
+            <div class="related-card-title">Hop Ball</div>
+            <div class="related-card-meta">⭐ 4.5 · 687Rb</div>
           </div>
         </a>
-        <a href="/game/squid-puzzle/" class="related-card" title="Squid Puzzle">
-          <img src="https://img.gamepix.com/games/squid-puzzle/icon/squid-puzzle.png?w=105" alt="Squid Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/space-tower-defense/" class="related-card" title="Space Tower Defense">
+          <img src="https://img.gamepix.com/games/space-tower-defense/icon/space-tower-defense.png?w=105" alt="Space Tower Defense" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Squid Puzzle</div>
-            <div class="related-card-meta">⭐ 4.6 · 728Rb</div>
+            <div class="related-card-title">Space Tower Defense</div>
+            <div class="related-card-meta">⭐ 4.4 · 375Rb</div>
           </div>
         </a>
-        <a href="/game/robot-band/" class="related-card" title="Robot Band">
-          <img src="https://img.gamepix.com/games/robot-band/icon/robot-band.png?w=105" alt="Robot Band" loading="lazy" width="80" height="45">
+        <a href="/game/pig-dirt-worker/" class="related-card" title="Pig Dirt Worker">
+          <img src="https://img.gamepix.com/games/pig-dirt-worker/icon/pig-dirt-worker.png?w=105" alt="Pig Dirt Worker" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Robot Band</div>
-            <div class="related-card-meta">⭐ 4.1 · 780Rb</div>
+            <div class="related-card-title">Pig Dirt Worker</div>
+            <div class="related-card-meta">⭐ 4.8 · 142Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

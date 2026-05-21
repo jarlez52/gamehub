@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Tiny Rush</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/match-balls/" class="related-card" title="Match Balls">
-          <img src="https://img.gamepix.com/games/match-balls/icon/match-balls.png?w=105" alt="Match Balls" loading="lazy" width="80" height="45">
+        <a href="/game/gomoku-five-stones-in-a-row/" class="related-card" title="Gomoku Five Stones in a Row">
+          <img src="https://img.gamepix.com/games/gomoku-five-stones-in-a-row/icon/gomoku-five-stones-in-a-row.png?w=105" alt="Gomoku Five Stones in a Row" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Match Balls</div>
-            <div class="related-card-meta">⭐ 4.3 · 638Rb</div>
+            <div class="related-card-title">Gomoku Five Stones in a Row</div>
+            <div class="related-card-meta">⭐ 4.6 · 508Rb</div>
           </div>
         </a>
-        <a href="/game/match-fighter/" class="related-card" title="Match Fighter">
-          <img src="https://img.gamepix.com/games/match-fighter/icon/match-fighter.png?w=105" alt="Match Fighter" loading="lazy" width="80" height="45">
+        <a href="/game/color-fill-3d/" class="related-card" title="Color Fill 3D">
+          <img src="https://img.gamepix.com/games/color-fill-3d/icon/color-fill-3d.png?w=105" alt="Color Fill 3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Match Fighter</div>
-            <div class="related-card-meta">⭐ 4.6 · 923Rb</div>
+            <div class="related-card-title">Color Fill 3D</div>
+            <div class="related-card-meta">⭐ 4.2 · 565Rb</div>
           </div>
         </a>
-        <a href="/game/screw-out-master-story-puzzle/" class="related-card" title="Screw Out Master - Story Puzzle">
-          <img src="https://img.gamepix.com/games/screw-out-master-story-puzzle/icon/screw-out-master-story-puzzle.png?w=105" alt="Screw Out Master - Story Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/123-diferent-patch/" class="related-card" title="321 Choose the Different">
+          <img src="https://img.gamepix.com/games/123-diferent-patch/icon/123-diferent-patch.png?w=105" alt="321 Choose the Different" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Screw Out Master - Story Puzzle</div>
-            <div class="related-card-meta">⭐ 4.1 · 915Rb</div>
+            <div class="related-card-title">321 Choose the Different</div>
+            <div class="related-card-meta">⭐ 4.3 · 689Rb</div>
           </div>
         </a>
-        <a href="/game/fasr-words-challenge-game/" class="related-card" title="Fast Words - Challenge Game">
-          <img src="https://img.gamepix.com/games/fasr-words-challenge-game/icon/fasr-words-challenge-game.png?w=105" alt="Fast Words - Challenge Game" loading="lazy" width="80" height="45">
+        <a href="/game/crime-detective-spot-differencs/" class="related-card" title="Crime Detective - Spot Differences">
+          <img src="https://img.gamepix.com/games/crime-detective-spot-differencs/icon/crime-detective-spot-differencs.png?w=105" alt="Crime Detective - Spot Differences" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fast Words - Challenge Game</div>
-            <div class="related-card-meta">⭐ 4.4 · 791Rb</div>
+            <div class="related-card-title">Crime Detective - Spot Differences</div>
+            <div class="related-card-meta">⭐ 4.2 · 389Rb</div>
           </div>
         </a>
-        <a href="/game/solitaire-13in1-collection/" class="related-card" title="Solitaire 13in1 Collection">
-          <img src="https://img.gamepix.com/games/solitaire-13in1-collection/icon/solitaire-13in1-collection.png?w=105" alt="Solitaire 13in1 Collection" loading="lazy" width="80" height="45">
+        <a href="/game/matching-donuts/" class="related-card" title="Matching Donuts">
+          <img src="https://img.gamepix.com/games/matching-donuts/icon/matching-donuts.png?w=105" alt="Matching Donuts" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Solitaire 13in1 Collection</div>
-            <div class="related-card-meta">⭐ 4.1 · 303Rb</div>
+            <div class="related-card-title">Matching Donuts</div>
+            <div class="related-card-meta">⭐ 4.6 · 983Rb</div>
           </div>
         </a>
-        <a href="/game/block-match/" class="related-card" title="Block Match">
-          <img src="https://img.gamepix.com/games/block-match/icon/block-match.png?w=105" alt="Block Match" loading="lazy" width="80" height="45">
+        <a href="/game/4-colors-multiplayer/" class="related-card" title="4 Colors Multiplayer">
+          <img src="https://img.gamepix.com/games/4-colors-multiplayer/icon/4-colors-multiplayer.png?w=105" alt="4 Colors Multiplayer" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Block Match</div>
-            <div class="related-card-meta">⭐ 4 · 586Rb</div>
+            <div class="related-card-title">4 Colors Multiplayer</div>
+            <div class="related-card-meta">⭐ 4.2 · 261Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

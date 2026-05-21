@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Riko vs Tako</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/red-stickman-vs-craftmans/" class="related-card" title="Red Stickman vs Craftmans">
-          <img src="https://img.gamepix.com/games/red-stickman-vs-craftmans/icon/red-stickman-vs-craftmans.png?w=105" alt="Red Stickman vs Craftmans" loading="lazy" width="80" height="45">
+        <a href="/game/starship-duel/" class="related-card" title="Starship Duel">
+          <img src="https://img.gamepix.com/games/starship-duel/icon/starship-duel.png?w=105" alt="Starship Duel" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Red Stickman vs Craftmans</div>
-            <div class="related-card-meta">⭐ 4.8 · 869Rb</div>
+            <div class="related-card-title">Starship Duel</div>
+            <div class="related-card-meta">⭐ 4.4 · 857Rb</div>
           </div>
         </a>
-        <a href="/game/pixel-on-titan/" class="related-card" title="Pixel on Titan">
-          <img src="https://img.gamepix.com/games/pixel-on-titan/icon/pixel-on-titan.png?w=105" alt="Pixel on Titan" loading="lazy" width="80" height="45">
+        <a href="/game/nina-adventures-2/" class="related-card" title="Nina Adventures 2">
+          <img src="https://img.gamepix.com/games/nina-adventures-2/icon/nina-adventures-2.png?w=105" alt="Nina Adventures 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pixel on Titan</div>
-            <div class="related-card-meta">⭐ 4.8 · 168Rb</div>
+            <div class="related-card-title">Nina Adventures 2</div>
+            <div class="related-card-meta">⭐ 4.7 · 512Rb</div>
           </div>
         </a>
-        <a href="/game/carrot-man-2/" class="related-card" title="Carrot-man 2">
-          <img src="https://img.gamepix.com/games/carrot-man-2/icon/carrot-man-2.png?w=105" alt="Carrot-man 2" loading="lazy" width="80" height="45">
+        <a href="/game/froggy-man/" class="related-card" title="Froggy Man">
+          <img src="https://img.gamepix.com/games/froggy-man/icon/froggy-man.png?w=105" alt="Froggy Man" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Carrot-man 2</div>
-            <div class="related-card-meta">⭐ 4.7 · 331Rb</div>
+            <div class="related-card-title">Froggy Man</div>
+            <div class="related-card-meta">⭐ 4 · 173Rb</div>
           </div>
         </a>
-        <a href="/game/blast-frenzy-bomber-clash/" class="related-card" title="Blast Frenzy Bomber Clash">
-          <img src="https://img.gamepix.com/games/blast-frenzy-bomber-clash/icon/blast-frenzy-bomber-clash.png?w=105" alt="Blast Frenzy Bomber Clash" loading="lazy" width="80" height="45">
+        <a href="/game/among-akero-bots-2/" class="related-card" title="Among Akero Bots 2">
+          <img src="https://img.gamepix.com/games/among-akero-bots-2/icon/among-akero-bots-2.png?w=105" alt="Among Akero Bots 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Blast Frenzy Bomber Clash</div>
-            <div class="related-card-meta">⭐ 4.8 · 888Rb</div>
+            <div class="related-card-title">Among Akero Bots 2</div>
+            <div class="related-card-meta">⭐ 4.5 · 215Rb</div>
           </div>
         </a>
-        <a href="/game/hungry-shark/" class="related-card" title="Hungry Shark">
-          <img src="https://img.gamepix.com/games/hungry-shark/icon/hungry-shark.png?w=105" alt="Hungry Shark" loading="lazy" width="80" height="45">
+        <a href="/game/froggy-man-2/" class="related-card" title="Froggy Man 2">
+          <img src="https://img.gamepix.com/games/froggy-man-2/icon/froggy-man-2.png?w=105" alt="Froggy Man 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Hungry Shark</div>
-            <div class="related-card-meta">⭐ 4.4 · 907Rb</div>
+            <div class="related-card-title">Froggy Man 2</div>
+            <div class="related-card-meta">⭐ 4.1 · 481Rb</div>
           </div>
         </a>
-        <a href="/game/cowboy-clash/" class="related-card" title="Cowboy Clash">
-          <img src="https://img.gamepix.com/games/cowboy-clash/icon/cowboy-clash.png?w=105" alt="Cowboy Clash" loading="lazy" width="80" height="45">
+        <a href="/game/space-doodles/" class="related-card" title="Space Doodles">
+          <img src="https://img.gamepix.com/games/space-doodles/icon/space-doodles.png?w=105" alt="Space Doodles" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cowboy Clash</div>
-            <div class="related-card-meta">⭐ 4.2 · 744Rb</div>
+            <div class="related-card-title">Space Doodles</div>
+            <div class="related-card-meta">⭐ 4.6 · 118Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

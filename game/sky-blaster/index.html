@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Sky Blaster</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/huggy-wuggy-pixel-nights/" class="related-card" title="Huggy Wuggy Pixel Nights">
-          <img src="https://img.gamepix.com/games/huggy-wuggy-pixel-nights/icon/huggy-wuggy-pixel-nights.png?w=105" alt="Huggy Wuggy Pixel Nights" loading="lazy" width="80" height="45">
+        <a href="/game/robo-cat/" class="related-card" title="Robo-Cat">
+          <img src="https://img.gamepix.com/games/robo-cat/icon/robo-cat.png?w=105" alt="Robo-Cat" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Huggy Wuggy Pixel Nights</div>
-            <div class="related-card-meta">⭐ 4.1 · 928Rb</div>
+            <div class="related-card-title">Robo-Cat</div>
+            <div class="related-card-meta">⭐ 4.8 · 828Rb</div>
           </div>
         </a>
-        <a href="/game/skibidi-toilet-sliding-puzzle/" class="related-card" title="Skibidi Toilet Sliding Puzzle">
-          <img src="https://img.gamepix.com/games/skibidi-toilet-sliding-puzzle/icon/skibidi-toilet-sliding-puzzle.png?w=105" alt="Skibidi Toilet Sliding Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/urban-sniper-multiplayer-2/" class="related-card" title="Urban Sniper Multiplayer 2">
+          <img src="https://img.gamepix.com/games/urban-sniper-multiplayer-2/icon/urban-sniper-multiplayer-2.png?w=105" alt="Urban Sniper Multiplayer 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Skibidi Toilet Sliding Puzzle</div>
-            <div class="related-card-meta">⭐ 4.7 · 235Rb</div>
+            <div class="related-card-title">Urban Sniper Multiplayer 2</div>
+            <div class="related-card-meta">⭐ 4.3 · 785Rb</div>
           </div>
         </a>
-        <a href="/game/mr-lupato-and-eldorado-treasure/" class="related-card" title="Mr. Lupato and Eldorado Treasures">
-          <img src="https://img.gamepix.com/games/mr-lupato-and-eldorado-treasure/icon/mr-lupato-and-eldorado-treasure.png?w=105" alt="Mr. Lupato and Eldorado Treasures" loading="lazy" width="80" height="45">
+        <a href="/game/blocks-platformer/" class="related-card" title="Blocks - Platformer">
+          <img src="https://img.gamepix.com/games/blocks-platformer/icon/blocks-platformer.png?w=105" alt="Blocks - Platformer" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mr. Lupato and Eldorado Treasures</div>
-            <div class="related-card-meta">⭐ 4.1 · 364Rb</div>
+            <div class="related-card-title">Blocks - Platformer</div>
+            <div class="related-card-meta">⭐ 4.6 · 960Rb</div>
           </div>
         </a>
-        <a href="/game/find-the-pets/" class="related-card" title="Find the Pets">
-          <img src="https://img.gamepix.com/games/find-the-pets/icon/find-the-pets.png?w=105" alt="Find the Pets" loading="lazy" width="80" height="45">
+        <a href="/game/endless-assault/" class="related-card" title="Endless Assault">
+          <img src="https://img.gamepix.com/games/endless-assault/icon/endless-assault.png?w=105" alt="Endless Assault" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Find the Pets</div>
-            <div class="related-card-meta">⭐ 4 · 552Rb</div>
+            <div class="related-card-title">Endless Assault</div>
+            <div class="related-card-meta">⭐ 4.2 · 254Rb</div>
           </div>
         </a>
-        <a href="/game/chipi-chipi-chapa-chapa-cat-in-glass-bridge/" class="related-card" title="Chipi Chipi Chapa Chapa Cat Glass Bridge">
-          <img src="https://img.gamepix.com/games/chipi-chipi-chapa-chapa-cat-in-glass-bridge/icon/chipi-chipi-chapa-chapa-cat-in-glass-bridge.png?w=105" alt="Chipi Chipi Chapa Chapa Cat Glass Bridge" loading="lazy" width="80" height="45">
+        <a href="/game/missile-control-infiltration-strike/" class="related-card" title="Missile Control Infiltration Strike">
+          <img src="https://img.gamepix.com/games/missile-control-infiltration-strike/icon/missile-control-infiltration-strike.png?w=105" alt="Missile Control Infiltration Strike" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Chipi Chipi Chapa Chapa Cat Glass Bridge</div>
-            <div class="related-card-meta">⭐ 4.5 · 354Rb</div>
+            <div class="related-card-title">Missile Control Infiltration Strike</div>
+            <div class="related-card-meta">⭐ 4.1 · 178Rb</div>
           </div>
         </a>
-        <a href="/game/merge-mine-idle-clicker/" class="related-card" title="Merge Mine - Idle Clicker">
-          <img src="https://img.gamepix.com/games/merge-mine-idle-clicker/icon/merge-mine-idle-clicker.png?w=105" alt="Merge Mine - Idle Clicker" loading="lazy" width="80" height="45">
+        <a href="/game/space-shooter/" class="related-card" title="Space Shooter">
+          <img src="https://img.gamepix.com/games/space-shooter/icon/space-shooter.png?w=105" alt="Space Shooter" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Merge Mine - Idle Clicker</div>
-            <div class="related-card-meta">⭐ 4.4 · 151Rb</div>
+            <div class="related-card-title">Space Shooter</div>
+            <div class="related-card-meta">⭐ 4.5 · 487Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

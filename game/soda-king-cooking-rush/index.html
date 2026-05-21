@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Soda King - Cooking Rush</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/find-diamond/" class="related-card" title="Find Diamond">
-          <img src="https://img.gamepix.com/games/find-diamond/icon/find-diamond.png?w=105" alt="Find Diamond" loading="lazy" width="80" height="45">
+        <a href="/game/art-jumble/" class="related-card" title="Art Jumble">
+          <img src="https://img.gamepix.com/games/art-jumble/icon/art-jumble.png?w=105" alt="Art Jumble" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Find Diamond</div>
-            <div class="related-card-meta">⭐ 4.7 · 769Rb</div>
+            <div class="related-card-title">Art Jumble</div>
+            <div class="related-card-meta">⭐ 4.1 · 363Rb</div>
           </div>
         </a>
-        <a href="/game/redball-adventure/" class="related-card" title="RedBall Adventure">
-          <img src="https://img.gamepix.com/games/redball-adventure/icon/redball-adventure.png?w=105" alt="RedBall Adventure" loading="lazy" width="80" height="45">
+        <a href="/game/aloo-3/" class="related-card" title="Aloo 3">
+          <img src="https://img.gamepix.com/games/aloo-3/icon/aloo-3.png?w=105" alt="Aloo 3" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">RedBall Adventure</div>
-            <div class="related-card-meta">⭐ 4.7 · 412Rb</div>
+            <div class="related-card-title">Aloo 3</div>
+            <div class="related-card-meta">⭐ 4.5 · 844Rb</div>
           </div>
         </a>
-        <a href="/game/build-a-burger/" class="related-card" title="Build a Burger">
-          <img src="https://img.gamepix.com/games/build-a-burger/icon/build-a-burger.png?w=105" alt="Build a Burger" loading="lazy" width="80" height="45">
+        <a href="/game/robox-shooter/" class="related-card" title="Robox Shooter">
+          <img src="https://img.gamepix.com/games/robox-shooter/icon/robox-shooter.png?w=105" alt="Robox Shooter" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Build a Burger</div>
-            <div class="related-card-meta">⭐ 4.4 · 968Rb</div>
+            <div class="related-card-title">Robox Shooter</div>
+            <div class="related-card-meta">⭐ 4.8 · 256Rb</div>
           </div>
         </a>
-        <a href="/game/extra-hot-chili-3d-1/" class="related-card" title="Extra Hot Chili 3D">
-          <img src="https://img.gamepix.com/games/extra-hot-chili-3d-1/icon/extra-hot-chili-3d-1.png?w=105" alt="Extra Hot Chili 3D" loading="lazy" width="80" height="45">
+        <a href="/game/bird-sim-2d/" class="related-card" title="Bird Sim 2D">
+          <img src="https://img.gamepix.com/games/bird-sim-2d/icon/bird-sim-2d.png?w=105" alt="Bird Sim 2D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Extra Hot Chili 3D</div>
-            <div class="related-card-meta">⭐ 4.1 · 697Rb</div>
+            <div class="related-card-title">Bird Sim 2D</div>
+            <div class="related-card-meta">⭐ 4.8 · 499Rb</div>
           </div>
         </a>
-        <a href="/game/sprunki-stick/" class="related-card" title="Sprunki Stick">
-          <img src="https://img.gamepix.com/games/sprunki-stick/icon/sprunki-stick.png?w=105" alt="Sprunki Stick" loading="lazy" width="80" height="45">
+        <a href="/game/t-rex-running-black-and-white/" class="related-card" title="T-Rex Running Black and White">
+          <img src="https://img.gamepix.com/games/t-rex-running-black-and-white/icon/t-rex-running-black-and-white.png?w=105" alt="T-Rex Running Black and White" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sprunki Stick</div>
-            <div class="related-card-meta">⭐ 4.8 · 859Rb</div>
+            <div class="related-card-title">T-Rex Running Black and White</div>
+            <div class="related-card-meta">⭐ 4.6 · 994Rb</div>
           </div>
         </a>
-        <a href="/game/join-blob-clash/" class="related-card" title="Join Blob Clash">
-          <img src="https://img.gamepix.com/games/join-blob-clash/icon/join-blob-clash.png?w=105" alt="Join Blob Clash" loading="lazy" width="80" height="45">
+        <a href="/game/find-the-shadow/" class="related-card" title="Find the shadow">
+          <img src="https://img.gamepix.com/games/find-the-shadow/icon/find-the-shadow.png?w=105" alt="Find the shadow" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Join Blob Clash</div>
-            <div class="related-card-meta">⭐ 4.1 · 753Rb</div>
+            <div class="related-card-title">Find the shadow</div>
+            <div class="related-card-meta">⭐ 4.4 · 289Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

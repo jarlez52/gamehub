@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Pretty Sheep Run</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/russian-grand-city-auto/" class="related-card" title="Russian Grand City Auto">
-          <img src="https://img.gamepix.com/games/russian-grand-city-auto/icon/russian-grand-city-auto.png?w=105" alt="Russian Grand City Auto" loading="lazy" width="80" height="45">
+        <a href="/game/obby-create-parkour/" class="related-card" title="Obby - Create Parkour">
+          <img src="https://img.gamepix.com/games/obby-create-parkour/icon/obby-create-parkour.png?w=105" alt="Obby - Create Parkour" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Russian Grand City Auto</div>
-            <div class="related-card-meta">⭐ 4.2 · 120Rb</div>
+            <div class="related-card-title">Obby - Create Parkour</div>
+            <div class="related-card-meta">⭐ 4.6 · 720Rb</div>
           </div>
         </a>
-        <a href="/game/snake-arcade/" class="related-card" title="Snake Arcade">
-          <img src="https://img.gamepix.com/games/snake-arcade/icon/snake-arcade.png?w=105" alt="Snake Arcade" loading="lazy" width="80" height="45">
+        <a href="/game/duck-dash-hunter-s-challenge/" class="related-card" title="Duck Dash - Hunter's Challenge">
+          <img src="https://img.gamepix.com/games/duck-dash-hunter-s-challenge/icon/duck-dash-hunter-s-challenge.png?w=105" alt="Duck Dash - Hunter's Challenge" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Snake Arcade</div>
-            <div class="related-card-meta">⭐ 4.4 · 609Rb</div>
+            <div class="related-card-title">Duck Dash - Hunter's Challenge</div>
+            <div class="related-card-meta">⭐ 4.5 · 245Rb</div>
           </div>
         </a>
-        <a href="/game/blow-fish/" class="related-card" title="Blow Fish">
-          <img src="https://img.gamepix.com/games/blow-fish/icon/blow-fish.png?w=105" alt="Blow Fish" loading="lazy" width="80" height="45">
+        <a href="/game/the-crusty-quest/" class="related-card" title="The Crusty Quest">
+          <img src="https://img.gamepix.com/games/the-crusty-quest/icon/the-crusty-quest.png?w=105" alt="The Crusty Quest" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Blow Fish</div>
-            <div class="related-card-meta">⭐ 4.5 · 489Rb</div>
+            <div class="related-card-title">The Crusty Quest</div>
+            <div class="related-card-meta">⭐ 4.2 · 128Rb</div>
           </div>
         </a>
-        <a href="/game/monkey-go/" class="related-card" title="Monkey Go">
-          <img src="https://img.gamepix.com/games/monkey-go/icon/monkey-go.png?w=105" alt="Monkey Go" loading="lazy" width="80" height="45">
+        <a href="/game/cooking-empire/" class="related-card" title="Cooking Empire">
+          <img src="https://img.gamepix.com/games/cooking-empire/icon/cooking-empire.png?w=105" alt="Cooking Empire" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Monkey Go</div>
-            <div class="related-card-meta">⭐ 4.8 · 421Rb</div>
+            <div class="related-card-title">Cooking Empire</div>
+            <div class="related-card-meta">⭐ 4.5 · 274Rb</div>
           </div>
         </a>
-        <a href="/game/rescue-toilet-head-cut/" class="related-card" title="Rescue Toilet-Head Cut">
-          <img src="https://img.gamepix.com/games/rescue-toilet-head-cut/icon/rescue-toilet-head-cut.png?w=105" alt="Rescue Toilet-Head Cut" loading="lazy" width="80" height="45">
+        <a href="/game/pizzaria/" class="related-card" title="Pizzaria">
+          <img src="https://img.gamepix.com/games/pizzaria/icon/pizzaria.png?w=105" alt="Pizzaria" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Rescue Toilet-Head Cut</div>
-            <div class="related-card-meta">⭐ 4.2 · 956Rb</div>
+            <div class="related-card-title">Pizzaria</div>
+            <div class="related-card-meta">⭐ 4.3 · 892Rb</div>
           </div>
         </a>
-        <a href="/game/drive-blue-car/" class="related-card" title="Drive Blue Car">
-          <img src="https://img.gamepix.com/games/drive-blue-car/icon/drive-blue-car.png?w=105" alt="Drive Blue Car" loading="lazy" width="80" height="45">
+        <a href="/game/the-bomb/" class="related-card" title="The Bomb">
+          <img src="https://img.gamepix.com/games/the-bomb/icon/the-bomb.png?w=105" alt="The Bomb" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Drive Blue Car</div>
-            <div class="related-card-meta">⭐ 4.2 · 593Rb</div>
+            <div class="related-card-title">The Bomb</div>
+            <div class="related-card-meta">⭐ 4.5 · 695Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

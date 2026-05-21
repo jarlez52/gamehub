@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Sprunki Eater - The Cursed Mod</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/sand-sort-puzzle/" class="related-card" title="Sand Sort Puzzle">
-          <img src="https://img.gamepix.com/games/sand-sort-puzzle/icon/sand-sort-puzzle.png?w=105" alt="Sand Sort Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/world-of-alice-make-words/" class="related-card" title="World of Alice - Make Words">
+          <img src="https://img.gamepix.com/games/world-of-alice-make-words/icon/world-of-alice-make-words.png?w=105" alt="World of Alice - Make Words" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sand Sort Puzzle</div>
-            <div class="related-card-meta">⭐ 4.8 · 291Rb</div>
+            <div class="related-card-title">World of Alice - Make Words</div>
+            <div class="related-card-meta">⭐ 4.7 · 159Rb</div>
           </div>
         </a>
-        <a href="/game/what-is-my-food/" class="related-card" title="What Is My Food">
-          <img src="https://img.gamepix.com/games/what-is-my-food/icon/what-is-my-food.png?w=105" alt="What Is My Food" loading="lazy" width="80" height="45">
+        <a href="/game/brr-brr-patapim-brainrot-terror/" class="related-card" title="Brr Brr Patapim Brainrot Terror">
+          <img src="https://img.gamepix.com/games/brr-brr-patapim-brainrot-terror/icon/brr-brr-patapim-brainrot-terror.png?w=105" alt="Brr Brr Patapim Brainrot Terror" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">What Is My Food</div>
-            <div class="related-card-meta">⭐ 4.7 · 685Rb</div>
+            <div class="related-card-title">Brr Brr Patapim Brainrot Terror</div>
+            <div class="related-card-meta">⭐ 4.1 · 118Rb</div>
           </div>
         </a>
-        <a href="/game/turbo-jetpack-x/" class="related-card" title="Turbo Jetpack X">
-          <img src="https://img.gamepix.com/games/turbo-jetpack-x/icon/turbo-jetpack-x.png?w=105" alt="Turbo Jetpack X" loading="lazy" width="80" height="45">
+        <a href="/game/shmoup/" class="related-card" title="Shmoup">
+          <img src="https://img.gamepix.com/games/shmoup/icon/shmoup.png?w=105" alt="Shmoup" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Turbo Jetpack X</div>
-            <div class="related-card-meta">⭐ 4.4 · 959Rb</div>
+            <div class="related-card-title">Shmoup</div>
+            <div class="related-card-meta">⭐ 4.7 · 261Rb</div>
           </div>
         </a>
-        <a href="/game/eat-a-smaller-fish/" class="related-card" title="Eat a Smaller Fish">
-          <img src="https://img.gamepix.com/games/eat-a-smaller-fish/icon/eat-a-smaller-fish.png?w=105" alt="Eat a Smaller Fish" loading="lazy" width="80" height="45">
+        <a href="/game/little-black-box/" class="related-card" title="Little Black Box">
+          <img src="https://img.gamepix.com/games/little-black-box/icon/little-black-box.png?w=105" alt="Little Black Box" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Eat a Smaller Fish</div>
-            <div class="related-card-meta">⭐ 4.1 · 846Rb</div>
+            <div class="related-card-title">Little Black Box</div>
+            <div class="related-card-meta">⭐ 4.9 · 607Rb</div>
           </div>
         </a>
-        <a href="/game/dino-island-rampage/" class="related-card" title="Dino Island Rampage">
-          <img src="https://img.gamepix.com/games/dino-island-rampage/icon/dino-island-rampage.png?w=105" alt="Dino Island Rampage" loading="lazy" width="80" height="45">
+        <a href="/game/catch-bombs/" class="related-card" title="Catch Bombs">
+          <img src="https://img.gamepix.com/games/catch-bombs/icon/catch-bombs.png?w=105" alt="Catch Bombs" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dino Island Rampage</div>
-            <div class="related-card-meta">⭐ 4.4 · 280Rb</div>
+            <div class="related-card-title">Catch Bombs</div>
+            <div class="related-card-meta">⭐ 4.4 · 312Rb</div>
           </div>
         </a>
-        <a href="/game/parking-car/" class="related-card" title="Parking Car">
-          <img src="https://img.gamepix.com/games/parking-car/icon/parking-car.png?w=105" alt="Parking Car" loading="lazy" width="80" height="45">
+        <a href="/game/monster-blocks/" class="related-card" title="Monster Blocks">
+          <img src="https://img.gamepix.com/games/monster-blocks/icon/monster-blocks.png?w=105" alt="Monster Blocks" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Parking Car</div>
-            <div class="related-card-meta">⭐ 4.7 · 995Rb</div>
+            <div class="related-card-title">Monster Blocks</div>
+            <div class="related-card-meta">⭐ 4 · 113Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

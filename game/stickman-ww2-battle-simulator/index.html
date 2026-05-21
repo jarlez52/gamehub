@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Stickman WW2 Battle Simulator</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/quarantine-zombies/" class="related-card" title="Quarantine Zombies">
-          <img src="https://img.gamepix.com/games/quarantine-zombies/icon/quarantine-zombies.png?w=105" alt="Quarantine Zombies" loading="lazy" width="80" height="45">
+        <a href="/game/among-chen-bots-2/" class="related-card" title="Among Chen Bots 2">
+          <img src="https://img.gamepix.com/games/among-chen-bots-2/icon/among-chen-bots-2.png?w=105" alt="Among Chen Bots 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Quarantine Zombies</div>
-            <div class="related-card-meta">⭐ 4.1 · 764Rb</div>
+            <div class="related-card-title">Among Chen Bots 2</div>
+            <div class="related-card-meta">⭐ 4.3 · 373Rb</div>
           </div>
         </a>
-        <a href="/game/bunny-needs-carrot/" class="related-card" title="Bunny Needs Carrot">
-          <img src="https://img.gamepix.com/games/bunny-needs-carrot/icon/bunny-needs-carrot.png?w=105" alt="Bunny Needs Carrot" loading="lazy" width="80" height="45">
+        <a href="/game/gakkul/" class="related-card" title="Gakkul">
+          <img src="https://img.gamepix.com/games/gakkul/icon/gakkul.png?w=105" alt="Gakkul" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bunny Needs Carrot</div>
-            <div class="related-card-meta">⭐ 4.2 · 643Rb</div>
+            <div class="related-card-title">Gakkul</div>
+            <div class="related-card-meta">⭐ 4.2 · 832Rb</div>
           </div>
         </a>
-        <a href="/game/idle-store-cleaner/" class="related-card" title="Idle Store Cleaner">
-          <img src="https://img.gamepix.com/games/idle-store-cleaner/icon/idle-store-cleaner.png?w=105" alt="Idle Store Cleaner" loading="lazy" width="80" height="45">
+        <a href="/game/zombie-verse/" class="related-card" title="Zombie Verse">
+          <img src="https://img.gamepix.com/games/zombie-verse/icon/zombie-verse.png?w=105" alt="Zombie Verse" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Idle Store Cleaner</div>
-            <div class="related-card-meta">⭐ 4.2 · 273Rb</div>
+            <div class="related-card-title">Zombie Verse</div>
+            <div class="related-card-meta">⭐ 4.7 · 930Rb</div>
           </div>
         </a>
-        <a href="/game/zombie-siege/" class="related-card" title="Zombie Siege">
-          <img src="https://img.gamepix.com/games/zombie-siege/icon/zombie-siege.png?w=105" alt="Zombie Siege" loading="lazy" width="80" height="45">
+        <a href="/game/sword-slinger/" class="related-card" title="Sword Slinger">
+          <img src="https://img.gamepix.com/games/sword-slinger/icon/sword-slinger.png?w=105" alt="Sword Slinger" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Zombie Siege</div>
-            <div class="related-card-meta">⭐ 4.5 · 380Rb</div>
+            <div class="related-card-title">Sword Slinger</div>
+            <div class="related-card-meta">⭐ 4.3 · 789Rb</div>
           </div>
         </a>
-        <a href="/game/huggy-wuggy-in-minecraft/" class="related-card" title="Huggy Wuggy in Minecraft">
-          <img src="https://img.gamepix.com/games/huggy-wuggy-in-minecraft/icon/huggy-wuggy-in-minecraft.png?w=105" alt="Huggy Wuggy in Minecraft" loading="lazy" width="80" height="45">
+        <a href="/game/shippop-saga/" class="related-card" title="ShipPop Saga">
+          <img src="https://img.gamepix.com/games/shippop-saga/icon/shippop-saga.png?w=105" alt="ShipPop Saga" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Huggy Wuggy in Minecraft</div>
-            <div class="related-card-meta">⭐ 4.3 · 595Rb</div>
+            <div class="related-card-title">ShipPop Saga</div>
+            <div class="related-card-meta">⭐ 4.3 · 545Rb</div>
           </div>
         </a>
-        <a href="/game/suburbs-zombie-driving/" class="related-card" title="Suburbs Zombie Driving">
-          <img src="https://img.gamepix.com/games/suburbs-zombie-driving/icon/suburbs-zombie-driving.png?w=105" alt="Suburbs Zombie Driving" loading="lazy" width="80" height="45">
+        <a href="/game/hunting-submarine-attack/" class="related-card" title="Hunting - Submarine Attack">
+          <img src="https://img.gamepix.com/games/hunting-submarine-attack/icon/hunting-submarine-attack.png?w=105" alt="Hunting - Submarine Attack" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Suburbs Zombie Driving</div>
-            <div class="related-card-meta">⭐ 4.4 · 984Rb</div>
+            <div class="related-card-title">Hunting - Submarine Attack</div>
+            <div class="related-card-meta">⭐ 4.9 · 201Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

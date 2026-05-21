@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Wednesday's Battle - Monster Symphony</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/my-pou-virtual-pet/" class="related-card" title="My Poky Virtual Pet">
-          <img src="https://img.gamepix.com/games/my-pou-virtual-pet/icon/my-pou-virtual-pet.png?w=105" alt="My Poky Virtual Pet" loading="lazy" width="80" height="45">
+        <a href="/game/brickscape-breakoutadventure/" class="related-card" title="Brickscape - Breakout Adventure">
+          <img src="https://img.gamepix.com/games/brickscape-breakoutadventure/icon/brickscape-breakoutadventure.png?w=105" alt="Brickscape - Breakout Adventure" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">My Poky Virtual Pet</div>
-            <div class="related-card-meta">⭐ 4.3 · 869Rb</div>
+            <div class="related-card-title">Brickscape - Breakout Adventure</div>
+            <div class="related-card-meta">⭐ 4.4 · 486Rb</div>
           </div>
         </a>
-        <a href="/game/green-dot/" class="related-card" title="Green Dot">
-          <img src="https://img.gamepix.com/games/green-dot/icon/green-dot.png?w=105" alt="Green Dot" loading="lazy" width="80" height="45">
+        <a href="/game/mole-attack/" class="related-card" title="Mole Attack">
+          <img src="https://img.gamepix.com/games/mole-attack/icon/mole-attack.png?w=105" alt="Mole Attack" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Green Dot</div>
-            <div class="related-card-meta">⭐ 4.8 · 991Rb</div>
+            <div class="related-card-title">Mole Attack</div>
+            <div class="related-card-meta">⭐ 4.4 · 680Rb</div>
           </div>
         </a>
-        <a href="/game/minecraft-lava-chicken-difference/" class="related-card" title="Minecraft Lava Chicken Difference">
-          <img src="https://img.gamepix.com/games/minecraft-lava-chicken-difference/icon/minecraft-lava-chicken-difference.png?w=105" alt="Minecraft Lava Chicken Difference" loading="lazy" width="80" height="45">
+        <a href="/game/dinosaur-world/" class="related-card" title="Dinosaur World">
+          <img src="https://img.gamepix.com/games/dinosaur-world/icon/dinosaur-world.png?w=105" alt="Dinosaur World" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Minecraft Lava Chicken Difference</div>
-            <div class="related-card-meta">⭐ 4.7 · 618Rb</div>
+            <div class="related-card-title">Dinosaur World</div>
+            <div class="related-card-meta">⭐ 4.8 · 676Rb</div>
           </div>
         </a>
-        <a href="/game/gt-drift-most-wanted/" class="related-card" title="GT Drift Most Wanted">
-          <img src="https://img.gamepix.com/games/gt-drift-most-wanted/icon/gt-drift-most-wanted.png?w=105" alt="GT Drift Most Wanted" loading="lazy" width="80" height="45">
+        <a href="/game/tiny-block-tower/" class="related-card" title="Tiny Block Tower">
+          <img src="https://img.gamepix.com/games/tiny-block-tower/icon/tiny-block-tower.png?w=105" alt="Tiny Block Tower" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">GT Drift Most Wanted</div>
-            <div class="related-card-meta">⭐ 4 · 597Rb</div>
+            <div class="related-card-title">Tiny Block Tower</div>
+            <div class="related-card-meta">⭐ 4.8 · 723Rb</div>
           </div>
         </a>
-        <a href="/game/idle-gravity-brakout-2/" class="related-card" title="Idle Gravity Breakout 2">
-          <img src="https://img.gamepix.com/games/idle-gravity-brakout-2/icon/idle-gravity-brakout-2.png?w=105" alt="Idle Gravity Breakout 2" loading="lazy" width="80" height="45">
+        <a href="/game/fnf-house/" class="related-card" title="FNF - House">
+          <img src="https://img.gamepix.com/games/fnf-house/icon/fnf-house.png?w=105" alt="FNF - House" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Idle Gravity Breakout 2</div>
-            <div class="related-card-meta">⭐ 4.3 · 750Rb</div>
+            <div class="related-card-title">FNF - House</div>
+            <div class="related-card-meta">⭐ 4 · 222Rb</div>
           </div>
         </a>
-        <a href="/game/mcatlantis/" class="related-card" title="Mcatlantis">
-          <img src="https://img.gamepix.com/games/mcatlantis/icon/mcatlantis.png?w=105" alt="Mcatlantis" loading="lazy" width="80" height="45">
+        <a href="/game/tower-cube/" class="related-card" title="Tower Cube">
+          <img src="https://img.gamepix.com/games/tower-cube/icon/tower-cube.png?w=105" alt="Tower Cube" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mcatlantis</div>
-            <div class="related-card-meta">⭐ 4.2 · 510Rb</div>
+            <div class="related-card-title">Tower Cube</div>
+            <div class="related-card-meta">⭐ 4.1 · 946Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

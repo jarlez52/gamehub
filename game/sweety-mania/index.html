@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Sweety Mania</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/get10-plus/" class="related-card" title="Get 10 Plus">
-          <img src="https://img.gamepix.com/games/get10-plus/icon/get10-plus.png?w=105" alt="Get 10 Plus" loading="lazy" width="80" height="45">
+        <a href="/game/happymushroom/" class="related-card" title="Happy Mushroom">
+          <img src="https://img.gamepix.com/games/happymushroom/icon/happymushroom.png?w=105" alt="Happy Mushroom" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Get 10 Plus</div>
-            <div class="related-card-meta">⭐ 4.7 · 922Rb</div>
+            <div class="related-card-title">Happy Mushroom</div>
+            <div class="related-card-meta">⭐ 4.2 · 342Rb</div>
           </div>
         </a>
-        <a href="/game/halloween-merge-mania/" class="related-card" title="Halloween Merge Mania">
-          <img src="https://img.gamepix.com/games/halloween-merge-mania/icon/halloween-merge-mania.png?w=105" alt="Halloween Merge Mania" loading="lazy" width="80" height="45">
+        <a href="/game/2048-puzzle-challenge-number-merge-mania/" class="related-card" title="2048 Puzzle Challenge - Number Merge Mania!">
+          <img src="https://img.gamepix.com/games/2048-puzzle-challenge-number-merge-mania/icon/2048-puzzle-challenge-number-merge-mania.png?w=105" alt="2048 Puzzle Challenge - Number Merge Mania!" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Halloween Merge Mania</div>
-            <div class="related-card-meta">⭐ 4.9 · 880Rb</div>
+            <div class="related-card-title">2048 Puzzle Challenge - Number Merge Mania!</div>
+            <div class="related-card-meta">⭐ 4.6 · 191Rb</div>
           </div>
         </a>
-        <a href="/game/pull-the-thread-puzzle/" class="related-card" title="Pull the Thread - Puzzle">
-          <img src="https://img.gamepix.com/games/pull-the-thread-puzzle/icon/pull-the-thread-puzzle.png?w=105" alt="Pull the Thread - Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/war-checkers/" class="related-card" title="War Checkers">
+          <img src="https://img.gamepix.com/games/war-checkers/icon/war-checkers.png?w=105" alt="War Checkers" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pull the Thread - Puzzle</div>
-            <div class="related-card-meta">⭐ 4.8 · 755Rb</div>
+            <div class="related-card-title">War Checkers</div>
+            <div class="related-card-meta">⭐ 4.5 · 523Rb</div>
           </div>
         </a>
-        <a href="/game/vegetables-rush/" class="related-card" title="Vegetables Rush">
-          <img src="https://img.gamepix.com/games/vegetables-rush/icon/vegetables-rush.png?w=105" alt="Vegetables Rush" loading="lazy" width="80" height="45">
+        <a href="/game/reversi-multiplayer/" class="related-card" title="Reversi Multiplayer">
+          <img src="https://img.gamepix.com/games/reversi-multiplayer/icon/reversi-multiplayer.png?w=105" alt="Reversi Multiplayer" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Vegetables Rush</div>
-            <div class="related-card-meta">⭐ 4.6 · 658Rb</div>
+            <div class="related-card-title">Reversi Multiplayer</div>
+            <div class="related-card-meta">⭐ 4.3 · 121Rb</div>
           </div>
         </a>
-        <a href="/game/adventure-match-3/" class="related-card" title="Adventure Match 3">
-          <img src="https://img.gamepix.com/games/adventure-match-3/icon/adventure-match-3.png?w=105" alt="Adventure Match 3" loading="lazy" width="80" height="45">
+        <a href="/game/guess-the-quiz-emoji-iq-games/" class="related-card" title="Guess the Quiz - Emoji IQ Games">
+          <img src="https://img.gamepix.com/games/guess-the-quiz-emoji-iq-games/icon/guess-the-quiz-emoji-iq-games.png?w=105" alt="Guess the Quiz - Emoji IQ Games" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Adventure Match 3</div>
-            <div class="related-card-meta">⭐ 4.7 · 860Rb</div>
+            <div class="related-card-title">Guess the Quiz - Emoji IQ Games</div>
+            <div class="related-card-meta">⭐ 4 · 678Rb</div>
           </div>
         </a>
-        <a href="/game/screw-out-master-story-puzzle/" class="related-card" title="Screw Out Master - Story Puzzle">
-          <img src="https://img.gamepix.com/games/screw-out-master-story-puzzle/icon/screw-out-master-story-puzzle.png?w=105" alt="Screw Out Master - Story Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/snakes-and-ladders/" class="related-card" title="Snakes and Ladders">
+          <img src="https://img.gamepix.com/games/snakes-and-ladders/icon/snakes-and-ladders.png?w=105" alt="Snakes and Ladders" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Screw Out Master - Story Puzzle</div>
-            <div class="related-card-meta">⭐ 4.1 · 915Rb</div>
+            <div class="related-card-title">Snakes and Ladders</div>
+            <div class="related-card-meta">⭐ 4.7 · 179Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

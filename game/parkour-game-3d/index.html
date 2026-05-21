@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Parkour Game 3D</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/treasure-fishing/" class="related-card" title="Treasure Fishing">
-          <img src="https://img.gamepix.com/games/treasure-fishing/icon/treasure-fishing.png?w=105" alt="Treasure Fishing" loading="lazy" width="80" height="45">
+        <a href="/game/base-defense/" class="related-card" title="Base Defense">
+          <img src="https://img.gamepix.com/games/base-defense/icon/base-defense.png?w=105" alt="Base Defense" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Treasure Fishing</div>
-            <div class="related-card-meta">⭐ 4.7 · 448Rb</div>
+            <div class="related-card-title">Base Defense</div>
+            <div class="related-card-meta">⭐ 4.3 · 979Rb</div>
           </div>
         </a>
-        <a href="/game/counter-terror-battle-simulator/" class="related-card" title="Counter Terror Battle Simulator">
-          <img src="https://img.gamepix.com/games/counter-terror-battle-simulator/icon/counter-terror-battle-simulator.png?w=105" alt="Counter Terror Battle Simulator" loading="lazy" width="80" height="45">
+        <a href="/game/heroes-defense/" class="related-card" title="Heroes' Defense">
+          <img src="https://img.gamepix.com/games/heroes-defense/icon/heroes-defense.png?w=105" alt="Heroes' Defense" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Counter Terror Battle Simulator</div>
-            <div class="related-card-meta">⭐ 4 · 533Rb</div>
+            <div class="related-card-title">Heroes' Defense</div>
+            <div class="related-card-meta">⭐ 4.6 · 732Rb</div>
           </div>
         </a>
-        <a href="/game/star-trooper-war-for-survival/" class="related-card" title="Star Trooper: War for Survival">
-          <img src="https://img.gamepix.com/games/star-trooper-war-for-survival/icon/star-trooper-war-for-survival.png?w=105" alt="Star Trooper: War for Survival" loading="lazy" width="80" height="45">
+        <a href="/game/stack-run/" class="related-card" title="Stack Run">
+          <img src="https://img.gamepix.com/games/stack-run/icon/stack-run.png?w=105" alt="Stack Run" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Star Trooper: War for Survival</div>
-            <div class="related-card-meta">⭐ 4.1 · 214Rb</div>
+            <div class="related-card-title">Stack Run</div>
+            <div class="related-card-meta">⭐ 4.4 · 371Rb</div>
           </div>
         </a>
-        <a href="/game/eco-terra-idle/" class="related-card" title="Eco Terra Idle">
-          <img src="https://img.gamepix.com/games/eco-terra-idle/icon/eco-terra-idle.png?w=105" alt="Eco Terra Idle" loading="lazy" width="80" height="45">
+        <a href="/game/green-submarine/" class="related-card" title="Green Submarine">
+          <img src="https://img.gamepix.com/games/green-submarine/icon/green-submarine.png?w=105" alt="Green Submarine" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Eco Terra Idle</div>
-            <div class="related-card-meta">⭐ 4.5 · 908Rb</div>
+            <div class="related-card-title">Green Submarine</div>
+            <div class="related-card-meta">⭐ 4.7 · 591Rb</div>
           </div>
         </a>
-        <a href="/game/openttd/" class="related-card" title="Transport Tycoon Deluxe - Open TTD">
-          <img src="https://img.gamepix.com/games/openttd/icon/openttd.png?w=105" alt="Transport Tycoon Deluxe - Open TTD" loading="lazy" width="80" height="45">
+        <a href="/game/sanguo-conquest-thirteen-provinces/" class="related-card" title="Sanguo Conquest - Thirteen Provinces">
+          <img src="https://img.gamepix.com/games/sanguo-conquest-thirteen-provinces/icon/sanguo-conquest-thirteen-provinces.png?w=105" alt="Sanguo Conquest - Thirteen Provinces" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Transport Tycoon Deluxe - Open TTD</div>
-            <div class="related-card-meta">⭐ 4.1 · 660Rb</div>
+            <div class="related-card-title">Sanguo Conquest - Thirteen Provinces</div>
+            <div class="related-card-meta">⭐ 4.6 · 837Rb</div>
           </div>
         </a>
-        <a href="/game/kingdom-onslaught/" class="related-card" title="Kingdom Onslaught!">
-          <img src="https://img.gamepix.com/games/kingdom-onslaught/icon/kingdom-onslaught.png?w=105" alt="Kingdom Onslaught!" loading="lazy" width="80" height="45">
+        <a href="/game/falling-blocks-the-tetris-game/" class="related-card" title="Falling Blocks - the TETRIS game">
+          <img src="https://img.gamepix.com/games/falling-blocks-the-tetris-game/icon/falling-blocks-the-tetris-game.png?w=105" alt="Falling Blocks - the TETRIS game" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Kingdom Onslaught!</div>
-            <div class="related-card-meta">⭐ 4.5 · 260Rb</div>
+            <div class="related-card-title">Falling Blocks - the TETRIS game</div>
+            <div class="related-card-meta">⭐ 4.2 · 465Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

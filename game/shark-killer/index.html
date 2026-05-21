@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Shark Killer</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/mergis/" class="related-card" title="Mergis">
-          <img src="https://img.gamepix.com/games/mergis/icon/mergis.png?w=105" alt="Mergis" loading="lazy" width="80" height="45">
+        <a href="/game/what-that-picture/" class="related-card" title="What that Picture">
+          <img src="https://img.gamepix.com/games/what-that-picture/icon/what-that-picture.png?w=105" alt="What that Picture" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mergis</div>
-            <div class="related-card-meta">⭐ 4.4 · 831Rb</div>
+            <div class="related-card-title">What that Picture</div>
+            <div class="related-card-meta">⭐ 4.4 · 170Rb</div>
           </div>
         </a>
-        <a href="/game/break-the-wall/" class="related-card" title="Break the Wall">
-          <img src="https://img.gamepix.com/games/break-the-wall/icon/break-the-wall.png?w=105" alt="Break the Wall" loading="lazy" width="80" height="45">
+        <a href="/game/tap-tap-challenge/" class="related-card" title="Tap Tap Challenge">
+          <img src="https://img.gamepix.com/games/tap-tap-challenge/icon/tap-tap-challenge.png?w=105" alt="Tap Tap Challenge" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Break the Wall</div>
-            <div class="related-card-meta">⭐ 4.4 · 526Rb</div>
+            <div class="related-card-title">Tap Tap Challenge</div>
+            <div class="related-card-meta">⭐ 4.3 · 241Rb</div>
           </div>
         </a>
-        <a href="/game/blindbat/" class="related-card" title="BlindBat">
-          <img src="https://img.gamepix.com/games/blindbat/icon/blindbat.png?w=105" alt="BlindBat" loading="lazy" width="80" height="45">
+        <a href="/game/tap-to-flap/" class="related-card" title="Tap to Flap">
+          <img src="https://img.gamepix.com/games/tap-to-flap/icon/tap-to-flap.png?w=105" alt="Tap to Flap" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">BlindBat</div>
-            <div class="related-card-meta">⭐ 4.2 · 191Rb</div>
+            <div class="related-card-title">Tap to Flap</div>
+            <div class="related-card-meta">⭐ 4.4 · 413Rb</div>
           </div>
         </a>
-        <a href="/game/flappy-bird-old-style/" class="related-card" title="Flappy Bird Old Style">
-          <img src="https://img.gamepix.com/games/flappy-bird-old-style/icon/flappy-bird-old-style.png?w=105" alt="Flappy Bird Old Style" loading="lazy" width="80" height="45">
+        <a href="/game/stack-builder-skyscraper/" class="related-card" title="Stack Builder - Skyscraper">
+          <img src="https://img.gamepix.com/games/stack-builder-skyscraper/icon/stack-builder-skyscraper.png?w=105" alt="Stack Builder - Skyscraper" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Flappy Bird Old Style</div>
-            <div class="related-card-meta">⭐ 4 · 907Rb</div>
+            <div class="related-card-title">Stack Builder - Skyscraper</div>
+            <div class="related-card-meta">⭐ 4.4 · 170Rb</div>
           </div>
         </a>
-        <a href="/game/no-way-out/" class="related-card" title="No Way Out">
-          <img src="https://img.gamepix.com/games/no-way-out/icon/no-way-out.png?w=105" alt="No Way Out" loading="lazy" width="80" height="45">
+        <a href="/game/craneitup/" class="related-card" title="CraneItUp">
+          <img src="https://img.gamepix.com/games/craneitup/icon/craneitup.png?w=105" alt="CraneItUp" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">No Way Out</div>
-            <div class="related-card-meta">⭐ 4.6 · 540Rb</div>
+            <div class="related-card-title">CraneItUp</div>
+            <div class="related-card-meta">⭐ 4.7 · 279Rb</div>
           </div>
         </a>
-        <a href="/game/color-to-color-arcade/" class="related-card" title="Color To Color Arcade">
-          <img src="https://img.gamepix.com/games/color-to-color-arcade/icon/color-to-color-arcade.png?w=105" alt="Color To Color Arcade" loading="lazy" width="80" height="45">
+        <a href="/game/digit-shooter/" class="related-card" title="Digit Shooter">
+          <img src="https://img.gamepix.com/games/digit-shooter/icon/digit-shooter.png?w=105" alt="Digit Shooter" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Color To Color Arcade</div>
-            <div class="related-card-meta">⭐ 4.6 · 803Rb</div>
+            <div class="related-card-title">Digit Shooter</div>
+            <div class="related-card-meta">⭐ 4.9 · 826Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

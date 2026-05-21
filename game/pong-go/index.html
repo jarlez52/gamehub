@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Pong Go</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/study-group/" class="related-card" title="Study Group">
-          <img src="https://img.gamepix.com/games/study-group/icon/study-group.png?w=105" alt="Study Group" loading="lazy" width="80" height="45">
+        <a href="/game/tic-tac-toe-original-pro/" class="related-card" title="Tic Tac Toe Original Pro">
+          <img src="https://img.gamepix.com/games/tic-tac-toe-original-pro/icon/tic-tac-toe-original-pro.png?w=105" alt="Tic Tac Toe Original Pro" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Study Group</div>
-            <div class="related-card-meta">⭐ 4.6 · 964Rb</div>
+            <div class="related-card-title">Tic Tac Toe Original Pro</div>
+            <div class="related-card-meta">⭐ 4.1 · 681Rb</div>
           </div>
         </a>
-        <a href="/game/gorilla-tag-drag-and-drop-game/" class="related-card" title="Gorilla Tag Drag And Drop Game">
-          <img src="https://img.gamepix.com/games/gorilla-tag-drag-and-drop-game/icon/gorilla-tag-drag-and-drop-game.png?w=105" alt="Gorilla Tag Drag And Drop Game" loading="lazy" width="80" height="45">
+        <a href="/game/dart-wars/" class="related-card" title="Dart Wars">
+          <img src="https://img.gamepix.com/games/dart-wars/icon/dart-wars.png?w=105" alt="Dart Wars" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Gorilla Tag Drag And Drop Game</div>
-            <div class="related-card-meta">⭐ 4.8 · 540Rb</div>
+            <div class="related-card-title">Dart Wars</div>
+            <div class="related-card-meta">⭐ 4.5 · 399Rb</div>
           </div>
         </a>
-        <a href="/game/floof-my-pet-house/" class="related-card" title="Floof My Pet House">
-          <img src="https://img.gamepix.com/games/floof-my-pet-house/icon/floof-my-pet-house.png?w=105" alt="Floof My Pet House" loading="lazy" width="80" height="45">
+        <a href="/game/heaven-or-hell-the-choice-is-yours/" class="related-card" title="Heaven or Hell?! The choice is yours!">
+          <img src="https://img.gamepix.com/games/heaven-or-hell-the-choice-is-yours/icon/heaven-or-hell-the-choice-is-yours.png?w=105" alt="Heaven or Hell?! The choice is yours!" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Floof My Pet House</div>
-            <div class="related-card-meta">⭐ 4.4 · 665Rb</div>
+            <div class="related-card-title">Heaven or Hell?! The choice is yours!</div>
+            <div class="related-card-meta">⭐ 4.9 · 508Rb</div>
           </div>
         </a>
-        <a href="/game/ice-princess-all-around-the-fashion/" class="related-card" title="Ice Princess All Around The Fashion">
-          <img src="https://img.gamepix.com/games/ice-princess-all-around-the-fashion/icon/ice-princess-all-around-the-fashion.png?w=105" alt="Ice Princess All Around The Fashion" loading="lazy" width="80" height="45">
+        <a href="/game/drunken-duel/" class="related-card" title="Drunken Duel">
+          <img src="https://img.gamepix.com/games/drunken-duel/icon/drunken-duel.png?w=105" alt="Drunken Duel" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ice Princess All Around The Fashion</div>
-            <div class="related-card-meta">⭐ 4.4 · 945Rb</div>
+            <div class="related-card-title">Drunken Duel</div>
+            <div class="related-card-meta">⭐ 4.8 · 215Rb</div>
           </div>
         </a>
-        <a href="/game/pirate-shooter/" class="related-card" title="Pirates Shooter">
-          <img src="https://img.gamepix.com/games/pirate-shooter/icon/pirate-shooter.png?w=105" alt="Pirates Shooter" loading="lazy" width="80" height="45">
+        <a href="/game/fidget-spinner-creator/" class="related-card" title="Fidget Spinner Creator">
+          <img src="https://img.gamepix.com/games/fidget-spinner-creator/icon/fidget-spinner-creator.png?w=105" alt="Fidget Spinner Creator" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pirates Shooter</div>
-            <div class="related-card-meta">⭐ 4.7 · 974Rb</div>
+            <div class="related-card-title">Fidget Spinner Creator</div>
+            <div class="related-card-meta">⭐ 4.1 · 881Rb</div>
           </div>
         </a>
-        <a href="/game/t-rex-run/" class="related-card" title="T-Rex Run">
-          <img src="https://img.gamepix.com/games/t-rex-run/icon/t-rex-run.png?w=105" alt="T-Rex Run" loading="lazy" width="80" height="45">
+        <a href="/game/tall-and-rush/" class="related-card" title="Tall and Rush">
+          <img src="https://img.gamepix.com/games/tall-and-rush/icon/tall-and-rush.png?w=105" alt="Tall and Rush" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">T-Rex Run</div>
-            <div class="related-card-meta">⭐ 4.8 · 584Rb</div>
+            <div class="related-card-title">Tall and Rush</div>
+            <div class="related-card-meta">⭐ 4.1 · 917Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

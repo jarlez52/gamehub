@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Santa's Little Helper</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/tower-blocks-deluxe/" class="related-card" title="Tower Blocks Deluxe">
-          <img src="https://img.gamepix.com/games/tower-blocks-deluxe/icon/tower-blocks-deluxe.png?w=105" alt="Tower Blocks Deluxe" loading="lazy" width="80" height="45">
+        <a href="/game/mini-critter-munch/" class="related-card" title="Mini Critter Munch">
+          <img src="https://img.gamepix.com/games/mini-critter-munch/icon/mini-critter-munch.png?w=105" alt="Mini Critter Munch" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tower Blocks Deluxe</div>
-            <div class="related-card-meta">⭐ 4.7 · 844Rb</div>
+            <div class="related-card-title">Mini Critter Munch</div>
+            <div class="related-card-meta">⭐ 4.4 · 196Rb</div>
           </div>
         </a>
-        <a href="/game/key-shield-2/" class="related-card" title="Key & Shield 2">
-          <img src="https://img.gamepix.com/games/key-shield-2/icon/key-shield-2.png?w=105" alt="Key & Shield 2" loading="lazy" width="80" height="45">
+        <a href="/game/angry-monsters/" class="related-card" title="Angry Monsters">
+          <img src="https://img.gamepix.com/games/angry-monsters/icon/angry-monsters.png?w=105" alt="Angry Monsters" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Key & Shield 2</div>
-            <div class="related-card-meta">⭐ 4.3 · 868Rb</div>
+            <div class="related-card-title">Angry Monsters</div>
+            <div class="related-card-meta">⭐ 4.6 · 275Rb</div>
           </div>
         </a>
-        <a href="/game/samurai-coloring-book/" class="related-card" title="Samurai Coloring Book">
-          <img src="https://img.gamepix.com/games/samurai-coloring-book/icon/samurai-coloring-book.png?w=105" alt="Samurai Coloring Book" loading="lazy" width="80" height="45">
+        <a href="/game/brick-breaker-retro/" class="related-card" title="Brick Breaker Retro">
+          <img src="https://img.gamepix.com/games/brick-breaker-retro/icon/brick-breaker-retro.png?w=105" alt="Brick Breaker Retro" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Samurai Coloring Book</div>
-            <div class="related-card-meta">⭐ 4.2 · 117Rb</div>
+            <div class="related-card-title">Brick Breaker Retro</div>
+            <div class="related-card-meta">⭐ 4.2 · 132Rb</div>
           </div>
         </a>
-        <a href="/game/duck-dash-hunter-s-challenge/" class="related-card" title="Duck Dash - Hunter's Challenge">
-          <img src="https://img.gamepix.com/games/duck-dash-hunter-s-challenge/icon/duck-dash-hunter-s-challenge.png?w=105" alt="Duck Dash - Hunter's Challenge" loading="lazy" width="80" height="45">
+        <a href="/game/escape-story/" class="related-card" title="Escape Story">
+          <img src="https://img.gamepix.com/games/escape-story/icon/escape-story.png?w=105" alt="Escape Story" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Duck Dash - Hunter's Challenge</div>
-            <div class="related-card-meta">⭐ 4.5 · 245Rb</div>
+            <div class="related-card-title">Escape Story</div>
+            <div class="related-card-meta">⭐ 4.1 · 801Rb</div>
           </div>
         </a>
-        <a href="/game/halloween-ghouls-adventure/" class="related-card" title="Halloween Ghouls Adventure">
-          <img src="https://img.gamepix.com/games/halloween-ghouls-adventure/icon/halloween-ghouls-adventure.png?w=105" alt="Halloween Ghouls Adventure" loading="lazy" width="80" height="45">
+        <a href="/game/ping-pong-arcade/" class="related-card" title="Ping Pong Arcade">
+          <img src="https://img.gamepix.com/games/ping-pong-arcade/icon/ping-pong-arcade.png?w=105" alt="Ping Pong Arcade" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Halloween Ghouls Adventure</div>
-            <div class="related-card-meta">⭐ 4 · 774Rb</div>
+            <div class="related-card-title">Ping Pong Arcade</div>
+            <div class="related-card-meta">⭐ 4.2 · 470Rb</div>
           </div>
         </a>
-        <a href="/game/christmas/" class="related-card" title="Christmas">
-          <img src="https://img.gamepix.com/games/christmas/icon/christmas.png?w=105" alt="Christmas" loading="lazy" width="80" height="45">
+        <a href="/game/minecraft-skibidi-hidden-toilet/" class="related-card" title="Minecraft Skibidi Hidden Toilet">
+          <img src="https://img.gamepix.com/games/minecraft-skibidi-hidden-toilet/icon/minecraft-skibidi-hidden-toilet.png?w=105" alt="Minecraft Skibidi Hidden Toilet" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Christmas</div>
-            <div class="related-card-meta">⭐ 4.5 · 265Rb</div>
+            <div class="related-card-title">Minecraft Skibidi Hidden Toilet</div>
+            <div class="related-card-meta">⭐ 4.9 · 889Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

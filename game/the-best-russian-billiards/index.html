@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">The Best Russian Billiards</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/basketballs-school/" class="related-card" title="Basketball School">
-          <img src="https://img.gamepix.com/games/basketballs-school/icon/basketballs-school.png?w=105" alt="Basketball School" loading="lazy" width="80" height="45">
+        <a href="/game/football-kickoff/" class="related-card" title="Football Kickoff">
+          <img src="https://img.gamepix.com/games/football-kickoff/icon/football-kickoff.png?w=105" alt="Football Kickoff" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Basketball School</div>
-            <div class="related-card-meta">⭐ 4.1 · 714Rb</div>
+            <div class="related-card-title">Football Kickoff</div>
+            <div class="related-card-meta">⭐ 4.8 · 310Rb</div>
           </div>
         </a>
-        <a href="/game/bonnie-fitness-frenzy/" class="related-card" title="Bonnie Fitness Frenzy">
-          <img src="https://img.gamepix.com/games/bonnie-fitness-frenzy/icon/bonnie-fitness-frenzy.png?w=105" alt="Bonnie Fitness Frenzy" loading="lazy" width="80" height="45">
+        <a href="/game/football-superstars-2022/" class="related-card" title="Football Superstars 2022">
+          <img src="https://img.gamepix.com/games/football-superstars-2022/icon/football-superstars-2022.png?w=105" alt="Football Superstars 2022" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bonnie Fitness Frenzy</div>
-            <div class="related-card-meta">⭐ 4.9 · 965Rb</div>
+            <div class="related-card-title">Football Superstars 2022</div>
+            <div class="related-card-meta">⭐ 4.4 · 501Rb</div>
           </div>
         </a>
-        <a href="/game/russian-niva-hexagon/" class="related-card" title="Russian Niva - HexagoN">
-          <img src="https://img.gamepix.com/games/russian-niva-hexagon/icon/russian-niva-hexagon.png?w=105" alt="Russian Niva - HexagoN" loading="lazy" width="80" height="45">
+        <a href="/game/football-puzzle-goal/" class="related-card" title="Football Puzzle Goal">
+          <img src="https://img.gamepix.com/games/football-puzzle-goal/icon/football-puzzle-goal.png?w=105" alt="Football Puzzle Goal" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Russian Niva - HexagoN</div>
-            <div class="related-card-meta">⭐ 4.8 · 574Rb</div>
+            <div class="related-card-title">Football Puzzle Goal</div>
+            <div class="related-card-meta">⭐ 4 · 626Rb</div>
           </div>
         </a>
-        <a href="/game/football-tournament/" class="related-card" title="Football Tournament">
-          <img src="https://img.gamepix.com/games/football-tournament/icon/football-tournament.png?w=105" alt="Football Tournament" loading="lazy" width="80" height="45">
+        <a href="/game/penalty-kick-wiz/" class="related-card" title="Penalty Kick Wiz">
+          <img src="https://img.gamepix.com/games/penalty-kick-wiz/icon/penalty-kick-wiz.png?w=105" alt="Penalty Kick Wiz" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Football Tournament</div>
-            <div class="related-card-meta">⭐ 4.7 · 489Rb</div>
+            <div class="related-card-title">Penalty Kick Wiz</div>
+            <div class="related-card-meta">⭐ 4.8 · 716Rb</div>
           </div>
         </a>
-        <a href="/game/archery-hero/" class="related-card" title="Archery Hero">
-          <img src="https://img.gamepix.com/games/archery-hero/icon/archery-hero.png?w=105" alt="Archery Hero" loading="lazy" width="80" height="45">
+        <a href="/game/football-tricks/" class="related-card" title="Football Tricks">
+          <img src="https://img.gamepix.com/games/football-tricks/icon/football-tricks.png?w=105" alt="Football Tricks" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Archery Hero</div>
-            <div class="related-card-meta">⭐ 4.8 · 341Rb</div>
+            <div class="related-card-title">Football Tricks</div>
+            <div class="related-card-meta">⭐ 4.5 · 975Rb</div>
           </div>
         </a>
-        <a href="/game/minigolf-clash/" class="related-card" title="Minigolf Clash">
-          <img src="https://img.gamepix.com/games/minigolf-clash/icon/minigolf-clash.png?w=105" alt="Minigolf Clash" loading="lazy" width="80" height="45">
+        <a href="/game/slalom-hero/" class="related-card" title="Slalom Hero">
+          <img src="https://img.gamepix.com/games/slalom-hero/icon/slalom-hero.png?w=105" alt="Slalom Hero" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Minigolf Clash</div>
-            <div class="related-card-meta">⭐ 4.2 · 435Rb</div>
+            <div class="related-card-title">Slalom Hero</div>
+            <div class="related-card-meta">⭐ 4.5 · 261Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

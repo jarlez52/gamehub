@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">The Adventure</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/virus-clicker/" class="related-card" title="Virus Clicker">
-          <img src="https://img.gamepix.com/games/virus-clicker/icon/virus-clicker.png?w=105" alt="Virus Clicker" loading="lazy" width="80" height="45">
+        <a href="/game/atanu-boy/" class="related-card" title="Atanu Boy">
+          <img src="https://img.gamepix.com/games/atanu-boy/icon/atanu-boy.png?w=105" alt="Atanu Boy" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Virus Clicker</div>
-            <div class="related-card-meta">⭐ 4.2 · 487Rb</div>
+            <div class="related-card-title">Atanu Boy</div>
+            <div class="related-card-meta">⭐ 4.2 · 457Rb</div>
           </div>
         </a>
-        <a href="/game/monkeys-fighting/" class="related-card" title="Monkeys Fighting">
-          <img src="https://img.gamepix.com/games/monkeys-fighting/icon/monkeys-fighting.png?w=105" alt="Monkeys Fighting" loading="lazy" width="80" height="45">
+        <a href="/game/macagi-adventures/" class="related-card" title="Macagi Adventures">
+          <img src="https://img.gamepix.com/games/macagi-adventures/icon/macagi-adventures.png?w=105" alt="Macagi Adventures" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Monkeys Fighting</div>
-            <div class="related-card-meta">⭐ 4.4 · 490Rb</div>
+            <div class="related-card-title">Macagi Adventures</div>
+            <div class="related-card-meta">⭐ 4.4 · 723Rb</div>
           </div>
         </a>
-        <a href="/game/panda-quest/" class="related-card" title="Panda Quest">
-          <img src="https://img.gamepix.com/games/panda-quest/icon/panda-quest.png?w=105" alt="Panda Quest" loading="lazy" width="80" height="45">
+        <a href="/game/recoil-arena-1vs1/" class="related-card" title="Recoil Arena 1VS1">
+          <img src="https://img.gamepix.com/games/recoil-arena-1vs1/icon/recoil-arena-1vs1.png?w=105" alt="Recoil Arena 1VS1" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Panda Quest</div>
-            <div class="related-card-meta">⭐ 4.4 · 193Rb</div>
+            <div class="related-card-title">Recoil Arena 1VS1</div>
+            <div class="related-card-meta">⭐ 4 · 781Rb</div>
           </div>
         </a>
-        <a href="/game/merge-defence/" class="related-card" title="Merge Defence">
-          <img src="https://img.gamepix.com/games/merge-defence/icon/merge-defence.png?w=105" alt="Merge Defence" loading="lazy" width="80" height="45">
+        <a href="/game/spaceship-cyclone/" class="related-card" title="Spaceship Cyclone">
+          <img src="https://img.gamepix.com/games/spaceship-cyclone/icon/spaceship-cyclone.png?w=105" alt="Spaceship Cyclone" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Merge Defence</div>
-            <div class="related-card-meta">⭐ 4.1 · 506Rb</div>
+            <div class="related-card-title">Spaceship Cyclone</div>
+            <div class="related-card-meta">⭐ 4.6 · 726Rb</div>
           </div>
         </a>
-        <a href="/game/chamber-challenge/" class="related-card" title="Chamber Challenge">
-          <img src="https://img.gamepix.com/games/chamber-challenge/icon/chamber-challenge.png?w=105" alt="Chamber Challenge" loading="lazy" width="80" height="45">
+        <a href="/game/xtrue/" class="related-card" title="Xtrue">
+          <img src="https://img.gamepix.com/games/xtrue/icon/xtrue.png?w=105" alt="Xtrue" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Chamber Challenge</div>
-            <div class="related-card-meta">⭐ 4.1 · 165Rb</div>
+            <div class="related-card-title">Xtrue</div>
+            <div class="related-card-meta">⭐ 4.1 · 765Rb</div>
           </div>
         </a>
-        <a href="/game/city-of-the-dead-zombie-shooter/" class="related-card" title="City of the Dead Zombie Shooter">
-          <img src="https://img.gamepix.com/games/city-of-the-dead-zombie-shooter/icon/city-of-the-dead-zombie-shooter.png?w=105" alt="City of the Dead Zombie Shooter" loading="lazy" width="80" height="45">
+        <a href="/game/ninja-vs-zombies/" class="related-card" title="Ninja vs Zombies">
+          <img src="https://img.gamepix.com/games/ninja-vs-zombies/icon/ninja-vs-zombies.png?w=105" alt="Ninja vs Zombies" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">City of the Dead Zombie Shooter</div>
-            <div class="related-card-meta">⭐ 4.4 · 545Rb</div>
+            <div class="related-card-title">Ninja vs Zombies</div>
+            <div class="related-card-meta">⭐ 4.9 · 693Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

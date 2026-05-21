@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Sushi Chef</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/ufo-shooting-game/" class="related-card" title="UFO Shooting Game">
-          <img src="https://img.gamepix.com/games/ufo-shooting-game/icon/ufo-shooting-game.png?w=105" alt="UFO Shooting Game" loading="lazy" width="80" height="45">
+        <a href="/game/redball-adventure/" class="related-card" title="RedBall Adventure">
+          <img src="https://img.gamepix.com/games/redball-adventure/icon/redball-adventure.png?w=105" alt="RedBall Adventure" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">UFO Shooting Game</div>
-            <div class="related-card-meta">⭐ 4.9 · 812Rb</div>
+            <div class="related-card-title">RedBall Adventure</div>
+            <div class="related-card-meta">⭐ 4.7 · 412Rb</div>
           </div>
         </a>
-        <a href="/game/solve-the-equations/" class="related-card" title="Solve The Equations">
-          <img src="https://img.gamepix.com/games/solve-the-equations/icon/solve-the-equations.png?w=105" alt="Solve The Equations" loading="lazy" width="80" height="45">
+        <a href="/game/candy-pong/" class="related-card" title="Candy Pong">
+          <img src="https://img.gamepix.com/games/candy-pong/icon/candy-pong.png?w=105" alt="Candy Pong" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Solve The Equations</div>
-            <div class="related-card-meta">⭐ 4.7 · 463Rb</div>
+            <div class="related-card-title">Candy Pong</div>
+            <div class="related-card-meta">⭐ 4.1 · 498Rb</div>
           </div>
         </a>
-        <a href="/game/quantum-tanks/" class="related-card" title="Quantum Tanks">
-          <img src="https://img.gamepix.com/games/quantum-tanks/icon/quantum-tanks.png?w=105" alt="Quantum Tanks" loading="lazy" width="80" height="45">
+        <a href="/game/robotex/" class="related-card" title="Robotex">
+          <img src="https://img.gamepix.com/games/robotex/icon/robotex.png?w=105" alt="Robotex" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Quantum Tanks</div>
-            <div class="related-card-meta">⭐ 4.3 · 681Rb</div>
+            <div class="related-card-title">Robotex</div>
+            <div class="related-card-meta">⭐ 4.4 · 463Rb</div>
           </div>
         </a>
-        <a href="/game/untwist-road/" class="related-card" title="Untwist Road">
-          <img src="https://img.gamepix.com/games/untwist-road/icon/untwist-road.png?w=105" alt="Untwist Road" loading="lazy" width="80" height="45">
+        <a href="/game/super-up/" class="related-card" title="Super Up">
+          <img src="https://img.gamepix.com/games/super-up/icon/super-up.png?w=105" alt="Super Up" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Untwist Road</div>
-            <div class="related-card-meta">⭐ 4.7 · 122Rb</div>
+            <div class="related-card-title">Super Up</div>
+            <div class="related-card-meta">⭐ 4.3 · 867Rb</div>
           </div>
         </a>
-        <a href="/game/online-army-pet/" class="related-card" title="Online Army Pet">
-          <img src="https://img.gamepix.com/games/online-army-pet/icon/online-army-pet.png?w=105" alt="Online Army Pet" loading="lazy" width="80" height="45">
+        <a href="/game/stacky-dash-nail/" class="related-card" title="Stacky Dash Nail">
+          <img src="https://img.gamepix.com/games/stacky-dash-nail/icon/stacky-dash-nail.png?w=105" alt="Stacky Dash Nail" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Online Army Pet</div>
-            <div class="related-card-meta">⭐ 4.4 · 588Rb</div>
+            <div class="related-card-title">Stacky Dash Nail</div>
+            <div class="related-card-meta">⭐ 4.4 · 492Rb</div>
           </div>
         </a>
-        <a href="/game/sprunki-pop-it/" class="related-card" title="Sprunki Pop It">
-          <img src="https://img.gamepix.com/games/sprunki-pop-it/icon/sprunki-pop-it.png?w=105" alt="Sprunki Pop It" loading="lazy" width="80" height="45">
+        <a href="/game/red-mpostor-guys/" class="related-card" title="Red Impostor Guys">
+          <img src="https://img.gamepix.com/games/red-mpostor-guys/icon/red-mpostor-guys.png?w=105" alt="Red Impostor Guys" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sprunki Pop It</div>
-            <div class="related-card-meta">⭐ 4.2 · 917Rb</div>
+            <div class="related-card-title">Red Impostor Guys</div>
+            <div class="related-card-meta">⭐ 4.6 · 308Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

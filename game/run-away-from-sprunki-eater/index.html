@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Run Away from Sprunki Eater</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/neeno-quest/" class="related-card" title="Neeno Quest">
-          <img src="https://img.gamepix.com/games/neeno-quest/icon/neeno-quest.png?w=105" alt="Neeno Quest" loading="lazy" width="80" height="45">
+        <a href="/game/ultrahero-vs-monsters-royale-battle/" class="related-card" title="Ultrahero Vs Monsters Royale Battle">
+          <img src="https://img.gamepix.com/games/ultrahero-vs-monsters-royale-battle/icon/ultrahero-vs-monsters-royale-battle.png?w=105" alt="Ultrahero Vs Monsters Royale Battle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Neeno Quest</div>
-            <div class="related-card-meta">⭐ 4.7 · 910Rb</div>
+            <div class="related-card-title">Ultrahero Vs Monsters Royale Battle</div>
+            <div class="related-card-meta">⭐ 4.2 · 454Rb</div>
           </div>
         </a>
-        <a href="/game/double-jump-dx/" class="related-card" title="Double Jump DX!">
-          <img src="https://img.gamepix.com/games/double-jump-dx/icon/double-jump-dx.png?w=105" alt="Double Jump DX!" loading="lazy" width="80" height="45">
+        <a href="/game/akihiko-vs-cannons-2/" class="related-card" title="Akihiko vs Cannons 2">
+          <img src="https://img.gamepix.com/games/akihiko-vs-cannons-2/icon/akihiko-vs-cannons-2.png?w=105" alt="Akihiko vs Cannons 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Double Jump DX!</div>
-            <div class="related-card-meta">⭐ 4.1 · 852Rb</div>
+            <div class="related-card-title">Akihiko vs Cannons 2</div>
+            <div class="related-card-meta">⭐ 4.9 · 810Rb</div>
           </div>
         </a>
-        <a href="/game/gem-run-gem-stack/" class="related-card" title="Gem Run Gem Stack">
-          <img src="https://img.gamepix.com/games/gem-run-gem-stack/icon/gem-run-gem-stack.png?w=105" alt="Gem Run Gem Stack" loading="lazy" width="80" height="45">
+        <a href="/game/space-force-alpha/" class="related-card" title="Space Force Alpha">
+          <img src="https://img.gamepix.com/games/space-force-alpha/icon/space-force-alpha.png?w=105" alt="Space Force Alpha" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Gem Run Gem Stack</div>
-            <div class="related-card-meta">⭐ 4.1 · 222Rb</div>
+            <div class="related-card-title">Space Force Alpha</div>
+            <div class="related-card-meta">⭐ 4.3 · 730Rb</div>
           </div>
         </a>
-        <a href="/game/panda-commander-air-combat/" class="related-card" title="Panda Commander Air Combat">
-          <img src="https://img.gamepix.com/games/panda-commander-air-combat/icon/panda-commander-air-combat.png?w=105" alt="Panda Commander Air Combat" loading="lazy" width="80" height="45">
+        <a href="/game/path-wardens-defense-game/" class="related-card" title="Path Wardens - Defense Game">
+          <img src="https://img.gamepix.com/games/path-wardens-defense-game/icon/path-wardens-defense-game.png?w=105" alt="Path Wardens - Defense Game" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Panda Commander Air Combat</div>
-            <div class="related-card-meta">⭐ 4.5 · 347Rb</div>
+            <div class="related-card-title">Path Wardens - Defense Game</div>
+            <div class="related-card-meta">⭐ 4.6 · 224Rb</div>
           </div>
         </a>
-        <a href="/game/war-the-knights/" class="related-card" title="War the Knights">
-          <img src="https://img.gamepix.com/games/war-the-knights/icon/war-the-knights.png?w=105" alt="War the Knights" loading="lazy" width="80" height="45">
+        <a href="/game/power-wash-hero/" class="related-card" title="Power Wash Hero">
+          <img src="https://img.gamepix.com/games/power-wash-hero/icon/power-wash-hero.png?w=105" alt="Power Wash Hero" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">War the Knights</div>
-            <div class="related-card-meta">⭐ 4.5 · 558Rb</div>
+            <div class="related-card-title">Power Wash Hero</div>
+            <div class="related-card-meta">⭐ 4.2 · 402Rb</div>
           </div>
         </a>
-        <a href="/game/naval-battle-infinite-war/" class="related-card" title="Battleship - Infinity War">
-          <img src="https://img.gamepix.com/games/naval-battle-infinite-war/icon/naval-battle-infinite-war.png?w=105" alt="Battleship - Infinity War" loading="lazy" width="80" height="45">
+        <a href="/game/tough-guys-anime-clicker/" class="related-card" title="Tough Guys - Anime Clicker">
+          <img src="https://img.gamepix.com/games/tough-guys-anime-clicker/icon/tough-guys-anime-clicker.png?w=105" alt="Tough Guys - Anime Clicker" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Battleship - Infinity War</div>
-            <div class="related-card-meta">⭐ 4.7 · 406Rb</div>
+            <div class="related-card-title">Tough Guys - Anime Clicker</div>
+            <div class="related-card-meta">⭐ 4.8 · 422Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

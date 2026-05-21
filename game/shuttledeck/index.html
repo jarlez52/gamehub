@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Shuttledeck</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/survive-squad/" class="related-card" title="Survive Squad">
-          <img src="https://img.gamepix.com/games/survive-squad/icon/survive-squad.png?w=105" alt="Survive Squad" loading="lazy" width="80" height="45">
+        <a href="/game/office-io/" class="related-card" title="Office.io">
+          <img src="https://img.gamepix.com/games/office-io/icon/office-io.png?w=105" alt="Office.io" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Survive Squad</div>
-            <div class="related-card-meta">⭐ 4.3 · 237Rb</div>
+            <div class="related-card-title">Office.io</div>
+            <div class="related-card-meta">⭐ 4.6 · 439Rb</div>
           </div>
         </a>
-        <a href="/game/stack-run/" class="related-card" title="Stack Run">
-          <img src="https://img.gamepix.com/games/stack-run/icon/stack-run.png?w=105" alt="Stack Run" loading="lazy" width="80" height="45">
+        <a href="/game/crane-wars/" class="related-card" title="Crane Wars">
+          <img src="https://img.gamepix.com/games/crane-wars/icon/crane-wars.png?w=105" alt="Crane Wars" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Stack Run</div>
-            <div class="related-card-meta">⭐ 4.4 · 371Rb</div>
+            <div class="related-card-title">Crane Wars</div>
+            <div class="related-card-meta">⭐ 4.8 · 231Rb</div>
           </div>
         </a>
-        <a href="/game/cannon-island/" class="related-card" title="Cannon Island">
-          <img src="https://img.gamepix.com/games/cannon-island/icon/cannon-island.png?w=105" alt="Cannon Island" loading="lazy" width="80" height="45">
+        <a href="/game/deathly-dungeons/" class="related-card" title="Deathly Dungeons">
+          <img src="https://img.gamepix.com/games/deathly-dungeons/icon/deathly-dungeons.png?w=105" alt="Deathly Dungeons" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cannon Island</div>
-            <div class="related-card-meta">⭐ 4.4 · 181Rb</div>
+            <div class="related-card-title">Deathly Dungeons</div>
+            <div class="related-card-meta">⭐ 4.5 · 910Rb</div>
           </div>
         </a>
-        <a href="/game/pets-are-rogue/" class="related-card" title="Pets Are Rogue">
-          <img src="https://img.gamepix.com/games/pets-are-rogue/icon/pets-are-rogue.png?w=105" alt="Pets Are Rogue" loading="lazy" width="80" height="45">
+        <a href="/game/grimace-vs-skibidi/" class="related-card" title="Grimace Vs Skibidi">
+          <img src="https://img.gamepix.com/games/grimace-vs-skibidi/icon/grimace-vs-skibidi.png?w=105" alt="Grimace Vs Skibidi" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pets Are Rogue</div>
-            <div class="related-card-meta">⭐ 4.5 · 697Rb</div>
+            <div class="related-card-title">Grimace Vs Skibidi</div>
+            <div class="related-card-meta">⭐ 4.1 · 390Rb</div>
           </div>
         </a>
-        <a href="/game/battle-of-the-battles/" class="related-card" title="Battle of the Battles">
-          <img src="https://img.gamepix.com/games/battle-of-the-battles/icon/battle-of-the-battles.png?w=105" alt="Battle of the Battles" loading="lazy" width="80" height="45">
+        <a href="/game/idle-gravity-breakout/" class="related-card" title="Idle Gravity Breakout">
+          <img src="https://img.gamepix.com/games/idle-gravity-breakout/icon/idle-gravity-breakout.png?w=105" alt="Idle Gravity Breakout" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Battle of the Battles</div>
-            <div class="related-card-meta">⭐ 4.4 · 801Rb</div>
+            <div class="related-card-title">Idle Gravity Breakout</div>
+            <div class="related-card-meta">⭐ 4.1 · 745Rb</div>
           </div>
         </a>
-        <a href="/game/throw-bomb/" class="related-card" title="Throw Bomb">
-          <img src="https://img.gamepix.com/games/throw-bomb/icon/throw-bomb.png?w=105" alt="Throw Bomb" loading="lazy" width="80" height="45">
+        <a href="/game/fruit-war/" class="related-card" title="Fruit War">
+          <img src="https://img.gamepix.com/games/fruit-war/icon/fruit-war.png?w=105" alt="Fruit War" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Throw Bomb</div>
-            <div class="related-card-meta">⭐ 4.3 · 525Rb</div>
+            <div class="related-card-title">Fruit War</div>
+            <div class="related-card-meta">⭐ 4.9 · 276Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

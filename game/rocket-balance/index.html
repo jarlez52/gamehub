@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Rocket Balance</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/boo-tiful-princess-match/" class="related-card" title="Boo-tiful Princess Match">
-          <img src="https://img.gamepix.com/games/boo-tiful-princess-match/icon/boo-tiful-princess-match.png?w=105" alt="Boo-tiful Princess Match" loading="lazy" width="80" height="45">
+        <a href="/game/labubu-boys-jigsaw-puzzle-for-kids/" class="related-card" title="Labubu Boys Jigsaw Puzzle for Kids">
+          <img src="https://img.gamepix.com/games/labubu-boys-jigsaw-puzzle-for-kids/icon/labubu-boys-jigsaw-puzzle-for-kids.png?w=105" alt="Labubu Boys Jigsaw Puzzle for Kids" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Boo-tiful Princess Match</div>
-            <div class="related-card-meta">⭐ 4.8 · 119Rb</div>
+            <div class="related-card-title">Labubu Boys Jigsaw Puzzle for Kids</div>
+            <div class="related-card-meta">⭐ 4.8 · 175Rb</div>
           </div>
         </a>
-        <a href="/game/stack-builder-skyscraper/" class="related-card" title="Stack Builder - Skyscraper">
-          <img src="https://img.gamepix.com/games/stack-builder-skyscraper/icon/stack-builder-skyscraper.png?w=105" alt="Stack Builder - Skyscraper" loading="lazy" width="80" height="45">
+        <a href="/game/sprunki-memory-game/" class="related-card" title="Sprunki Memory Game">
+          <img src="https://img.gamepix.com/games/sprunki-memory-game/icon/sprunki-memory-game.png?w=105" alt="Sprunki Memory Game" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Stack Builder - Skyscraper</div>
-            <div class="related-card-meta">⭐ 4.4 · 170Rb</div>
+            <div class="related-card-title">Sprunki Memory Game</div>
+            <div class="related-card-meta">⭐ 4.4 · 386Rb</div>
           </div>
         </a>
-        <a href="/game/falling-knife/" class="related-card" title="Falling Knife">
-          <img src="https://img.gamepix.com/games/falling-knife/icon/falling-knife.png?w=105" alt="Falling Knife" loading="lazy" width="80" height="45">
+        <a href="/game/noob-vs-obby-two-player/" class="related-card" title="Noob vs Obby Two-Player">
+          <img src="https://img.gamepix.com/games/noob-vs-obby-two-player/icon/noob-vs-obby-two-player.png?w=105" alt="Noob vs Obby Two-Player" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Falling Knife</div>
-            <div class="related-card-meta">⭐ 4.4 · 780Rb</div>
+            <div class="related-card-title">Noob vs Obby Two-Player</div>
+            <div class="related-card-meta">⭐ 4.4 · 901Rb</div>
           </div>
         </a>
-        <a href="/game/fart-pig/" class="related-card" title="Fart Pig">
-          <img src="https://img.gamepix.com/games/fart-pig/icon/fart-pig.png?w=105" alt="Fart Pig" loading="lazy" width="80" height="45">
+        <a href="/game/infinity-tank-battle/" class="related-card" title="Infinity Tank Battle">
+          <img src="https://img.gamepix.com/games/infinity-tank-battle/icon/infinity-tank-battle.png?w=105" alt="Infinity Tank Battle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fart Pig</div>
-            <div class="related-card-meta">⭐ 4.7 · 566Rb</div>
+            <div class="related-card-title">Infinity Tank Battle</div>
+            <div class="related-card-meta">⭐ 4.2 · 511Rb</div>
           </div>
         </a>
-        <a href="/game/musical-instruments/" class="related-card" title="Musical Instruments">
-          <img src="https://img.gamepix.com/games/musical-instruments/icon/musical-instruments.png?w=105" alt="Musical Instruments" loading="lazy" width="80" height="45">
+        <a href="/game/italian-brainrot-r-e-p-o-highway-heist/" class="related-card" title="Italian Brainrot R.E.P.O Highway Heist">
+          <img src="https://img.gamepix.com/games/italian-brainrot-r-e-p-o-highway-heist/icon/italian-brainrot-r-e-p-o-highway-heist.png?w=105" alt="Italian Brainrot R.E.P.O Highway Heist" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Musical Instruments</div>
-            <div class="related-card-meta">⭐ 4.6 · 339Rb</div>
+            <div class="related-card-title">Italian Brainrot R.E.P.O Highway Heist</div>
+            <div class="related-card-meta">⭐ 4.1 · 773Rb</div>
           </div>
         </a>
-        <a href="/game/school-love-story-1/" class="related-card" title="School Love Story # 1">
-          <img src="https://img.gamepix.com/games/school-love-story-1/icon/school-love-story-1.png?w=105" alt="School Love Story # 1" loading="lazy" width="80" height="45">
+        <a href="/game/funny-rescue-carpenter/" class="related-card" title="Funny Rescue Carpenter">
+          <img src="https://img.gamepix.com/games/funny-rescue-carpenter/icon/funny-rescue-carpenter.png?w=105" alt="Funny Rescue Carpenter" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">School Love Story # 1</div>
-            <div class="related-card-meta">⭐ 4.3 · 228Rb</div>
+            <div class="related-card-title">Funny Rescue Carpenter</div>
+            <div class="related-card-meta">⭐ 4.1 · 885Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

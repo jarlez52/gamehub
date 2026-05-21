@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Smashy Bird</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/bird-flying/" class="related-card" title="Bird Flying">
-          <img src="https://img.gamepix.com/games/bird-flying/icon/bird-flying.png?w=105" alt="Bird Flying" loading="lazy" width="80" height="45">
+        <a href="/game/concrete-boots/" class="related-card" title="Concrete Boots">
+          <img src="https://img.gamepix.com/games/concrete-boots/icon/concrete-boots.png?w=105" alt="Concrete Boots" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bird Flying</div>
-            <div class="related-card-meta">⭐ 4.7 · 776Rb</div>
+            <div class="related-card-title">Concrete Boots</div>
+            <div class="related-card-meta">⭐ 4.6 · 180Rb</div>
           </div>
         </a>
-        <a href="/game/classic-space-invader/" class="related-card" title="Classic Space Invader">
-          <img src="https://img.gamepix.com/games/classic-space-invader/icon/classic-space-invader.png?w=105" alt="Classic Space Invader" loading="lazy" width="80" height="45">
+        <a href="/game/spike-rush/" class="related-card" title="Spike Rush">
+          <img src="https://img.gamepix.com/games/spike-rush/icon/spike-rush.png?w=105" alt="Spike Rush" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Classic Space Invader</div>
-            <div class="related-card-meta">⭐ 4.1 · 601Rb</div>
+            <div class="related-card-title">Spike Rush</div>
+            <div class="related-card-meta">⭐ 4.5 · 825Rb</div>
           </div>
         </a>
-        <a href="/game/tiny-block-tower/" class="related-card" title="Tiny Block Tower">
-          <img src="https://img.gamepix.com/games/tiny-block-tower/icon/tiny-block-tower.png?w=105" alt="Tiny Block Tower" loading="lazy" width="80" height="45">
+        <a href="/game/tic-tac-toe-original-pro/" class="related-card" title="Tic Tac Toe Original Pro">
+          <img src="https://img.gamepix.com/games/tic-tac-toe-original-pro/icon/tic-tac-toe-original-pro.png?w=105" alt="Tic Tac Toe Original Pro" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tiny Block Tower</div>
-            <div class="related-card-meta">⭐ 4.8 · 723Rb</div>
+            <div class="related-card-title">Tic Tac Toe Original Pro</div>
+            <div class="related-card-meta">⭐ 4.1 · 681Rb</div>
           </div>
         </a>
-        <a href="/game/bunny-funny/" class="related-card" title="Bunny Funny">
-          <img src="https://img.gamepix.com/games/bunny-funny/icon/bunny-funny.png?w=105" alt="Bunny Funny" loading="lazy" width="80" height="45">
+        <a href="/game/lucy-all-season-fashionista/" class="related-card" title="Lucy All Season Fashionista">
+          <img src="https://img.gamepix.com/games/lucy-all-season-fashionista/icon/lucy-all-season-fashionista.png?w=105" alt="Lucy All Season Fashionista" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bunny Funny</div>
-            <div class="related-card-meta">⭐ 4.1 · 929Rb</div>
+            <div class="related-card-title">Lucy All Season Fashionista</div>
+            <div class="related-card-meta">⭐ 4.6 · 579Rb</div>
           </div>
         </a>
-        <a href="/game/design-a-baby/" class="related-card" title="Design a Baby">
-          <img src="https://img.gamepix.com/games/design-a-baby/icon/design-a-baby.png?w=105" alt="Design a Baby" loading="lazy" width="80" height="45">
+        <a href="/game/catch-bombs/" class="related-card" title="Catch Bombs">
+          <img src="https://img.gamepix.com/games/catch-bombs/icon/catch-bombs.png?w=105" alt="Catch Bombs" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Design a Baby</div>
-            <div class="related-card-meta">⭐ 4.3 · 102Rb</div>
+            <div class="related-card-title">Catch Bombs</div>
+            <div class="related-card-meta">⭐ 4.4 · 312Rb</div>
           </div>
         </a>
-        <a href="/game/help-sprunky/" class="related-card" title="Help Sprunky">
-          <img src="https://img.gamepix.com/games/help-sprunky/icon/help-sprunky.png?w=105" alt="Help Sprunky" loading="lazy" width="80" height="45">
+        <a href="/game/mother-simulator-mom-games/" class="related-card" title="Pregnant Mommy Care - Mother Simulator">
+          <img src="https://img.gamepix.com/games/mother-simulator-mom-games/icon/mother-simulator-mom-games.png?w=105" alt="Pregnant Mommy Care - Mother Simulator" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Help Sprunky</div>
-            <div class="related-card-meta">⭐ 4.8 · 717Rb</div>
+            <div class="related-card-title">Pregnant Mommy Care - Mother Simulator</div>
+            <div class="related-card-meta">⭐ 4.7 · 276Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

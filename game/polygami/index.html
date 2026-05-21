@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Polygami</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/roo-bot-2/" class="related-card" title="Roo Bot 2">
-          <img src="https://img.gamepix.com/games/roo-bot-2/icon/roo-bot-2.png?w=105" alt="Roo Bot 2" loading="lazy" width="80" height="45">
+        <a href="/game/a-butterfly/" class="related-card" title="A Butterfly">
+          <img src="https://img.gamepix.com/games/a-butterfly/icon/a-butterfly.png?w=105" alt="A Butterfly" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Roo Bot 2</div>
-            <div class="related-card-meta">⭐ 4.8 · 343Rb</div>
+            <div class="related-card-title">A Butterfly</div>
+            <div class="related-card-meta">⭐ 4.1 · 319Rb</div>
           </div>
         </a>
-        <a href="/game/monster-block-game/" class="related-card" title="Monster Block Game">
-          <img src="https://img.gamepix.com/games/monster-block-game/icon/monster-block-game.png?w=105" alt="Monster Block Game" loading="lazy" width="80" height="45">
+        <a href="/game/hamster-pop/" class="related-card" title="Hamster Pop">
+          <img src="https://img.gamepix.com/games/hamster-pop/icon/hamster-pop.png?w=105" alt="Hamster Pop" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Monster Block Game</div>
-            <div class="related-card-meta">⭐ 4.8 · 321Rb</div>
+            <div class="related-card-title">Hamster Pop</div>
+            <div class="related-card-meta">⭐ 4.1 · 142Rb</div>
           </div>
         </a>
-        <a href="/game/real-parking/" class="related-card" title="Real Parking">
-          <img src="https://img.gamepix.com/games/real-parking/icon/real-parking.png?w=105" alt="Real Parking" loading="lazy" width="80" height="45">
+        <a href="/game/bff-math-class/" class="related-card" title="BFF Math Class">
+          <img src="https://img.gamepix.com/games/bff-math-class/icon/bff-math-class.png?w=105" alt="BFF Math Class" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Real Parking</div>
-            <div class="related-card-meta">⭐ 4 · 724Rb</div>
+            <div class="related-card-title">BFF Math Class</div>
+            <div class="related-card-meta">⭐ 4.8 · 420Rb</div>
           </div>
         </a>
-        <a href="/game/candy-rush/" class="related-card" title="Candy Rush Clicker">
-          <img src="https://img.gamepix.com/games/candy-rush/icon/candy-rush.png?w=105" alt="Candy Rush Clicker" loading="lazy" width="80" height="45">
+        <a href="/game/tank-war/" class="related-card" title="Tank War">
+          <img src="https://img.gamepix.com/games/tank-war/icon/tank-war.png?w=105" alt="Tank War" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Candy Rush Clicker</div>
-            <div class="related-card-meta">⭐ 4.5 · 593Rb</div>
+            <div class="related-card-title">Tank War</div>
+            <div class="related-card-meta">⭐ 4.4 · 769Rb</div>
           </div>
         </a>
-        <a href="/game/toilet-paper-hoarder/" class="related-card" title="Toilet Paper Hoarder">
-          <img src="https://img.gamepix.com/games/toilet-paper-hoarder/icon/toilet-paper-hoarder.png?w=105" alt="Toilet Paper Hoarder" loading="lazy" width="80" height="45">
+        <a href="/game/anime-girl-fashion-make-up/" class="related-card" title="Anime Girl Fashion Make Up">
+          <img src="https://img.gamepix.com/games/anime-girl-fashion-make-up/icon/anime-girl-fashion-make-up.png?w=105" alt="Anime Girl Fashion Make Up" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Toilet Paper Hoarder</div>
-            <div class="related-card-meta">⭐ 4.3 · 871Rb</div>
+            <div class="related-card-title">Anime Girl Fashion Make Up</div>
+            <div class="related-card-meta">⭐ 4.1 · 834Rb</div>
           </div>
         </a>
-        <a href="/game/mahjong-fish-world/" class="related-card" title="Mah Jong Fish World">
-          <img src="https://img.gamepix.com/games/mahjong-fish-world/icon/mahjong-fish-world.png?w=105" alt="Mah Jong Fish World" loading="lazy" width="80" height="45">
+        <a href="/game/obby-modes-online-mini-games/" class="related-card" title="Obby Modes! Online Mini-Games">
+          <img src="https://img.gamepix.com/games/obby-modes-online-mini-games/icon/obby-modes-online-mini-games.png?w=105" alt="Obby Modes! Online Mini-Games" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mah Jong Fish World</div>
-            <div class="related-card-meta">⭐ 4.1 · 501Rb</div>
+            <div class="related-card-title">Obby Modes! Online Mini-Games</div>
+            <div class="related-card-meta">⭐ 4.3 · 698Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

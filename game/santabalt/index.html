@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Santabalt</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/cosmic-pixel-clicker/" class="related-card" title="Cosmic Pixel Clicker">
-          <img src="https://img.gamepix.com/games/cosmic-pixel-clicker/icon/cosmic-pixel-clicker.png?w=105" alt="Cosmic Pixel Clicker" loading="lazy" width="80" height="45">
+        <a href="/game/glow-blocks/" class="related-card" title="Glow Blocks">
+          <img src="https://img.gamepix.com/games/glow-blocks/icon/glow-blocks.png?w=105" alt="Glow Blocks" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cosmic Pixel Clicker</div>
-            <div class="related-card-meta">⭐ 4.5 · 195Rb</div>
+            <div class="related-card-title">Glow Blocks</div>
+            <div class="related-card-meta">⭐ 4.4 · 829Rb</div>
           </div>
         </a>
-        <a href="/game/snaklaus/" class="related-card" title="Snaklaus">
-          <img src="https://img.gamepix.com/games/snaklaus/icon/snaklaus.png?w=105" alt="Snaklaus" loading="lazy" width="80" height="45">
+        <a href="/game/princess-halloween-makeup-halffaces-tutorial/" class="related-card" title="Princess Halloween Makeup HalfFaces Tutorial">
+          <img src="https://img.gamepix.com/games/princess-halloween-makeup-halffaces-tutorial/icon/princess-halloween-makeup-halffaces-tutorial.png?w=105" alt="Princess Halloween Makeup HalfFaces Tutorial" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Snaklaus</div>
-            <div class="related-card-meta">⭐ 4.2 · 366Rb</div>
+            <div class="related-card-title">Princess Halloween Makeup HalfFaces Tutorial</div>
+            <div class="related-card-meta">⭐ 4.8 · 836Rb</div>
           </div>
         </a>
-        <a href="/game/funny-shooter-destroy-all-enemies/" class="related-card" title="Funny Shooter - Destroy all enemies">
-          <img src="https://img.gamepix.com/games/funny-shooter-destroy-all-enemies/icon/funny-shooter-destroy-all-enemies.png?w=105" alt="Funny Shooter - Destroy all enemies" loading="lazy" width="80" height="45">
+        <a href="/game/flapcat-christmas/" class="related-card" title="FlapCat Christmas">
+          <img src="https://img.gamepix.com/games/flapcat-christmas/icon/flapcat-christmas.png?w=105" alt="FlapCat Christmas" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Funny Shooter - Destroy all enemies</div>
-            <div class="related-card-meta">⭐ 4.8 · 299Rb</div>
+            <div class="related-card-title">FlapCat Christmas</div>
+            <div class="related-card-meta">⭐ 4.2 · 999Rb</div>
           </div>
         </a>
-        <a href="/game/tennis-clash/" class="related-card" title="Tennis Clash">
-          <img src="https://img.gamepix.com/games/tennis-clash/icon/tennis-clash.png?w=105" alt="Tennis Clash" loading="lazy" width="80" height="45">
+        <a href="/game/rolling-gravity-sky-ball/" class="related-card" title="Rolling Gravity Sky Ball">
+          <img src="https://img.gamepix.com/games/rolling-gravity-sky-ball/icon/rolling-gravity-sky-ball.png?w=105" alt="Rolling Gravity Sky Ball" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tennis Clash</div>
-            <div class="related-card-meta">⭐ 4 · 652Rb</div>
+            <div class="related-card-title">Rolling Gravity Sky Ball</div>
+            <div class="related-card-meta">⭐ 4.2 · 571Rb</div>
           </div>
         </a>
-        <a href="/game/iron-mom/" class="related-card" title="Iron Mom">
-          <img src="https://img.gamepix.com/games/iron-mom/icon/iron-mom.png?w=105" alt="Iron Mom" loading="lazy" width="80" height="45">
+        <a href="/game/funny-rescue-carpenter/" class="related-card" title="Funny Rescue Carpenter">
+          <img src="https://img.gamepix.com/games/funny-rescue-carpenter/icon/funny-rescue-carpenter.png?w=105" alt="Funny Rescue Carpenter" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Iron Mom</div>
-            <div class="related-card-meta">⭐ 4 · 794Rb</div>
+            <div class="related-card-title">Funny Rescue Carpenter</div>
+            <div class="related-card-meta">⭐ 4.1 · 885Rb</div>
           </div>
         </a>
-        <a href="/game/happy-save-puzzle/" class="related-card" title="Happy Save Puzzle">
-          <img src="https://img.gamepix.com/games/happy-save-puzzle/icon/happy-save-puzzle.png?w=105" alt="Happy Save Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/fmf-music-battle/" class="related-card" title="FNF Music Battle 3D">
+          <img src="https://img.gamepix.com/games/fmf-music-battle/icon/fmf-music-battle.png?w=105" alt="FNF Music Battle 3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Happy Save Puzzle</div>
-            <div class="related-card-meta">⭐ 4.4 · 518Rb</div>
+            <div class="related-card-title">FNF Music Battle 3D</div>
+            <div class="related-card-meta">⭐ 4.5 · 649Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

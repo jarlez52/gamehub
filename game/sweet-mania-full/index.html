@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">The Cube</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/mahjong-slide-merge/" class="related-card" title="Mahjong Slide & Merge">
-          <img src="https://img.gamepix.com/games/mahjong-slide-merge/icon/mahjong-slide-merge.png?w=105" alt="Mahjong Slide & Merge" loading="lazy" width="80" height="45">
+        <a href="/game/cut-for-cat/" class="related-card" title="Cut for Cat">
+          <img src="https://img.gamepix.com/games/cut-for-cat/icon/cut-for-cat.png?w=105" alt="Cut for Cat" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mahjong Slide & Merge</div>
-            <div class="related-card-meta">⭐ 4.1 · 963Rb</div>
+            <div class="related-card-title">Cut for Cat</div>
+            <div class="related-card-meta">⭐ 4.2 · 859Rb</div>
           </div>
         </a>
-        <a href="/game/dominoes-online-classic-game/" class="related-card" title="Dominoes Online Classic Game">
-          <img src="https://img.gamepix.com/games/dominoes-online-classic-game/icon/dominoes-online-classic-game.png?w=105" alt="Dominoes Online Classic Game" loading="lazy" width="80" height="45">
+        <a href="/game/swipescape/" class="related-card" title="Swipescape">
+          <img src="https://img.gamepix.com/games/swipescape/icon/swipescape.png?w=105" alt="Swipescape" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dominoes Online Classic Game</div>
-            <div class="related-card-meta">⭐ 4.1 · 877Rb</div>
+            <div class="related-card-title">Swipescape</div>
+            <div class="related-card-meta">⭐ 4.7 · 156Rb</div>
           </div>
         </a>
-        <a href="/game/motorcycles-photo-image-scramble/" class="related-card" title="Motorcycles Photo Image Scramble">
-          <img src="https://img.gamepix.com/games/motorcycles-photo-image-scramble/icon/motorcycles-photo-image-scramble.png?w=105" alt="Motorcycles Photo Image Scramble" loading="lazy" width="80" height="45">
+        <a href="/game/words-spy/" class="related-card" title="Words Spy Human body">
+          <img src="https://img.gamepix.com/games/words-spy/icon/words-spy.png?w=105" alt="Words Spy Human body" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Motorcycles Photo Image Scramble</div>
-            <div class="related-card-meta">⭐ 4.8 · 854Rb</div>
+            <div class="related-card-title">Words Spy Human body</div>
+            <div class="related-card-meta">⭐ 4.3 · 717Rb</div>
           </div>
         </a>
-        <a href="/game/the-last-piece-puzzle-game/" class="related-card" title="The Last Piece">
-          <img src="https://img.gamepix.com/games/the-last-piece-puzzle-game/icon/the-last-piece-puzzle-game.png?w=105" alt="The Last Piece" loading="lazy" width="80" height="45">
+        <a href="/game/merge-fruits-fold-the-watermelon-original/" class="related-card" title="Merge Fruits Fold the Watermelon Original!">
+          <img src="https://img.gamepix.com/games/merge-fruits-fold-the-watermelon-original/icon/merge-fruits-fold-the-watermelon-original.png?w=105" alt="Merge Fruits Fold the Watermelon Original!" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">The Last Piece</div>
-            <div class="related-card-meta">⭐ 4.7 · 133Rb</div>
+            <div class="related-card-title">Merge Fruits Fold the Watermelon Original!</div>
+            <div class="related-card-meta">⭐ 4.3 · 644Rb</div>
           </div>
         </a>
-        <a href="/game/2048-land-vehicles/" class="related-card" title="2048 Land Vehicles">
-          <img src="https://img.gamepix.com/games/2048-land-vehicles/icon/2048-land-vehicles.png?w=105" alt="2048 Land Vehicles" loading="lazy" width="80" height="45">
+        <a href="/game/spellebrew/" class="related-card" title="Spellebrew">
+          <img src="https://img.gamepix.com/games/spellebrew/icon/spellebrew.png?w=105" alt="Spellebrew" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">2048 Land Vehicles</div>
-            <div class="related-card-meta">⭐ 4.6 · 744Rb</div>
+            <div class="related-card-title">Spellebrew</div>
+            <div class="related-card-meta">⭐ 4.4 · 948Rb</div>
           </div>
         </a>
-        <a href="/game/mirror-shift-surreal-puzzle-game/" class="related-card" title="Mirror Shift Surreal Puzzle Game">
-          <img src="https://img.gamepix.com/games/mirror-shift-surreal-puzzle-game/icon/mirror-shift-surreal-puzzle-game.png?w=105" alt="Mirror Shift Surreal Puzzle Game" loading="lazy" width="80" height="45">
+        <a href="/game/deep-space-deliveries/" class="related-card" title="Deep Space Deliveries">
+          <img src="https://img.gamepix.com/games/deep-space-deliveries/icon/deep-space-deliveries.png?w=105" alt="Deep Space Deliveries" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mirror Shift Surreal Puzzle Game</div>
-            <div class="related-card-meta">⭐ 4.5 · 212Rb</div>
+            <div class="related-card-title">Deep Space Deliveries</div>
+            <div class="related-card-meta">⭐ 4.3 · 940Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

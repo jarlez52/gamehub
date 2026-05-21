@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Walkers Attack</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/spekerman-revenge/" class="related-card" title="Speakerman Revenge">
-          <img src="https://img.gamepix.com/games/spekerman-revenge/icon/spekerman-revenge.png?w=105" alt="Speakerman Revenge" loading="lazy" width="80" height="45">
+        <a href="/game/brawl-bros-squad/" class="related-card" title="Brawl Bros Squad">
+          <img src="https://img.gamepix.com/games/brawl-bros-squad/icon/brawl-bros-squad.png?w=105" alt="Brawl Bros Squad" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Speakerman Revenge</div>
-            <div class="related-card-meta">⭐ 4.3 · 987Rb</div>
+            <div class="related-card-title">Brawl Bros Squad</div>
+            <div class="related-card-meta">⭐ 4.8 · 838Rb</div>
           </div>
         </a>
-        <a href="/game/zombotron-re-boot/" class="related-card" title="Zombotron Re-Boot">
-          <img src="https://img.gamepix.com/games/zombotron-re-boot/icon/zombotron-re-boot.png?w=105" alt="Zombotron Re-Boot" loading="lazy" width="80" height="45">
+        <a href="/game/meera-quest/" class="related-card" title="Meera Quest">
+          <img src="https://img.gamepix.com/games/meera-quest/icon/meera-quest.png?w=105" alt="Meera Quest" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Zombotron Re-Boot</div>
-            <div class="related-card-meta">⭐ 4.3 · 129Rb</div>
+            <div class="related-card-title">Meera Quest</div>
+            <div class="related-card-meta">⭐ 4.1 · 848Rb</div>
           </div>
         </a>
-        <a href="/game/fairy-falls/" class="related-card" title=" Fairy Falls">
-          <img src="https://img.gamepix.com/games/fairy-falls/icon/fairy-falls.png?w=105" alt=" Fairy Falls" loading="lazy" width="80" height="45">
+        <a href="/game/warzone-strike/" class="related-card" title="Warzone Strike">
+          <img src="https://img.gamepix.com/games/warzone-strike/icon/warzone-strike.png?w=105" alt="Warzone Strike" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title"> Fairy Falls</div>
-            <div class="related-card-meta">⭐ 4.4 · 373Rb</div>
+            <div class="related-card-title">Warzone Strike</div>
+            <div class="related-card-meta">⭐ 4.4 · 279Rb</div>
           </div>
         </a>
-        <a href="/game/mission-to-moon-online-game/" class="related-card" title="Mission To Moon Online Game">
-          <img src="https://img.gamepix.com/games/mission-to-moon-online-game/icon/mission-to-moon-online-game.png?w=105" alt="Mission To Moon Online Game" loading="lazy" width="80" height="45">
+        <a href="/game/dino-hide-n-shoot/" class="related-card" title="Dino Hide N Shoot">
+          <img src="https://img.gamepix.com/games/dino-hide-n-shoot/icon/dino-hide-n-shoot.png?w=105" alt="Dino Hide N Shoot" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mission To Moon Online Game</div>
-            <div class="related-card-meta">⭐ 4.7 · 452Rb</div>
+            <div class="related-card-title">Dino Hide N Shoot</div>
+            <div class="related-card-meta">⭐ 4.6 · 694Rb</div>
           </div>
         </a>
-        <a href="/game/the-last-fox/" class="related-card" title="The Last Fox">
-          <img src="https://img.gamepix.com/games/the-last-fox/icon/the-last-fox.png?w=105" alt="The Last Fox" loading="lazy" width="80" height="45">
+        <a href="/game/shooting-balls/" class="related-card" title="Shooting Balls">
+          <img src="https://img.gamepix.com/games/shooting-balls/icon/shooting-balls.png?w=105" alt="Shooting Balls" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">The Last Fox</div>
-            <div class="related-card-meta">⭐ 4.7 · 328Rb</div>
+            <div class="related-card-title">Shooting Balls</div>
+            <div class="related-card-meta">⭐ 4.6 · 708Rb</div>
           </div>
         </a>
-        <a href="/game/cowboy-duel-ghost/" class="related-card" title="Cowboy Duel Ghost">
-          <img src="https://img.gamepix.com/games/cowboy-duel-ghost/icon/cowboy-duel-ghost.png?w=105" alt="Cowboy Duel Ghost" loading="lazy" width="80" height="45">
+        <a href="/game/brawlers-arena-battle-stars/" class="related-card" title="Brawlers Arena Battle Stars">
+          <img src="https://img.gamepix.com/games/brawlers-arena-battle-stars/icon/brawlers-arena-battle-stars.png?w=105" alt="Brawlers Arena Battle Stars" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cowboy Duel Ghost</div>
-            <div class="related-card-meta">⭐ 4 · 856Rb</div>
+            <div class="related-card-title">Brawlers Arena Battle Stars</div>
+            <div class="related-card-meta">⭐ 4.3 · 315Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

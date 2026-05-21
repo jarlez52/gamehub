@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Push Puzzle Rescue Adventure</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/rage/" class="related-card" title="Rage">
-          <img src="https://img.gamepix.com/games/rage/icon/rage.png?w=105" alt="Rage" loading="lazy" width="80" height="45">
+        <a href="/game/mangavania/" class="related-card" title="Mangavania">
+          <img src="https://img.gamepix.com/games/mangavania/icon/mangavania.png?w=105" alt="Mangavania" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Rage</div>
-            <div class="related-card-meta">⭐ 4.3 · 328Rb</div>
+            <div class="related-card-title">Mangavania</div>
+            <div class="related-card-meta">⭐ 4.4 · 314Rb</div>
           </div>
         </a>
-        <a href="/game/bhulu-cats/" class="related-card" title="Bhulu Cats">
-          <img src="https://img.gamepix.com/games/bhulu-cats/icon/bhulu-cats.png?w=105" alt="Bhulu Cats" loading="lazy" width="80" height="45">
+        <a href="/game/chamber-challenge/" class="related-card" title="Chamber Challenge">
+          <img src="https://img.gamepix.com/games/chamber-challenge/icon/chamber-challenge.png?w=105" alt="Chamber Challenge" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bhulu Cats</div>
-            <div class="related-card-meta">⭐ 4.1 · 112Rb</div>
+            <div class="related-card-title">Chamber Challenge</div>
+            <div class="related-card-meta">⭐ 4.1 · 165Rb</div>
           </div>
         </a>
-        <a href="/game/dont-fall-again/" class="related-card" title="Don't Fall Again">
-          <img src="https://img.gamepix.com/games/dont-fall-again/icon/dont-fall-again.png?w=105" alt="Don't Fall Again" loading="lazy" width="80" height="45">
+        <a href="/game/ringo-starfish/" class="related-card" title="Ringo Starfish">
+          <img src="https://img.gamepix.com/games/ringo-starfish/icon/ringo-starfish.png?w=105" alt="Ringo Starfish" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Don't Fall Again</div>
-            <div class="related-card-meta">⭐ 4 · 903Rb</div>
+            <div class="related-card-title">Ringo Starfish</div>
+            <div class="related-card-meta">⭐ 4.5 · 221Rb</div>
           </div>
         </a>
-        <a href="/game/cars-vs-zombies/" class="related-card" title="Cars vs Zombies">
-          <img src="https://img.gamepix.com/games/cars-vs-zombies/icon/cars-vs-zombies.png?w=105" alt="Cars vs Zombies" loading="lazy" width="80" height="45">
+        <a href="/game/kunumeo-battle-online/" class="related-card" title="Kunumeo Battle Online">
+          <img src="https://img.gamepix.com/games/kunumeo-battle-online/icon/kunumeo-battle-online.png?w=105" alt="Kunumeo Battle Online" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cars vs Zombies</div>
-            <div class="related-card-meta">⭐ 4.6 · 500Rb</div>
+            <div class="related-card-title">Kunumeo Battle Online</div>
+            <div class="related-card-meta">⭐ 4.6 · 634Rb</div>
           </div>
         </a>
-        <a href="/game/revoxel-shooter/" class="related-card" title="Revoxel 3D - Voxel RPG Shooter">
-          <img src="https://img.gamepix.com/games/revoxel-shooter/icon/revoxel-shooter.png?w=105" alt="Revoxel 3D - Voxel RPG Shooter" loading="lazy" width="80" height="45">
+        <a href="/game/handless-millionaire/" class="related-card" title="Handless Millionaire">
+          <img src="https://img.gamepix.com/games/handless-millionaire/icon/handless-millionaire.png?w=105" alt="Handless Millionaire" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Revoxel 3D - Voxel RPG Shooter</div>
-            <div class="related-card-meta">⭐ 4.4 · 591Rb</div>
+            <div class="related-card-title">Handless Millionaire</div>
+            <div class="related-card-meta">⭐ 4.4 · 822Rb</div>
           </div>
         </a>
-        <a href="/game/noob-fuse/" class="related-card" title="Noob Fuse">
-          <img src="https://img.gamepix.com/games/noob-fuse/icon/noob-fuse.png?w=105" alt="Noob Fuse" loading="lazy" width="80" height="45">
+        <a href="/game/red-stickman-vs-monster-school/" class="related-card" title="Red Stickman vs Monster School">
+          <img src="https://img.gamepix.com/games/red-stickman-vs-monster-school/icon/red-stickman-vs-monster-school.png?w=105" alt="Red Stickman vs Monster School" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Noob Fuse</div>
-            <div class="related-card-meta">⭐ 4.8 · 425Rb</div>
+            <div class="related-card-title">Red Stickman vs Monster School</div>
+            <div class="related-card-meta">⭐ 4.1 · 460Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

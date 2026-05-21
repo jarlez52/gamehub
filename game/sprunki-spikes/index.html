@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Sprunki Spikes</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/balloon-blast/" class="related-card" title="Balloon Blast">
-          <img src="https://img.gamepix.com/games/balloon-blast/icon/balloon-blast.png?w=105" alt="Balloon Blast" loading="lazy" width="80" height="45">
+        <a href="/game/physics-knife/" class="related-card" title="Physics Knife">
+          <img src="https://img.gamepix.com/games/physics-knife/icon/physics-knife.png?w=105" alt="Physics Knife" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Balloon Blast</div>
-            <div class="related-card-meta">⭐ 4.3 · 192Rb</div>
+            <div class="related-card-title">Physics Knife</div>
+            <div class="related-card-meta">⭐ 4.3 · 336Rb</div>
           </div>
         </a>
-        <a href="/game/jetpack-heroes/" class="related-card" title="Jetpack Heroes">
-          <img src="https://img.gamepix.com/games/jetpack-heroes/icon/jetpack-heroes.png?w=105" alt="Jetpack Heroes" loading="lazy" width="80" height="45">
+        <a href="/game/kids-educations-abc/" class="related-card" title="Kids Educations ABC">
+          <img src="https://img.gamepix.com/games/kids-educations-abc/icon/kids-educations-abc.png?w=105" alt="Kids Educations ABC" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jetpack Heroes</div>
-            <div class="related-card-meta">⭐ 4.1 · 271Rb</div>
+            <div class="related-card-title">Kids Educations ABC</div>
+            <div class="related-card-meta">⭐ 4.7 · 370Rb</div>
           </div>
         </a>
-        <a href="/game/color-with-santa/" class="related-card" title="Color with Santa">
-          <img src="https://img.gamepix.com/games/color-with-santa/icon/color-with-santa.png?w=105" alt="Color with Santa" loading="lazy" width="80" height="45">
+        <a href="/game/funny-shooter-destroy-all-enemies/" class="related-card" title="Funny Shooter - Destroy all enemies">
+          <img src="https://img.gamepix.com/games/funny-shooter-destroy-all-enemies/icon/funny-shooter-destroy-all-enemies.png?w=105" alt="Funny Shooter - Destroy all enemies" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Color with Santa</div>
-            <div class="related-card-meta">⭐ 4.5 · 178Rb</div>
+            <div class="related-card-title">Funny Shooter - Destroy all enemies</div>
+            <div class="related-card-meta">⭐ 4.8 · 299Rb</div>
           </div>
         </a>
-        <a href="/game/sliding-puzzle-the-15-puzzle/" class="related-card" title="Sliding Puzzle - The 15 Puzzle">
-          <img src="https://img.gamepix.com/games/sliding-puzzle-the-15-puzzle/icon/sliding-puzzle-the-15-puzzle.png?w=105" alt="Sliding Puzzle - The 15 Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/o-m-i-n-o/" class="related-card" title="O.M.I.N.O">
+          <img src="https://img.gamepix.com/games/o-m-i-n-o/icon/o-m-i-n-o.png?w=105" alt="O.M.I.N.O" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sliding Puzzle - The 15 Puzzle</div>
-            <div class="related-card-meta">⭐ 4.8 · 674Rb</div>
+            <div class="related-card-title">O.M.I.N.O</div>
+            <div class="related-card-meta">⭐ 4.1 · 391Rb</div>
           </div>
         </a>
-        <a href="/game/bbq-stack-run/" class="related-card" title="BBQ Stack Run">
-          <img src="https://img.gamepix.com/games/bbq-stack-run/icon/bbq-stack-run.png?w=105" alt="BBQ Stack Run" loading="lazy" width="80" height="45">
+        <a href="/game/injection-invasion/" class="related-card" title="Injection Invasion">
+          <img src="https://img.gamepix.com/games/injection-invasion/icon/injection-invasion.png?w=105" alt="Injection Invasion" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">BBQ Stack Run</div>
-            <div class="related-card-meta">⭐ 4.5 · 873Rb</div>
+            <div class="related-card-title">Injection Invasion</div>
+            <div class="related-card-meta">⭐ 4 · 416Rb</div>
           </div>
         </a>
-        <a href="/game/rainbow-insta-girls/" class="related-card" title="Rainbow Insta Girls">
-          <img src="https://img.gamepix.com/games/rainbow-insta-girls/icon/rainbow-insta-girls.png?w=105" alt="Rainbow Insta Girls" loading="lazy" width="80" height="45">
+        <a href="/game/car-crash-test/" class="related-card" title="Car Crash Test">
+          <img src="https://img.gamepix.com/games/car-crash-test/icon/car-crash-test.png?w=105" alt="Car Crash Test" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Rainbow Insta Girls</div>
-            <div class="related-card-meta">⭐ 4.9 · 904Rb</div>
+            <div class="related-card-title">Car Crash Test</div>
+            <div class="related-card-meta">⭐ 4.4 · 592Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

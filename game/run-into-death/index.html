@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Run Into Death</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/chaos-soldier/" class="related-card" title="Chaos Soldier">
-          <img src="https://img.gamepix.com/games/chaos-soldier/icon/chaos-soldier.png?w=105" alt="Chaos Soldier" loading="lazy" width="80" height="45">
+        <a href="/game/gem-clicker/" class="related-card" title="Gem Clicker">
+          <img src="https://img.gamepix.com/games/gem-clicker/icon/gem-clicker.png?w=105" alt="Gem Clicker" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Chaos Soldier</div>
-            <div class="related-card-meta">⭐ 4.3 · 899Rb</div>
+            <div class="related-card-title">Gem Clicker</div>
+            <div class="related-card-meta">⭐ 4 · 847Rb</div>
           </div>
         </a>
-        <a href="/game/archer-hero/" class="related-card" title="Archer Hero">
-          <img src="https://img.gamepix.com/games/archer-hero/icon/archer-hero.png?w=105" alt="Archer Hero" loading="lazy" width="80" height="45">
+        <a href="/game/next-level-balls/" class="related-card" title="Next Level Balls">
+          <img src="https://img.gamepix.com/games/next-level-balls/icon/next-level-balls.png?w=105" alt="Next Level Balls" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Archer Hero</div>
-            <div class="related-card-meta">⭐ 4.4 · 939Rb</div>
+            <div class="related-card-title">Next Level Balls</div>
+            <div class="related-card-meta">⭐ 4.4 · 971Rb</div>
           </div>
         </a>
-        <a href="/game/super-spy-mario-vs-skibidi-toilet/" class="related-card" title="Rainbow Friends VS Skibidi Toilet">
-          <img src="https://img.gamepix.com/games/super-spy-mario-vs-skibidi-toilet/icon/super-spy-mario-vs-skibidi-toilet.png?w=105" alt="Rainbow Friends VS Skibidi Toilet" loading="lazy" width="80" height="45">
+        <a href="/game/007-cameraman-enemy-skibidi/" class="related-card" title="007 Cameraman Enemy Skibidi">
+          <img src="https://img.gamepix.com/games/007-cameraman-enemy-skibidi/icon/007-cameraman-enemy-skibidi.png?w=105" alt="007 Cameraman Enemy Skibidi" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Rainbow Friends VS Skibidi Toilet</div>
-            <div class="related-card-meta">⭐ 4.6 · 882Rb</div>
+            <div class="related-card-title">007 Cameraman Enemy Skibidi</div>
+            <div class="related-card-meta">⭐ 4 · 883Rb</div>
           </div>
         </a>
-        <a href="/game/bbq-stack-run/" class="related-card" title="BBQ Stack Run">
-          <img src="https://img.gamepix.com/games/bbq-stack-run/icon/bbq-stack-run.png?w=105" alt="BBQ Stack Run" loading="lazy" width="80" height="45">
+        <a href="/game/handless-millionaire/" class="related-card" title="Handless Millionaire">
+          <img src="https://img.gamepix.com/games/handless-millionaire/icon/handless-millionaire.png?w=105" alt="Handless Millionaire" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">BBQ Stack Run</div>
-            <div class="related-card-meta">⭐ 4.5 · 873Rb</div>
+            <div class="related-card-title">Handless Millionaire</div>
+            <div class="related-card-meta">⭐ 4.4 · 822Rb</div>
           </div>
         </a>
-        <a href="/game/huggy-mix-sprunki-music-box/" class="related-card" title="Huggy Mix Sprunki Music Box">
-          <img src="https://img.gamepix.com/games/huggy-mix-sprunki-music-box/icon/huggy-mix-sprunki-music-box.png?w=105" alt="Huggy Mix Sprunki Music Box" loading="lazy" width="80" height="45">
+        <a href="/game/reindeer-escape/" class="related-card" title="Reindeer Escape">
+          <img src="https://img.gamepix.com/games/reindeer-escape/icon/reindeer-escape.png?w=105" alt="Reindeer Escape" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Huggy Mix Sprunki Music Box</div>
-            <div class="related-card-meta">⭐ 4.1 · 235Rb</div>
+            <div class="related-card-title">Reindeer Escape</div>
+            <div class="related-card-meta">⭐ 4.5 · 455Rb</div>
           </div>
         </a>
-        <a href="/game/skibidi-laser-kill/" class="related-card" title="Skibidi Laser Kill">
-          <img src="https://img.gamepix.com/games/skibidi-laser-kill/icon/skibidi-laser-kill.png?w=105" alt="Skibidi Laser Kill" loading="lazy" width="80" height="45">
+        <a href="/game/gem-run-gem-stack/" class="related-card" title="Gem Run Gem Stack">
+          <img src="https://img.gamepix.com/games/gem-run-gem-stack/icon/gem-run-gem-stack.png?w=105" alt="Gem Run Gem Stack" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Skibidi Laser Kill</div>
-            <div class="related-card-meta">⭐ 4.4 · 171Rb</div>
+            <div class="related-card-title">Gem Run Gem Stack</div>
+            <div class="related-card-meta">⭐ 4.1 · 222Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

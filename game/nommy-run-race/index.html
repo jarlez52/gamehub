@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Nommy Run Race</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/oh-my-golf/" class="related-card" title="Oh My Golf">
-          <img src="https://img.gamepix.com/games/oh-my-golf/icon/oh-my-golf.png?w=105" alt="Oh My Golf" loading="lazy" width="80" height="45">
+        <a href="/game/sand-balls-falling/" class="related-card" title="Sand Balls Falling">
+          <img src="https://img.gamepix.com/games/sand-balls-falling/icon/sand-balls-falling.png?w=105" alt="Sand Balls Falling" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Oh My Golf</div>
-            <div class="related-card-meta">⭐ 4.3 · 393Rb</div>
+            <div class="related-card-title">Sand Balls Falling</div>
+            <div class="related-card-meta">⭐ 4.3 · 759Rb</div>
           </div>
         </a>
-        <a href="/game/word-league/" class="related-card" title="Word League">
-          <img src="https://img.gamepix.com/games/word-league/icon/word-league.png?w=105" alt="Word League" loading="lazy" width="80" height="45">
+        <a href="/game/mine/" class="related-card" title="Mine">
+          <img src="https://img.gamepix.com/games/mine/icon/mine.png?w=105" alt="Mine" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Word League</div>
-            <div class="related-card-meta">⭐ 4.8 · 258Rb</div>
+            <div class="related-card-title">Mine</div>
+            <div class="related-card-meta">⭐ 4.1 · 424Rb</div>
           </div>
         </a>
-        <a href="/game/ocean-memory-challenge/" class="related-card" title="Ocean Memory Challenge">
-          <img src="https://img.gamepix.com/games/ocean-memory-challenge/icon/ocean-memory-challenge.png?w=105" alt="Ocean Memory Challenge" loading="lazy" width="80" height="45">
+        <a href="/game/master-the-wild/" class="related-card" title="Master the Wild!">
+          <img src="https://img.gamepix.com/games/master-the-wild/icon/master-the-wild.png?w=105" alt="Master the Wild!" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ocean Memory Challenge</div>
-            <div class="related-card-meta">⭐ 4.7 · 667Rb</div>
+            <div class="related-card-title">Master the Wild!</div>
+            <div class="related-card-meta">⭐ 4.7 · 827Rb</div>
           </div>
         </a>
-        <a href="/game/jump-boy-jack/" class="related-card" title="Jump Boy Jack">
-          <img src="https://img.gamepix.com/games/jump-boy-jack/icon/jump-boy-jack.png?w=105" alt="Jump Boy Jack" loading="lazy" width="80" height="45">
+        <a href="/game/fire-truck-rescue-driving/" class="related-card" title="Fire Truck Rescue Driving">
+          <img src="https://img.gamepix.com/games/fire-truck-rescue-driving/icon/fire-truck-rescue-driving.png?w=105" alt="Fire Truck Rescue Driving" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jump Boy Jack</div>
-            <div class="related-card-meta">⭐ 4.1 · 738Rb</div>
+            <div class="related-card-title">Fire Truck Rescue Driving</div>
+            <div class="related-card-meta">⭐ 4.8 · 748Rb</div>
           </div>
         </a>
-        <a href="/game/rock-paper-scissors-by-ex/" class="related-card" title="Rock Paper Scissors">
-          <img src="https://img.gamepix.com/games/rock-paper-scissors-by-ex/icon/rock-paper-scissors-by-ex.png?w=105" alt="Rock Paper Scissors" loading="lazy" width="80" height="45">
+        <a href="/game/the-bomb/" class="related-card" title="The Bomb">
+          <img src="https://img.gamepix.com/games/the-bomb/icon/the-bomb.png?w=105" alt="The Bomb" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Rock Paper Scissors</div>
-            <div class="related-card-meta">⭐ 4.2 · 994Rb</div>
+            <div class="related-card-title">The Bomb</div>
+            <div class="related-card-meta">⭐ 4.5 · 695Rb</div>
           </div>
         </a>
-        <a href="/game/higgins-s-adventure-island/" class="related-card" title="Higgins' Adventure Island">
-          <img src="https://img.gamepix.com/games/higgins-s-adventure-island/icon/higgins-s-adventure-island.png?w=105" alt="Higgins' Adventure Island" loading="lazy" width="80" height="45">
+        <a href="/game/warriors-vs-monster/" class="related-card" title="Warriors VS Monster">
+          <img src="https://img.gamepix.com/games/warriors-vs-monster/icon/warriors-vs-monster.png?w=105" alt="Warriors VS Monster" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Higgins' Adventure Island</div>
-            <div class="related-card-meta">⭐ 4.3 · 940Rb</div>
+            <div class="related-card-title">Warriors VS Monster</div>
+            <div class="related-card-meta">⭐ 4.1 · 723Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

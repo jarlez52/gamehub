@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Traders Trading</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/connect-letters/" class="related-card" title="Connect Letters">
-          <img src="https://img.gamepix.com/games/connect-letters/icon/connect-letters.png?w=105" alt="Connect Letters" loading="lazy" width="80" height="45">
+        <a href="/game/turn-arcade/" class="related-card" title="Turn Arcade">
+          <img src="https://img.gamepix.com/games/turn-arcade/icon/turn-arcade.png?w=105" alt="Turn Arcade" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Connect Letters</div>
-            <div class="related-card-meta">⭐ 4.4 · 674Rb</div>
+            <div class="related-card-title">Turn Arcade</div>
+            <div class="related-card-meta">⭐ 4.1 · 630Rb</div>
           </div>
         </a>
-        <a href="/game/hair-do-design-2/" class="related-card" title="Hair Do Design 2">
-          <img src="https://img.gamepix.com/games/hair-do-design-2/icon/hair-do-design-2.png?w=105" alt="Hair Do Design 2" loading="lazy" width="80" height="45">
+        <a href="/game/high-volley/" class="related-card" title="High Volley">
+          <img src="https://img.gamepix.com/games/high-volley/icon/high-volley.png?w=105" alt="High Volley" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Hair Do Design 2</div>
-            <div class="related-card-meta">⭐ 4.2 · 114Rb</div>
+            <div class="related-card-title">High Volley</div>
+            <div class="related-card-meta">⭐ 4.2 · 304Rb</div>
           </div>
         </a>
-        <a href="/game/save-the-earth-with-slaps/" class="related-card" title="Save The Earth With Slaps">
-          <img src="https://img.gamepix.com/games/save-the-earth-with-slaps/icon/save-the-earth-with-slaps.png?w=105" alt="Save The Earth With Slaps" loading="lazy" width="80" height="45">
+        <a href="/game/spinning-chip-clicker/" class="related-card" title="Spinning Chip Clicker">
+          <img src="https://img.gamepix.com/games/spinning-chip-clicker/icon/spinning-chip-clicker.png?w=105" alt="Spinning Chip Clicker" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Save The Earth With Slaps</div>
-            <div class="related-card-meta">⭐ 4 · 243Rb</div>
+            <div class="related-card-title">Spinning Chip Clicker</div>
+            <div class="related-card-meta">⭐ 4.7 · 921Rb</div>
           </div>
         </a>
-        <a href="/game/robot-bar-find-the-differences/" class="related-card" title="Robot Bar - Find the differences">
-          <img src="https://img.gamepix.com/games/robot-bar-find-the-differences/icon/robot-bar-find-the-differences.png?w=105" alt="Robot Bar - Find the differences" loading="lazy" width="80" height="45">
+        <a href="/game/feeding-fish/" class="related-card" title="Feeding Fish">
+          <img src="https://img.gamepix.com/games/feeding-fish/icon/feeding-fish.png?w=105" alt="Feeding Fish" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Robot Bar - Find the differences</div>
-            <div class="related-card-meta">⭐ 4.4 · 429Rb</div>
+            <div class="related-card-title">Feeding Fish</div>
+            <div class="related-card-meta">⭐ 4.6 · 690Rb</div>
           </div>
         </a>
-        <a href="/game/rundinorun/" class="related-card" title="Rundinorun">
-          <img src="https://img.gamepix.com/games/rundinorun/icon/rundinorun.png?w=105" alt="Rundinorun" loading="lazy" width="80" height="45">
+        <a href="/game/letter-h-alphabet-lore-jigsaw-victory/" class="related-card" title="Letter H Alphabet Lore Jigsaw Victory">
+          <img src="https://img.gamepix.com/games/letter-h-alphabet-lore-jigsaw-victory/icon/letter-h-alphabet-lore-jigsaw-victory.png?w=105" alt="Letter H Alphabet Lore Jigsaw Victory" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Rundinorun</div>
-            <div class="related-card-meta">⭐ 4.4 · 621Rb</div>
+            <div class="related-card-title">Letter H Alphabet Lore Jigsaw Victory</div>
+            <div class="related-card-meta">⭐ 4.2 · 795Rb</div>
           </div>
         </a>
-        <a href="/game/undine-match-the-pic/" class="related-card" title="Undine Match the Pic">
-          <img src="https://img.gamepix.com/games/undine-match-the-pic/icon/undine-match-the-pic.png?w=105" alt="Undine Match the Pic" loading="lazy" width="80" height="45">
+        <a href="/game/angelcore-princess/" class="related-card" title="Angelcore Princess">
+          <img src="https://img.gamepix.com/games/angelcore-princess/icon/angelcore-princess.png?w=105" alt="Angelcore Princess" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Undine Match the Pic</div>
-            <div class="related-card-meta">⭐ 4.1 · 661Rb</div>
+            <div class="related-card-title">Angelcore Princess</div>
+            <div class="related-card-meta">⭐ 4.1 · 188Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

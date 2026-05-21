@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Urban Echo</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/spaceball/" class="related-card" title="Ball Space Game">
-          <img src="https://img.gamepix.com/games/spaceball/icon/spaceball.png?w=105" alt="Ball Space Game" loading="lazy" width="80" height="45">
+        <a href="/game/zombie-treasure/" class="related-card" title="Zombie Treasure">
+          <img src="https://img.gamepix.com/games/zombie-treasure/icon/zombie-treasure.png?w=105" alt="Zombie Treasure" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ball Space Game</div>
-            <div class="related-card-meta">⭐ 4.7 · 223Rb</div>
+            <div class="related-card-title">Zombie Treasure</div>
+            <div class="related-card-meta">⭐ 4.5 · 303Rb</div>
           </div>
         </a>
-        <a href="/game/soldier-shooting/" class="related-card" title="Soldier Shooting">
-          <img src="https://img.gamepix.com/games/soldier-shooting/icon/soldier-shooting.png?w=105" alt="Soldier Shooting" loading="lazy" width="80" height="45">
+        <a href="/game/amazing-cube-adventure/" class="related-card" title="Amazing Cube Adventure">
+          <img src="https://img.gamepix.com/games/amazing-cube-adventure/icon/amazing-cube-adventure.png?w=105" alt="Amazing Cube Adventure" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Soldier Shooting</div>
-            <div class="related-card-meta">⭐ 4.4 · 564Rb</div>
+            <div class="related-card-title">Amazing Cube Adventure</div>
+            <div class="related-card-meta">⭐ 4.4 · 480Rb</div>
           </div>
         </a>
-        <a href="/game/joyful-ball-bounce-mushroom-magic-adventure/" class="related-card" title="Joyful Ball Bounce Mushroom Magic Adventure">
-          <img src="https://img.gamepix.com/games/joyful-ball-bounce-mushroom-magic-adventure/icon/joyful-ball-bounce-mushroom-magic-adventure.png?w=105" alt="Joyful Ball Bounce Mushroom Magic Adventure" loading="lazy" width="80" height="45">
+        <a href="/game/jurex-fps/" class="related-card" title="Jurex FPS">
+          <img src="https://img.gamepix.com/games/jurex-fps/icon/jurex-fps.png?w=105" alt="Jurex FPS" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Joyful Ball Bounce Mushroom Magic Adventure</div>
-            <div class="related-card-meta">⭐ 4.1 · 252Rb</div>
+            <div class="related-card-title">Jurex FPS</div>
+            <div class="related-card-meta">⭐ 4.8 · 488Rb</div>
           </div>
         </a>
-        <a href="/game/prison-master-escape-journey/" class="related-card" title="Prison Master Escape Journey">
-          <img src="https://img.gamepix.com/games/prison-master-escape-journey/icon/prison-master-escape-journey.png?w=105" alt="Prison Master Escape Journey" loading="lazy" width="80" height="45">
+        <a href="/game/special-strike/" class="related-card" title="Special Strike">
+          <img src="https://img.gamepix.com/games/special-strike/icon/special-strike.png?w=105" alt="Special Strike" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Prison Master Escape Journey</div>
-            <div class="related-card-meta">⭐ 4.7 · 883Rb</div>
+            <div class="related-card-title">Special Strike</div>
+            <div class="related-card-meta">⭐ 4.4 · 324Rb</div>
           </div>
         </a>
-        <a href="/game/retro-running-boxes/" class="related-card" title="Retro Running Boxes">
-          <img src="https://img.gamepix.com/games/retro-running-boxes/icon/retro-running-boxes.png?w=105" alt="Retro Running Boxes" loading="lazy" width="80" height="45">
+        <a href="/game/teddy-bear-zombies-machine-gun/" class="related-card" title="Teddy Bear Zombies Machine Gun">
+          <img src="https://img.gamepix.com/games/teddy-bear-zombies-machine-gun/icon/teddy-bear-zombies-machine-gun.png?w=105" alt="Teddy Bear Zombies Machine Gun" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Retro Running Boxes</div>
-            <div class="related-card-meta">⭐ 4.4 · 542Rb</div>
+            <div class="related-card-title">Teddy Bear Zombies Machine Gun</div>
+            <div class="related-card-meta">⭐ 4.3 · 301Rb</div>
           </div>
         </a>
-        <a href="/game/doge-s-battle-royale/" class="related-card" title="Doge's Battle Royale">
-          <img src="https://img.gamepix.com/games/doge-s-battle-royale/icon/doge-s-battle-royale.png?w=105" alt="Doge's Battle Royale" loading="lazy" width="80" height="45">
+        <a href="/game/cubic-blast/" class="related-card" title="Cubic Blast">
+          <img src="https://img.gamepix.com/games/cubic-blast/icon/cubic-blast.png?w=105" alt="Cubic Blast" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Doge's Battle Royale</div>
-            <div class="related-card-meta">⭐ 4.2 · 584Rb</div>
+            <div class="related-card-title">Cubic Blast</div>
+            <div class="related-card-meta">⭐ 4.2 · 940Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

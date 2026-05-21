@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Spider Love</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/eggquest/" class="related-card" title="EggQuest">
-          <img src="https://img.gamepix.com/games/eggquest/icon/eggquest.png?w=105" alt="EggQuest" loading="lazy" width="80" height="45">
+        <a href="/game/maze-racer/" class="related-card" title="MazeRuner">
+          <img src="https://img.gamepix.com/games/maze-racer/icon/maze-racer.png?w=105" alt="MazeRuner" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">EggQuest</div>
-            <div class="related-card-meta">⭐ 4.6 · 559Rb</div>
+            <div class="related-card-title">MazeRuner</div>
+            <div class="related-card-meta">⭐ 4.5 · 870Rb</div>
           </div>
         </a>
-        <a href="/game/sorting-women-s-things/" class="related-card" title="Sorting - Women's Things">
-          <img src="https://img.gamepix.com/games/sorting-women-s-things/icon/sorting-women-s-things.png?w=105" alt="Sorting - Women's Things" loading="lazy" width="80" height="45">
+        <a href="/game/ultimate-basketball-quiz/" class="related-card" title="Ultimate Basketball Quiz">
+          <img src="https://img.gamepix.com/games/ultimate-basketball-quiz/icon/ultimate-basketball-quiz.png?w=105" alt="Ultimate Basketball Quiz" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sorting - Women's Things</div>
-            <div class="related-card-meta">⭐ 4.4 · 202Rb</div>
+            <div class="related-card-title">Ultimate Basketball Quiz</div>
+            <div class="related-card-meta">⭐ 4.2 · 557Rb</div>
           </div>
         </a>
-        <a href="/game/2048-number-ball/" class="related-card" title="2048 Number Ball">
-          <img src="https://img.gamepix.com/games/2048-number-ball/icon/2048-number-ball.png?w=105" alt="2048 Number Ball" loading="lazy" width="80" height="45">
+        <a href="/game/the-last-piece-puzzle-game/" class="related-card" title="The Last Piece">
+          <img src="https://img.gamepix.com/games/the-last-piece-puzzle-game/icon/the-last-piece-puzzle-game.png?w=105" alt="The Last Piece" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">2048 Number Ball</div>
-            <div class="related-card-meta">⭐ 4.5 · 448Rb</div>
+            <div class="related-card-title">The Last Piece</div>
+            <div class="related-card-meta">⭐ 4.7 · 133Rb</div>
           </div>
         </a>
-        <a href="/game/2048-cube-run/" class="related-card" title="2048 Cube Run">
-          <img src="https://img.gamepix.com/games/2048-cube-run/icon/2048-cube-run.png?w=105" alt="2048 Cube Run" loading="lazy" width="80" height="45">
+        <a href="/game/power-all-2/" class="related-card" title="Power All 2">
+          <img src="https://img.gamepix.com/games/power-all-2/icon/power-all-2.png?w=105" alt="Power All 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">2048 Cube Run</div>
-            <div class="related-card-meta">⭐ 4.7 · 261Rb</div>
+            <div class="related-card-title">Power All 2</div>
+            <div class="related-card-meta">⭐ 4.2 · 589Rb</div>
           </div>
         </a>
-        <a href="/game/uno-online/" class="related-card" title="UNO Online">
-          <img src="https://img.gamepix.com/games/uno-online/icon/uno-online.png?w=105" alt="UNO Online" loading="lazy" width="80" height="45">
+        <a href="/game/classic-sudoku-daily-puzzles/" class="related-card" title="Classic Sudoku Daily Puzzles">
+          <img src="https://img.gamepix.com/games/classic-sudoku-daily-puzzles/icon/classic-sudoku-daily-puzzles.png?w=105" alt="Classic Sudoku Daily Puzzles" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">UNO Online</div>
-            <div class="related-card-meta">⭐ 4.6 · 703Rb</div>
+            <div class="related-card-title">Classic Sudoku Daily Puzzles</div>
+            <div class="related-card-meta">⭐ 4.3 · 411Rb</div>
           </div>
         </a>
-        <a href="/game/world-trivia/" class="related-card" title="World Trivia">
-          <img src="https://img.gamepix.com/games/world-trivia/icon/world-trivia.png?w=105" alt="World Trivia" loading="lazy" width="80" height="45">
+        <a href="/game/candy-blast-saga/" class="related-card" title="Candy Blast Saga">
+          <img src="https://img.gamepix.com/games/candy-blast-saga/icon/candy-blast-saga.png?w=105" alt="Candy Blast Saga" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">World Trivia</div>
-            <div class="related-card-meta">⭐ 4.1 · 123Rb</div>
+            <div class="related-card-title">Candy Blast Saga</div>
+            <div class="related-card-meta">⭐ 4.5 · 170Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

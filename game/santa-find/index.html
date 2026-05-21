@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Santa Find</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/ulimitate-maze/" class="related-card" title="Ultimate Maze">
-          <img src="https://img.gamepix.com/games/ulimitate-maze/icon/ulimitate-maze.png?w=105" alt="Ultimate Maze" loading="lazy" width="80" height="45">
+        <a href="/game/power-fill/" class="related-card" title="Power Fill">
+          <img src="https://img.gamepix.com/games/power-fill/icon/power-fill.png?w=105" alt="Power Fill" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ultimate Maze</div>
-            <div class="related-card-meta">⭐ 4.5 · 970Rb</div>
+            <div class="related-card-title">Power Fill</div>
+            <div class="related-card-meta">⭐ 4.1 · 409Rb</div>
           </div>
         </a>
-        <a href="/game/swipe-dots-puzzle/" class="related-card" title="Swipe Dots - Puzzle">
-          <img src="https://img.gamepix.com/games/swipe-dots-puzzle/icon/swipe-dots-puzzle.png?w=105" alt="Swipe Dots - Puzzle" loading="lazy" width="80" height="45">
+        <a href="/game/quiz-against-time/" class="related-card" title="Quiz Against Time">
+          <img src="https://img.gamepix.com/games/quiz-against-time/icon/quiz-against-time.png?w=105" alt="Quiz Against Time" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Swipe Dots - Puzzle</div>
-            <div class="related-card-meta">⭐ 4.9 · 636Rb</div>
+            <div class="related-card-title">Quiz Against Time</div>
+            <div class="related-card-meta">⭐ 4.3 · 862Rb</div>
           </div>
         </a>
-        <a href="/game/ouija-voices/" class="related-card" title="Ouija Voices">
-          <img src="https://img.gamepix.com/games/ouija-voices/icon/ouija-voices.png?w=105" alt="Ouija Voices" loading="lazy" width="80" height="45">
+        <a href="/game/play-4-in-a-row-brain-challenge/" class="related-card" title="Play 4 in a Row - Brain Challenge">
+          <img src="https://img.gamepix.com/games/play-4-in-a-row-brain-challenge/icon/play-4-in-a-row-brain-challenge.png?w=105" alt="Play 4 in a Row - Brain Challenge" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ouija Voices</div>
-            <div class="related-card-meta">⭐ 4.4 · 894Rb</div>
+            <div class="related-card-title">Play 4 in a Row - Brain Challenge</div>
+            <div class="related-card-meta">⭐ 4.3 · 753Rb</div>
           </div>
         </a>
-        <a href="/game/4-colors-multiplayer/" class="related-card" title="4 Colors Multiplayer">
-          <img src="https://img.gamepix.com/games/4-colors-multiplayer/icon/4-colors-multiplayer.png?w=105" alt="4 Colors Multiplayer" loading="lazy" width="80" height="45">
+        <a href="/game/emoji-2048/" class="related-card" title="Emoji 2048">
+          <img src="https://img.gamepix.com/games/emoji-2048/icon/emoji-2048.png?w=105" alt="Emoji 2048" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">4 Colors Multiplayer</div>
-            <div class="related-card-meta">⭐ 4.2 · 261Rb</div>
+            <div class="related-card-title">Emoji 2048</div>
+            <div class="related-card-meta">⭐ 4.3 · 756Rb</div>
           </div>
         </a>
-        <a href="/game/rope-color-sort-3d/" class="related-card" title="Rope Color Sort 3D">
-          <img src="https://img.gamepix.com/games/rope-color-sort-3d/icon/rope-color-sort-3d.png?w=105" alt="Rope Color Sort 3D" loading="lazy" width="80" height="45">
+        <a href="/game/neon-tic-tac-toe/" class="related-card" title="Neon Tic-Tac-Toe">
+          <img src="https://img.gamepix.com/games/neon-tic-tac-toe/icon/neon-tic-tac-toe.png?w=105" alt="Neon Tic-Tac-Toe" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Rope Color Sort 3D</div>
-            <div class="related-card-meta">⭐ 4.1 · 766Rb</div>
+            <div class="related-card-title">Neon Tic-Tac-Toe</div>
+            <div class="related-card-meta">⭐ 4.8 · 878Rb</div>
           </div>
         </a>
-        <a href="/game/magic-kingdom-hex-match/" class="related-card" title="Magic Kingdom. Hex Match">
-          <img src="https://img.gamepix.com/games/magic-kingdom-hex-match/icon/magic-kingdom-hex-match.png?w=105" alt="Magic Kingdom. Hex Match" loading="lazy" width="80" height="45">
+        <a href="/game/move-the-tower/" class="related-card" title="Move the Tower">
+          <img src="https://img.gamepix.com/games/move-the-tower/icon/move-the-tower.png?w=105" alt="Move the Tower" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Magic Kingdom. Hex Match</div>
-            <div class="related-card-meta">⭐ 4.5 · 453Rb</div>
+            <div class="related-card-title">Move the Tower</div>
+            <div class="related-card-meta">⭐ 4.5 · 502Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

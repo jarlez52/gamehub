@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Space Hook</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/dots-sorting/" class="related-card" title="Dots Sorting">
-          <img src="https://img.gamepix.com/games/dots-sorting/icon/dots-sorting.png?w=105" alt="Dots Sorting" loading="lazy" width="80" height="45">
+        <a href="/game/wizard-jigsaw-puzzles/" class="related-card" title="Wizard Jigsaw Puzzle">
+          <img src="https://img.gamepix.com/games/wizard-jigsaw-puzzles/icon/wizard-jigsaw-puzzles.png?w=105" alt="Wizard Jigsaw Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dots Sorting</div>
-            <div class="related-card-meta">⭐ 4.6 · 415Rb</div>
+            <div class="related-card-title">Wizard Jigsaw Puzzle</div>
+            <div class="related-card-meta">⭐ 4.6 · 602Rb</div>
           </div>
         </a>
-        <a href="/game/jojo-jump/" class="related-card" title="Jojo Jump">
-          <img src="https://img.gamepix.com/games/jojo-jump/icon/jojo-jump.png?w=105" alt="Jojo Jump" loading="lazy" width="80" height="45">
+        <a href="/game/my-pou-virtual-pet/" class="related-card" title="My Poky Virtual Pet">
+          <img src="https://img.gamepix.com/games/my-pou-virtual-pet/icon/my-pou-virtual-pet.png?w=105" alt="My Poky Virtual Pet" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jojo Jump</div>
-            <div class="related-card-meta">⭐ 4.6 · 964Rb</div>
+            <div class="related-card-title">My Poky Virtual Pet</div>
+            <div class="related-card-meta">⭐ 4.3 · 869Rb</div>
           </div>
         </a>
-        <a href="/game/giveaway-checkers/" class="related-card" title="Giveaway Checkers">
-          <img src="https://img.gamepix.com/games/giveaway-checkers/icon/giveaway-checkers.png?w=105" alt="Giveaway Checkers" loading="lazy" width="80" height="45">
+        <a href="/game/tictactoe/" class="related-card" title="TicTacToe">
+          <img src="https://img.gamepix.com/games/tictactoe/icon/tictactoe.png?w=105" alt="TicTacToe" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Giveaway Checkers</div>
-            <div class="related-card-meta">⭐ 4.9 · 273Rb</div>
+            <div class="related-card-title">TicTacToe</div>
+            <div class="related-card-meta">⭐ 4.1 · 703Rb</div>
           </div>
         </a>
-        <a href="/game/pet-salon-simulator/" class="related-card" title="Pet Salon Simulator">
-          <img src="https://img.gamepix.com/games/pet-salon-simulator/icon/pet-salon-simulator.png?w=105" alt="Pet Salon Simulator" loading="lazy" width="80" height="45">
+        <a href="/game/bricks-breaker-dash-bricks-breckout/" class="related-card" title="Bricks Breaker Dash Bricks Breakout">
+          <img src="https://img.gamepix.com/games/bricks-breaker-dash-bricks-breckout/icon/bricks-breaker-dash-bricks-breckout.png?w=105" alt="Bricks Breaker Dash Bricks Breakout" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pet Salon Simulator</div>
-            <div class="related-card-meta">⭐ 4.6 · 858Rb</div>
+            <div class="related-card-title">Bricks Breaker Dash Bricks Breakout</div>
+            <div class="related-card-meta">⭐ 4.5 · 710Rb</div>
           </div>
         </a>
-        <a href="/game/jumpy-noob/" class="related-card" title="Jumpy Noob">
-          <img src="https://img.gamepix.com/games/jumpy-noob/icon/jumpy-noob.png?w=105" alt="Jumpy Noob" loading="lazy" width="80" height="45">
+        <a href="/game/9x9-rotate-and-flip/" class="related-card" title="9x9 Rotate and Flip">
+          <img src="https://img.gamepix.com/games/9x9-rotate-and-flip/icon/9x9-rotate-and-flip.png?w=105" alt="9x9 Rotate and Flip" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jumpy Noob</div>
-            <div class="related-card-meta">⭐ 4.9 · 394Rb</div>
+            <div class="related-card-title">9x9 Rotate and Flip</div>
+            <div class="related-card-meta">⭐ 4.4 · 599Rb</div>
           </div>
         </a>
-        <a href="/game/tomb-breakers/" class="related-card" title="Tomb Breakers">
-          <img src="https://img.gamepix.com/games/tomb-breakers/icon/tomb-breakers.png?w=105" alt="Tomb Breakers" loading="lazy" width="80" height="45">
+        <a href="/game/flying-bat/" class="related-card" title="Flying Bat">
+          <img src="https://img.gamepix.com/games/flying-bat/icon/flying-bat.png?w=105" alt="Flying Bat" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tomb Breakers</div>
-            <div class="related-card-meta">⭐ 4.7 · 763Rb</div>
+            <div class="related-card-title">Flying Bat</div>
+            <div class="related-card-meta">⭐ 4.2 · 140Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

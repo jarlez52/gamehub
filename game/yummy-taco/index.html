@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Yummy Taco</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/pumpkin-hop/" class="related-card" title="Pumpkin Hop">
-          <img src="https://img.gamepix.com/games/pumpkin-hop/icon/pumpkin-hop.png?w=105" alt="Pumpkin Hop" loading="lazy" width="80" height="45">
+        <a href="/game/cyber-monday/" class="related-card" title="Cyber Monday">
+          <img src="https://img.gamepix.com/games/cyber-monday/icon/cyber-monday.png?w=105" alt="Cyber Monday" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pumpkin Hop</div>
-            <div class="related-card-meta">⭐ 4.3 · 456Rb</div>
+            <div class="related-card-title">Cyber Monday</div>
+            <div class="related-card-meta">⭐ 4.3 · 152Rb</div>
           </div>
         </a>
-        <a href="/game/ballpoint/" class="related-card" title="Ballpoint">
-          <img src="https://img.gamepix.com/games/ballpoint/icon/ballpoint.png?w=105" alt="Ballpoint" loading="lazy" width="80" height="45">
+        <a href="/game/a-butterfly/" class="related-card" title="A Butterfly">
+          <img src="https://img.gamepix.com/games/a-butterfly/icon/a-butterfly.png?w=105" alt="A Butterfly" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Ballpoint</div>
-            <div class="related-card-meta">⭐ 4.6 · 596Rb</div>
+            <div class="related-card-title">A Butterfly</div>
+            <div class="related-card-meta">⭐ 4.1 · 319Rb</div>
           </div>
         </a>
-        <a href="/game/box-challenge/" class="related-card" title="Box Challenge">
-          <img src="https://img.gamepix.com/games/box-challenge/icon/box-challenge.png?w=105" alt="Box Challenge" loading="lazy" width="80" height="45">
+        <a href="/game/floof-my-pet-house/" class="related-card" title="Floof My Pet House">
+          <img src="https://img.gamepix.com/games/floof-my-pet-house/icon/floof-my-pet-house.png?w=105" alt="Floof My Pet House" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Box Challenge</div>
-            <div class="related-card-meta">⭐ 4.8 · 887Rb</div>
+            <div class="related-card-title">Floof My Pet House</div>
+            <div class="related-card-meta">⭐ 4.4 · 665Rb</div>
           </div>
         </a>
-        <a href="/game/handit-s/" class="related-card" title="Handit's">
-          <img src="https://img.gamepix.com/games/handit-s/icon/handit-s.png?w=105" alt="Handit's" loading="lazy" width="80" height="45">
+        <a href="/game/candy-monsters/" class="related-card" title="Candy Monsters">
+          <img src="https://img.gamepix.com/games/candy-monsters/icon/candy-monsters.png?w=105" alt="Candy Monsters" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Handit's</div>
-            <div class="related-card-meta">⭐ 4.6 · 738Rb</div>
+            <div class="related-card-title">Candy Monsters</div>
+            <div class="related-card-meta">⭐ 4.8 · 429Rb</div>
           </div>
         </a>
-        <a href="/game/cut-the-rope-experiments/" class="related-card" title="Cut the Rope Experiments">
-          <img src="https://img.gamepix.com/games/cut-the-rope-experiments/icon/cut-the-rope-experiments.png?w=105" alt="Cut the Rope Experiments" loading="lazy" width="80" height="45">
+        <a href="/game/stickman-sniper-western-gun/" class="related-card" title="Stickman Sniper Western Gun">
+          <img src="https://img.gamepix.com/games/stickman-sniper-western-gun/icon/stickman-sniper-western-gun.png?w=105" alt="Stickman Sniper Western Gun" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cut the Rope Experiments</div>
-            <div class="related-card-meta">⭐ 4.4 · 475Rb</div>
+            <div class="related-card-title">Stickman Sniper Western Gun</div>
+            <div class="related-card-meta">⭐ 4.7 · 372Rb</div>
           </div>
         </a>
-        <a href="/game/santa-gravity/" class="related-card" title="Santa Gravity">
-          <img src="https://img.gamepix.com/games/santa-gravity/icon/santa-gravity.png?w=105" alt="Santa Gravity" loading="lazy" width="80" height="45">
+        <a href="/game/sort-my-parking-area/" class="related-card" title="Sort my Parking Area">
+          <img src="https://img.gamepix.com/games/sort-my-parking-area/icon/sort-my-parking-area.png?w=105" alt="Sort my Parking Area" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Santa Gravity</div>
-            <div class="related-card-meta">⭐ 4.2 · 481Rb</div>
+            <div class="related-card-title">Sort my Parking Area</div>
+            <div class="related-card-meta">⭐ 4.8 · 764Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

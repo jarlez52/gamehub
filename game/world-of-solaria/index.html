@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">World of Solaria - Online MMORPG</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/dont-collide-pls/" class="related-card" title="Dont Collide Pls!">
-          <img src="https://img.gamepix.com/games/dont-collide-pls/icon/dont-collide-pls.png?w=105" alt="Dont Collide Pls!" loading="lazy" width="80" height="45">
+        <a href="/game/kids-zoo-farm/" class="related-card" title="Kids Zoo Farm">
+          <img src="https://img.gamepix.com/games/kids-zoo-farm/icon/kids-zoo-farm.png?w=105" alt="Kids Zoo Farm" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dont Collide Pls!</div>
-            <div class="related-card-meta">⭐ 4.1 · 491Rb</div>
+            <div class="related-card-title">Kids Zoo Farm</div>
+            <div class="related-card-meta">⭐ 4.1 · 298Rb</div>
           </div>
         </a>
-        <a href="/game/simple-math/" class="related-card" title="Simple Math">
-          <img src="https://img.gamepix.com/games/simple-math/icon/simple-math.png?w=105" alt="Simple Math" loading="lazy" width="80" height="45">
+        <a href="/game/plinko-ballon-archery-pop/" class="related-card" title="Plinko Ballon - Archery Pop">
+          <img src="https://img.gamepix.com/games/plinko-ballon-archery-pop/icon/plinko-ballon-archery-pop.png?w=105" alt="Plinko Ballon - Archery Pop" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Simple Math</div>
-            <div class="related-card-meta">⭐ 4.8 · 589Rb</div>
+            <div class="related-card-title">Plinko Ballon - Archery Pop</div>
+            <div class="related-card-meta">⭐ 4.2 · 445Rb</div>
           </div>
         </a>
-        <a href="/game/turn-lands/" class="related-card" title="Turn Lands">
-          <img src="https://img.gamepix.com/games/turn-lands/icon/turn-lands.png?w=105" alt="Turn Lands" loading="lazy" width="80" height="45">
+        <a href="/game/crazy-parking/" class="related-card" title="Crazy Parking">
+          <img src="https://img.gamepix.com/games/crazy-parking/icon/crazy-parking.png?w=105" alt="Crazy Parking" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Turn Lands</div>
-            <div class="related-card-meta">⭐ 4.2 · 685Rb</div>
+            <div class="related-card-title">Crazy Parking</div>
+            <div class="related-card-meta">⭐ 4.5 · 699Rb</div>
           </div>
         </a>
-        <a href="/game/crossy-dash/" class="related-card" title="Crossy Dash">
-          <img src="https://img.gamepix.com/games/crossy-dash/icon/crossy-dash.png?w=105" alt="Crossy Dash" loading="lazy" width="80" height="45">
+        <a href="/game/rexo/" class="related-card" title="Rexo">
+          <img src="https://img.gamepix.com/games/rexo/icon/rexo.png?w=105" alt="Rexo" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Crossy Dash</div>
-            <div class="related-card-meta">⭐ 4.8 · 446Rb</div>
+            <div class="related-card-title">Rexo</div>
+            <div class="related-card-meta">⭐ 4.8 · 519Rb</div>
           </div>
         </a>
-        <a href="/game/snake-nokia-classic/" class="related-card" title="Snake Nokia Classic">
-          <img src="https://img.gamepix.com/games/snake-nokia-classic/icon/snake-nokia-classic.png?w=105" alt="Snake Nokia Classic" loading="lazy" width="80" height="45">
+        <a href="/game/summer-beach-parking/" class="related-card" title="Summer Beach Parking">
+          <img src="https://img.gamepix.com/games/summer-beach-parking/icon/summer-beach-parking.png?w=105" alt="Summer Beach Parking" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Snake Nokia Classic</div>
-            <div class="related-card-meta">⭐ 4.8 · 132Rb</div>
+            <div class="related-card-title">Summer Beach Parking</div>
+            <div class="related-card-meta">⭐ 4.1 · 810Rb</div>
           </div>
         </a>
-        <a href="/game/avatar-life-my-town/" class="related-card" title="Avatar Life My Town">
-          <img src="https://img.gamepix.com/games/avatar-life-my-town/icon/avatar-life-my-town.png?w=105" alt="Avatar Life My Town" loading="lazy" width="80" height="45">
+        <a href="/game/jelly-battle/" class="related-card" title="Jelly Battle">
+          <img src="https://img.gamepix.com/games/jelly-battle/icon/jelly-battle.png?w=105" alt="Jelly Battle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Avatar Life My Town</div>
-            <div class="related-card-meta">⭐ 4.8 · 528Rb</div>
+            <div class="related-card-title">Jelly Battle</div>
+            <div class="related-card-meta">⭐ 4.1 · 112Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

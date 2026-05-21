@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Sword Slinger</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/chaos-soldier/" class="related-card" title="Chaos Soldier">
-          <img src="https://img.gamepix.com/games/chaos-soldier/icon/chaos-soldier.png?w=105" alt="Chaos Soldier" loading="lazy" width="80" height="45">
+        <a href="/game/the-imposter-between-us/" class="related-card" title="The Imposter Between Us">
+          <img src="https://img.gamepix.com/games/the-imposter-between-us/icon/the-imposter-between-us.png?w=105" alt="The Imposter Between Us" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Chaos Soldier</div>
-            <div class="related-card-meta">⭐ 4.3 · 899Rb</div>
+            <div class="related-card-title">The Imposter Between Us</div>
+            <div class="related-card-meta">⭐ 4.9 · 384Rb</div>
           </div>
         </a>
-        <a href="/game/fast-arrow/" class="related-card" title="Fast Arrow">
-          <img src="https://img.gamepix.com/games/fast-arrow/icon/fast-arrow.png?w=105" alt="Fast Arrow" loading="lazy" width="80" height="45">
+        <a href="/game/nightmare-runner/" class="related-card" title="Nightmare Runner">
+          <img src="https://img.gamepix.com/games/nightmare-runner/icon/nightmare-runner.png?w=105" alt="Nightmare Runner" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fast Arrow</div>
-            <div class="related-card-meta">⭐ 4 · 335Rb</div>
+            <div class="related-card-title">Nightmare Runner</div>
+            <div class="related-card-meta">⭐ 4.7 · 629Rb</div>
           </div>
         </a>
-        <a href="/game/bighead-ninja/" class="related-card" title="Bighead Ninja!">
-          <img src="https://img.gamepix.com/games/bighead-ninja/icon/bighead-ninja.png?w=105" alt="Bighead Ninja!" loading="lazy" width="80" height="45">
+        <a href="/game/air-block/" class="related-card" title="Air Block">
+          <img src="https://img.gamepix.com/games/air-block/icon/air-block.png?w=105" alt="Air Block" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bighead Ninja!</div>
-            <div class="related-card-meta">⭐ 4.4 · 807Rb</div>
+            <div class="related-card-title">Air Block</div>
+            <div class="related-card-meta">⭐ 4.9 · 260Rb</div>
           </div>
         </a>
-        <a href="/game/frog-adventurethe-hero-journey/" class="related-card" title="Frog Adventure The Hero Journey">
-          <img src="https://img.gamepix.com/games/frog-adventurethe-hero-journey/icon/frog-adventurethe-hero-journey.png?w=105" alt="Frog Adventure The Hero Journey" loading="lazy" width="80" height="45">
+        <a href="/game/herotor/" class="related-card" title="Herotor">
+          <img src="https://img.gamepix.com/games/herotor/icon/herotor.png?w=105" alt="Herotor" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Frog Adventure The Hero Journey</div>
-            <div class="related-card-meta">⭐ 4.4 · 949Rb</div>
+            <div class="related-card-title">Herotor</div>
+            <div class="related-card-meta">⭐ 4.3 · 666Rb</div>
           </div>
         </a>
-        <a href="/game/zombie-auto-defense/" class="related-card" title="Zombie Auto Defense">
-          <img src="https://img.gamepix.com/games/zombie-auto-defense/icon/zombie-auto-defense.png?w=105" alt="Zombie Auto Defense" loading="lazy" width="80" height="45">
+        <a href="/game/kotoklan-fluffy-epic/" class="related-card" title="Kotoklan Fluffy Epic Idle">
+          <img src="https://img.gamepix.com/games/kotoklan-fluffy-epic/icon/kotoklan-fluffy-epic.png?w=105" alt="Kotoklan Fluffy Epic Idle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Zombie Auto Defense</div>
-            <div class="related-card-meta">⭐ 4.8 · 594Rb</div>
+            <div class="related-card-title">Kotoklan Fluffy Epic Idle</div>
+            <div class="related-card-meta">⭐ 4.8 · 921Rb</div>
           </div>
         </a>
-        <a href="/game/paper-survival/" class="related-card" title="Paper Survival">
-          <img src="https://img.gamepix.com/games/paper-survival/icon/paper-survival.png?w=105" alt="Paper Survival" loading="lazy" width="80" height="45">
+        <a href="/game/castle-ii/" class="related-card" title="Castle II">
+          <img src="https://img.gamepix.com/games/castle-ii/icon/castle-ii.png?w=105" alt="Castle II" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Paper Survival</div>
-            <div class="related-card-meta">⭐ 4 · 149Rb</div>
+            <div class="related-card-title">Castle II</div>
+            <div class="related-card-meta">⭐ 4.9 · 520Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

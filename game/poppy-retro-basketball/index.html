@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Poppy Retro Basketball</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,13 +324,6 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/flappy-balloon/" class="related-card" title="Flappy Balloon">
-          <img src="https://img.gamepix.com/games/flappy-balloon/icon/flappy-balloon.png?w=105" alt="Flappy Balloon" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Flappy Balloon</div>
-            <div class="related-card-meta">⭐ 4.5 · 844Rb</div>
-          </div>
-        </a>
         <a href="/game/ballmania/" class="related-card" title="BallMania">
           <img src="https://img.gamepix.com/games/ballmania/icon/ballmania.png?w=105" alt="BallMania" loading="lazy" width="80" height="45">
           <div class="related-card-info">
@@ -307,34 +331,56 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
             <div class="related-card-meta">⭐ 4.8 · 118Rb</div>
           </div>
         </a>
-        <a href="/game/cherry-inhere-circle-pong-king/" class="related-card" title="Cherry Inhere-Circle Pong King">
-          <img src="https://img.gamepix.com/games/cherry-inhere-circle-pong-king/icon/cherry-inhere-circle-pong-king.png?w=105" alt="Cherry Inhere-Circle Pong King" loading="lazy" width="80" height="45">
+        <a href="/game/pinball-legends/" class="related-card" title="Pinball Legends">
+          <img src="https://img.gamepix.com/games/pinball-legends/icon/pinball-legends.png?w=105" alt="Pinball Legends" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cherry Inhere-Circle Pong King</div>
-            <div class="related-card-meta">⭐ 4.4 · 970Rb</div>
+            <div class="related-card-title">Pinball Legends</div>
+            <div class="related-card-meta">⭐ 4.6 · 585Rb</div>
           </div>
         </a>
-        <a href="/game/moto-maniac-2/" class="related-card" title="Moto Maniac 2">
-          <img src="https://img.gamepix.com/games/moto-maniac-2/icon/moto-maniac-2.png?w=105" alt="Moto Maniac 2" loading="lazy" width="80" height="45">
+        <a href="/game/epic-roll/" class="related-card" title="Epic Roll">
+          <img src="https://img.gamepix.com/games/epic-roll/icon/epic-roll.png?w=105" alt="Epic Roll" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Moto Maniac 2</div>
-            <div class="related-card-meta">⭐ 4.6 · 591Rb</div>
+            <div class="related-card-title">Epic Roll</div>
+            <div class="related-card-meta">⭐ 4.2 · 598Rb</div>
           </div>
         </a>
-        <a href="/game/moving-spin-ball/" class="related-card" title="Moving Spin Ball">
-          <img src="https://img.gamepix.com/games/moving-spin-ball/icon/moving-spin-ball.png?w=105" alt="Moving Spin Ball" loading="lazy" width="80" height="45">
+        <a href="/game/bouncy-balls-vanishing-bars/" class="related-card" title="Bouncy Balls - Vanishing Bars">
+          <img src="https://img.gamepix.com/games/bouncy-balls-vanishing-bars/icon/bouncy-balls-vanishing-bars.png?w=105" alt="Bouncy Balls - Vanishing Bars" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Moving Spin Ball</div>
-            <div class="related-card-meta">⭐ 4.8 · 287Rb</div>
+            <div class="related-card-title">Bouncy Balls - Vanishing Bars</div>
+            <div class="related-card-meta">⭐ 4.9 · 533Rb</div>
           </div>
         </a>
-        <a href="/game/sokoballs/" class="related-card" title="Sokoballs">
-          <img src="https://img.gamepix.com/games/sokoballs/icon/sokoballs.png?w=105" alt="Sokoballs" loading="lazy" width="80" height="45">
+        <a href="/game/chiellini-pool-soccer/" class="related-card" title="Chiellini Pool Soccer">
+          <img src="https://img.gamepix.com/games/chiellini-pool-soccer/icon/chiellini-pool-soccer.png?w=105" alt="Chiellini Pool Soccer" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sokoballs</div>
-            <div class="related-card-meta">⭐ 4.2 · 747Rb</div>
+            <div class="related-card-title">Chiellini Pool Soccer</div>
+            <div class="related-card-meta">⭐ 4.9 · 972Rb</div>
           </div>
         </a>
+        <a href="/game/falling-ball-bounce-and-break/" class="related-card" title="Falling Ball Bounce and Break">
+          <img src="https://img.gamepix.com/games/falling-ball-bounce-and-break/icon/falling-ball-bounce-and-break.png?w=105" alt="Falling Ball Bounce and Break" loading="lazy" width="80" height="45">
+          <div class="related-card-info">
+            <div class="related-card-title">Falling Ball Bounce and Break</div>
+            <div class="related-card-meta">⭐ 4.6 · 920Rb</div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

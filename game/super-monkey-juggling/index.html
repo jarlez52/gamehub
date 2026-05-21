@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Super Monkey Juggling</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/desert-racing/" class="related-card" title="Desert Racing">
-          <img src="https://img.gamepix.com/games/desert-racing/icon/desert-racing.png?w=105" alt="Desert Racing" loading="lazy" width="80" height="45">
+        <a href="/game/sumo-io/" class="related-card" title="Sumo.io">
+          <img src="https://img.gamepix.com/games/sumo-io/icon/sumo-io.png?w=105" alt="Sumo.io" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Desert Racing</div>
-            <div class="related-card-meta">⭐ 4.5 · 938Rb</div>
+            <div class="related-card-title">Sumo.io</div>
+            <div class="related-card-meta">⭐ 4.3 · 436Rb</div>
           </div>
         </a>
-        <a href="/game/penalty-rivals/" class="related-card" title="Penalty Rivals">
-          <img src="https://img.gamepix.com/games/penalty-rivals/icon/penalty-rivals.png?w=105" alt="Penalty Rivals" loading="lazy" width="80" height="45">
+        <a href="/game/desert-dakar-xtream/" class="related-card" title="Desert Dakar Xtream">
+          <img src="https://img.gamepix.com/games/desert-dakar-xtream/icon/desert-dakar-xtream.png?w=105" alt="Desert Dakar Xtream" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Penalty Rivals</div>
-            <div class="related-card-meta">⭐ 4.4 · 705Rb</div>
+            <div class="related-card-title">Desert Dakar Xtream</div>
+            <div class="related-card-meta">⭐ 4.7 · 299Rb</div>
           </div>
         </a>
-        <a href="/game/football-stars-championship/" class="related-card" title="Football Stars Championship">
-          <img src="https://img.gamepix.com/games/football-stars-championship/icon/football-stars-championship.png?w=105" alt="Football Stars Championship" loading="lazy" width="80" height="45">
+        <a href="/game/new-soccer/" class="related-card" title="New Soccer">
+          <img src="https://img.gamepix.com/games/new-soccer/icon/new-soccer.png?w=105" alt="New Soccer" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Football Stars Championship</div>
-            <div class="related-card-meta">⭐ 4.5 · 146Rb</div>
+            <div class="related-card-title">New Soccer</div>
+            <div class="related-card-meta">⭐ 4.8 · 762Rb</div>
           </div>
         </a>
-        <a href="/game/golf-challenge/" class="related-card" title="Golf Challenge">
-          <img src="https://img.gamepix.com/games/golf-challenge/icon/golf-challenge.png?w=105" alt="Golf Challenge" loading="lazy" width="80" height="45">
+        <a href="/game/turbo-truck-soccer/" class="related-card" title="Turbo Truck Soccer">
+          <img src="https://img.gamepix.com/games/turbo-truck-soccer/icon/turbo-truck-soccer.png?w=105" alt="Turbo Truck Soccer" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Golf Challenge</div>
-            <div class="related-card-meta">⭐ 4.4 · 660Rb</div>
+            <div class="related-card-title">Turbo Truck Soccer</div>
+            <div class="related-card-meta">⭐ 4.2 · 724Rb</div>
           </div>
         </a>
-        <a href="/game/extreme-drift-racing/" class="related-card" title="Extreme Drift Racing">
-          <img src="https://img.gamepix.com/games/extreme-drift-racing/icon/extreme-drift-racing.png?w=105" alt="Extreme Drift Racing" loading="lazy" width="80" height="45">
+        <a href="/game/climp-up/" class="related-card" title="Climb Up">
+          <img src="https://img.gamepix.com/games/climp-up/icon/climp-up.png?w=105" alt="Climb Up" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Extreme Drift Racing</div>
-            <div class="related-card-meta">⭐ 4.1 · 797Rb</div>
+            <div class="related-card-title">Climb Up</div>
+            <div class="related-card-meta">⭐ 4.6 · 472Rb</div>
           </div>
         </a>
-        <a href="/game/bike-mania-2/" class="related-card" title="Bike Mania 2">
-          <img src="https://img.gamepix.com/games/bike-mania-2/icon/bike-mania-2.png?w=105" alt="Bike Mania 2" loading="lazy" width="80" height="45">
+        <a href="/game/tennis-open-2021/" class="related-card" title="Tennis Open 2021">
+          <img src="https://img.gamepix.com/games/tennis-open-2021/icon/tennis-open-2021.png?w=105" alt="Tennis Open 2021" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bike Mania 2</div>
-            <div class="related-card-meta">⭐ 4.4 · 502Rb</div>
+            <div class="related-card-title">Tennis Open 2021</div>
+            <div class="related-card-meta">⭐ 4.5 · 447Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

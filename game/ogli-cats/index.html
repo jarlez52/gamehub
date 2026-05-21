@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Ogli Cats</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/zombie-derby/" class="related-card" title="Zombie Derby">
-          <img src="https://img.gamepix.com/games/zombie-derby/icon/zombie-derby.png?w=105" alt="Zombie Derby" loading="lazy" width="80" height="45">
+        <a href="/game/tim-adventures/" class="related-card" title="Tim Adventures">
+          <img src="https://img.gamepix.com/games/tim-adventures/icon/tim-adventures.png?w=105" alt="Tim Adventures" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Zombie Derby</div>
-            <div class="related-card-meta">⭐ 4.6 · 176Rb</div>
+            <div class="related-card-title">Tim Adventures</div>
+            <div class="related-card-meta">⭐ 4.1 · 720Rb</div>
           </div>
         </a>
-        <a href="/game/space-fighter/" class="related-card" title="Space Fighter">
-          <img src="https://img.gamepix.com/games/space-fighter/icon/space-fighter.png?w=105" alt="Space Fighter" loading="lazy" width="80" height="45">
+        <a href="/game/instant-top-down-shooter-aim-battle/" class="related-card" title="Instant Top - Down Shooter Aim & Battle">
+          <img src="https://img.gamepix.com/games/instant-top-down-shooter-aim-battle/icon/instant-top-down-shooter-aim-battle.png?w=105" alt="Instant Top - Down Shooter Aim & Battle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Space Fighter</div>
-            <div class="related-card-meta">⭐ 4.8 · 287Rb</div>
+            <div class="related-card-title">Instant Top - Down Shooter Aim & Battle</div>
+            <div class="related-card-meta">⭐ 4.1 · 561Rb</div>
           </div>
         </a>
-        <a href="/game/natural-disaster-survival-obby/" class="related-card" title="Natural Disaster Survival Obby">
-          <img src="https://img.gamepix.com/games/natural-disaster-survival-obby/icon/natural-disaster-survival-obby.png?w=105" alt="Natural Disaster Survival Obby" loading="lazy" width="80" height="45">
+        <a href="/game/goal-io/" class="related-card" title="Goal.io">
+          <img src="https://img.gamepix.com/games/goal-io/icon/goal-io.png?w=105" alt="Goal.io" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Natural Disaster Survival Obby</div>
-            <div class="related-card-meta">⭐ 4.9 · 601Rb</div>
+            <div class="related-card-title">Goal.io</div>
+            <div class="related-card-meta">⭐ 4.3 · 217Rb</div>
           </div>
         </a>
-        <a href="/game/among-robots-2/" class="related-card" title="Among Robots 2">
-          <img src="https://img.gamepix.com/games/among-robots-2/icon/among-robots-2.png?w=105" alt="Among Robots 2" loading="lazy" width="80" height="45">
+        <a href="/game/mathpup-math-adventure-integers/" class="related-card" title="MathPup Math Adventure Integers">
+          <img src="https://img.gamepix.com/games/mathpup-math-adventure-integers/icon/mathpup-math-adventure-integers.png?w=105" alt="MathPup Math Adventure Integers" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Among Robots 2</div>
-            <div class="related-card-meta">⭐ 4.8 · 951Rb</div>
+            <div class="related-card-title">MathPup Math Adventure Integers</div>
+            <div class="related-card-meta">⭐ 4.4 · 570Rb</div>
           </div>
         </a>
-        <a href="/game/nanychan-vs-ghosts-2/" class="related-card" title="Nanychan vs Ghosts 2">
-          <img src="https://img.gamepix.com/games/nanychan-vs-ghosts-2/icon/nanychan-vs-ghosts-2.png?w=105" alt="Nanychan vs Ghosts 2" loading="lazy" width="80" height="45">
+        <a href="/game/street-lift-to-heaven/" class="related-card" title="Street Lift To Heaven">
+          <img src="https://img.gamepix.com/games/street-lift-to-heaven/icon/street-lift-to-heaven.png?w=105" alt="Street Lift To Heaven" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Nanychan vs Ghosts 2</div>
-            <div class="related-card-meta">⭐ 4.7 · 177Rb</div>
+            <div class="related-card-title">Street Lift To Heaven</div>
+            <div class="related-card-meta">⭐ 4.8 · 788Rb</div>
           </div>
         </a>
-        <a href="/game/monsters-of-easter-eggs/" class="related-card" title="Monsters of Easter Eggs">
-          <img src="https://img.gamepix.com/games/monsters-of-easter-eggs/icon/monsters-of-easter-eggs.png?w=105" alt="Monsters of Easter Eggs" loading="lazy" width="80" height="45">
+        <a href="/game/tap-ninja/" class="related-card" title="Tap Ninja">
+          <img src="https://img.gamepix.com/games/tap-ninja/icon/tap-ninja.png?w=105" alt="Tap Ninja" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Monsters of Easter Eggs</div>
-            <div class="related-card-meta">⭐ 4.1 · 846Rb</div>
+            <div class="related-card-title">Tap Ninja</div>
+            <div class="related-card-meta">⭐ 4.4 · 477Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

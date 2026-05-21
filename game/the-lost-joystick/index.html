@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">The Lost Joystick</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/mannequin-head-jumping-challenge/" class="related-card" title="Mannequin Head - Jumping Challenge">
-          <img src="https://img.gamepix.com/games/mannequin-head-jumping-challenge/icon/mannequin-head-jumping-challenge.png?w=105" alt="Mannequin Head - Jumping Challenge" loading="lazy" width="80" height="45">
+        <a href="/game/claus-unchained/" class="related-card" title="Claus Unchained">
+          <img src="https://img.gamepix.com/games/claus-unchained/icon/claus-unchained.png?w=105" alt="Claus Unchained" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Mannequin Head - Jumping Challenge</div>
-            <div class="related-card-meta">⭐ 4.4 · 651Rb</div>
+            <div class="related-card-title">Claus Unchained</div>
+            <div class="related-card-meta">⭐ 4.4 · 460Rb</div>
           </div>
         </a>
-        <a href="/game/fyer-bot/" class="related-card" title="Fyer Bot">
-          <img src="https://img.gamepix.com/games/fyer-bot/icon/fyer-bot.png?w=105" alt="Fyer Bot" loading="lazy" width="80" height="45">
+        <a href="/game/block-crush-challenge/" class="related-card" title="Block Crush Challenge">
+          <img src="https://img.gamepix.com/games/block-crush-challenge/icon/block-crush-challenge.png?w=105" alt="Block Crush Challenge" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fyer Bot</div>
-            <div class="related-card-meta">⭐ 4.4 · 751Rb</div>
+            <div class="related-card-title">Block Crush Challenge</div>
+            <div class="related-card-meta">⭐ 4.8 · 612Rb</div>
           </div>
         </a>
-        <a href="/game/stack-jump/" class="related-card" title="Stack Jump">
-          <img src="https://img.gamepix.com/games/stack-jump/icon/stack-jump.png?w=105" alt="Stack Jump" loading="lazy" width="80" height="45">
+        <a href="/game/fast-ball-jump/" class="related-card" title="Fast Ball Jump">
+          <img src="https://img.gamepix.com/games/fast-ball-jump/icon/fast-ball-jump.png?w=105" alt="Fast Ball Jump" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Stack Jump</div>
-            <div class="related-card-meta">⭐ 4.9 · 918Rb</div>
+            <div class="related-card-title">Fast Ball Jump</div>
+            <div class="related-card-meta">⭐ 4.3 · 211Rb</div>
           </div>
         </a>
-        <a href="/game/spin-in-space/" class="related-card" title="Spin in Space">
-          <img src="https://img.gamepix.com/games/spin-in-space/icon/spin-in-space.png?w=105" alt="Spin in Space" loading="lazy" width="80" height="45">
+        <a href="/game/sushi-escape/" class="related-card" title="Sushi Escape">
+          <img src="https://img.gamepix.com/games/sushi-escape/icon/sushi-escape.png?w=105" alt="Sushi Escape" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Spin in Space</div>
-            <div class="related-card-meta">⭐ 4.6 · 988Rb</div>
+            <div class="related-card-title">Sushi Escape</div>
+            <div class="related-card-meta">⭐ 4.1 · 523Rb</div>
           </div>
         </a>
-        <a href="/game/royal-tank-rumble/" class="related-card" title="Royal Tank Rumble">
-          <img src="https://img.gamepix.com/games/royal-tank-rumble/icon/royal-tank-rumble.png?w=105" alt="Royal Tank Rumble" loading="lazy" width="80" height="45">
+        <a href="/game/tanks-blitz/" class="related-card" title="Tanks Blitz">
+          <img src="https://img.gamepix.com/games/tanks-blitz/icon/tanks-blitz.png?w=105" alt="Tanks Blitz" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Royal Tank Rumble</div>
-            <div class="related-card-meta">⭐ 4.2 · 687Rb</div>
+            <div class="related-card-title">Tanks Blitz</div>
+            <div class="related-card-meta">⭐ 4.4 · 859Rb</div>
           </div>
         </a>
-        <a href="/game/avatar-life-my-town/" class="related-card" title="Avatar Life My Town">
-          <img src="https://img.gamepix.com/games/avatar-life-my-town/icon/avatar-life-my-town.png?w=105" alt="Avatar Life My Town" loading="lazy" width="80" height="45">
+        <a href="/game/collect-balloons/" class="related-card" title="Collect Balloons">
+          <img src="https://img.gamepix.com/games/collect-balloons/icon/collect-balloons.png?w=105" alt="Collect Balloons" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Avatar Life My Town</div>
-            <div class="related-card-meta">⭐ 4.8 · 528Rb</div>
+            <div class="related-card-title">Collect Balloons</div>
+            <div class="related-card-meta">⭐ 4.7 · 115Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

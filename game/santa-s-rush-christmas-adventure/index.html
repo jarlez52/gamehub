@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Santa's Rush Christmas Adventure</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/poppy-it-playtime/" class="related-card" title="Poppy it Playtime">
-          <img src="https://img.gamepix.com/games/poppy-it-playtime/icon/poppy-it-playtime.png?w=105" alt="Poppy it Playtime" loading="lazy" width="80" height="45">
+        <a href="/game/neon-zombie-rush/" class="related-card" title="Neon Zombie Rush">
+          <img src="https://img.gamepix.com/games/neon-zombie-rush/icon/neon-zombie-rush.png?w=105" alt="Neon Zombie Rush" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Poppy it Playtime</div>
-            <div class="related-card-meta">⭐ 4.7 · 841Rb</div>
+            <div class="related-card-title">Neon Zombie Rush</div>
+            <div class="related-card-meta">⭐ 4.1 · 717Rb</div>
           </div>
         </a>
-        <a href="/game/dusya-and-lava/" class="related-card" title="Dusya and Lava">
-          <img src="https://img.gamepix.com/games/dusya-and-lava/icon/dusya-and-lava.png?w=105" alt="Dusya and Lava" loading="lazy" width="80" height="45">
+        <a href="/game/zumba-mania/" class="related-card" title="Zumba Mania">
+          <img src="https://img.gamepix.com/games/zumba-mania/icon/zumba-mania.png?w=105" alt="Zumba Mania" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Dusya and Lava</div>
-            <div class="related-card-meta">⭐ 4.3 · 940Rb</div>
+            <div class="related-card-title">Zumba Mania</div>
+            <div class="related-card-meta">⭐ 4.6 · 720Rb</div>
           </div>
         </a>
-        <a href="/game/volunteer-to-the-darkness/" class="related-card" title="Volunteer to the Darkness">
-          <img src="https://img.gamepix.com/games/volunteer-to-the-darkness/icon/volunteer-to-the-darkness.png?w=105" alt="Volunteer to the Darkness" loading="lazy" width="80" height="45">
+        <a href="/game/dagger-aim/" class="related-card" title="Dagger Aim">
+          <img src="https://img.gamepix.com/games/dagger-aim/icon/dagger-aim.png?w=105" alt="Dagger Aim" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Volunteer to the Darkness</div>
-            <div class="related-card-meta">⭐ 4.5 · 195Rb</div>
+            <div class="related-card-title">Dagger Aim</div>
+            <div class="related-card-meta">⭐ 4.3 · 745Rb</div>
           </div>
         </a>
-        <a href="/game/punching-bug/" class="related-card" title="Punching Bug">
-          <img src="https://img.gamepix.com/games/punching-bug/icon/punching-bug.png?w=105" alt="Punching Bug" loading="lazy" width="80" height="45">
+        <a href="/game/make-a-wall/" class="related-card" title="Make a Wall">
+          <img src="https://img.gamepix.com/games/make-a-wall/icon/make-a-wall.png?w=105" alt="Make a Wall" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Punching Bug</div>
-            <div class="related-card-meta">⭐ 4.8 · 863Rb</div>
+            <div class="related-card-title">Make a Wall</div>
+            <div class="related-card-meta">⭐ 4.1 · 695Rb</div>
           </div>
         </a>
-        <a href="/game/road-crosser-3d/" class="related-card" title="Road Crosser">
-          <img src="https://img.gamepix.com/games/road-crosser-3d/icon/road-crosser-3d.png?w=105" alt="Road Crosser" loading="lazy" width="80" height="45">
+        <a href="/game/a-butterfly/" class="related-card" title="A Butterfly">
+          <img src="https://img.gamepix.com/games/a-butterfly/icon/a-butterfly.png?w=105" alt="A Butterfly" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Road Crosser</div>
-            <div class="related-card-meta">⭐ 4.5 · 852Rb</div>
+            <div class="related-card-title">A Butterfly</div>
+            <div class="related-card-meta">⭐ 4.1 · 319Rb</div>
           </div>
         </a>
-        <a href="/game/double-pinball-machine/" class="related-card" title="Double Pinball Machine">
-          <img src="https://img.gamepix.com/games/double-pinball-machine/icon/double-pinball-machine.png?w=105" alt="Double Pinball Machine" loading="lazy" width="80" height="45">
+        <a href="/game/skibidi-head-roll/" class="related-card" title="Skibidi Head Roll">
+          <img src="https://img.gamepix.com/games/skibidi-head-roll/icon/skibidi-head-roll.png?w=105" alt="Skibidi Head Roll" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Double Pinball Machine</div>
-            <div class="related-card-meta">⭐ 4.3 · 129Rb</div>
+            <div class="related-card-title">Skibidi Head Roll</div>
+            <div class="related-card-meta">⭐ 4.1 · 883Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Survival Rush</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/the-green-wizard/" class="related-card" title="The Wizard in Green">
-          <img src="https://img.gamepix.com/games/the-green-wizard/icon/the-green-wizard.png?w=105" alt="The Wizard in Green" loading="lazy" width="80" height="45">
+        <a href="/game/hungry-warriors/" class="related-card" title="Hungry Warriors">
+          <img src="https://img.gamepix.com/games/hungry-warriors/icon/hungry-warriors.png?w=105" alt="Hungry Warriors" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">The Wizard in Green</div>
-            <div class="related-card-meta">⭐ 4.1 · 711Rb</div>
+            <div class="related-card-title">Hungry Warriors</div>
+            <div class="related-card-meta">⭐ 4.9 · 244Rb</div>
           </div>
         </a>
-        <a href="/game/survive-the-zombies/" class="related-card" title="Survive the Zombies">
-          <img src="https://img.gamepix.com/games/survive-the-zombies/icon/survive-the-zombies.png?w=105" alt="Survive the Zombies" loading="lazy" width="80" height="45">
+        <a href="/game/reptolia-2/" class="related-card" title="Reptolia 2">
+          <img src="https://img.gamepix.com/games/reptolia-2/icon/reptolia-2.png?w=105" alt="Reptolia 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Survive the Zombies</div>
-            <div class="related-card-meta">⭐ 4.1 · 721Rb</div>
+            <div class="related-card-title">Reptolia 2</div>
+            <div class="related-card-meta">⭐ 4.5 · 324Rb</div>
           </div>
         </a>
-        <a href="/game/hero-city/" class="related-card" title="Hero City">
-          <img src="https://img.gamepix.com/games/hero-city/icon/hero-city.png?w=105" alt="Hero City" loading="lazy" width="80" height="45">
+        <a href="/game/rainbow-friends-survival/" class="related-card" title="Rainbow Friends Survival">
+          <img src="https://img.gamepix.com/games/rainbow-friends-survival/icon/rainbow-friends-survival.png?w=105" alt="Rainbow Friends Survival" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Hero City</div>
-            <div class="related-card-meta">⭐ 4.1 · 674Rb</div>
+            <div class="related-card-title">Rainbow Friends Survival</div>
+            <div class="related-card-meta">⭐ 4 · 806Rb</div>
           </div>
         </a>
-        <a href="/game/capture-flag/" class="related-card" title="Capture Flag">
-          <img src="https://img.gamepix.com/games/capture-flag/icon/capture-flag.png?w=105" alt="Capture Flag" loading="lazy" width="80" height="45">
+        <a href="/game/car-merger-tycoon/" class="related-card" title="Car Transform Mania Merger Tycoon">
+          <img src="https://img.gamepix.com/games/car-merger-tycoon/icon/car-merger-tycoon.png?w=105" alt="Car Transform Mania Merger Tycoon" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Capture Flag</div>
-            <div class="related-card-meta">⭐ 4.8 · 669Rb</div>
+            <div class="related-card-title">Car Transform Mania Merger Tycoon</div>
+            <div class="related-card-meta">⭐ 4.1 · 377Rb</div>
           </div>
         </a>
-        <a href="/game/jet-strike/" class="related-card" title="Jet Strike">
-          <img src="https://img.gamepix.com/games/jet-strike/icon/jet-strike.png?w=105" alt="Jet Strike" loading="lazy" width="80" height="45">
+        <a href="/game/mixed-up-power-ups/" class="related-card" title="Mixed Up Power Ups">
+          <img src="https://img.gamepix.com/games/mixed-up-power-ups/icon/mixed-up-power-ups.png?w=105" alt="Mixed Up Power Ups" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jet Strike</div>
-            <div class="related-card-meta">⭐ 4.8 · 501Rb</div>
+            <div class="related-card-title">Mixed Up Power Ups</div>
+            <div class="related-card-meta">⭐ 4.8 · 835Rb</div>
           </div>
         </a>
-        <a href="/game/fight-bros/" class="related-card" title="Fight Bros">
-          <img src="https://img.gamepix.com/games/fight-bros/icon/fight-bros.png?w=105" alt="Fight Bros" loading="lazy" width="80" height="45">
+        <a href="/game/pixi-steve-alex-herobrine/" class="related-card" title="Pixi Steve Alex Herobrine">
+          <img src="https://img.gamepix.com/games/pixi-steve-alex-herobrine/icon/pixi-steve-alex-herobrine.png?w=105" alt="Pixi Steve Alex Herobrine" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Fight Bros</div>
-            <div class="related-card-meta">⭐ 4.4 · 293Rb</div>
+            <div class="related-card-title">Pixi Steve Alex Herobrine</div>
+            <div class="related-card-meta">⭐ 4.5 · 910Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

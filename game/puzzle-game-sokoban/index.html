@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Puzzle Game Sokoban</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/tricky-digits/" class="related-card" title="Tricky Digits">
-          <img src="https://img.gamepix.com/games/tricky-digits/icon/tricky-digits.png?w=105" alt="Tricky Digits" loading="lazy" width="80" height="45">
+        <a href="/game/park-inc-earn-cash/" class="related-card" title="Park Inc - Earn Cash">
+          <img src="https://img.gamepix.com/games/park-inc-earn-cash/icon/park-inc-earn-cash.png?w=105" alt="Park Inc - Earn Cash" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Tricky Digits</div>
-            <div class="related-card-meta">⭐ 4.6 · 692Rb</div>
+            <div class="related-card-title">Park Inc - Earn Cash</div>
+            <div class="related-card-meta">⭐ 4.8 · 621Rb</div>
           </div>
         </a>
-        <a href="/game/sprunki-find-the-differences/" class="related-card" title="Sprunki Find The Differences">
-          <img src="https://img.gamepix.com/games/sprunki-find-the-differences/icon/sprunki-find-the-differences.png?w=105" alt="Sprunki Find The Differences" loading="lazy" width="80" height="45">
+        <a href="/game/cube-blast-match-2/" class="related-card" title="Cube Blast">
+          <img src="https://img.gamepix.com/games/cube-blast-match-2/icon/cube-blast-match-2.png?w=105" alt="Cube Blast" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sprunki Find The Differences</div>
-            <div class="related-card-meta">⭐ 4.8 · 552Rb</div>
+            <div class="related-card-title">Cube Blast</div>
+            <div class="related-card-meta">⭐ 4.4 · 291Rb</div>
           </div>
         </a>
-        <a href="/game/happymushroom/" class="related-card" title="Happy Mushroom">
-          <img src="https://img.gamepix.com/games/happymushroom/icon/happymushroom.png?w=105" alt="Happy Mushroom" loading="lazy" width="80" height="45">
+        <a href="/game/logic-puzzle/" class="related-card" title="Logic Puzzle">
+          <img src="https://img.gamepix.com/games/logic-puzzle/icon/logic-puzzle.png?w=105" alt="Logic Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Happy Mushroom</div>
-            <div class="related-card-meta">⭐ 4.2 · 342Rb</div>
+            <div class="related-card-title">Logic Puzzle</div>
+            <div class="related-card-meta">⭐ 4.3 · 877Rb</div>
           </div>
         </a>
-        <a href="/game/flames-and-fortune/" class="related-card" title="Flames & Fortune">
-          <img src="https://img.gamepix.com/games/flames-and-fortune/icon/flames-and-fortune.png?w=105" alt="Flames & Fortune" loading="lazy" width="80" height="45">
+        <a href="/game/dividrop/" class="related-card" title="DiviDrop">
+          <img src="https://img.gamepix.com/games/dividrop/icon/dividrop.png?w=105" alt="DiviDrop" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Flames & Fortune</div>
-            <div class="related-card-meta">⭐ 4.2 · 953Rb</div>
+            <div class="related-card-title">DiviDrop</div>
+            <div class="related-card-meta">⭐ 4.5 · 463Rb</div>
           </div>
         </a>
-        <a href="/game/level-eaten/" class="related-card" title="Level EATEN!">
-          <img src="https://img.gamepix.com/games/level-eaten/icon/level-eaten.png?w=105" alt="Level EATEN!" loading="lazy" width="80" height="45">
+        <a href="/game/treasure-aztec/" class="related-card" title="Treasures Aztec">
+          <img src="https://img.gamepix.com/games/treasure-aztec/icon/treasure-aztec.png?w=105" alt="Treasures Aztec" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Level EATEN!</div>
-            <div class="related-card-meta">⭐ 4.6 · 143Rb</div>
+            <div class="related-card-title">Treasures Aztec</div>
+            <div class="related-card-meta">⭐ 4.8 · 531Rb</div>
           </div>
         </a>
-        <a href="/game/round-jigsaw-puzzle-collect-the-pattern/" class="related-card" title="Round jigsaw Puzzle - Collect the Pattern">
-          <img src="https://img.gamepix.com/games/round-jigsaw-puzzle-collect-the-pattern/icon/round-jigsaw-puzzle-collect-the-pattern.png?w=105" alt="Round jigsaw Puzzle - Collect the Pattern" loading="lazy" width="80" height="45">
+        <a href="/game/merge-fellas-italian-brainrot/" class="related-card" title="Merge Fellas Italian Brainrot">
+          <img src="https://img.gamepix.com/games/merge-fellas-italian-brainrot/icon/merge-fellas-italian-brainrot.png?w=105" alt="Merge Fellas Italian Brainrot" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Round jigsaw Puzzle - Collect the Pattern</div>
-            <div class="related-card-meta">⭐ 4.5 · 855Rb</div>
+            <div class="related-card-title">Merge Fellas Italian Brainrot</div>
+            <div class="related-card-meta">⭐ 4.4 · 482Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Starball</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/flappy-chase/" class="related-card" title="Flappy Chase">
-          <img src="https://img.gamepix.com/games/flappy-chase/icon/flappy-chase.png?w=105" alt="Flappy Chase" loading="lazy" width="80" height="45">
+        <a href="/game/anime-boys-coloring-pages/" class="related-card" title="Anime Boys Coloring Pages">
+          <img src="https://img.gamepix.com/games/anime-boys-coloring-pages/icon/anime-boys-coloring-pages.png?w=105" alt="Anime Boys Coloring Pages" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Flappy Chase</div>
-            <div class="related-card-meta">⭐ 4 · 119Rb</div>
+            <div class="related-card-title">Anime Boys Coloring Pages</div>
+            <div class="related-card-meta">⭐ 4.6 · 610Rb</div>
           </div>
         </a>
-        <a href="/game/my-unique-prom-look/" class="related-card" title="My Unique Prom Look">
-          <img src="https://img.gamepix.com/games/my-unique-prom-look/icon/my-unique-prom-look.png?w=105" alt="My Unique Prom Look" loading="lazy" width="80" height="45">
+        <a href="/game/microplastics-feeding/" class="related-card" title="Microplastics Feeding">
+          <img src="https://img.gamepix.com/games/microplastics-feeding/icon/microplastics-feeding.png?w=105" alt="Microplastics Feeding" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">My Unique Prom Look</div>
-            <div class="related-card-meta">⭐ 4.1 · 394Rb</div>
+            <div class="related-card-title">Microplastics Feeding</div>
+            <div class="related-card-meta">⭐ 4.4 · 700Rb</div>
           </div>
         </a>
-        <a href="/game/bullet-bee/" class="related-card" title="Bullet Bee">
-          <img src="https://img.gamepix.com/games/bullet-bee/icon/bullet-bee.png?w=105" alt="Bullet Bee" loading="lazy" width="80" height="45">
+        <a href="/game/castle-knight/" class="related-card" title="Castle Knight Run">
+          <img src="https://img.gamepix.com/games/castle-knight/icon/castle-knight.png?w=105" alt="Castle Knight Run" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bullet Bee</div>
-            <div class="related-card-meta">⭐ 4 · 964Rb</div>
+            <div class="related-card-title">Castle Knight Run</div>
+            <div class="related-card-meta">⭐ 4.7 · 593Rb</div>
           </div>
         </a>
-        <a href="/game/parking-bus-training/" class="related-card" title="Parking Bus Training">
-          <img src="https://img.gamepix.com/games/parking-bus-training/icon/parking-bus-training.png?w=105" alt="Parking Bus Training" loading="lazy" width="80" height="45">
+        <a href="/game/bop-the-blox/" class="related-card" title="Bop the Blox">
+          <img src="https://img.gamepix.com/games/bop-the-blox/icon/bop-the-blox.png?w=105" alt="Bop the Blox" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Parking Bus Training</div>
-            <div class="related-card-meta">⭐ 4.9 · 688Rb</div>
+            <div class="related-card-title">Bop the Blox</div>
+            <div class="related-card-meta">⭐ 4.4 · 521Rb</div>
           </div>
         </a>
-        <a href="/game/jungle-treasure/" class="related-card" title="Jungle Treasure">
-          <img src="https://img.gamepix.com/games/jungle-treasure/icon/jungle-treasure.png?w=105" alt="Jungle Treasure" loading="lazy" width="80" height="45">
+        <a href="/game/orange-master/" class="related-card" title="Orange Master">
+          <img src="https://img.gamepix.com/games/orange-master/icon/orange-master.png?w=105" alt="Orange Master" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jungle Treasure</div>
-            <div class="related-card-meta">⭐ 4.2 · 910Rb</div>
+            <div class="related-card-title">Orange Master</div>
+            <div class="related-card-meta">⭐ 4.4 · 297Rb</div>
           </div>
         </a>
-        <a href="/game/block-team-deathmatch/" class="related-card" title="Block Team Deathmatch">
-          <img src="https://img.gamepix.com/games/block-team-deathmatch/icon/block-team-deathmatch.png?w=105" alt="Block Team Deathmatch" loading="lazy" width="80" height="45">
+        <a href="/game/pilot-life/" class="related-card" title="Pilot Life - Flight Game 3D">
+          <img src="https://img.gamepix.com/games/pilot-life/icon/pilot-life.png?w=105" alt="Pilot Life - Flight Game 3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Block Team Deathmatch</div>
-            <div class="related-card-meta">⭐ 4.3 · 169Rb</div>
+            <div class="related-card-title">Pilot Life - Flight Game 3D</div>
+            <div class="related-card-meta">⭐ 4.3 · 448Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

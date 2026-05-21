@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Noob vs Bacon Jumping</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/jelly-battle/" class="related-card" title="Jelly Battle">
-          <img src="https://img.gamepix.com/games/jelly-battle/icon/jelly-battle.png?w=105" alt="Jelly Battle" loading="lazy" width="80" height="45">
+        <a href="/game/number-sum/" class="related-card" title="Number Sums">
+          <img src="https://img.gamepix.com/games/number-sum/icon/number-sum.png?w=105" alt="Number Sums" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Jelly Battle</div>
-            <div class="related-card-meta">⭐ 4.1 · 112Rb</div>
+            <div class="related-card-title">Number Sums</div>
+            <div class="related-card-meta">⭐ 4.6 · 885Rb</div>
           </div>
         </a>
-        <a href="/game/save-princess/" class="related-card" title="Save Princess">
-          <img src="https://img.gamepix.com/games/save-princess/icon/save-princess.png?w=105" alt="Save Princess" loading="lazy" width="80" height="45">
+        <a href="/game/granny-christmas-nightmare/" class="related-card" title="Granny Christmas Nightmare">
+          <img src="https://img.gamepix.com/games/granny-christmas-nightmare/icon/granny-christmas-nightmare.png?w=105" alt="Granny Christmas Nightmare" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Save Princess</div>
-            <div class="related-card-meta">⭐ 4.3 · 387Rb</div>
+            <div class="related-card-title">Granny Christmas Nightmare</div>
+            <div class="related-card-meta">⭐ 4.2 · 547Rb</div>
           </div>
         </a>
-        <a href="/game/car-parking/" class="related-card" title="Car Parking">
-          <img src="https://img.gamepix.com/games/car-parking/icon/car-parking.png?w=105" alt="Car Parking" loading="lazy" width="80" height="45">
+        <a href="/game/sniper-gold-rush-3d/" class="related-card" title="Sniper Gold Rush 3D">
+          <img src="https://img.gamepix.com/games/sniper-gold-rush-3d/icon/sniper-gold-rush-3d.png?w=105" alt="Sniper Gold Rush 3D" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Car Parking</div>
-            <div class="related-card-meta">⭐ 4.2 · 982Rb</div>
+            <div class="related-card-title">Sniper Gold Rush 3D</div>
+            <div class="related-card-meta">⭐ 4.5 · 515Rb</div>
           </div>
         </a>
-        <a href="/game/web-slinger-insect-capture-challenge/" class="related-card" title="Web Slinger Insect Capture Challenge">
-          <img src="https://img.gamepix.com/games/web-slinger-insect-capture-challenge/icon/web-slinger-insect-capture-challenge.png?w=105" alt="Web Slinger Insect Capture Challenge" loading="lazy" width="80" height="45">
+        <a href="/game/ping-pong-arcade/" class="related-card" title="Ping Pong Arcade">
+          <img src="https://img.gamepix.com/games/ping-pong-arcade/icon/ping-pong-arcade.png?w=105" alt="Ping Pong Arcade" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Web Slinger Insect Capture Challenge</div>
-            <div class="related-card-meta">⭐ 4.4 · 478Rb</div>
+            <div class="related-card-title">Ping Pong Arcade</div>
+            <div class="related-card-meta">⭐ 4.2 · 470Rb</div>
           </div>
         </a>
-        <a href="/game/cherry-on-the-ice-cream/" class="related-card" title="Cherry On The Ice Cream">
-          <img src="https://img.gamepix.com/games/cherry-on-the-ice-cream/icon/cherry-on-the-ice-cream.png?w=105" alt="Cherry On The Ice Cream" loading="lazy" width="80" height="45">
+        <a href="/game/runner-soldiers/" class="related-card" title="Runner Soldiers">
+          <img src="https://img.gamepix.com/games/runner-soldiers/icon/runner-soldiers.png?w=105" alt="Runner Soldiers" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cherry On The Ice Cream</div>
-            <div class="related-card-meta">⭐ 4.3 · 732Rb</div>
+            <div class="related-card-title">Runner Soldiers</div>
+            <div class="related-card-meta">⭐ 4.1 · 720Rb</div>
           </div>
         </a>
-        <a href="/game/cricket-clash-pong/" class="related-card" title="Cricket Clash Pong">
-          <img src="https://img.gamepix.com/games/cricket-clash-pong/icon/cricket-clash-pong.png?w=105" alt="Cricket Clash Pong" loading="lazy" width="80" height="45">
+        <a href="/game/awareness-test-the-room/" class="related-card" title="Awareness Test - The Room">
+          <img src="https://img.gamepix.com/games/awareness-test-the-room/icon/awareness-test-the-room.png?w=105" alt="Awareness Test - The Room" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cricket Clash Pong</div>
-            <div class="related-card-meta">⭐ 4.2 · 581Rb</div>
+            <div class="related-card-title">Awareness Test - The Room</div>
+            <div class="related-card-meta">⭐ 4.1 · 731Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

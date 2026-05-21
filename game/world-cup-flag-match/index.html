@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">World Cup Flag Match</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/blossom/" class="related-card" title="Blossom">
-          <img src="https://img.gamepix.com/games/blossom/icon/blossom.png?w=105" alt="Blossom" loading="lazy" width="80" height="45">
+        <a href="/game/move-the-tower/" class="related-card" title="Move the Tower">
+          <img src="https://img.gamepix.com/games/move-the-tower/icon/move-the-tower.png?w=105" alt="Move the Tower" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Blossom</div>
-            <div class="related-card-meta">⭐ 4.1 · 846Rb</div>
+            <div class="related-card-title">Move the Tower</div>
+            <div class="related-card-meta">⭐ 4.5 · 502Rb</div>
           </div>
         </a>
-        <a href="/game/pirate-slots/" class="related-card" title="Pirate Slots">
-          <img src="https://img.gamepix.com/games/pirate-slots/icon/pirate-slots.png?w=105" alt="Pirate Slots" loading="lazy" width="80" height="45">
+        <a href="/game/balloon-pop-challenge/" class="related-card" title="Balloon Pop Challenge">
+          <img src="https://img.gamepix.com/games/balloon-pop-challenge/icon/balloon-pop-challenge.png?w=105" alt="Balloon Pop Challenge" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Pirate Slots</div>
-            <div class="related-card-meta">⭐ 4.4 · 813Rb</div>
+            <div class="related-card-title">Balloon Pop Challenge</div>
+            <div class="related-card-meta">⭐ 4.2 · 559Rb</div>
           </div>
         </a>
-        <a href="/game/rope-rescue/" class="related-card" title="Rope Rescue">
-          <img src="https://img.gamepix.com/games/rope-rescue/icon/rope-rescue.png?w=105" alt="Rope Rescue" loading="lazy" width="80" height="45">
+        <a href="/game/solitaire/" class="related-card" title="Solitaire TS">
+          <img src="https://img.gamepix.com/games/solitaire/icon/solitaire.png?w=105" alt="Solitaire TS" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Rope Rescue</div>
-            <div class="related-card-meta">⭐ 4.3 · 329Rb</div>
+            <div class="related-card-title">Solitaire TS</div>
+            <div class="related-card-meta">⭐ 4.1 · 793Rb</div>
           </div>
         </a>
-        <a href="/game/sticky-balls-match-3-bubble-shooter/" class="related-card" title="Sticky Balls - Match 3 Bubble Shooter">
-          <img src="https://img.gamepix.com/games/sticky-balls-match-3-bubble-shooter/icon/sticky-balls-match-3-bubble-shooter.png?w=105" alt="Sticky Balls - Match 3 Bubble Shooter" loading="lazy" width="80" height="45">
+        <a href="/game/three-juicy-tiles-mahjong/" class="related-card" title="Three Juicy Tiles Mahjong">
+          <img src="https://img.gamepix.com/games/three-juicy-tiles-mahjong/icon/three-juicy-tiles-mahjong.png?w=105" alt="Three Juicy Tiles Mahjong" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Sticky Balls - Match 3 Bubble Shooter</div>
-            <div class="related-card-meta">⭐ 4.3 · 853Rb</div>
+            <div class="related-card-title">Three Juicy Tiles Mahjong</div>
+            <div class="related-card-meta">⭐ 4.7 · 434Rb</div>
           </div>
         </a>
-        <a href="/game/drop-the-number-merge-game/" class="related-card" title="Drop the Number - Merge Game">
-          <img src="https://img.gamepix.com/games/drop-the-number-merge-game/icon/drop-the-number-merge-game.png?w=105" alt="Drop the Number - Merge Game" loading="lazy" width="80" height="45">
+        <a href="/game/2048-clicker/" class="related-card" title="2048 Clicker">
+          <img src="https://img.gamepix.com/games/2048-clicker/icon/2048-clicker.png?w=105" alt="2048 Clicker" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Drop the Number - Merge Game</div>
-            <div class="related-card-meta">⭐ 4.2 · 656Rb</div>
+            <div class="related-card-title">2048 Clicker</div>
+            <div class="related-card-meta">⭐ 4.8 · 970Rb</div>
           </div>
         </a>
-        <a href="/game/don-t-drop-the-cup/" class="related-card" title="Don't Drop The Cup">
-          <img src="https://img.gamepix.com/games/don-t-drop-the-cup/icon/don-t-drop-the-cup.png?w=105" alt="Don't Drop The Cup" loading="lazy" width="80" height="45">
+        <a href="/game/crazy-chicken-jump/" class="related-card" title="Grass Cutting Puzzle">
+          <img src="https://img.gamepix.com/games/crazy-chicken-jump/icon/crazy-chicken-jump.png?w=105" alt="Grass Cutting Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Don't Drop The Cup</div>
-            <div class="related-card-meta">⭐ 4.9 · 128Rb</div>
+            <div class="related-card-title">Grass Cutting Puzzle</div>
+            <div class="related-card-meta">⭐ 4.8 · 876Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

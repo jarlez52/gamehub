@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Shootout 2 Players</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/spirited-skully/" class="related-card" title="Spirited Skully">
-          <img src="https://img.gamepix.com/games/spirited-skully/icon/spirited-skully.png?w=105" alt="Spirited Skully" loading="lazy" width="80" height="45">
+        <a href="/game/titan-the-way-to-the-bottom/" class="related-card" title="Titan - The Way to the Bottom">
+          <img src="https://img.gamepix.com/games/titan-the-way-to-the-bottom/icon/titan-the-way-to-the-bottom.png?w=105" alt="Titan - The Way to the Bottom" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Spirited Skully</div>
-            <div class="related-card-meta">⭐ 4.6 · 942Rb</div>
+            <div class="related-card-title">Titan - The Way to the Bottom</div>
+            <div class="related-card-meta">⭐ 4.4 · 323Rb</div>
           </div>
         </a>
-        <a href="/game/dog-runner/" class="related-card" title="Doggy Run">
-          <img src="https://img.gamepix.com/games/dog-runner/icon/dog-runner.png?w=105" alt="Doggy Run" loading="lazy" width="80" height="45">
+        <a href="/game/snakebit-3310/" class="related-card" title="SnakeBit 3310">
+          <img src="https://img.gamepix.com/games/snakebit-3310/icon/snakebit-3310.png?w=105" alt="SnakeBit 3310" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Doggy Run</div>
-            <div class="related-card-meta">⭐ 4.6 · 795Rb</div>
+            <div class="related-card-title">SnakeBit 3310</div>
+            <div class="related-card-meta">⭐ 4.7 · 161Rb</div>
           </div>
         </a>
-        <a href="/game/war-of-noobs-for-two-players/" class="related-card" title="War of Noobs for two players">
-          <img src="https://img.gamepix.com/games/war-of-noobs-for-two-players/icon/war-of-noobs-for-two-players.png?w=105" alt="War of Noobs for two players" loading="lazy" width="80" height="45">
+        <a href="/game/children-s-doctor-treating-ears/" class="related-card" title="Children's Doctor Treating Ears">
+          <img src="https://img.gamepix.com/games/children-s-doctor-treating-ears/icon/children-s-doctor-treating-ears.png?w=105" alt="Children's Doctor Treating Ears" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">War of Noobs for two players</div>
-            <div class="related-card-meta">⭐ 4.9 · 588Rb</div>
+            <div class="related-card-title">Children's Doctor Treating Ears</div>
+            <div class="related-card-meta">⭐ 4 · 980Rb</div>
           </div>
         </a>
-        <a href="/game/gt-drift-most-wanted/" class="related-card" title="GT Drift Most Wanted">
-          <img src="https://img.gamepix.com/games/gt-drift-most-wanted/icon/gt-drift-most-wanted.png?w=105" alt="GT Drift Most Wanted" loading="lazy" width="80" height="45">
+        <a href="/game/bunge-jungle/" class="related-card" title="Bunge Jungle">
+          <img src="https://img.gamepix.com/games/bunge-jungle/icon/bunge-jungle.png?w=105" alt="Bunge Jungle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">GT Drift Most Wanted</div>
-            <div class="related-card-meta">⭐ 4 · 597Rb</div>
+            <div class="related-card-title">Bunge Jungle</div>
+            <div class="related-card-meta">⭐ 4.6 · 560Rb</div>
           </div>
         </a>
-        <a href="/game/silly-snake-game/" class="related-card" title="Silly Snake Game">
-          <img src="https://img.gamepix.com/games/silly-snake-game/icon/silly-snake-game.png?w=105" alt="Silly Snake Game" loading="lazy" width="80" height="45">
+        <a href="/game/offroad-4x4-driving-simulator/" class="related-card" title="OffRoad 4x4 Driving Simulator">
+          <img src="https://img.gamepix.com/games/offroad-4x4-driving-simulator/icon/offroad-4x4-driving-simulator.png?w=105" alt="OffRoad 4x4 Driving Simulator" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Silly Snake Game</div>
-            <div class="related-card-meta">⭐ 4.8 · 960Rb</div>
+            <div class="related-card-title">OffRoad 4x4 Driving Simulator</div>
+            <div class="related-card-meta">⭐ 4.1 · 318Rb</div>
           </div>
         </a>
-        <a href="/game/car-game/" class="related-card" title="Car Game">
-          <img src="https://img.gamepix.com/games/car-game/icon/car-game.png?w=105" alt="Car Game" loading="lazy" width="80" height="45">
+        <a href="/game/spot-the-difference/" class="related-card" title="Spot the Difference">
+          <img src="https://img.gamepix.com/games/spot-the-difference/icon/spot-the-difference.png?w=105" alt="Spot the Difference" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Car Game</div>
-            <div class="related-card-meta">⭐ 4.7 · 383Rb</div>
+            <div class="related-card-title">Spot the Difference</div>
+            <div class="related-card-meta">⭐ 4.2 · 106Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

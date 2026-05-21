@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">Tralalero Tralala Last Fight</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/emoji-sort-30/" class="related-card" title="Emoji Sort 30">
-          <img src="https://img.gamepix.com/games/emoji-sort-30/icon/emoji-sort-30.png?w=105" alt="Emoji Sort 30" loading="lazy" width="80" height="45">
+        <a href="/game/alone-in-the-evil-mansion/" class="related-card" title="Alone In The Evil Mansion">
+          <img src="https://img.gamepix.com/games/alone-in-the-evil-mansion/icon/alone-in-the-evil-mansion.png?w=105" alt="Alone In The Evil Mansion" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Emoji Sort 30</div>
-            <div class="related-card-meta">⭐ 4.8 · 772Rb</div>
+            <div class="related-card-title">Alone In The Evil Mansion</div>
+            <div class="related-card-meta">⭐ 4.3 · 428Rb</div>
           </div>
         </a>
-        <a href="/game/hagicraft-shooter/" class="related-card" title="Hagicraft Shooter">
-          <img src="https://img.gamepix.com/games/hagicraft-shooter/icon/hagicraft-shooter.png?w=105" alt="Hagicraft Shooter" loading="lazy" width="80" height="45">
+        <a href="/game/save-the-stickman/" class="related-card" title="Save the Stickman">
+          <img src="https://img.gamepix.com/games/save-the-stickman/icon/save-the-stickman.png?w=105" alt="Save the Stickman" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Hagicraft Shooter</div>
-            <div class="related-card-meta">⭐ 4.7 · 434Rb</div>
+            <div class="related-card-title">Save the Stickman</div>
+            <div class="related-card-meta">⭐ 4.4 · 322Rb</div>
           </div>
         </a>
-        <a href="/game/choosethecolor/" class="related-card" title="ChooseTheColor">
-          <img src="https://img.gamepix.com/games/choosethecolor/icon/choosethecolor.png?w=105" alt="ChooseTheColor" loading="lazy" width="80" height="45">
+        <a href="/game/snack-ball/" class="related-card" title="Snack Ball">
+          <img src="https://img.gamepix.com/games/snack-ball/icon/snack-ball.png?w=105" alt="Snack Ball" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">ChooseTheColor</div>
-            <div class="related-card-meta">⭐ 4.6 · 712Rb</div>
+            <div class="related-card-title">Snack Ball</div>
+            <div class="related-card-meta">⭐ 4.6 · 108Rb</div>
           </div>
         </a>
-        <a href="/game/block-vs-block-ii/" class="related-card" title="Block vs Block II">
-          <img src="https://img.gamepix.com/games/block-vs-block-ii/icon/block-vs-block-ii.png?w=105" alt="Block vs Block II" loading="lazy" width="80" height="45">
+        <a href="/game/counter-craft-5/" class="related-card" title="Counter Craft 5">
+          <img src="https://img.gamepix.com/games/counter-craft-5/icon/counter-craft-5.png?w=105" alt="Counter Craft 5" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Block vs Block II</div>
-            <div class="related-card-meta">⭐ 4.2 · 119Rb</div>
+            <div class="related-card-title">Counter Craft 5</div>
+            <div class="related-card-meta">⭐ 4 · 733Rb</div>
           </div>
         </a>
-        <a href="/game/bunny-quest/" class="related-card" title="Bunny Quest">
-          <img src="https://img.gamepix.com/games/bunny-quest/icon/bunny-quest.png?w=105" alt="Bunny Quest" loading="lazy" width="80" height="45">
+        <a href="/game/candy-cup-boom/" class="related-card" title="Candy Cup Boom">
+          <img src="https://img.gamepix.com/games/candy-cup-boom/icon/candy-cup-boom.png?w=105" alt="Candy Cup Boom" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Bunny Quest</div>
-            <div class="related-card-meta">⭐ 4.7 · 472Rb</div>
+            <div class="related-card-title">Candy Cup Boom</div>
+            <div class="related-card-meta">⭐ 4.8 · 640Rb</div>
           </div>
         </a>
-        <a href="/game/cricket-clash-pong/" class="related-card" title="Cricket Clash Pong">
-          <img src="https://img.gamepix.com/games/cricket-clash-pong/icon/cricket-clash-pong.png?w=105" alt="Cricket Clash Pong" loading="lazy" width="80" height="45">
+        <a href="/game/corona-evasion/" class="related-card" title="Corona Evasion">
+          <img src="https://img.gamepix.com/games/corona-evasion/icon/corona-evasion.png?w=105" alt="Corona Evasion" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cricket Clash Pong</div>
-            <div class="related-card-meta">⭐ 4.2 · 581Rb</div>
+            <div class="related-card-title">Corona Evasion</div>
+            <div class="related-card-meta">⭐ 4.2 · 813Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>

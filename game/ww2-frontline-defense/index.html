@@ -205,6 +205,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 .hero-search button{background:var(--primary);border:none;color:#fff;border-radius:var(--radius);padding:12px 20px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s}
 .hero-search button:hover{background:var(--primary-dark)}
 
+/* ── AD BANNER ── */
+.ad-728{display:flex;justify-content:center;align-items:center;padding:1rem 1.5rem .5rem;overflow:hidden}
+.ad-728 iframe,.ad-728 ins{max-width:100%}
+
+/* ── LOAD MORE ── */
+.load-more-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;padding:2rem 0 1rem}
+.load-more-btn{background:var(--primary);color:#fff;border:none;border-radius:var(--radius);padding:12px 36px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s,transform .1s;display:flex;align-items:center;gap:8px}
+.load-more-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
+.load-more-btn:disabled{background:var(--bg3);color:var(--text3);cursor:not-allowed;transform:none}
+.load-more-count{font-size:13px;color:var(--text3)}
+
 /* ── CATEGORY PILLS ── */
 .cat-pills{display:flex;flex-wrap:wrap;gap:8px;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .cat-pill{display:flex;align-items:center;gap:6px;padding:8px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:99px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;text-decoration:none}
@@ -235,6 +246,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
     <span aria-current="page">WW2 Frontline Defense</span>
   </nav>
 
+  <!-- Adsterra Native Banner -->
+  <div style="margin-bottom:1.25rem">
+    <script async="async" data-cfasync="false" src="https://enteringlacquergiant.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
+    <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
+  </div>
+
   <div class="game-layout">
     <!-- LEFT: Game + info -->
     <div>
@@ -253,6 +270,20 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
         ></iframe>
       </div>
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
+
+      <!-- Adsterra 728x90 -->
+      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+        <script>
+          atOptions = {
+            'key' : '4998e547fa966cf16147ab85c17a9bba',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/4998e547fa966cf16147ab85c17a9bba/invoke.js"></script>
+      </div>
 
       <!-- Game info -->
       <div class="game-info" style="margin-top:16px">
@@ -293,48 +324,63 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <h2>Game Serupa</h2>
       <div class="related-list">
         
-        <a href="/game/cut-fruit/" class="related-card" title="Cut Fruit">
-          <img src="https://img.gamepix.com/games/cut-fruit/icon/cut-fruit.png?w=105" alt="Cut Fruit" loading="lazy" width="80" height="45">
+        <a href="/game/pekko-robot-2/" class="related-card" title="Pekko Robot 2">
+          <img src="https://img.gamepix.com/games/pekko-robot-2/icon/pekko-robot-2.png?w=105" alt="Pekko Robot 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Cut Fruit</div>
-            <div class="related-card-meta">⭐ 4.8 · 832Rb</div>
+            <div class="related-card-title">Pekko Robot 2</div>
+            <div class="related-card-meta">⭐ 4.7 · 249Rb</div>
           </div>
         </a>
-        <a href="/game/maze-of-death/" class="related-card" title="Maze of Death">
-          <img src="https://img.gamepix.com/games/maze-of-death/icon/maze-of-death.png?w=105" alt="Maze of Death" loading="lazy" width="80" height="45">
+        <a href="/game/drifting-miner/" class="related-card" title="Drifting Miner">
+          <img src="https://img.gamepix.com/games/drifting-miner/icon/drifting-miner.png?w=105" alt="Drifting Miner" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Maze of Death</div>
-            <div class="related-card-meta">⭐ 4.5 · 969Rb</div>
+            <div class="related-card-title">Drifting Miner</div>
+            <div class="related-card-meta">⭐ 4.8 · 536Rb</div>
           </div>
         </a>
-        <a href="/game/stickman-vs-monster-school/" class="related-card" title="Stickman vs Monster School">
-          <img src="https://img.gamepix.com/games/stickman-vs-monster-school/icon/stickman-vs-monster-school.png?w=105" alt="Stickman vs Monster School" loading="lazy" width="80" height="45">
+        <a href="/game/arrow-mystery-puzzle/" class="related-card" title="Arrow Mystery Puzzle">
+          <img src="https://img.gamepix.com/games/arrow-mystery-puzzle/icon/arrow-mystery-puzzle.png?w=105" alt="Arrow Mystery Puzzle" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Stickman vs Monster School</div>
-            <div class="related-card-meta">⭐ 4.1 · 325Rb</div>
+            <div class="related-card-title">Arrow Mystery Puzzle</div>
+            <div class="related-card-meta">⭐ 4.3 · 325Rb</div>
           </div>
         </a>
-        <a href="/game/zombies-anniversary/" class="related-card" title="Zombies! - Anniversary">
-          <img src="https://img.gamepix.com/games/zombies-anniversary/icon/zombies-anniversary.png?w=105" alt="Zombies! - Anniversary" loading="lazy" width="80" height="45">
+        <a href="/game/the-last-of-survival-2/" class="related-card" title="The Last of Survival 2">
+          <img src="https://img.gamepix.com/games/the-last-of-survival-2/icon/the-last-of-survival-2.png?w=105" alt="The Last of Survival 2" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Zombies! - Anniversary</div>
-            <div class="related-card-meta">⭐ 4.3 · 423Rb</div>
+            <div class="related-card-title">The Last of Survival 2</div>
+            <div class="related-card-meta">⭐ 4.6 · 886Rb</div>
           </div>
         </a>
-        <a href="/game/lava-cre/" class="related-card" title="Lava Cre">
-          <img src="https://img.gamepix.com/games/lava-cre/icon/lava-cre.png?w=105" alt="Lava Cre" loading="lazy" width="80" height="45">
+        <a href="/game/war-plane/" class="related-card" title="War Plane">
+          <img src="https://img.gamepix.com/games/war-plane/icon/war-plane.png?w=105" alt="War Plane" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Lava Cre</div>
-            <div class="related-card-meta">⭐ 4.9 · 323Rb</div>
+            <div class="related-card-title">War Plane</div>
+            <div class="related-card-meta">⭐ 4.2 · 326Rb</div>
           </div>
         </a>
-        <a href="/game/trap-dodger-the-platformer-challenge/" class="related-card" title="Trap Dodger: The Platformer Challenge">
-          <img src="https://img.gamepix.com/games/trap-dodger-the-platformer-challenge/icon/trap-dodger-the-platformer-challenge.png?w=105" alt="Trap Dodger: The Platformer Challenge" loading="lazy" width="80" height="45">
+        <a href="/game/zombie-war/" class="related-card" title="Z-War">
+          <img src="https://img.gamepix.com/games/zombie-war/icon/zombie-war.png?w=105" alt="Z-War" loading="lazy" width="80" height="45">
           <div class="related-card-info">
-            <div class="related-card-title">Trap Dodger: The Platformer Challenge</div>
-            <div class="related-card-meta">⭐ 4.8 · 823Rb</div>
+            <div class="related-card-title">Z-War</div>
+            <div class="related-card-meta">⭐ 4.4 · 651Rb</div>
           </div>
         </a>
+      </div>
+
+      <!-- Adsterra 300x250 -->
+      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+        <script>
+          atOptions = {
+            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
       </div>
     </aside>
   </div>
