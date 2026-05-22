@@ -5,25 +5,38 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Save the Dino's World — Main Gratis | GameHub</title>
 <meta name="description" content="Main Save the Dino's World gratis di browser! Join a daring dinosaur on a 2D adventure to reunite with a friend. Navigate through vibrant levels, battling foes and co... Tanpa download, langsung main sekarang di GameHub.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="GameHub">
+<meta name="language" content="id">
 <link rel="canonical" href="https://gamehubme.pages.dev/game/save-the-dino-s-world/">
 
-<!-- Open Graph -->
-<meta property="og:type"        content="website">
-<meta property="og:title"       content="Save the Dino's World — Main Gratis | GameHub">
-<meta property="og:description" content="Main Save the Dino's World gratis di browser! Join a daring dinosaur on a 2D adventure to reunite with a friend. Navigate through vibrant levels, battling foes and co... Tanpa download, langsung main sekarang di GameHub.">
-<meta property="og:url"         content="https://gamehubme.pages.dev/game/save-the-dino-s-world/">
-<meta property="og:image"       content="https://img.gamepix.com/games/save-the-dino-s-world/icon/save-the-dino-s-world.png?w=105">
-<meta property="og:site_name"   content="GameHub">
+<!-- Open Graph (Facebook, Pinterest, WhatsApp, dll) -->
+<meta property="og:type"              content="article">
+<meta property="og:title"             content="Save the Dino's World — Main Gratis | GameHub">
+<meta property="og:description"       content="Main Save the Dino's World gratis di browser! Join a daring dinosaur on a 2D adventure to reunite with a friend. Navigate through vibrant levels, battling foes and co... Tanpa download, langsung main sekarang di GameHub.">
+<meta property="og:url"               content="https://gamehubme.pages.dev/game/save-the-dino-s-world/">
+<meta property="og:image"             content="https://img.gamepix.com/games/save-the-dino-s-world/icon/save-the-dino-s-world.png?w=105">
+<meta property="og:image:width"       content="1200">
+<meta property="og:image:height"      content="630">
+<meta property="og:image:alt"         content="Save the Dino's World — game gratis di GameHub">
+<meta property="og:site_name"         content="GameHub">
+<meta property="og:locale"            content="id_ID">
 
-<!-- Twitter -->
-<meta name="twitter:card"        content="summary_large_image">
-<meta name="twitter:title"       content="Save the Dino's World — Main Gratis | GameHub">
-<meta name="twitter:description" content="Main Save the Dino's World gratis di browser! Join a daring dinosaur on a 2D adventure to reunite with a friend. Navigate through vibrant levels, battling foes and co... Tanpa download, langsung main sekarang di GameHub.">
-<meta name="twitter:image"       content="https://img.gamepix.com/games/save-the-dino-s-world/icon/save-the-dino-s-world.png?w=105">
-<meta name="twitter:site"        content="@gamehubid">
+<!-- Twitter Card -->
+<meta name="twitter:card"             content="summary_large_image">
+<meta name="twitter:title"            content="Save the Dino's World — Main Gratis | GameHub">
+<meta name="twitter:description"      content="Main Save the Dino's World gratis di browser! Join a daring dinosaur on a 2D adventure to reunite with a friend. Navigate through vibrant levels, battling foes and co... Tanpa download, langsung main sekarang di GameHub.">
+<meta name="twitter:image"            content="https://img.gamepix.com/games/save-the-dino-s-world/icon/save-the-dino-s-world.png?w=105">
+<meta name="twitter:image:alt"        content="Save the Dino's World — game gratis di GameHub">
+<meta name="twitter:site"             content="@gamehubid">
+
+<!-- Pinterest -->
+<meta name="pinterest-rich-pin"       content="true">
+<meta property="og:image:type"        content="image/jpeg">
 
 <!-- Favicon -->
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico">
 
 <!-- Preconnect fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -87,15 +100,42 @@
 .breadcrumb{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--text2);margin-bottom:1.25rem;flex-wrap:wrap}
 .breadcrumb a:hover{color:var(--text)}
 .breadcrumb-sep{color:var(--text3)}
+
+/* ── LAYOUT: desktop = 2 col, mobile = 1 col ── */
 .game-layout{display:grid;grid-template-columns:1fr 300px;gap:24px;align-items:start}
-@media(max-width:900px){.game-layout{grid-template-columns:1fr}}
+.game-main-col{min-width:0}
+.sidebar{min-width:0}
+
+/* Desktop: sidebar di kanan (order default) */
+.game-main-col{order:1}
+.sidebar{order:2}
+
+/* ── IFRAME ── */
 .iframe-wrap{position:relative;background:#000;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--border);width:100%}
 .iframe-wrap iframe{width:100%;height:100%;border:none;display:block}
-.fullscreen-btn{margin-top:8px;background:var(--bg2);border:1px solid var(--border);color:var(--text2);padding:8px 16px;border-radius:var(--radius);font-size:13px;cursor:pointer;transition:all .15s}
+
+/* ── FULLSCREEN BTN — lebih gede & full width di mobile ── */
+.fullscreen-btn{
+  display:flex;align-items:center;justify-content:center;gap:6px;
+  margin-top:10px;width:100%;
+  background:var(--bg2);border:1px solid var(--border);
+  color:var(--text2);padding:11px 16px;
+  border-radius:var(--radius);font-size:14px;font-weight:500;
+  cursor:pointer;transition:all .15s
+}
 .fullscreen-btn:hover{border-color:var(--primary);color:var(--primary)}
+
+/* ── ADS WRAPPER — selalu center & overflow hidden ── */
+.ad-wrap-728{
+  display:flex;justify-content:center;align-items:center;
+  margin:12px 0;overflow:hidden;width:100%;
+}
+.ad-wrap-728 iframe,.ad-wrap-728 ins{max-width:100%}
+
+/* ── GAME INFO ── */
 .game-info{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem}
 .game-info h1{font-size:20px;font-weight:700;margin-bottom:.5rem}
-.rating-row{display:flex;align-items:center;gap:10px;margin-bottom:1rem}
+.rating-row{display:flex;align-items:center;gap:10px;margin-bottom:1rem;flex-wrap:wrap}
 .stars{color:var(--yellow);font-size:16px}
 .rating-val{font-size:20px;font-weight:700}
 .rating-count{font-size:12px;color:var(--text2)}
@@ -108,18 +148,78 @@
 .desc-text{font-size:14px;color:var(--text2);line-height:1.7}
 .controls-box{background:var(--bg3);border-radius:var(--radius);padding:12px;margin-top:1rem;font-size:13px;color:var(--text2)}
 .controls-box strong{color:var(--text);display:block;margin-bottom:4px}
-.sidebar h2{font-size:15px;font-weight:600;margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+
+/* ── SIDEBAR ── */
+.sidebar-sticky{position:sticky;top:70px}
+.sidebar h2{font-size:16px;font-weight:700;margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+
+/* ── RELATED LIST: desktop = vertikal, mobile = grid 2 kolom ── */
 .related-list{display:flex;flex-direction:column;gap:10px}
-.related-card{display:flex;gap:10px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:8px;text-decoration:none;transition:border-color .15s}
+.related-card{display:flex;gap:10px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:10px;text-decoration:none;transition:border-color .15s;align-items:center}
 .related-card:hover{border-color:var(--primary)}
-.related-card img{width:80px;height:45px;object-fit:cover;border-radius:6px;flex-shrink:0;background:var(--bg3)}
+.related-card img{width:90px;height:52px;object-fit:cover;border-radius:6px;flex-shrink:0;background:var(--bg3)}
 .related-card-info{flex:1;min-width:0}
-.related-card-title{font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:2px}
-.related-card-meta{font-size:11px;color:var(--text2)}
+.related-card-title{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:3px}
+.related-card-meta{font-size:12px;color:var(--text2)}
+
+/* ── USER RATING ── */
 .user-rating{margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border)}
-.star-rate{display:flex;gap:4px;font-size:28px;cursor:pointer;margin:.5rem 0}
+.star-rate{display:flex;gap:6px;font-size:32px;cursor:pointer;margin:.5rem 0}
 .star-rate span{transition:transform .1s;line-height:1}
 .star-rate span:hover{transform:scale(1.2)}
+
+/* ══════════════════════════════════════════════
+   MOBILE (max 900px): switch ke single column
+══════════════════════════════════════════════ */
+@media(max-width:900px){
+  .game-layout{
+    grid-template-columns:1fr;
+    gap:16px;
+  }
+  .game-page{padding:1rem}
+
+  /* Game Serupa pindah ke BAWAH beri rating */
+  .game-main-col{order:1}
+  .sidebar{order:2}
+
+  /* Related cards: grid 2 kolom di mobile */
+  .related-list{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+  }
+  .related-card{
+    flex-direction:column;
+    align-items:flex-start;
+    padding:8px;
+  }
+  .related-card img{
+    width:100%;
+    height:auto;
+    aspect-ratio:16/9;
+  }
+  .related-card-title{font-size:12px;white-space:normal;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+
+  /* Fullscreen btn lebih besar di mobile */
+  .fullscreen-btn{
+    font-size:15px;
+    padding:13px 16px;
+    border-radius:var(--radius);
+  }
+
+  /* Ads selalu center di mobile */
+  .ad-wrap-728{
+    max-width:100%;
+    overflow-x:hidden;
+  }
+}
+
+/* ── Sangat kecil (max 480px) ── */
+@media(max-width:480px){
+  .related-card img{aspect-ratio:16/9}
+  .game-info h1{font-size:18px}
+  .star-rate{font-size:36px;gap:8px}
+}
 </style>
 
 <!-- Google Analytics -->
@@ -254,7 +354,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 
   <div class="game-layout">
     <!-- LEFT: Game + info -->
-    <div>
+    <div class="game-main-col">
       <!-- Game iframe — GamePix API embed -->
       <div class="iframe-wrap" id="game-wrap" style="aspect-ratio:800/600;max-width:100%;margin:0 auto;">
         <iframe
@@ -272,7 +372,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
 
       <!-- Adsterra 728x90 -->
-      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+      <div class="ad-wrap-728">
         <script>
           atOptions = {
             'key' : '4998e547fa966cf16147ab85c17a9bba',
@@ -319,68 +419,70 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       </div>
     </div>
 
-    <!-- RIGHT: Sidebar related games -->
+    <!-- RIGHT: Sidebar related games (desktop) / Bawah beri rating (mobile) -->
     <aside class="sidebar">
-      <h2>Game Serupa</h2>
-      <div class="related-list">
-        
-        <a href="/game/destroy-asteroids/" class="related-card" title="Destroy Asteroids">
-          <img src="https://img.gamepix.com/games/destroy-asteroids/icon/destroy-asteroids.png?w=105" alt="Destroy Asteroids" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Destroy Asteroids</div>
-            <div class="related-card-meta">⭐ 4.3 · 499Rb</div>
-          </div>
-        </a>
-        <a href="/game/crimson-shift/" class="related-card" title="Crimson Shift">
-          <img src="https://img.gamepix.com/games/crimson-shift/icon/crimson-shift.png?w=105" alt="Crimson Shift" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Crimson Shift</div>
-            <div class="related-card-meta">⭐ 4.8 · 489Rb</div>
-          </div>
-        </a>
-        <a href="/game/desert-survival-online-game/" class="related-card" title="Desert Survival">
-          <img src="https://img.gamepix.com/games/desert-survival-online-game/icon/desert-survival-online-game.png?w=105" alt="Desert Survival" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Desert Survival</div>
-            <div class="related-card-meta">⭐ 4.2 · 320Rb</div>
-          </div>
-        </a>
-        <a href="/game/penguin-runner/" class="related-card" title="Penguin Runner">
-          <img src="https://img.gamepix.com/games/penguin-runner/icon/penguin-runner.png?w=105" alt="Penguin Runner" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Penguin Runner</div>
-            <div class="related-card-meta">⭐ 4.6 · 624Rb</div>
-          </div>
-        </a>
-        <a href="/game/golem-adventure/" class="related-card" title="Golem Adventure">
-          <img src="https://img.gamepix.com/games/golem-adventure/icon/golem-adventure.png?w=105" alt="Golem Adventure" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Golem Adventure</div>
-            <div class="related-card-meta">⭐ 4.5 · 325Rb</div>
-          </div>
-        </a>
-        <a href="/game/steve-and-alex-dragon-egg/" class="related-card" title="Steve and Alex Dragon Egg">
-          <img src="https://img.gamepix.com/games/steve-and-alex-dragon-egg/icon/steve-and-alex-dragon-egg.png?w=105" alt="Steve and Alex Dragon Egg" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Steve and Alex Dragon Egg</div>
-            <div class="related-card-meta">⭐ 4.8 · 725Rb</div>
-          </div>
-        </a>
-      </div>
+      <div class="sidebar-sticky">
+        <h2>Game Serupa</h2>
+        <div class="related-list">
+          
+          <a href="/game/skibidi-toilet-x-minecraft-tug-war/" class="related-card" title="Skibidi Toilet X Minecraft Tug War">
+            <img src="https://img.gamepix.com/games/skibidi-toilet-x-minecraft-tug-war/icon/skibidi-toilet-x-minecraft-tug-war.png?w=105" alt="Skibidi Toilet X Minecraft Tug War" loading="lazy" width="160" height="90">
+            <div class="related-card-info">
+              <div class="related-card-title">Skibidi Toilet X Minecraft Tug War</div>
+              <div class="related-card-meta">⭐ 4 · 771Rb</div>
+            </div>
+          </a>
+          <a href="/game/power-spider/" class="related-card" title="Power Spider">
+            <img src="https://img.gamepix.com/games/power-spider/icon/power-spider.png?w=105" alt="Power Spider" loading="lazy" width="160" height="90">
+            <div class="related-card-info">
+              <div class="related-card-title">Power Spider</div>
+              <div class="related-card-meta">⭐ 4.2 · 455Rb</div>
+            </div>
+          </a>
+          <a href="/game/just-idle/" class="related-card" title="Just Idle">
+            <img src="https://img.gamepix.com/games/just-idle/icon/just-idle.png?w=105" alt="Just Idle" loading="lazy" width="160" height="90">
+            <div class="related-card-info">
+              <div class="related-card-title">Just Idle</div>
+              <div class="related-card-meta">⭐ 4.8 · 694Rb</div>
+            </div>
+          </a>
+          <a href="/game/ricobullet/" class="related-card" title="RicoBullet">
+            <img src="https://img.gamepix.com/games/ricobullet/icon/ricobullet.png?w=105" alt="RicoBullet" loading="lazy" width="160" height="90">
+            <div class="related-card-info">
+              <div class="related-card-title">RicoBullet</div>
+              <div class="related-card-meta">⭐ 4.2 · 389Rb</div>
+            </div>
+          </a>
+          <a href="/game/granny-and-skibidi-toilet-escape-horror/" class="related-card" title="Granny & Skibidi toilet Escape Horror">
+            <img src="https://img.gamepix.com/games/granny-and-skibidi-toilet-escape-horror/icon/granny-and-skibidi-toilet-escape-horror.png?w=105" alt="Granny & Skibidi toilet Escape Horror" loading="lazy" width="160" height="90">
+            <div class="related-card-info">
+              <div class="related-card-title">Granny & Skibidi toilet Escape Horror</div>
+              <div class="related-card-meta">⭐ 4.3 · 135Rb</div>
+            </div>
+          </a>
+          <a href="/game/mutant-plants-vs-zombie/" class="related-card" title="Mutant Plants Vs Zombie">
+            <img src="https://img.gamepix.com/games/mutant-plants-vs-zombie/icon/mutant-plants-vs-zombie.png?w=105" alt="Mutant Plants Vs Zombie" loading="lazy" width="160" height="90">
+            <div class="related-card-info">
+              <div class="related-card-title">Mutant Plants Vs Zombie</div>
+              <div class="related-card-meta">⭐ 4.3 · 828Rb</div>
+            </div>
+          </a>
+        </div>
 
-      <!-- Adsterra 300x250 -->
-      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
-        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
-        <script>
-          atOptions = {
-            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
-            'format' : 'iframe',
-            'height' : 250,
-            'width' : 300,
-            'params' : {}
-          };
-        </script>
-        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
+        <!-- Adsterra 300x250 -->
+        <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+          <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+          <script>
+            atOptions = {
+              'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+              'format' : 'iframe',
+              'height' : 250,
+              'width' : 300,
+              'params' : {}
+            };
+          </script>
+          <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
+        </div>
       </div>
     </aside>
   </div>
@@ -420,6 +522,24 @@ if(si){
   });
 }
 </script>
+
+<!-- Histats.com START (async) -->
+<script type="text/javascript">
+var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5025051,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+  var hs = document.createElement('script');
+  hs.type = 'text/javascript';
+  hs.async = true;
+  hs.src = ('//s10.histats.com/js15_as.js');
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();
+</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?5025051&101" alt="" border="0"></a></noscript>
+<!-- Histats.com END -->
+
 </body>
 </html>
 <script>

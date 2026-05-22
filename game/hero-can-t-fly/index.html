@@ -5,25 +5,38 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hero Can't Fly — Main Gratis | GameHub</title>
 <meta name="description" content="Main Hero Can't Fly gratis di browser! In Hero Can't Fly, navigate a vibrant, pixel-art world as a grounded hero using deft jumps and quick reflexes. The pace ... Tanpa download, langsung main sekarang di GameHub.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="GameHub">
+<meta name="language" content="id">
 <link rel="canonical" href="https://gamehubme.pages.dev/game/hero-can-t-fly/">
 
-<!-- Open Graph -->
-<meta property="og:type"        content="website">
-<meta property="og:title"       content="Hero Can't Fly — Main Gratis | GameHub">
-<meta property="og:description" content="Main Hero Can't Fly gratis di browser! In Hero Can't Fly, navigate a vibrant, pixel-art world as a grounded hero using deft jumps and quick reflexes. The pace ... Tanpa download, langsung main sekarang di GameHub.">
-<meta property="og:url"         content="https://gamehubme.pages.dev/game/hero-can-t-fly/">
-<meta property="og:image"       content="https://img.gamepix.com/games/hero-can-t-fly/icon/hero-can-t-fly.png?w=105">
-<meta property="og:site_name"   content="GameHub">
+<!-- Open Graph (Facebook, Pinterest, WhatsApp, dll) -->
+<meta property="og:type"              content="article">
+<meta property="og:title"             content="Hero Can't Fly — Main Gratis | GameHub">
+<meta property="og:description"       content="Main Hero Can't Fly gratis di browser! In Hero Can't Fly, navigate a vibrant, pixel-art world as a grounded hero using deft jumps and quick reflexes. The pace ... Tanpa download, langsung main sekarang di GameHub.">
+<meta property="og:url"               content="https://gamehubme.pages.dev/game/hero-can-t-fly/">
+<meta property="og:image"             content="https://img.gamepix.com/games/hero-can-t-fly/icon/hero-can-t-fly.png?w=105">
+<meta property="og:image:width"       content="1200">
+<meta property="og:image:height"      content="630">
+<meta property="og:image:alt"         content="Hero Can't Fly — game gratis di GameHub">
+<meta property="og:site_name"         content="GameHub">
+<meta property="og:locale"            content="id_ID">
 
-<!-- Twitter -->
-<meta name="twitter:card"        content="summary_large_image">
-<meta name="twitter:title"       content="Hero Can't Fly — Main Gratis | GameHub">
-<meta name="twitter:description" content="Main Hero Can't Fly gratis di browser! In Hero Can't Fly, navigate a vibrant, pixel-art world as a grounded hero using deft jumps and quick reflexes. The pace ... Tanpa download, langsung main sekarang di GameHub.">
-<meta name="twitter:image"       content="https://img.gamepix.com/games/hero-can-t-fly/icon/hero-can-t-fly.png?w=105">
-<meta name="twitter:site"        content="@gamehubid">
+<!-- Twitter Card -->
+<meta name="twitter:card"             content="summary_large_image">
+<meta name="twitter:title"            content="Hero Can't Fly — Main Gratis | GameHub">
+<meta name="twitter:description"      content="Main Hero Can't Fly gratis di browser! In Hero Can't Fly, navigate a vibrant, pixel-art world as a grounded hero using deft jumps and quick reflexes. The pace ... Tanpa download, langsung main sekarang di GameHub.">
+<meta name="twitter:image"            content="https://img.gamepix.com/games/hero-can-t-fly/icon/hero-can-t-fly.png?w=105">
+<meta name="twitter:image:alt"        content="Hero Can't Fly — game gratis di GameHub">
+<meta name="twitter:site"             content="@gamehubid">
+
+<!-- Pinterest -->
+<meta name="pinterest-rich-pin"       content="true">
+<meta property="og:image:type"        content="image/jpeg">
 
 <!-- Favicon -->
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico">
 
 <!-- Preconnect fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -87,15 +100,42 @@
 .breadcrumb{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--text2);margin-bottom:1.25rem;flex-wrap:wrap}
 .breadcrumb a:hover{color:var(--text)}
 .breadcrumb-sep{color:var(--text3)}
+
+/* ── LAYOUT: desktop = 2 col, mobile = 1 col ── */
 .game-layout{display:grid;grid-template-columns:1fr 300px;gap:24px;align-items:start}
-@media(max-width:900px){.game-layout{grid-template-columns:1fr}}
+.game-main-col{min-width:0}
+.sidebar{min-width:0}
+
+/* Desktop: sidebar di kanan (order default) */
+.game-main-col{order:1}
+.sidebar{order:2}
+
+/* ── IFRAME ── */
 .iframe-wrap{position:relative;background:#000;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--border);width:100%}
 .iframe-wrap iframe{width:100%;height:100%;border:none;display:block}
-.fullscreen-btn{margin-top:8px;background:var(--bg2);border:1px solid var(--border);color:var(--text2);padding:8px 16px;border-radius:var(--radius);font-size:13px;cursor:pointer;transition:all .15s}
+
+/* ── FULLSCREEN BTN — lebih gede & full width di mobile ── */
+.fullscreen-btn{
+  display:flex;align-items:center;justify-content:center;gap:6px;
+  margin-top:10px;width:100%;
+  background:var(--bg2);border:1px solid var(--border);
+  color:var(--text2);padding:11px 16px;
+  border-radius:var(--radius);font-size:14px;font-weight:500;
+  cursor:pointer;transition:all .15s
+}
 .fullscreen-btn:hover{border-color:var(--primary);color:var(--primary)}
+
+/* ── ADS WRAPPER — selalu center & overflow hidden ── */
+.ad-wrap-728{
+  display:flex;justify-content:center;align-items:center;
+  margin:12px 0;overflow:hidden;width:100%;
+}
+.ad-wrap-728 iframe,.ad-wrap-728 ins{max-width:100%}
+
+/* ── GAME INFO ── */
 .game-info{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem}
 .game-info h1{font-size:20px;font-weight:700;margin-bottom:.5rem}
-.rating-row{display:flex;align-items:center;gap:10px;margin-bottom:1rem}
+.rating-row{display:flex;align-items:center;gap:10px;margin-bottom:1rem;flex-wrap:wrap}
 .stars{color:var(--yellow);font-size:16px}
 .rating-val{font-size:20px;font-weight:700}
 .rating-count{font-size:12px;color:var(--text2)}
@@ -108,18 +148,78 @@
 .desc-text{font-size:14px;color:var(--text2);line-height:1.7}
 .controls-box{background:var(--bg3);border-radius:var(--radius);padding:12px;margin-top:1rem;font-size:13px;color:var(--text2)}
 .controls-box strong{color:var(--text);display:block;margin-bottom:4px}
-.sidebar h2{font-size:15px;font-weight:600;margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+
+/* ── SIDEBAR ── */
+.sidebar-sticky{position:sticky;top:70px}
+.sidebar h2{font-size:16px;font-weight:700;margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+
+/* ── RELATED LIST: desktop = vertikal, mobile = grid 2 kolom ── */
 .related-list{display:flex;flex-direction:column;gap:10px}
-.related-card{display:flex;gap:10px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:8px;text-decoration:none;transition:border-color .15s}
+.related-card{display:flex;gap:10px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:10px;text-decoration:none;transition:border-color .15s;align-items:center}
 .related-card:hover{border-color:var(--primary)}
-.related-card img{width:80px;height:45px;object-fit:cover;border-radius:6px;flex-shrink:0;background:var(--bg3)}
+.related-card img{width:90px;height:52px;object-fit:cover;border-radius:6px;flex-shrink:0;background:var(--bg3)}
 .related-card-info{flex:1;min-width:0}
-.related-card-title{font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:2px}
-.related-card-meta{font-size:11px;color:var(--text2)}
+.related-card-title{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:3px}
+.related-card-meta{font-size:12px;color:var(--text2)}
+
+/* ── USER RATING ── */
 .user-rating{margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border)}
-.star-rate{display:flex;gap:4px;font-size:28px;cursor:pointer;margin:.5rem 0}
+.star-rate{display:flex;gap:6px;font-size:32px;cursor:pointer;margin:.5rem 0}
 .star-rate span{transition:transform .1s;line-height:1}
 .star-rate span:hover{transform:scale(1.2)}
+
+/* ══════════════════════════════════════════════
+   MOBILE (max 900px): switch ke single column
+══════════════════════════════════════════════ */
+@media(max-width:900px){
+  .game-layout{
+    grid-template-columns:1fr;
+    gap:16px;
+  }
+  .game-page{padding:1rem}
+
+  /* Game Serupa pindah ke BAWAH beri rating */
+  .game-main-col{order:1}
+  .sidebar{order:2}
+
+  /* Related cards: grid 2 kolom di mobile */
+  .related-list{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+  }
+  .related-card{
+    flex-direction:column;
+    align-items:flex-start;
+    padding:8px;
+  }
+  .related-card img{
+    width:100%;
+    height:auto;
+    aspect-ratio:16/9;
+  }
+  .related-card-title{font-size:12px;white-space:normal;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+
+  /* Fullscreen btn lebih besar di mobile */
+  .fullscreen-btn{
+    font-size:15px;
+    padding:13px 16px;
+    border-radius:var(--radius);
+  }
+
+  /* Ads selalu center di mobile */
+  .ad-wrap-728{
+    max-width:100%;
+    overflow-x:hidden;
+  }
+}
+
+/* ── Sangat kecil (max 480px) ── */
+@media(max-width:480px){
+  .related-card img{aspect-ratio:16/9}
+  .game-info h1{font-size:18px}
+  .star-rate{font-size:36px;gap:8px}
+}
 </style>
 
 <!-- Google Analytics -->
@@ -254,7 +354,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
 
   <div class="game-layout">
     <!-- LEFT: Game + info -->
-    <div>
+    <div class="game-main-col">
       <!-- Game iframe — GamePix API embed -->
       <div class="iframe-wrap" id="game-wrap" style="aspect-ratio:600/800;max-width:480px;margin:0 auto;">
         <iframe
@@ -272,7 +372,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen mode">⛶ Fullscreen</button>
 
       <!-- Adsterra 728x90 -->
-      <div style="display:flex;justify-content:center;margin:10px 0;overflow:hidden">
+      <div class="ad-wrap-728">
         <script>
           atOptions = {
             'key' : '4998e547fa966cf16147ab85c17a9bba',
@@ -319,68 +419,70 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem 1.5
       </div>
     </div>
 
-    <!-- RIGHT: Sidebar related games -->
+    <!-- RIGHT: Sidebar related games (desktop) / Bawah beri rating (mobile) -->
     <aside class="sidebar">
-      <h2>Game Serupa</h2>
-      <div class="related-list">
-        
-        <a href="/game/arrowstorm-defense/" class="related-card" title="Arrowstorm Defense">
-          <img src="https://img.gamepix.com/games/arrowstorm-defense/icon/arrowstorm-defense.png?w=105" alt="Arrowstorm Defense" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Arrowstorm Defense</div>
-            <div class="related-card-meta">⭐ 4.2 · 867Rb</div>
-          </div>
-        </a>
-        <a href="/game/sprunki-lava-escape-2player/" class="related-card" title="Sprunki Lava Escape 2Player">
-          <img src="https://img.gamepix.com/games/sprunki-lava-escape-2player/icon/sprunki-lava-escape-2player.png?w=105" alt="Sprunki Lava Escape 2Player" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Sprunki Lava Escape 2Player</div>
-            <div class="related-card-meta">⭐ 4.8 · 528Rb</div>
-          </div>
-        </a>
-        <a href="/game/strykon/" class="related-card" title="Strykon">
-          <img src="https://img.gamepix.com/games/strykon/icon/strykon.png?w=105" alt="Strykon" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Strykon</div>
-            <div class="related-card-meta">⭐ 4.1 · 779Rb</div>
-          </div>
-        </a>
-        <a href="/game/snow-race-3d-fun-racing/" class="related-card" title="Snow Race 3d Fun Racing">
-          <img src="https://img.gamepix.com/games/snow-race-3d-fun-racing/icon/snow-race-3d-fun-racing.png?w=105" alt="Snow Race 3d Fun Racing" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Snow Race 3d Fun Racing</div>
-            <div class="related-card-meta">⭐ 4.7 · 713Rb</div>
-          </div>
-        </a>
-        <a href="/game/counter-vs-terrorist-strike/" class="related-card" title="Counter Vs Terrorist Strike">
-          <img src="https://img.gamepix.com/games/counter-vs-terrorist-strike/icon/counter-vs-terrorist-strike.png?w=105" alt="Counter Vs Terrorist Strike" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">Counter Vs Terrorist Strike</div>
-            <div class="related-card-meta">⭐ 4.5 · 379Rb</div>
-          </div>
-        </a>
-        <a href="/game/fruitmaster/" class="related-card" title="FruitMaster">
-          <img src="https://img.gamepix.com/games/fruitmaster/icon/fruitmaster.png?w=105" alt="FruitMaster" loading="lazy" width="80" height="45">
-          <div class="related-card-info">
-            <div class="related-card-title">FruitMaster</div>
-            <div class="related-card-meta">⭐ 4.3 · 817Rb</div>
-          </div>
-        </a>
-      </div>
+      <div class="sidebar-sticky">
+        <h2>Game Serupa</h2>
+        <div class="related-list">
+          
+          <a href="/game/diy-phone-case-shop/" class="related-card" title="DIY Phone Case Shop">
+            <img src="https://img.gamepix.com/games/diy-phone-case-shop/icon/diy-phone-case-shop.png?w=105" alt="DIY Phone Case Shop" loading="lazy" width="160" height="90">
+            <div class="related-card-info">
+              <div class="related-card-title">DIY Phone Case Shop</div>
+              <div class="related-card-meta">⭐ 4.7 · 308Rb</div>
+            </div>
+          </a>
+          <a href="/game/100-doors-games-escape-from-school/" class="related-card" title="100 Doors Games: Escape from School">
+            <img src="https://img.gamepix.com/games/100-doors-games-escape-from-school/icon/100-doors-games-escape-from-school.png?w=105" alt="100 Doors Games: Escape from School" loading="lazy" width="160" height="90">
+            <div class="related-card-info">
+              <div class="related-card-title">100 Doors Games: Escape from School</div>
+              <div class="related-card-meta">⭐ 4.7 · 564Rb</div>
+            </div>
+          </a>
+          <a href="/game/read-random-words/" class="related-card" title="Read Random Words">
+            <img src="https://img.gamepix.com/games/read-random-words/icon/read-random-words.png?w=105" alt="Read Random Words" loading="lazy" width="160" height="90">
+            <div class="related-card-info">
+              <div class="related-card-title">Read Random Words</div>
+              <div class="related-card-meta">⭐ 4.6 · 348Rb</div>
+            </div>
+          </a>
+          <a href="/game/magic-ball-22/" class="related-card" title="Magic Ball 22">
+            <img src="https://img.gamepix.com/games/magic-ball-22/icon/magic-ball-22.png?w=105" alt="Magic Ball 22" loading="lazy" width="160" height="90">
+            <div class="related-card-info">
+              <div class="related-card-title">Magic Ball 22</div>
+              <div class="related-card-meta">⭐ 4.4 · 506Rb</div>
+            </div>
+          </a>
+          <a href="/game/girl-games-unblocked-mini-fun/" class="related-card" title="Girl Games Unblocked Mini Fun">
+            <img src="https://img.gamepix.com/games/girl-games-unblocked-mini-fun/icon/girl-games-unblocked-mini-fun.png?w=105" alt="Girl Games Unblocked Mini Fun" loading="lazy" width="160" height="90">
+            <div class="related-card-info">
+              <div class="related-card-title">Girl Games Unblocked Mini Fun</div>
+              <div class="related-card-meta">⭐ 4.7 · 211Rb</div>
+            </div>
+          </a>
+          <a href="/game/table-tennis-for-2-remake/" class="related-card" title="Table Tennis for 2 Remake">
+            <img src="https://img.gamepix.com/games/table-tennis-for-2-remake/icon/table-tennis-for-2-remake.png?w=105" alt="Table Tennis for 2 Remake" loading="lazy" width="160" height="90">
+            <div class="related-card-info">
+              <div class="related-card-title">Table Tennis for 2 Remake</div>
+              <div class="related-card-meta">⭐ 4.6 · 242Rb</div>
+            </div>
+          </a>
+        </div>
 
-      <!-- Adsterra 300x250 -->
-      <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
-        <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
-        <script>
-          atOptions = {
-            'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
-            'format' : 'iframe',
-            'height' : 250,
-            'width' : 300,
-            'params' : {}
-          };
-        </script>
-        <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
+        <!-- Adsterra 300x250 -->
+        <div style="margin-top:16px;display:flex;flex-direction:column;align-items:center;gap:6px">
+          <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em">Iklan</span>
+          <script>
+            atOptions = {
+              'key' : '7d19a9f5493ddd6caf062890dc7c4ca9',
+              'format' : 'iframe',
+              'height' : 250,
+              'width' : 300,
+              'params' : {}
+            };
+          </script>
+          <script src="https://enteringlacquergiant.com/7d19a9f5493ddd6caf062890dc7c4ca9/invoke.js"></script>
+        </div>
       </div>
     </aside>
   </div>
@@ -420,6 +522,24 @@ if(si){
   });
 }
 </script>
+
+<!-- Histats.com START (async) -->
+<script type="text/javascript">
+var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5025051,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+  var hs = document.createElement('script');
+  hs.type = 'text/javascript';
+  hs.async = true;
+  hs.src = ('//s10.histats.com/js15_as.js');
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();
+</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?5025051&101" alt="" border="0"></a></noscript>
+<!-- Histats.com END -->
+
 </body>
 </html>
 <script>
